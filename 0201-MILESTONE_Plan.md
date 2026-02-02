@@ -27,7 +27,7 @@ The following basic grading rubric instructors will try to use to evaluate your 
 # Submission
 Compose a professional email to your project community partners. Include a pdf of your project plan.  Carbon Copy (CC) all members of your team (including yourself) and CC the course instructors.
 
-Add the proposal to your Microsoft Team folder with the completion date in the title. For example YYYYMMDD-Plan.docx. The file location should be obvious in your folder structure and the instructor should not have to hunt it down.
+Add the proposal to your Microsoft Team folder with the completion date in the title. For example YYYYMMDD-TeamName-Plan.docx. The file location should be obvious in your folder structure and the instructor should not have to hunt it down.
 
 
 # Common Feedback from previous proposals
