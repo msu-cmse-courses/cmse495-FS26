@@ -51,7 +51,7 @@ I would like to try shout out outs in class. We are a big group. Please put shou
 
 ## 4. Proposal Presentation
 
-In two weeks, teams will be be giving their first presentation.  Your next deadline will be a full storyboard for the presentation (Due Sunday February 4th). 
+In two weeks, teams will be be giving their first presentation.  Your next deadline will be a full storyboard for the presentation (Due Sunday February 8th). 
 
 - [Link to plan presentation storyboard assignment](0208-MILESTONE_Plan_Video_Storyboard)
 
