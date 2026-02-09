@@ -4,7 +4,7 @@
 
 - (10 minutes) Shout Outs
 - (30 minutes) Project Similarities
-- (30 minutes) Storyboard Review / Engineering ABET Visit (Group Work)
+- (30 minutes) Storyboard Review (Group Work)
 
 # Shout Outs
 
