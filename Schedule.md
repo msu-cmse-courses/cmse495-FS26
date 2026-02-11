@@ -48,7 +48,7 @@ Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Monda
 | Day | Date | Description |
 |------|---------|------------|
 | Monday | 02/09 |  [Proposal Presentation Storyboard Review](0209-Proposal_Presentation_Storyboard_Review) |
-| Wednesday | 02/11 | CyberAmbassadors Lets talk |
+| Wednesday | 02/11 |  [CyberAmbassadors Lets talk](0211-CyberAmbassadors_Lets_talk) |
 | Friday | 02/13 | No Class Day of Remembrance |
 | Sunday | 02/15 |  [MILESTONE Plan Video](0215-MILESTONE_Plan_Video) |
 
