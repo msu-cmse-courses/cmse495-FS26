@@ -9,7 +9,7 @@ Today we will watch the presentation videos. Even with 70 minutes we may not hav
 
 # Video Feedback From
 
-You must try to fill out this form 3 times for your team pairs found in the following table:
+The following table shows the groups of teams that will be reviewing each other:
 
 | Parings | Team A | Team B | Team C | Team D |
     |--------|--------|--------|--------|--------|
@@ -18,9 +18,11 @@ You must try to fill out this form 3 times for your team pairs found in the foll
     | 3 | BW-Water_Leaks | CEPI | ToolsForHumanity | WBPD |
     | 4 | Delta_Dental | NCEAS | BW-Design | CustomersLens |
 
+You must review all the teams (not your own) that are in the same ***ROW***.
+
 Note, that some (NOT ALL) of your feedback and comments may be communicated with your peers.  This is intended to be anonymous. Please be professional and supportive in your feedback. Your professional participation in this process will influence your grade in the course. 
 
-The following is a simplified list of the questions and scales.  Some student's find it helpful to copy/paste these questions in an editor and take notes on their feedback.  This list is designed to make that easier but is not required.  I would appreciate all feedback by the end of the day. However, let me know if you need more time.   
+The following is a simplified list of the questions and scales.  Some student's find it helpful to copy/paste these questions in an editor and take notes on their feedback.  This list is designed to make that easier but is not required.  We would appreciate all feedback by the end of the day. However, let us know if you need more time.   
 
 * Team Name:
   
