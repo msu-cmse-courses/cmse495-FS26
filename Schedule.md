@@ -56,7 +56,7 @@ Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Monda
 
 | Day | Date | Description |
 |------|---------|------------|
-| Monday | 02/16 | Proposal Presentations |
+| Monday | 02/16 |  [Proposal Presentations](0216-Proposal_Presentations) |
 | Wednesday | 02/18 | CyberAmbassadors Leveling Up |
 | Friday | 02/20 | SCHOLAR Presentations |
 | Sunday | 02/22 |  [MILESTONE Outreach](0222-MILESTONE_Outreach) |
