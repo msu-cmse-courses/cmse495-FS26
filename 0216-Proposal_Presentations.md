@@ -1,6 +1,6 @@
 # Proposal Presentations
 
-Today we will watch the presentation videos. With 70 minutes we may not have enough time to get through all of the videos. However, I have set aside time on Wednesday to finish up if we need it.
+Today we will watch the presentation videos. Even with 70 minutes we may not have enough time to get through all of the videos. However, I have set aside time on Wednesday to finish up if we need it.
 
 ## Agenda (70 Minutes)
 
@@ -9,7 +9,14 @@ Today we will watch the presentation videos. With 70 minutes we may not have eno
 
 # Video Feedback From
 
-You must fill out this form 3 times (for 3 projects except your own).  Please do your best to provide useful feedback to your peers. 
+You must try to fill out this form 3 times for your team pairs found in the following table:
+
+| Parings | Team A | Team B | Team C | Team D |
+    |--------|--------|--------|--------|--------|
+    | 1 | Kellanova | MSU-Curriculum | HFH-VS | Joyntly |
+    | 2 | UofM | MSU-SW_Lansing | TeliAI | Luce |
+    | 3 | BW-Water_Leaks | CEPI | ToolsForHumanity | WBPD |
+    | 4 | Delta_Dental | NCEAS | BW-Design | CustomersLens |
 
 Note, that some (NOT ALL) of your feedback and comments may be communicated with your peers.  This is intended to be anonymous. Please be professional and supportive in your feedback. Your professional participation in this process will influence your grade in the course. 
 
