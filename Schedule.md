@@ -66,7 +66,7 @@ Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Monda
 | Day | Date | Description |
 |------|---------|------------|
 | Monday | 02/23 |  [Outreach Review](0223-Outreach_Review) |
-| Wednesday | 02/25 | CyberAmbassadors Its Complicated |
+| Wednesday | 02/25 |  [CyberAmbassadors Its Complicated](0225-CyberAmbassadors_Its_Complicated) |
 | Friday | 02/27 | Selection Matrix |
 | Sunday | 03/08 |  [MILESTONE Install Instructions](0308-MILESTONE_Install_Instructions) |
 
