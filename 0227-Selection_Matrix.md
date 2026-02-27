@@ -27,7 +27,7 @@ Identify selection criteria you will use to pick your tutorial.  Try your best t
 
 ## Step 3: Build Matrix
 
-The rows (or columns) of your matrix should be contain a list of the tutorials your group brainstormed. The columns (or rows) will be 
+The rows (or columns) of your matrix should be contain a list of the tutorials your group brainstormed. The columns (or rows) will be the metrics
 
 ## Step 4: Write a Report about your decision process
 
