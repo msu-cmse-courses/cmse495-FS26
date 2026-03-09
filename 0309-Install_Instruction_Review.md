@@ -27,7 +27,16 @@ Hey class, we are going to try out new teams of teams this round. Please see lis
 
 This is a team paring exercise.  Your team will work with your partner teams to review your projects install instructions. Split each of your teams into two groups of 2-3 people.  Have your bigger group stay at your table to be the "Host Team" and the smaller group move to be the "Guest Team" at another table. 
 
-###TEAMPAIRINGS2###
+| Parings V2 | Team A | Team B |
+    |--------|--------|--------|
+    | 1 | HFH-VS | Luce |
+    | 2 | Kellanova | Joyntly |
+    | 3 | NCEAS | CustomersLens |
+    | 4 | WBPD | UofM |
+    | 5 | ToolsForHumanity | TeliAI |
+    | 6 | MSU-Curriculum | CEPI |
+    | 7 | Delta_Dental | BW-Water_Leaks |
+    | 8 | BW-Design | MSU-SW_Lansing |
 
 Once the mixed teams are formed, have the host team walk the guest team through the install instructions.  If possible pair up in the newly formed teams and have members from the guest team try to install the software from scratch from either their personal laptop or a personal account such as the HPCC, jupyterhub or googlecolab.
 
