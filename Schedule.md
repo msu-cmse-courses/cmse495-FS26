@@ -76,7 +76,7 @@ Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Monda
 |------|---------|------------|
 | Monday | 03/09 |  [Install Instruction Review](0309-Install_Instruction_Review) |
 | Wednesday | 03/11 |  [CyberAmbassadors Leading the Team](0311-CyberAmbassadors_Leading_the_Team) |
-| Friday | 03/13 | Tutorial Selection |
+| Friday | 03/13 |  [Tutorial Selection](0313-Tutorial_Selection) |
 | Sunday | 03/15 |  [MILESTONE MVP Presentation Storyboard](0315-MILESTONE_MVP_Presentation_Storyboard) |
 
 ## Week of March 16
