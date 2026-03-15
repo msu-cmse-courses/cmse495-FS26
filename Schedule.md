@@ -83,9 +83,9 @@ Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Monda
 
 | Day | Date | Description |
 |------|---------|------------|
-| Monday | 03/16 | MVP Presentation Storyboard Review |
-| Wednesday | 03/18 | CyberAmbassadors Leading the Change |
-| Friday | 03/20 | Tutorial Pull Requests |
+| Monday | 03/16 |  [MVP Presentation Storyboard Review](0316-MVP_Presentation_Storyboard_Review) |
+| Wednesday | 03/18 |  [CyberAmbassadors Leading the Change](0318-CyberAmbassadors_Leading_the_Change) |
+| Friday | 03/20 |  [Tutorial Pull Requests](0320-Tutorial_Pull_Requests) |
 | Sunday | 03/22 |  [MILESTONE MVP Video](0322-MILESTONE_MVP_Video) |
 
 ## Week of March 23
