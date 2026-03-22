@@ -341,14 +341,14 @@ DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-SS26/Sched
 LOCATION:Engineering Building 1145
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE495: MILESTONE Reproducability
+SUMMARY:CMSE495: MILESTONE Reproducibility
 DTSTART;TZID=US/Eastern:20260329T000000
 DTEND;TZID=US/Eastern:20260330T000000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-SS26/Sched
- ule/0329-MILESTONE_Reproducability'>Link to assignment</a>
+ ule/0329-MILESTONE_Reproducibility'>Link to assignment</a>
 LOCATION:Engineering Building 1145
 LOCATION:https://msu-cmse-courses.github.io/cmse495-SS26/Schedule/0329-MIL
- ESTONE_Reproducability
+ ESTONE_Reproducibility
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

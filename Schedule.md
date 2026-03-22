@@ -95,7 +95,7 @@ Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Monda
 | Monday | 03/23 | MVP Presentations |
 | Wednesday | 03/25 | CyberAmbassadors Leading with Principles |
 | Friday | 03/27 | Deep Tutorial Review |
-| Sunday | 03/29 |  [MILESTONE Reproducability](0329-MILESTONE_Reproducability) |
+| Sunday | 03/29 |  [MILESTONE Reproducibility](0329-MILESTONE_Reproducibility) |
 
 ## Week of March 30
 
