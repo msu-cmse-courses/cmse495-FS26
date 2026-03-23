@@ -92,7 +92,7 @@ Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Monda
 
 | Day | Date | Description |
 |------|---------|------------|
-| Monday | 03/23 | MVP Presentations |
+| Monday | 03/23 |  [MVP Presentations](0323-MVP_Presentations) |
 | Wednesday | 03/25 | CyberAmbassadors Leading with Principles |
 | Friday | 03/27 | Deep Tutorial Review |
 | Sunday | 03/29 |  [MILESTONE Reproducibility](0329-MILESTONE_Reproducibility) |
@@ -120,15 +120,16 @@ Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Monda
 | Day | Date | Description |
 |------|---------|------------|
 | Monday | 04/13 | Final presentation Storyboard Feedback |
-| Wednesday | 04/15 | Project CoWork 5 |
+| Wednesday | 04/15 | Course Review and Reflection |
+| Friday | 04/17 | Showcase Practice |
 | Sunday | 04/19 |  [MILESTONE Final Project](0419-MILESTONE_Final_Project) |
 
 ## Week of April 20
 
 | Day | Date | Description |
 |------|---------|------------|
-| Monday | 04/20 | Course Review and Reflection |
-| Wednesday | 04/22 | Showcase |
+| Monday | 04/20 | Showcase Day 1 |
+| Wednesday | 04/22 | Showcase Day 2 |
 | Friday | 04/24 | No Class Engineering Design Day |
 | Sunday | 04/26 | Final Extended Deadline |
 

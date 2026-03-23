@@ -430,11 +430,19 @@ DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-SS26/Sched
 LOCATION:Engineering Building 1145
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE495: Project CoWork 5
+SUMMARY:CMSE495: Course Review and Reflection
 DTSTART;TZID=US/Eastern:20260415T123000
 DTEND;TZID=US/Eastern:20260415T134000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-SS26/Sched
- ule/0415-Project_CoWork_5'>Link to assignment</a>
+ ule/0415-Course_Review_and_Reflection'>Link to assignment</a>
+LOCATION:Engineering Building 1145
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMSE495: Showcase Practice
+DTSTART;TZID=US/Eastern:20260417T123000
+DTEND;TZID=US/Eastern:20260417T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-SS26/Sched
+ ule/0417-Showcase_Practice'>Link to assignment</a>
 LOCATION:Engineering Building 1145
 END:VEVENT
 BEGIN:VEVENT
@@ -449,19 +457,19 @@ LOCATION:https://msu-cmse-courses.github.io/cmse495-SS26/Schedule/0419-MIL
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE495: Course Review and Reflection
+SUMMARY:CMSE495: Showcase Day 1
 DTSTART;TZID=US/Eastern:20260420T123000
 DTEND;TZID=US/Eastern:20260420T134000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-SS26/Sched
- ule/0420-Course_Review_and_Reflection'>Link to assignment</a>
+ ule/0420-Showcase_Day_1'>Link to assignment</a>
 LOCATION:Engineering Building 1145
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE495: Showcase
+SUMMARY:CMSE495: Showcase Day 2
 DTSTART;TZID=US/Eastern:20260422T123000
 DTEND;TZID=US/Eastern:20260422T134000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-SS26/Sched
- ule/0422-Showcase'>Link to assignment</a>
+ ule/0422-Showcase_Day_2'>Link to assignment</a>
 LOCATION:Engineering Building 1145
 END:VEVENT
 BEGIN:VEVENT
