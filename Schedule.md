@@ -102,7 +102,7 @@ Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Monda
 | Day | Date | Description |
 |------|---------|------------|
 | Monday | 03/30 |  [Figure Reproducibility Review](0330-Figure_Reproducibility_Review) |
-| Wednesday | 04/01 | Project CoWork 2 |
+| Wednesday | 04/01 |  [Project CoWork 2](0401-Project_CoWork_2) |
 | Friday | 04/03 | Tutorial Presentations |
 | Sunday | 04/05 |  [MILESTONE Full Project Draft](0405-MILESTONE_Full_Project_Draft) |
 
