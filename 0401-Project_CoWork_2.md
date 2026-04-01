@@ -2,16 +2,8 @@
 
 ## Agenda (70 Minutes)
 
-- (30 minutes) Guest Presentation on User Interface Design
-- (40 minutes) Group one-on-one presentations
-
-----
-
-# Guest Presentation 
-
-Deepak Reddy Sannapareddy will present some results of his work working with Justair.  
-
-[Today's Slides](https://docs.google.com/presentation/d/1ziQ3kwNatP3PEQ2GK01zGDhVQHsGMwfScIeEGfIe82c/edit?usp=sharing)
+- (10 minutes) Get ready
+- (60 minutes) Group one-on-one presentations
 
 ---
 # Group one-on-one presentations
