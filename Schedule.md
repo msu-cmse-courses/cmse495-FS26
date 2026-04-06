@@ -110,7 +110,7 @@ Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Monda
 
 | Day | Date | Description |
 |------|---------|------------|
-| Monday | 04/06 | Full Project Review |
+| Monday | 04/06 |  [Full Project Review](0406-Full_Project_Review) |
 | Wednesday | 04/08 | Project CoWork 3 |
 | Friday | 04/10 | Project CoWork 4 |
 | Sunday | 04/12 |  [MILESTONE Final Presentation Storyboard](0412-MILESTONE_Final_Presentation_Storyboard) |
