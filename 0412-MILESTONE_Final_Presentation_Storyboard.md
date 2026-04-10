@@ -4,7 +4,7 @@
 
 Image courtesy of [Ianus](https://www.flickr.com/photos/ianus/)
 
-As a team you need to prepare for two final presentations.  The first will be your final video and the second will be an in-person presentation at the symposium.  This assignment you will present a plan for both.  There are two deliverables for this assignment:
+As a team you need to prepare for two final presentations.  The first will be your final video and the second will be an in-person presentation at the show case.  This assignment you will present a plan for both.  There are two deliverables for this assignment:
 
 1. Storyboard for your final video
 2. Basic script for your final presentation. 
@@ -16,7 +16,7 @@ As a team you need to prepare for two final presentations.  The first will be yo
 
 # 1. Storyboarding
 
-At this point in the semester I will assume that you know how to build a storyboard. Make one for your final presentation.  This is your big moment so make it look good. 
+At this point in the semester I will assume that you know how to build a storyboard. Make one for your final presentation video.  This is your big moment so make it look good. 
 
 This presentation should focus on the final outcomes and conclusions of your project. Here are things you may want to include:
 
@@ -29,11 +29,9 @@ This presentation should focus on the final outcomes and conclusions of your pro
 
 # 2. Presentation Plan
 
-Your final presentation will be in the form of a in-person digital poster session.  You will be expected to stand in front of a display and talk about your project. These types of presentations are tricky as they will require you to be flexible.  
+Your final presentation will be in the form of an in-person ~5 minute lightning talk.  You will be expected to stand and give a quick summarized version of your project. These types of presentations are difficult because it is hard to condense a semester long project into 5 minutes.  
 
-It is important that you give everyone on your team a role and maybe even switch it up a bit.  For example, you could have someone be the "main" presenter, someone else run the demo, a third person would be in charge of answering questions, etc. 
-
-Key to a good interactive presentation is to keep your audience engaged. You will be presenting for a half hour so do NOT stop. If no one is around your presentation go out and invite people to ask questions.  Plan on giving the same presentation multiple times. 
+There will be some time after your lightning talk where your team will field questions and have discussions about your work. This is very important. This is the time where you will talk with your community partner and possibly others in person. Use this opportunity to network! get your name out there if you are looking for a job. Ask other community partners if they are looking to hire anyone. This networking aspect is potentially more valuable to you than your lightning talk, so make sure you limit your lightning talk to 5 minutes. You don't want time that you could have spent networking with community partners spent on a longer video. This is similar to the tower building excercise we did earlier in the semester. Plan it out and practice your 5 minute lightning talk so that you can cover everything you did in a concise and professional manner. 
 
 Please type up a plan (and practice) your presentations. This can just be a simple text document you put in your pubic team folder. Some things to include:
 
