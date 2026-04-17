@@ -12,6 +12,7 @@ Today we will be practicing for the showcase.  For things to go smoothly it is i
 2. TeliAI - Agentic Campaign Insight Analyzer
 3. MSU - Curriculum Analytics
 4. Luce - Lumber
+   
 # Round B - Monday April 20, 1:10-1:40pm
  1. Kellanova - Demand Forecasting
  2. ToolsForHumanity - IRIS Recognition
