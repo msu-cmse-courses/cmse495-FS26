@@ -121,7 +121,7 @@ Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Monda
 |------|---------|------------|
 | Monday | 04/13 |  [Final presentation Storyboard Feedback](0413-Final_presentation_Storyboard_Feedback) |
 | Wednesday | 04/15 |  [Course Review and Reflection](0415-Course_Review_and_Reflection) |
-| Friday | 04/17 | Showcase Practice |
+| Friday | 04/17 |  [Showcase Practice](0417-Showcase_Practice) |
 | Sunday | 04/19 |  [MILESTONE Final Project](0419-MILESTONE_Final_Project) |
 
 ## Week of April 20
