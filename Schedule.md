@@ -128,8 +128,8 @@ Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Monda
 
 | Day | Date | Description |
 |------|---------|------------|
-| Monday | 04/20 | Showcase Day 1 |
-| Wednesday | 04/22 | Showcase Day 2 |
+| Monday | 04/20 |  [Showcase Day 1](0420-Showcase_Day_1) |
+| Wednesday | 04/22 |  [Showcase Day 2](0422-Showcase_Day_2) |
 | Friday | 04/24 | No Class Engineering Design Day |
 | Sunday | 04/26 | Final Extended Deadline |
 
@@ -137,5 +137,5 @@ Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Monda
 
 | Day | Date | Description |
 |------|---------|------------|
-| Monday | 04/27 | Final Exam Personal Reflection DUE |
+| Monday | 04/27 |  [Final Exam Personal Reflection DUE](0427-Final_Exam_Personal_Reflection_DUE) |
 
