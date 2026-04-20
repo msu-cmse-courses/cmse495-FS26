@@ -1,7 +1,7 @@
 # NO CLASS
-We do not have class on this day due to Engineering Design Day.
+We do not have class during the exam.  
 
-# TO TODAY - Final Reflection Assignment – Data Science Capstone
+# DUE TODAY - Final Reflection Assignment – Data Science Capstone
 
 As we wrap up the semester, this is your opportunity to reflect on your journey through the Data Science Capstone. This reflection is not just a summary of what you did, but a thoughtful exploration of what you learned, how you grew, and what you would pass on to those who follow in your footsteps. This assignment is designed to help you:
 
@@ -41,7 +41,7 @@ Write a reflective essay (approximately **1-2 pages**) that addresses the follo
 
 # Final Reflection Rubric – Data Science Capstone
 
-Each reflection will be evaluated based on the following criteria. The goal is to encourage thoughtful, honest, and well-organized reflections that demonstrate personal and professional growth.
+Each reflection will be evaluated based on the following criteria. The goal is to encourage thoughtful, honest, and well-organized reflections that demonstrate personal and professional growth.  Please include specific examples when appropriate. 
 
 |Criteria|Excellent (10 pts)|Good (8 pts)|Satisfactory (6 pts)|Needs Improvement (4 pts)|
 |---|---|---|---|---|
@@ -76,7 +76,6 @@ The ***EXT*** will be the file format you choose. For example my report may be n
 
 ***colbrydi_CMSE495_Final_Refleciton.pdf***
 
-You may alos submit up until the Extended deadline due date for this assignment. 
 
 Written by Dr. Dirk Colbry, Michigan State University
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
