@@ -1,6 +1,14 @@
 # CMSE 495 - SPRING 2026 Data Science Capstone
 
 ---
+**NOTE**
+
+### Seeking Fall 2026 and Spring 2027 Project community partners!
+
+If you have a project and are interested in being a CMSE495 community partner for **_Fall 2026_** and/or **_Spring 2027_** please reach out to the course instructor (Dr. Dirk Colbry <colbrydi@msu.edu>). For more information on becoming a project community partner please see our [Project community partner Page](./Seeking-Community_Partners)
+
+
+---
 
 The CMSE 495 data science capstone course is intended to provide students with an opportunity to put together what they have learned across multiple courses to develop a final project that demonstrates their ability to work in a team on real-world problems.
 
