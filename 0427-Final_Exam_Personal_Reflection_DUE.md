@@ -70,11 +70,11 @@ Email your final reflection as an attachment to your instructors.  Make sure the
 
 Also please name the attached file using your MSU netid in the following format:
 
-***NETID_CMSE495_Final_Refleciton.EXT***
+***NETID_CMSE495_Final_Reflection.EXT***
 
 The ***EXT*** will be the file format you choose. For example my report may be named:
 
-***colbrydi_CMSE495_Final_Refleciton.pdf***
+***colbrydi_CMSE495_Final_Reflection.pdf***
 
 
 Written by Dr. Dirk Colbry, Michigan State University
