@@ -318,9 +318,13 @@ Written by Dr. Dirk Colbry, Michigan State University
 
 <!-- TOC_START -->
 <div class="page-toc">
-<details open>
 <summary><strong>On this page</strong></summary>
+<details open>
+
+<details open>
+<summary>Syllabus: CMSE 495- Data Science Capstone</summary>
 <ul>
+
 <li><a href="#course-description">Course Description</a></li>
 <li><a href="#course-format-and-activities">Course Format and Activities</a></li>
 <ul>
@@ -334,8 +338,24 @@ Written by Dr. Dirk Colbry, Michigan State University
 <li><a href="#scholar-tutorials-typically-on-fridays">SCHOLAR Tutorials (Typically on Fridays)</a></li>
 <li><a href="#requesting-funding">Requesting Funding</a></li>
 <li><a href="#honors-option-documentation-management-team">Honor's Option (Documentation Management team)</a></li>
+</ul>
+</ul>
+</details>
+
+<details open>
+<summary>Assessment and Grading Information</summary>
+<ul>
+
+<ul>
 <li><a href="#grading-scale">Grading Scale</a></li>
 </ul>
+</ul>
+</details>
+
+<details open>
+<summary>Logistical Information</summary>
+<ul>
+
 <li><a href="#course-website">Course Website</a></li>
 <li><a href="#course-meeting-time-and-location">Course Meeting Time and Location</a></li>
 <li><a href="#course-schedule">Course Schedule</a></li>
@@ -344,6 +364,13 @@ Written by Dr. Dirk Colbry, Michigan State University
 <li><a href="#reading-materials">Reading Materials</a></li>
 </ul>
 <li><a href="#instructors-contact-information-and-office-hours">Instructors Contact Information and Office Hours</a></li>
+</ul>
+</details>
+
+<details open>
+<summary>Course Policies and Expectations</summary>
+<ul>
+
 <li><a href="#data-policy-non-disclosure-agreements-nda-and-intellectual-property-ip-agreements">Data Policy, Non-Disclosure Agreements (NDA) and Intellectual Property (IP) agreements</a></li>
 <li><a href="#class-attendance">Class Attendance</a></li>
 <li><a href="#assignment-submissions">Assignment Submissions</a></li>
@@ -362,6 +389,7 @@ Written by Dr. Dirk Colbry, Michigan State University
 <li><a href="#instructor-illness">Instructor Illness</a></li>
 </ul>
 </ul>
+</details>
 </details>
 </div>
 <!-- TOC_END -->

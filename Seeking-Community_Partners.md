@@ -79,9 +79,13 @@ Written by Dr. Dirk Colbry, Michigan State University
 
 <!-- TOC_START -->
 <div class="page-toc">
-<details open>
 <summary><strong>On this page</strong></summary>
+<details open>
+
+<details open>
+<summary>Seeking Data Science Capstone Community Partners</summary>
 <ul>
+
 <ul>
 <li><a href="#who-can-be-a-community-partner">Who can be a community partner?</a></li>
 <li><a href="#overview-of-projects-and-expectations">Overview of Projects and Expectations</a></li>
@@ -89,6 +93,7 @@ Written by Dr. Dirk Colbry, Michigan State University
 <li><a href="#key-tasks-to-support-capstone-team-during-the-semester-include">Key tasks to support capstone team during the semester include:</a></li>
 </ul>
 </ul>
+</details>
 </details>
 </div>
 <!-- TOC_END -->
