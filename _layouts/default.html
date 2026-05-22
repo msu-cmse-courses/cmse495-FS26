@@ -31,22 +31,18 @@
 
     .center {
       min-width: 0;
-      position: relative; /* important for TOC positioning */
     }
 
     .right {
-      /* now acts as reserved space only */
+      /* just spacing column now */
     }
 
-    /* ===== TOC (moved visually into right column) ===== */
-
+    /* ✅ THIS is the key fix */
     .page-toc {
-      position: sticky;
-      top: 80px;
-      width: 200px;
-
-      /* THIS moves it into the right column */
-      margin-left: calc(100% + 20px);
+      float: right;
+      width: 220px;
+      margin-left: 20px;
+      margin-bottom: 10px;
 
       font-size: 0.9em;
       border-left: 1px solid #ddd;
@@ -56,6 +52,7 @@
     .page-toc ul {
       list-style-type: none;
       padding-left: 0;
+      margin-top: 0;
     }
 
     .page-toc li {
@@ -71,7 +68,6 @@
       text-decoration: underline;
     }
 
-    /* optional: hide TOC title spacing */
     .page-toc h2 {
       font-size: 1em;
       margin-top: 0;
@@ -107,16 +103,15 @@
       {% endif %}
     </aside>
 
-    <!-- CENTER: Main content (includes TOC inserted by Python) -->
+    <!-- CENTER: Content (with floating TOC) -->
     <main class="center">
       {{ content }}
     </main>
 
-    <!-- RIGHT: Empty (space reserved for TOC positioning) -->
+    <!-- RIGHT: empty spacer -->
     <aside class="right"></aside>
 
   </div>
 
 </body>
 </html>
-
