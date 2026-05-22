@@ -11,7 +11,20 @@
       line-height: 1.6;
     }
 
-    /* ✅ wider left column + slightly wider right */
+    /* ===== LOGO ===== */
+    .header {
+      text-align: center;
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .header img {
+      max-width: 100%;
+      height: auto;
+      max-height: 120px; /* keeps it from getting huge */
+    }
+
+    /* ===== LAYOUT ===== */
     .layout {
       display: grid;
       grid-template-columns: 320px 1fr 260px;
@@ -23,27 +36,32 @@
 
     .left {
       position: sticky;
-      top: 0;
-      height: 100vh;
+      top: 20px;
+      height: calc(100vh - 40px);
       overflow-y: auto;
       border-right: 1px solid #ddd;
       padding-right: 10px;
-      line-height: 1.35; /* tighter schedule spacing */
+      line-height: 1.35;
     }
 
     .center {
       min-width: 0;
     }
 
+    /* ✅ THIS is the key for persistent TOC */
     .right {
+      align-self: start;
+    }
+
+    .page-toc {
       position: sticky;
-      top: 80px;
+      top: 20px;
       border-left: 1px solid #ddd;
       padding-left: 10px;
       font-size: 0.9em;
     }
 
-    /* TOC styling */
+    /* ===== TOC STYLING ===== */
     .page-toc ul {
       list-style-type: none;
       padding-left: 0;
@@ -68,7 +86,7 @@
       margin-top: 0;
     }
 
-    /* mobile */
+    /* ===== MOBILE ===== */
     @media (max-width: 900px) {
       .layout {
         grid-template-columns: 1fr;
@@ -77,10 +95,21 @@
       .left, .right {
         display: none;
       }
+
+      .header img {
+        max-height: 80px;
+      }
     }
+
   </style>
 </head>
 <body>
+
+  <!-- ✅ LOGO HEADER -->
+  <div class="header">
+    <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}" 
+         alt="CMSE 495 Data Science Capstone Course Logo">
+  </div>
 
   <div class="layout">
 
@@ -97,12 +126,12 @@
     <!-- ✅ Split content into main + TOC -->
     {% assign parts = content | split:'<div class="page-toc">' %}
 
-    <!-- CENTER: Main content -->
+    <!-- CENTER -->
     <main class="center">
       {{ parts[0] }}
     </main>
 
-    <!-- RIGHT: TOC -->
+    <!-- RIGHT: Persistent TOC -->
     <aside class="right">
       {% if parts.size > 1 %}
         <div class="page-toc">
