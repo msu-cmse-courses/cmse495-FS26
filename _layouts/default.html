@@ -41,22 +41,36 @@
       padding-left: 10px;
     }
 
-    .right ul {
+    /* TOC styling (for injected Python-generated TOC) */
+    .page-toc ul {
       list-style-type: none;
       padding-left: 0;
     }
 
-    .right li {
-      margin-bottom: 5px;
+    .page-toc li {
+      margin-bottom: 6px;
     }
 
-    .right a {
+    .page-toc a {
       text-decoration: none;
       color: #444;
     }
 
-    .right a:hover {
+    .page-toc a:hover {
       text-decoration: underline;
+    }
+
+    /* If you embed TOC inside content (Option A layout) */
+    .page-with-toc {
+      display: grid;
+      grid-template-columns: 1fr 220px;
+      gap: 20px;
+    }
+
+    .page-toc {
+      position: sticky;
+      top: 80px;
+      font-size: 0.9em;
     }
 
     /* mobile */
@@ -68,21 +82,30 @@
       .left, .right {
         display: none;
       }
+
+      .page-with-toc {
+        grid-template-columns: 1fr;
+      }
+
+      .page-toc {
+        display: none;
+      }
     }
   </style>
 </head>
 <body>
 
   <div class="layout">
-<!-- LEFT: Schedule -->
-<aside class="left">
-  {% assign schedule = site.pages | where: "name", "Schedule.md" | first %}
-  {% if schedule %}
-    {{ schedule.content }}
-  {% else %}
-    <p>Schedule not found</p>
-  {% endif %}
-</aside>
+
+    <!-- LEFT: Schedule -->
+    <aside class="left">
+      {% assign schedule = site.pages | where: "name", "Schedule.md" | first %}
+      {% if schedule %}
+        {{ schedule.content }}
+      {% else %}
+        <p>Schedule not found</p>
+      {% endif %}
+    </aside>
 
     <!-- CENTER: Main content -->
     <main class="center">
@@ -90,11 +113,10 @@
     </main>
 
     <!-- RIGHT: TOC -->
-<aside class="right">
-  <nav class="toc">
-    {% include toc.html html=content %}
-  </nav>
-</aside>
+    <aside class="right">
+      <!-- You will inject TOC from Python, e.g. a div.page-toc -->
+      <!-- If no TOC exists, this column stays empty -->
+    </aside>
 
   </div>
 
