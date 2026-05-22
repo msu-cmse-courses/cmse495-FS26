@@ -318,10 +318,9 @@ Written by Dr. Dirk Colbry, Michigan State University
 
 <!-- TOC_START -->
 <div class="page-toc">
-<summary><strong>On this page</strong></summary>
-<details open>
+<h2>On this page</h2>
 
-<details open>
+<details>
 <summary>Syllabus: CMSE 495- Data Science Capstone</summary>
 <ul>
 
@@ -342,7 +341,7 @@ Written by Dr. Dirk Colbry, Michigan State University
 </ul>
 </details>
 
-<details open>
+<details>
 <summary>Assessment and Grading Information</summary>
 <ul>
 
@@ -352,7 +351,7 @@ Written by Dr. Dirk Colbry, Michigan State University
 </ul>
 </details>
 
-<details open>
+<details>
 <summary>Logistical Information</summary>
 <ul>
 
@@ -367,7 +366,7 @@ Written by Dr. Dirk Colbry, Michigan State University
 </ul>
 </details>
 
-<details open>
+<details>
 <summary>Course Policies and Expectations</summary>
 <ul>
 
@@ -389,7 +388,6 @@ Written by Dr. Dirk Colbry, Michigan State University
 <li><a href="#instructor-illness">Instructor Illness</a></li>
 </ul>
 </ul>
-</details>
 </details>
 </div>
 <!-- TOC_END -->

@@ -57,10 +57,9 @@ Written by Dr. Dirk Colbry, Michigan State University
 
 <!-- TOC_START -->
 <div class="page-toc">
-<summary><strong>On this page</strong></summary>
-<details open>
+<h2>On this page</h2>
 
-<details open>
+<details>
 <summary>CMSE 495 - SPRING 2026 Data Science Capstone</summary>
 <ul>
 
@@ -71,7 +70,6 @@ Written by Dr. Dirk Colbry, Michigan State University
 <li><a href="#course-links">Course Links</a></li>
 <li><a href="#other-recommended-resources">Other Recommended Resources</a></li>
 </ul>
-</details>
 </details>
 </div>
 <!-- TOC_END -->
