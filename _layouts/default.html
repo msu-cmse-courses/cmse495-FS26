@@ -43,12 +43,21 @@
   line-height: 1.2;
 }
 
-
 .sched-item {
+  display: flex;
+  align-items: flex-start;
   margin-bottom: 4px;
-  padding-left: 85px;
-  text-indent: -85px;
   line-height: 1.3;
+}
+
+.sched-date {
+  width: 85px;      /* adjust if needed */
+  flex-shrink: 0;
+  color: #555;
+}
+
+.sched-title {
+  flex: 1;
 }
 
 
