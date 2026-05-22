@@ -202,7 +202,26 @@
   }
 
 
+.mobile-schedule {
+  display: none;
+  margin-bottom: 15px;
+}
 
+.mobile-toc {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .mobile-schedule,
+  .mobile-toc {
+    display: block;
+  }
+
+  /* still hide sidebars */
+  .left, .right {
+    display: none;
+  }
+}
 
     }
   </style>
@@ -267,7 +286,7 @@
     {% if schedule %}
       <details>
         <summary><strong>Course Schedule</strong></summary>
-        {{ schedule.content }}
+        {{ schedule.content | markdownify }}
       </details>
     {% endif %}
   </div>
