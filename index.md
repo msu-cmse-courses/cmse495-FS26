@@ -1,3 +1,8 @@
+---
+layout: default
+title: "CMSE 495 - SPRING 2026 Data Science Capstone"
+---
+
 # CMSE 495 - SPRING 2026 Data Science Capstone
 
 ---
@@ -49,3 +54,13 @@ When possible, the majority of time outside of class will be dedicated to tasks 
 
 Written by Dr. Dirk Colbry, Michigan State University
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+
+
+---
+
+## On this page
+
+  - #seeking-fall-2026-and-spring-2027-project-community-partners
+- #course-structure
+- #course-links
+- #other-recommended-resources
