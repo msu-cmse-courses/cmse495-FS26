@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Syllabus: CMSE 495- Data Science Capstone"
+---
+
 # Syllabus: CMSE 495- Data Science Capstone
 
 ## Course Description
@@ -310,3 +315,46 @@ In the event that the instructor gets ill, the course will continue.  Backup ins
 
 Written by Dr. Dirk Colbry, Michigan State University
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+
+
+<!-- TOC_START -->
+<div class="page-toc">
+<h2>On this page</h2>
+<ul>
+<li><a href="#course-description">Course Description</a></li>
+<li><a href="#course-format-and-activities">Course Format and Activities</a></li>
+  <li><a href="#class-participation">Class Participation</a></li>
+  <li><a href="#microsoft-teams">Microsoft Teams</a></li>
+  <li><a href="#project-milestones-typically-due-sunday-by-midnight">Project Milestones (Typically Due Sunday by Midnight)</a></li>
+  <li><a href="#team-meetings-typically-on-mondays">Team Meetings (Typically on Mondays)</a></li>
+  <li><a href="#peer-evaluations-also-typically-due-on-mondays">Peer Evaluations (Also Typically due on Mondays)</a></li>
+  <li><a href="#individual-and-team-weekly-3x3-reflections-due-mondays">Individual and Team Weekly 3x3 Reflections (Due Mondays)</a></li>
+  <li><a href="#group-professional-development-activities-typically-on-wednesdays">Group Professional Development Activities (Typically on Wednesdays)</a></li>
+  <li><a href="#scholar-tutorials-typically-on-fridays">SCHOLAR Tutorials (Typically on Fridays)</a></li>
+  <li><a href="#requesting-funding">Requesting Funding</a></li>
+  <li><a href="#honors-option-documentation-management-team">Honor's Option (Documentation Management team)</a></li>
+  <li><a href="#grading-scale">Grading Scale</a></li>
+<li><a href="#course-website">Course Website</a></li>
+<li><a href="#course-meeting-time-and-location">Course Meeting Time and Location</a></li>
+<li><a href="#course-schedule">Course Schedule</a></li>
+<li><a href="#required-materials-for-class">Required Materials for Class</a></li>
+  <li><a href="#reading-materials">Reading Materials</a></li>
+<li><a href="#instructors-contact-information-and-office-hours">Instructors Contact Information and Office Hours</a></li>
+<li><a href="#data-policy-non-disclosure-agreements-nda-and-intellectual-property-ip-agreements">Data Policy, Non-Disclosure Agreements (NDA) and Intellectual Property (IP) agreements</a></li>
+<li><a href="#class-attendance">Class Attendance</a></li>
+<li><a href="#assignment-submissions">Assignment Submissions</a></li>
+<li><a href="#email">Email</a></li>
+<li><a href="#microsoft-teams">Microsoft Teams</a></li>
+<li><a href="#inclusive-classroom-behavior">Inclusive Classroom Behavior</a></li>
+<li><a href="#accommodations-for-students-with-disabilities">Accommodations for Students with Disabilities</a></li>
+<li><a href="#academic-honesty">Academic Honesty</a></li>
+<li><a href="#limits-to-confidentiality">Limits to Confidentiality</a></li>
+<li><a href="#changes-to-syllabus">Changes to Syllabus</a></li>
+<li><a href="#commercialized-lecture-notes">Commercialized Lecture Notes</a></li>
+<li><a href="#disruptive-behavior">Disruptive Behavior</a></li>
+<li><a href="#grief-absence-policy">Grief Absence Policy</a></li>
+  <li><a href="#student-illness">Student Illness</a></li>
+  <li><a href="#instructor-illness">Instructor Illness</a></li>
+</ul>
+</div>
+<!-- TOC_END -->
