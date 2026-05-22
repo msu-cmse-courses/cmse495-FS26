@@ -90,11 +90,11 @@
     </main>
 
     <!-- RIGHT: TOC -->
-    <aside class="right">
-      {% if content contains "<h1" %}
-        {{ content | toc }}
-      {% endif %}
-    </aside>
+<aside class="right">
+  <nav class="toc">
+    {% include toc.html html=content %}
+  </nav>
+</aside>
 
   </div>
 
