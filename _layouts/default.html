@@ -5,62 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
-
+    /* ===== BASE ===== */
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       line-height: 1.6;
     }
 
-    /* ===== TOP NAV BAR ===== */
+    /* ===== TOP NAV ===== */
     .top-nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
-
       padding: 10px 20px;
       border-bottom: 1px solid #ddd;
-
       max-width: 1400px;
       margin: auto;
     }
 
-.nav-left {
-  display: flex;
-  align-items: center;
-  gap: 15px;   /* spacing between logo and title */
-}
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
 
-.nav-left img {
-  height: 50px;
-  width: auto;          /* ✅ THIS is the key */
-  max-width: 100%;
-}
+    .nav-left img {
+      height: 50px;
+      width: auto;
+      max-width: 100%;
+    }
 
-.nav-left h1 {
-  font-size: 1.2rem;
-  margin: 0;
-  line-height: 1.2;
-}
-
-.sched-item {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 4px;
-  line-height: 1.3;
-}
-
-.sched-date {
-  width: 85px;      /* adjust if needed */
-  flex-shrink: 0;
-  color: #555;
-}
-
-.sched-title {
-  flex: 1;
-}
-
-
+    .nav-left h1 {
+      font-size: 1.2rem;
+      margin: 0;
+      line-height: 1.2;
+    }
 
     .nav-right a {
       margin-left: 20px;
@@ -73,13 +52,12 @@
       text-decoration: underline;
     }
 
-    /* ✅ highlight current page */
     .nav-right a.active {
       font-weight: bold;
       text-decoration: underline;
     }
 
-    /* ===== MAIN LAYOUT ===== */
+    /* ===== LAYOUT ===== */
     .layout {
       display: grid;
       grid-template-columns: 320px 1fr 260px;
@@ -87,6 +65,7 @@
       max-width: 1400px;
       margin: auto;
       padding: 20px;
+      align-items: start;
     }
 
     .left {
@@ -102,38 +81,67 @@
     .center {
       min-width: 0;
     }
-    
 
-/* ✅ Make the entire right sidebar sticky + scrollable */
-.right {
-  position: sticky;
-  top: 20px;
-  height: calc(100vh - 40px);
-  overflow-y: auto;
+    .right {
+      position: sticky;
+      top: 20px;
+      height: calc(100vh - 40px);
+      overflow-y: auto;
+      border-left: 1px solid #ddd;
+      padding-left: 10px;
+    }
 
-  border-left: 1px solid #ddd;
-  padding-left: 10px;
+    /* ===== SCHEDULE ===== */
+    .sched-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 4px;
+      line-height: 1.3;
+    }
 
-  align-self: start;
-}
+    .sched-date {
+      width: 85px;
+      flex-shrink: 0;
+      color: #555;
+    }
 
-
-/* ✅ TOC now just normal content */
-.page-toc {
-  position: relative;
-  font-size: 0.9em;
-}
-
+    .sched-title {
+      flex: 1;
+    }
 
     /* ===== TOC ===== */
-    .page-toc ul {
-      list-style: none;
-      padding-left: 0;
+    .page-toc {
+      font-size: 0.9em;
+    }
+
+    .page-toc h2 {
+      font-size: 1em;
       margin-top: 0;
     }
 
-    .page-toc li {
+    .page-toc summary {
+      cursor: pointer;
+      font-weight: 600;
+      margin: 4px 0;
+    }
+
+    .page-toc details {
       margin-bottom: 6px;
+    }
+
+    .page-toc ul {
+      list-style: none;
+      padding-left: 12px;
+    }
+
+    .page-toc ul ul {
+      padding-left: 14px;
+      margin-left: 6px;
+      border-left: 1px solid #eee;
+    }
+
+    .page-toc ul ul ul {
+      border-left: 1px solid #f0f0f0;
     }
 
     .page-toc a {
@@ -145,38 +153,21 @@
       text-decoration: underline;
     }
 
-    .page-toc h2 {
-      font-size: 1em;
-      margin-top: 0;
+    /* ===== MOBILE (DEFAULT: HIDDEN) ===== */
+    .mobile-schedule,
+    .mobile-toc {
+      display: none;
     }
 
-
-.page-toc ul {
-  list-style: none;
-  padding-left: 12px;
-  margin-top: 4px;
-}
-
-.page-toc ul ul {
-  padding-left: 14px;
-  margin-left: 6px;
-  border-left: 1px solid #eee;  /* subtle visual guide */
-}
-
-.page-toc ul ul ul {
-  padding-left: 14px;
-  margin-left: 6px;
-  border-left: 1px solid #f0f0f0;
-}
-
-
-    /* ===== MOBILE ===== */
+    /* ===== MOBILE LAYOUT ===== */
     @media (max-width: 900px) {
+
       .layout {
         grid-template-columns: 1fr;
       }
 
-      .left, .right {
+      .left,
+      .right {
         display: none;
       }
 
@@ -184,51 +175,40 @@
         height: 40px;
       }
 
-  .top-nav {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
+      .top-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+      }
 
-  .nav-right {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-  }
+      .nav-right {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
 
-  .nav-right a {
-    margin-left: 0;
-    font-size: 0.95em;
-  }
+      .nav-right a {
+        margin-left: 0;
+        font-size: 0.95em;
+      }
 
+      /* ✅ SHOW ONLY ON MOBILE */
+      .mobile-schedule,
+      .mobile-toc {
+        display: block;
+      }
 
-.mobile-schedule {
-  display: none;
-  margin-bottom: 15px;
-}
-
-.mobile-toc {
-  display: none;
-}
-
-@media (max-width: 900px) {
-  .mobile-schedule,
-  .mobile-toc {
-    display: block;
-  }
-
-  /* still hide sidebars */
-  .left, .right {
-    display: none;
-  }
-}
-
+      .mobile-schedule details {
+        margin-bottom: 12px;
+      }
     }
+
   </style>
 </head>
+
 <body>
 
-  <!-- ✅ SINGLE HEADER (logo + nav together) -->
+  <!-- ===== HEADER ===== -->
   <div class="top-nav">
 
     <div class="nav-left">
@@ -236,26 +216,25 @@
         <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}"
              alt="CMSE 495 Data Science Capstone Logo">
       </a>
-      <h1>CMSE495 Data Scheice Capstone - Fall 2026</h1>
+      <h1>CMSE495 Data Science Capstone (Fall 2026)</h1>
     </div>
 
     <div class="nav-right">
       <a href="{{ '/' | relative_url }}"
          class="{% if page.url == '/' %}active{% endif %}">
-         Home
+        Home
       </a>
 
       <a href="{{ 'Syllabus' | relative_url }}"
          class="{% if page.url contains 'syllabus' %}active{% endif %}">
-         Syllabus
+        Syllabus
       </a>
 
       <a href="{{ 'Seeking-Community_Partners' | relative_url }}"
-	 class="{% if page.url contains 'Seeking' %}active{% endif %}">
-         Community Partners 
+         class="{% if page.url contains 'Seeking' %}active{% endif %}">
+        Community Partners
       </a>
 
-      <!-- Example external link -->
       <a href="https://teams.microsoft.com" target="_blank">
         Teams
       </a>
@@ -263,6 +242,7 @@
 
   </div>
 
+  <!-- ===== MAIN ===== -->
   <div class="layout">
 
     <!-- LEFT: Schedule -->
@@ -275,42 +255,41 @@
       {% endif %}
     </aside>
 
-    <!-- ✅ Split content into main + TOC -->
-{% assign parts = content | split:'<!-- TOC_START -->' %}
+    <!-- SPLIT CONTENT -->
+    {% assign parts = content | split:'<!-- TOC_START -->' %}
 
-<main class="center">
+    <!-- CENTER -->
+    <main class="center">
 
-  <!-- ✅ MOBILE SCHEDULE -->
-  <div class="mobile-schedule">
-    {% assign schedule = site.pages | where: "name", "Schedule.md" | first %}
-    {% if schedule %}
-      <details>
-        <summary><strong>Course Schedule</strong></summary>
-        {{ schedule.content | markdownify }}
-      </details>
-    {% endif %}
-  </div>
+      <!-- ✅ MOBILE SCHEDULE -->
+      <div class="mobile-schedule">
+        {% if schedule %}
+          <details>
+            <summary><strong>Course Schedule</strong></summary>
+            {{ schedule.content | markdownify }}
+          </details>
+        {% endif %}
+      </div>
 
-  {{ parts[0] }}
+      {{ parts[0] }}
 
-  <!-- ✅ MOBILE TOC -->
-  <div class="mobile-toc">
-    {% if parts.size > 1 %}
-      {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
-      {{ toc_parts[0] }}
-    {% endif %}
-  </div>
+      <!-- ✅ MOBILE TOC -->
+      <div class="mobile-toc">
+        {% if parts.size > 1 %}
+          {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
+          {{ toc_parts[0] }}
+        {% endif %}
+      </div>
 
-</main>
+    </main>
 
-<!-- RIGHT -->
-<aside class="right">
-  {% if parts.size > 1 %}
-    {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
-    {{ toc_parts[0] }}
-  {% endif %}
-</aside>
-
+    <!-- RIGHT: TOC -->
+    <aside class="right">
+      {% if parts.size > 1 %}
+        {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
+        {{ toc_parts[0] }}
+      {% endif %}
+    </aside>
 
   </div>
 
