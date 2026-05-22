@@ -74,16 +74,15 @@
 <body>
 
   <div class="layout">
-
-    <!-- LEFT: Schedule -->
-    <aside class="left">
-      {% if site.schedule_sidebar %}
-        {{ site.schedule_sidebar | markdownify }}
-      {% else %}
-        <!-- fallback: link to schedule page -->
-        <p><a href="{{ '/schedule/' | relative_url }}">Full Schedule</a></p>
-      {% endif %}
-    </aside>
+<!-- LEFT: Schedule -->
+<aside class="left">
+  {% assign schedule = site.pages | where: "name", "Schedule.md" | first %}
+  {% if schedule %}
+    {{ schedule.content }}
+  {% else %}
+    <p>Schedule not found</p>
+  {% endif %}
+</aside>
 
     <!-- CENTER: Main content -->
     <main class="center">
