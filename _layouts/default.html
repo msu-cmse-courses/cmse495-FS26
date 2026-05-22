@@ -94,7 +94,7 @@
 
     <!-- RIGHT: TOC -->
     <aside class="right">
-      {% if content contains "<h2" %}
+      {% if content contains "<h1" %}
         {{ content | toc }}
       {% endif %}
     </aside>
