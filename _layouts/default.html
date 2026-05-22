@@ -31,17 +31,28 @@
 
     .center {
       min-width: 0;
+      position: relative; /* important for TOC positioning */
     }
 
     .right {
+      /* now acts as reserved space only */
+    }
+
+    /* ===== TOC (moved visually into right column) ===== */
+
+    .page-toc {
       position: sticky;
       top: 80px;
+      width: 200px;
+
+      /* THIS moves it into the right column */
+      margin-left: calc(100% + 20px);
+
       font-size: 0.9em;
       border-left: 1px solid #ddd;
       padding-left: 10px;
     }
 
-    /* TOC styling (for injected Python-generated TOC) */
     .page-toc ul {
       list-style-type: none;
       padding-left: 0;
@@ -60,17 +71,10 @@
       text-decoration: underline;
     }
 
-    /* If you embed TOC inside content (Option A layout) */
-    .page-with-toc {
-      display: grid;
-      grid-template-columns: 1fr 220px;
-      gap: 20px;
-    }
-
-    .page-toc {
-      position: sticky;
-      top: 80px;
-      font-size: 0.9em;
+    /* optional: hide TOC title spacing */
+    .page-toc h2 {
+      font-size: 1em;
+      margin-top: 0;
     }
 
     /* mobile */
@@ -81,10 +85,6 @@
 
       .left, .right {
         display: none;
-      }
-
-      .page-with-toc {
-        grid-template-columns: 1fr;
       }
 
       .page-toc {
@@ -107,18 +107,16 @@
       {% endif %}
     </aside>
 
-    <!-- CENTER: Main content -->
+    <!-- CENTER: Main content (includes TOC inserted by Python) -->
     <main class="center">
       {{ content }}
     </main>
 
-    <!-- RIGHT: TOC -->
-    <aside class="right">
-      <!-- You will inject TOC from Python, e.g. a div.page-toc -->
-      <!-- If no TOC exists, this column stays empty -->
-    </aside>
+    <!-- RIGHT: Empty (space reserved for TOC positioning) -->
+    <aside class="right"></aside>
 
   </div>
 
 </body>
 </html>
+

@@ -1,11 +1,4 @@
-# Course Schedule
-
-In Spring of 2026, class will meet weekly 12:30-1:40PM in Engineering Building 1145.
-
-[Click this link to download an ical file of this schedule](./CMSE495_Calendar.ics)
-
-Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Mondays on days we have class.
-
+# CMSE495 - Fall 2026
 
 ## Week of January 12
 
@@ -108,4 +101,11 @@ Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Monda
 ## Week of April 27
 
 * Mon 04/27 – [Final Exam Personal Reflection DUE](https://msu-cmse-courses.github.io/cmse495-FS26/0427-Final_Exam_Personal_Reflection_DUE)
+
+
+In Spring of 2026, class will meet weekly 12:30-1:40PM in Engineering Building 1145.
+
+[Click this link to download an ical file of this schedule](./CMSE495_Calendar.ics)
+
+Remember both individual and team [3x3 reflections](Weekly-3x3) are due on Mondays on days we have class.
 
