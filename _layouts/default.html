@@ -101,7 +101,7 @@
     <aside class="left">
       {% assign schedule = site.pages | where: "name", "Schedule.md" | first %}
       {% if schedule %}
-        {{ schedule.content }}
+        {{ schedule.content | markdownify }}
       {% else %}
         <p>Schedule not found</p>
       {% endif %}
