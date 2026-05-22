@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 260px 1fr 220px;
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .left {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+      border-right: 1px solid #ddd;
+      padding-right: 10px;
+    }
+
+    .center {
+      min-width: 0;
+    }
+
+    .right {
+      position: sticky;
+      top: 80px;
+      font-size: 0.9em;
+      border-left: 1px solid #ddd;
+      padding-left: 10px;
+    }
+
+    .right ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .right li {
+      margin-bottom: 5px;
+    }
+
+    .right a {
+      text-decoration: none;
+      color: #444;
+    }
+
+    .right a:hover {
+      text-decoration: underline;
+    }
+
+    /* mobile */
+    @media (max-width: 900px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .left, .right {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="layout">
+
+    <!-- LEFT: Schedule -->
+    <aside class="left">
+      {% if site.schedule_sidebar %}
+        {{ site.schedule_sidebar | markdownify }}
+      {% else %}
+        <!-- fallback: link to schedule page -->
+        <p><a href="{{ '/schedule/' | relative_url }}">Full Schedule</a></p>
+      {% endif %}
+    </aside>
+
+    <!-- CENTER: Main content -->
+    <main class="center">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </main>
+
+    <!-- RIGHT: TOC -->
+    <aside class="right">
+      {% if content contains "<h2" %}
+        {{ content | toc }}
+      {% endif %}
+    </aside>
+
+  </div>
+
+</body>
+</html>

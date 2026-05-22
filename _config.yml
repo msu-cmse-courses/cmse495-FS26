@@ -4,3 +4,5 @@ description: "Michigan State University Data Science Capstone."
 logo: /assets/img/Capstone_Logo.png
 baseurl: /cmse495-SS26
 permalink: /:year/:month/:day/:title
+plugins:
+  - jekyll-toc
