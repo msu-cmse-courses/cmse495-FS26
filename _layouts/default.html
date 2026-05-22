@@ -11,11 +11,12 @@
       line-height: 1.6;
     }
 
+    /* ✅ wider left column + slightly wider right */
     .layout {
       display: grid;
-      grid-template-columns: 260px 1fr 220px;
+      grid-template-columns: 320px 1fr 260px;
       gap: 20px;
-      max-width: 1200px;
+      max-width: 1400px;
       margin: auto;
       padding: 20px;
     }
@@ -27,6 +28,7 @@
       overflow-y: auto;
       border-right: 1px solid #ddd;
       padding-right: 10px;
+      line-height: 1.35; /* tighter schedule spacing */
     }
 
     .center {
@@ -34,21 +36,14 @@
     }
 
     .right {
-      /* just spacing column now */
-    }
-
-    /* ✅ THIS is the key fix */
-    .page-toc {
-      float: right;
-      width: 220px;
-      margin-left: 20px;
-      margin-bottom: 10px;
-
-      font-size: 0.9em;
+      position: sticky;
+      top: 80px;
       border-left: 1px solid #ddd;
       padding-left: 10px;
+      font-size: 0.9em;
     }
 
+    /* TOC styling */
     .page-toc ul {
       list-style-type: none;
       padding-left: 0;
@@ -82,10 +77,6 @@
       .left, .right {
         display: none;
       }
-
-      .page-toc {
-        display: none;
-      }
     }
   </style>
 </head>
@@ -103,13 +94,22 @@
       {% endif %}
     </aside>
 
-    <!-- CENTER: Content (with floating TOC) -->
+    <!-- ✅ Split content into main + TOC -->
+    {% assign parts = content | split:'<div class="page-toc">' %}
+
+    <!-- CENTER: Main content -->
     <main class="center">
-      {{ content }}
+      {{ parts[0] }}
     </main>
 
-    <!-- RIGHT: empty spacer -->
-    <aside class="right"></aside>
+    <!-- RIGHT: TOC -->
+    <aside class="right">
+      {% if parts.size > 1 %}
+        <div class="page-toc">
+          {{ parts[1] | split:'</div>' | first }}
+        </div>
+      {% endif %}
+    </aside>
 
   </div>
 
