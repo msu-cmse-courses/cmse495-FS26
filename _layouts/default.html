@@ -24,10 +24,25 @@
       margin: auto;
     }
 
-    .nav-left img {
-      height: 50px;
-      max-width: 100%;
-    }
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;   /* spacing between logo and title */
+}
+
+.nav-left img {
+  height: 50px;
+  max-width: 100%;
+}
+
+.nav-left h1 {
+  font-size: 1.2rem;
+  margin: 0;
+  line-height: 1.2;
+}
+
+
+
 
     .nav-right a {
       margin-left: 20px;
@@ -69,18 +84,28 @@
     .center {
       min-width: 0;
     }
+    
 
-    .right {
-      align-self: start;
-    }
+/* ✅ Make the entire right sidebar sticky + scrollable */
+.right {
+  position: sticky;
+  top: 20px;
+  height: calc(100vh - 40px);
+  overflow-y: auto;
 
-    .page-toc {
-      position: sticky;
-      top: 20px;
-      border-left: 1px solid #ddd;
-      padding-left: 10px;
-      font-size: 0.9em;
-    }
+  border-left: 1px solid #ddd;
+  padding-left: 10px;
+
+  align-self: start;
+}
+
+
+/* ✅ TOC now just normal content */
+.page-toc {
+  position: relative;
+  font-size: 0.9em;
+}
+
 
     /* ===== TOC ===== */
     .page-toc ul {
