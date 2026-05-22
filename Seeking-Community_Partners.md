@@ -77,15 +77,18 @@ Potential community partners should fill out the [MSU Data Science Community Par
 Written by Dr. Dirk Colbry, Michigan State University
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
-
 <!-- TOC_START -->
 <div class="page-toc">
-<h2>On this page</h2>
+<details open>
+<summary><strong>On this page</strong></summary>
 <ul>
-  <li><a href="#who-can-be-a-community-partner">Who can be a community partner?</a></li>
-  <li><a href="#overview-of-projects-and-expectations">Overview of Projects and Expectations</a></li>
-  <li><a href="#overview-of-timeline-and-next-steps">Overview of Timeline and Next Steps</a></li>
-  <li><a href="#key-tasks-to-support-capstone-team-during-the-semester-include">Key tasks to support capstone team during the semester include:</a></li>
+<ul>
+<li><a href="#who-can-be-a-community-partner">Who can be a community partner?</a></li>
+<li><a href="#overview-of-projects-and-expectations">Overview of Projects and Expectations</a></li>
+<li><a href="#overview-of-timeline-and-next-steps">Overview of Timeline and Next Steps</a></li>
+<li><a href="#key-tasks-to-support-capstone-team-during-the-semester-include">Key tasks to support capstone team during the semester include:</a></li>
 </ul>
+</ul>
+</details>
 </div>
 <!-- TOC_END -->
