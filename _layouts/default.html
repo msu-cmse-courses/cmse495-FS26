@@ -215,21 +215,22 @@
     </aside>
 
     <!-- ✅ Split content into main + TOC -->
-    {% assign parts = content | split:'<div class="page-toc">' %}
 
-    <!-- CENTER -->
-    <main class="center">
-      {{ parts[0] }}
-    </main>
+{% assign parts = content | split:'<div class="page-toc">' %}
 
-    <!-- RIGHT: TOC -->
-    <aside class="right">
-      {% if parts.size > 1 %}
-        <div class="page-toc">
-          {{ parts[1] | split:'</div>' | first }}
-        </div>
-      {% endif %}
-    </aside>
+<main class="center">
+  {{ parts[0] }}
+</main>
+
+<aside class="right">
+  {% if parts.size > 1 %}
+    {% assign toc_part = parts[1] | split:'</div>' %}
+    <div class="page-toc">
+      {{ toc_part[0] }}
+    </div>
+  {% endif %}
+</aside>
+
 
   </div>
 
