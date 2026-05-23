@@ -158,11 +158,11 @@ DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0930-
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE 495: No Class Day of Remembrance
+SUMMARY:CMSE 495: SCHOLAR Pull request
 DTSTART;TZID=US/Eastern:20261002T123000
 DTEND;TZID=US/Eastern:20261002T134000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1002-
- No_Class_Day_of_Remembrance'>Link to assignment</a>
+ SCHOLAR_Pull_request'>Link to assignment</a>
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
@@ -245,6 +245,14 @@ LOCATION:TBD
 LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/1025-MILESTONE_In
  stall_Instructions
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMSE 495: Fall Break
+DTSTART;TZID=US/Eastern:20261026T123000
+DTEND;TZID=US/Eastern:20261026T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1026-
+ Fall_Break'>Link to assignment</a>
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Install Instruction Review
@@ -403,11 +411,11 @@ DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1125-
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE 495: Project CoWork 4
+SUMMARY:CMSE 495: Thanksgiving Break
 DTSTART;TZID=US/Eastern:20261127T123000
 DTEND;TZID=US/Eastern:20261127T134000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1127-
- Project_CoWork_4'>Link to assignment</a>
+ Thanksgiving_Break'>Link to assignment</a>
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT

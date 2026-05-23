@@ -32,7 +32,7 @@
 
 <div class='sched-item'><span class='sched-date'>Mon 09/28</span><span class='sched-title'>Proposal Presentation Storyboard Review</span></div>
 <div class='sched-item'><span class='sched-date'>Wed 09/30</span><span class='sched-title'>CyberAmbassadors Lets talk</span></div>
-<div class='sched-item'><span class='sched-date'>Fri 10/02</span><span class='sched-title'>No Class Day of Remembrance</span></div>
+<div class='sched-item'><span class='sched-date'>Fri 10/02</span><span class='sched-title'>SCHOLAR Pull request</span></div>
 <div class='sched-item'><span class='sched-date'>Sun 10/04</span><span class='sched-title'>MILESTONE Plan Video</span></div>
 
 ## Week of October 5
@@ -51,6 +51,7 @@
 
 ## Week of October 26
 
+<div class='sched-item'><span class='sched-date'>Mon 10/26</span><span class='sched-title'>Fall Break</span></div>
 <div class='sched-item'><span class='sched-date'>Mon 10/26</span><span class='sched-title'>Install Instruction Review</span></div>
 <div class='sched-item'><span class='sched-date'>Wed 10/28</span><span class='sched-title'>CyberAmbassadors Leading the Team</span></div>
 <div class='sched-item'><span class='sched-date'>Fri 10/30</span><span class='sched-title'>Tutorial Selection</span></div>
@@ -81,7 +82,7 @@
 
 <div class='sched-item'><span class='sched-date'>Mon 11/23</span><span class='sched-title'>Full Project Review</span></div>
 <div class='sched-item'><span class='sched-date'>Wed 11/25</span><span class='sched-title'>Project CoWork 3</span></div>
-<div class='sched-item'><span class='sched-date'>Fri 11/27</span><span class='sched-title'>Project CoWork 4</span></div>
+<div class='sched-item'><span class='sched-date'>Fri 11/27</span><span class='sched-title'>Thanksgiving Break</span></div>
 <div class='sched-item'><span class='sched-date'>Sun 11/29</span><span class='sched-title'>MILESTONE Final Presentation Storyboard</span></div>
 
 ## Week of November 30
