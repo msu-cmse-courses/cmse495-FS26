@@ -3,497 +3,497 @@ VERSION:2.0
 PRODID:-//CMSE//mxm.dk//
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Welcome
-DTSTART;TZID=US/Eastern:20260112T123000
-DTEND;TZID=US/Eastern:20260112T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0112-
+DTSTART;TZID=US/Eastern:20260825T123000
+DTEND;TZID=US/Eastern:20260825T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0825-
  Welcome'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: CyberAmbassadors First Contact
-DTSTART;TZID=US/Eastern:20260114T123000
-DTEND;TZID=US/Eastern:20260114T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0114-
+DTSTART;TZID=US/Eastern:20260827T123000
+DTEND;TZID=US/Eastern:20260827T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0827-
  CyberAmbassadors_First_Contact'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Class Agenda Project Review
-DTSTART;TZID=US/Eastern:20260116T123000
-DTEND;TZID=US/Eastern:20260116T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0116-
+DTSTART;TZID=US/Eastern:20260829T123000
+DTEND;TZID=US/Eastern:20260829T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0829-
  Class_Agenda_Project_Review'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: MILESTONE Project Preferences
-DTSTART;TZID=US/Eastern:20260118T000000
-DTEND;TZID=US/Eastern:20260119T000000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0118-
+DTSTART;TZID=US/Eastern:20260831T000000
+DTEND;TZID=US/Eastern:20260901T000000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0831-
  MILESTONE_Project_Preferences'>Link to assignment</a>
-LOCATION:Engineering Building 1145
-LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0118-MILESTONE_Pr
+LOCATION:TBD
+LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0831-MILESTONE_Pr
  oject_Preferences
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Holiday University Closed
-DTSTART;TZID=US/Eastern:20260119T123000
-DTEND;TZID=US/Eastern:20260119T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0119-
+DTSTART;TZID=US/Eastern:20260901T123000
+DTEND;TZID=US/Eastern:20260901T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0901-
  Holiday_University_Closed'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: CyberAmbassadors Teaming Up
-DTSTART;TZID=US/Eastern:20260121T123000
-DTEND;TZID=US/Eastern:20260121T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0121-
+DTSTART;TZID=US/Eastern:20260903T123000
+DTEND;TZID=US/Eastern:20260903T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0903-
  CyberAmbassadors_Teaming_Up'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Team Meeting
-DTSTART;TZID=US/Eastern:20260123T123000
-DTEND;TZID=US/Eastern:20260123T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0123-
+DTSTART;TZID=US/Eastern:20260905T123000
+DTEND;TZID=US/Eastern:20260905T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0905-
  Team_Meeting'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: MILESTONE Project Organization
-DTSTART;TZID=US/Eastern:20260125T000000
-DTEND;TZID=US/Eastern:20260126T000000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0125-
+DTSTART;TZID=US/Eastern:20260907T000000
+DTEND;TZID=US/Eastern:20260908T000000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0907-
  MILESTONE_Project_Organization'>Link to assignment</a>
-LOCATION:Engineering Building 1145
-LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0125-MILESTONE_Pr
+LOCATION:TBD
+LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0907-MILESTONE_Pr
  oject_Organization
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Anticpating Challenges
-DTSTART;TZID=US/Eastern:20260126T123000
-DTEND;TZID=US/Eastern:20260126T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0126-
+DTSTART;TZID=US/Eastern:20260908T123000
+DTEND;TZID=US/Eastern:20260908T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0908-
  Anticpating_Challenges'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: CyberAmbassadors Speaking up
-DTSTART;TZID=US/Eastern:20260128T123000
-DTEND;TZID=US/Eastern:20260128T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0128-
+DTSTART;TZID=US/Eastern:20260910T123000
+DTEND;TZID=US/Eastern:20260910T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0910-
  CyberAmbassadors_Speaking_up'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: SCHOLAR Review
-DTSTART;TZID=US/Eastern:20260130T123000
-DTEND;TZID=US/Eastern:20260130T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0130-
+DTSTART;TZID=US/Eastern:20260912T123000
+DTEND;TZID=US/Eastern:20260912T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0912-
  SCHOLAR_Review'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: MILESTONE Plan
-DTSTART;TZID=US/Eastern:20260201T000000
-DTEND;TZID=US/Eastern:20260202T000000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0201-
+DTSTART;TZID=US/Eastern:20260914T000000
+DTEND;TZID=US/Eastern:20260915T000000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0914-
  MILESTONE_Plan'>Link to assignment</a>
-LOCATION:Engineering Building 1145
-LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0201-MILESTONE_Pl
+LOCATION:TBD
+LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0914-MILESTONE_Pl
  an
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Project Plan
-DTSTART;TZID=US/Eastern:20260202T123000
-DTEND;TZID=US/Eastern:20260202T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0202-
+DTSTART;TZID=US/Eastern:20260915T123000
+DTEND;TZID=US/Eastern:20260915T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0915-
  Project_Plan'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Community Engaged Learning
-DTSTART;TZID=US/Eastern:20260204T123000
-DTEND;TZID=US/Eastern:20260204T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0204-
+DTSTART;TZID=US/Eastern:20260917T123000
+DTEND;TZID=US/Eastern:20260917T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0917-
  Community_Engaged_Learning'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: SCHOLAR Pull request
-DTSTART;TZID=US/Eastern:20260206T123000
-DTEND;TZID=US/Eastern:20260206T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0206-
+DTSTART;TZID=US/Eastern:20260919T123000
+DTEND;TZID=US/Eastern:20260919T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0919-
  SCHOLAR_Pull_request'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: MILESTONE Plan Video Storyboard
-DTSTART;TZID=US/Eastern:20260208T000000
-DTEND;TZID=US/Eastern:20260209T000000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0208-
+DTSTART;TZID=US/Eastern:20260921T000000
+DTEND;TZID=US/Eastern:20260922T000000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0921-
  MILESTONE_Plan_Video_Storyboard'>Link to assignment</a>
-LOCATION:Engineering Building 1145
-LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0208-MILESTONE_Pl
+LOCATION:TBD
+LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0921-MILESTONE_Pl
  an_Video_Storyboard
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Proposal Presentation Storyboard Review
-DTSTART;TZID=US/Eastern:20260209T123000
-DTEND;TZID=US/Eastern:20260209T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0209-
+DTSTART;TZID=US/Eastern:20260922T123000
+DTEND;TZID=US/Eastern:20260922T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0922-
  Proposal_Presentation_Storyboard_Review'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: CyberAmbassadors Lets talk
-DTSTART;TZID=US/Eastern:20260211T123000
-DTEND;TZID=US/Eastern:20260211T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0211-
+DTSTART;TZID=US/Eastern:20260924T123000
+DTEND;TZID=US/Eastern:20260924T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0924-
  CyberAmbassadors_Lets_talk'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: No Class Day of Remembrance
-DTSTART;TZID=US/Eastern:20260213T123000
-DTEND;TZID=US/Eastern:20260213T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0213-
+DTSTART;TZID=US/Eastern:20260926T123000
+DTEND;TZID=US/Eastern:20260926T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0926-
  No_Class_Day_of_Remembrance'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: MILESTONE Plan Video
-DTSTART;TZID=US/Eastern:20260215T000000
-DTEND;TZID=US/Eastern:20260216T000000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0215-
+DTSTART;TZID=US/Eastern:20260928T000000
+DTEND;TZID=US/Eastern:20260929T000000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0928-
  MILESTONE_Plan_Video'>Link to assignment</a>
-LOCATION:Engineering Building 1145
-LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0215-MILESTONE_Pl
+LOCATION:TBD
+LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0928-MILESTONE_Pl
  an_Video
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Proposal Presentations
-DTSTART;TZID=US/Eastern:20260216T123000
-DTEND;TZID=US/Eastern:20260216T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0216-
+DTSTART;TZID=US/Eastern:20260929T123000
+DTEND;TZID=US/Eastern:20260929T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0929-
  Proposal_Presentations'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: CyberAmbassadors Leveling Up
-DTSTART;TZID=US/Eastern:20260218T123000
-DTEND;TZID=US/Eastern:20260218T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0218-
+DTSTART;TZID=US/Eastern:20261001T123000
+DTEND;TZID=US/Eastern:20261001T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1001-
  CyberAmbassadors_Leveling_Up'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: SCHOLAR Presentations
-DTSTART;TZID=US/Eastern:20260220T123000
-DTEND;TZID=US/Eastern:20260220T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0220-
+DTSTART;TZID=US/Eastern:20261003T123000
+DTEND;TZID=US/Eastern:20261003T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1003-
  SCHOLAR_Presentations'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: MILESTONE Outreach
-DTSTART;TZID=US/Eastern:20260222T000000
-DTEND;TZID=US/Eastern:20260223T000000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0222-
+DTSTART;TZID=US/Eastern:20261005T000000
+DTEND;TZID=US/Eastern:20261006T000000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1005-
  MILESTONE_Outreach'>Link to assignment</a>
-LOCATION:Engineering Building 1145
-LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0222-MILESTONE_Ou
+LOCATION:TBD
+LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/1005-MILESTONE_Ou
  treach
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Outreach Review
-DTSTART;TZID=US/Eastern:20260223T123000
-DTEND;TZID=US/Eastern:20260223T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0223-
+DTSTART;TZID=US/Eastern:20261006T123000
+DTEND;TZID=US/Eastern:20261006T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1006-
  Outreach_Review'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: CyberAmbassadors Its Complicated
-DTSTART;TZID=US/Eastern:20260225T123000
-DTEND;TZID=US/Eastern:20260225T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0225-
+DTSTART;TZID=US/Eastern:20261008T123000
+DTEND;TZID=US/Eastern:20261008T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1008-
  CyberAmbassadors_Its_Complicated'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Selection Matrix
-DTSTART;TZID=US/Eastern:20260227T123000
-DTEND;TZID=US/Eastern:20260227T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0227-
+DTSTART;TZID=US/Eastern:20261010T123000
+DTEND;TZID=US/Eastern:20261010T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1010-
  Selection_Matrix'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: MILESTONE Install Instructions
-DTSTART;TZID=US/Eastern:20260308T000000
-DTEND;TZID=US/Eastern:20260309T000000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0308-
+DTSTART;TZID=US/Eastern:20261019T000000
+DTEND;TZID=US/Eastern:20261020T000000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1019-
  MILESTONE_Install_Instructions'>Link to assignment</a>
-LOCATION:Engineering Building 1145
-LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0308-MILESTONE_In
+LOCATION:TBD
+LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/1019-MILESTONE_In
  stall_Instructions
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Install Instruction Review
-DTSTART;TZID=US/Eastern:20260309T123000
-DTEND;TZID=US/Eastern:20260309T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0309-
+DTSTART;TZID=US/Eastern:20261020T123000
+DTEND;TZID=US/Eastern:20261020T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1020-
  Install_Instruction_Review'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: CyberAmbassadors Leading the Team
-DTSTART;TZID=US/Eastern:20260311T123000
-DTEND;TZID=US/Eastern:20260311T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0311-
+DTSTART;TZID=US/Eastern:20261022T123000
+DTEND;TZID=US/Eastern:20261022T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1022-
  CyberAmbassadors_Leading_the_Team'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Tutorial Selection
-DTSTART;TZID=US/Eastern:20260313T123000
-DTEND;TZID=US/Eastern:20260313T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0313-
+DTSTART;TZID=US/Eastern:20261024T123000
+DTEND;TZID=US/Eastern:20261024T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1024-
  Tutorial_Selection'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: MILESTONE MVP Presentation Storyboard
-DTSTART;TZID=US/Eastern:20260315T000000
-DTEND;TZID=US/Eastern:20260316T000000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0315-
+DTSTART;TZID=US/Eastern:20261026T000000
+DTEND;TZID=US/Eastern:20261027T000000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1026-
  MILESTONE_MVP_Presentation_Storyboard'>Link to assignment</a>
-LOCATION:Engineering Building 1145
-LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0315-MILESTONE_MV
+LOCATION:TBD
+LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/1026-MILESTONE_MV
  P_Presentation_Storyboard
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: MVP Presentation Storyboard Review
-DTSTART;TZID=US/Eastern:20260316T123000
-DTEND;TZID=US/Eastern:20260316T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0316-
+DTSTART;TZID=US/Eastern:20261027T123000
+DTEND;TZID=US/Eastern:20261027T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1027-
  MVP_Presentation_Storyboard_Review'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: CyberAmbassadors Leading the Change
-DTSTART;TZID=US/Eastern:20260318T123000
-DTEND;TZID=US/Eastern:20260318T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0318-
+DTSTART;TZID=US/Eastern:20261029T123000
+DTEND;TZID=US/Eastern:20261029T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1029-
  CyberAmbassadors_Leading_the_Change'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Tutorial Pull Requests
-DTSTART;TZID=US/Eastern:20260320T123000
-DTEND;TZID=US/Eastern:20260320T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0320-
+DTSTART;TZID=US/Eastern:20261031T123000
+DTEND;TZID=US/Eastern:20261031T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1031-
  Tutorial_Pull_Requests'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: MILESTONE MVP Video
-DTSTART;TZID=US/Eastern:20260322T000000
-DTEND;TZID=US/Eastern:20260323T000000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0322-
+DTSTART;TZID=US/Eastern:20261102T000000
+DTEND;TZID=US/Eastern:20261103T000000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1102-
  MILESTONE_MVP_Video'>Link to assignment</a>
-LOCATION:Engineering Building 1145
-LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0322-MILESTONE_MV
+LOCATION:TBD
+LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/1102-MILESTONE_MV
  P_Video
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: MVP Presentations
-DTSTART;TZID=US/Eastern:20260323T123000
-DTEND;TZID=US/Eastern:20260323T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0323-
+DTSTART;TZID=US/Eastern:20261103T123000
+DTEND;TZID=US/Eastern:20261103T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1103-
  MVP_Presentations'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: CyberAmbassadors Leading with Principles
-DTSTART;TZID=US/Eastern:20260325T123000
-DTEND;TZID=US/Eastern:20260325T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0325-
+DTSTART;TZID=US/Eastern:20261105T123000
+DTEND;TZID=US/Eastern:20261105T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1105-
  CyberAmbassadors_Leading_with_Principles'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Deep Tutorial Review
-DTSTART;TZID=US/Eastern:20260327T123000
-DTEND;TZID=US/Eastern:20260327T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0327-
+DTSTART;TZID=US/Eastern:20261107T123000
+DTEND;TZID=US/Eastern:20261107T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1107-
  Deep_Tutorial_Review'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: MILESTONE Reproducibility
-DTSTART;TZID=US/Eastern:20260329T000000
-DTEND;TZID=US/Eastern:20260330T000000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0329-
+DTSTART;TZID=US/Eastern:20261109T000000
+DTEND;TZID=US/Eastern:20261110T000000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1109-
  MILESTONE_Reproducibility'>Link to assignment</a>
-LOCATION:Engineering Building 1145
-LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0329-MILESTONE_Re
+LOCATION:TBD
+LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/1109-MILESTONE_Re
  producibility
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Figure Reproducibility Review
-DTSTART;TZID=US/Eastern:20260330T123000
-DTEND;TZID=US/Eastern:20260330T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0330-
+DTSTART;TZID=US/Eastern:20261110T123000
+DTEND;TZID=US/Eastern:20261110T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1110-
  Figure_Reproducibility_Review'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Project CoWork 2
-DTSTART;TZID=US/Eastern:20260401T123000
-DTEND;TZID=US/Eastern:20260401T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0401-
+DTSTART;TZID=US/Eastern:20261112T123000
+DTEND;TZID=US/Eastern:20261112T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1112-
  Project_CoWork_2'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Tutorial Presentations
-DTSTART;TZID=US/Eastern:20260403T123000
-DTEND;TZID=US/Eastern:20260403T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0403-
+DTSTART;TZID=US/Eastern:20261114T123000
+DTEND;TZID=US/Eastern:20261114T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1114-
  Tutorial_Presentations'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: MILESTONE Full Project Draft
-DTSTART;TZID=US/Eastern:20260405T000000
-DTEND;TZID=US/Eastern:20260406T000000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0405-
+DTSTART;TZID=US/Eastern:20261116T000000
+DTEND;TZID=US/Eastern:20261117T000000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1116-
  MILESTONE_Full_Project_Draft'>Link to assignment</a>
-LOCATION:Engineering Building 1145
-LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0405-MILESTONE_Fu
+LOCATION:TBD
+LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/1116-MILESTONE_Fu
  ll_Project_Draft
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Full Project Review
-DTSTART;TZID=US/Eastern:20260406T123000
-DTEND;TZID=US/Eastern:20260406T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0406-
+DTSTART;TZID=US/Eastern:20261117T123000
+DTEND;TZID=US/Eastern:20261117T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1117-
  Full_Project_Review'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Project CoWork 3
-DTSTART;TZID=US/Eastern:20260408T123000
-DTEND;TZID=US/Eastern:20260408T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0408-
+DTSTART;TZID=US/Eastern:20261119T123000
+DTEND;TZID=US/Eastern:20261119T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1119-
  Project_CoWork_3'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Project CoWork 4
-DTSTART;TZID=US/Eastern:20260410T123000
-DTEND;TZID=US/Eastern:20260410T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0410-
+DTSTART;TZID=US/Eastern:20261121T123000
+DTEND;TZID=US/Eastern:20261121T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1121-
  Project_CoWork_4'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: MILESTONE Final Presentation Storyboard
-DTSTART;TZID=US/Eastern:20260412T000000
-DTEND;TZID=US/Eastern:20260413T000000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0412-
+DTSTART;TZID=US/Eastern:20261123T000000
+DTEND;TZID=US/Eastern:20261124T000000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1123-
  MILESTONE_Final_Presentation_Storyboard'>Link to assignment</a>
-LOCATION:Engineering Building 1145
-LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0412-MILESTONE_Fi
+LOCATION:TBD
+LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/1123-MILESTONE_Fi
  nal_Presentation_Storyboard
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Final presentation Storyboard Feedback
-DTSTART;TZID=US/Eastern:20260413T123000
-DTEND;TZID=US/Eastern:20260413T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0413-
+DTSTART;TZID=US/Eastern:20261124T123000
+DTEND;TZID=US/Eastern:20261124T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1124-
  Final_presentation_Storyboard_Feedback'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Course Review and Reflection
-DTSTART;TZID=US/Eastern:20260415T123000
-DTEND;TZID=US/Eastern:20260415T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0415-
+DTSTART;TZID=US/Eastern:20261126T123000
+DTEND;TZID=US/Eastern:20261126T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1126-
  Course_Review_and_Reflection'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Showcase Practice
-DTSTART;TZID=US/Eastern:20260417T123000
-DTEND;TZID=US/Eastern:20260417T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0417-
+DTSTART;TZID=US/Eastern:20261128T123000
+DTEND;TZID=US/Eastern:20261128T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1128-
  Showcase_Practice'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: MILESTONE Final Project
-DTSTART;TZID=US/Eastern:20260419T000000
-DTEND;TZID=US/Eastern:20260420T000000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0419-
+DTSTART;TZID=US/Eastern:20261130T000000
+DTEND;TZID=US/Eastern:20261201T000000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1130-
  MILESTONE_Final_Project'>Link to assignment</a>
-LOCATION:Engineering Building 1145
-LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0419-MILESTONE_Fi
+LOCATION:TBD
+LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/1130-MILESTONE_Fi
  nal_Project
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Showcase Day 1
-DTSTART;TZID=US/Eastern:20260420T123000
-DTEND;TZID=US/Eastern:20260420T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0420-
+DTSTART;TZID=US/Eastern:20261201T123000
+DTEND;TZID=US/Eastern:20261201T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1201-
  Showcase_Day_1'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Showcase Day 2
-DTSTART;TZID=US/Eastern:20260422T123000
-DTEND;TZID=US/Eastern:20260422T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0422-
+DTSTART;TZID=US/Eastern:20261203T123000
+DTEND;TZID=US/Eastern:20261203T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1203-
  Showcase_Day_2'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: No Class Engineering Design Day
-DTSTART;TZID=US/Eastern:20260424T123000
-DTEND;TZID=US/Eastern:20260424T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0424-
+DTSTART;TZID=US/Eastern:20261205T123000
+DTEND;TZID=US/Eastern:20261205T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1205-
  No_Class_Engineering_Design_Day'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Final Extended Deadline
-DTSTART;TZID=US/Eastern:20260426T123000
-DTEND;TZID=US/Eastern:20260426T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0426-
+DTSTART;TZID=US/Eastern:20261207T123000
+DTEND;TZID=US/Eastern:20261207T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1207-
  Final_Extended_Deadline'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMSE 495: Final Exam Personal Reflection DUE
-DTSTART;TZID=US/Eastern:20260427T123000
-DTEND;TZID=US/Eastern:20260427T134000
-DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0427-
+DTSTART;TZID=US/Eastern:20261208T123000
+DTEND;TZID=US/Eastern:20261208T134000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1208-
  Final_Exam_Personal_Reflection_DUE'>Link to assignment</a>
-LOCATION:Engineering Building 1145
+LOCATION:TBD
 END:VEVENT
 END:VCALENDAR
