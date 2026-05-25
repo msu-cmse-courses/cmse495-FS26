@@ -13,7 +13,7 @@
       line-height: 1.6;
     }
 
-    /* ===== TOP NAV ===== */
+    /* ===== HEADER ===== */
     .top-nav {
       display: flex;
       justify-content: space-between;
@@ -33,7 +33,6 @@
     .nav-left img {
       height: 50px;
       width: auto;
-      max-width: 100%;
     }
 
     .nav-left h1 {
@@ -42,7 +41,7 @@
     }
 
     .nav-right a {
-      margin-left: 20px;
+      margin-left: 18px;
       text-decoration: none;
       color: #444;
       font-weight: 500;
@@ -75,10 +74,6 @@
       overflow-y: auto;
       border-right: 1px solid #ddd;
       padding-right: 10px;
-    }
-
-    .center {
-      min-width: 0;
     }
 
     .right {
@@ -137,10 +132,6 @@
       border-left: 1px solid #eee;
     }
 
-    .page-toc ul ul ul {
-      border-left: 1px solid #f0f0f0;
-    }
-
     .page-toc a {
       text-decoration: none;
       color: #444;
@@ -173,13 +164,7 @@
     }
 
     .site-footer img {
-      max-width: 100%;
-      height: auto;
       margin-top: 8px;
-    }
-
-    .site-footer p {
-      margin: 6px 0;
     }
 
     /* ===== MOBILE ===== */
@@ -207,7 +192,7 @@
       .nav-right {
         display: flex;
         flex-wrap: wrap;
-        gap: 12px;
+        gap: 10px;
       }
 
       .nav-right a {
@@ -215,14 +200,10 @@
         font-size: 0.95em;
       }
 
-      /* ✅ SHOW ONLY ON MOBILE */
+      /* show mobile-only */
       .mobile-schedule,
       .mobile-toc {
         display: block;
-      }
-
-      .mobile-schedule details {
-        margin-bottom: 12px;
       }
     }
 
@@ -232,71 +213,49 @@
 <body>
 
   <!-- ===== HEADER ===== -->
-  
-<!-- ===== HEADER ===== -->
-<div class="top-nav">
+  <div class="top-nav">
 
-  <div class="nav-left">
-    <a href="{{ '/' | relative_url }}">
-      <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}"
-           alt="CMSE 495 Data Science Capstone Logo">
-    </a>
-    <h1>CMSE495 Data Science Capstone (Fall 2026)</h1>
-  </div>
+    <div class="nav-left">
+      <a href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}"
+             alt="CMSE 495 Data Science Capstone Logo">
+      </a>
+      <h1>CMSE495 Data Science Capstone (Fall 2026)</h1>
+    </div>
 
-  <div class="nav-right">
+    <div class="nav-right">
+      <a href="{{ '/' | relative_url }}"
+         class="{% if page.url == '/' %}active{% endif %}">Home</a>
 
-    <!-- Home -->
-    <a href="{{ '/' | relative_url }}"
-       class="{% if page.url == '/' %}active{% endif %}">
-       Home
-    </a>
+      <a href="{{ '/About/' | relative_url }}"
+         class="{% if page.url contains '/About/' %}active{% endif %}">About</a>
 
-    <!-- About (Overview) -->
-    <a href="{{ '/About/' | relative_url }}"
-       class="{% if page.url contains '/About/' and page.url == '/About/' %}active{% endif %}">
-       About
-    </a>
+      <a href="{{ '/About/Syllabus/' | relative_url }}"
+         class="{% if page.url contains 'Syllabus' %}active{% endif %}">Syllabus</a>
 
-    <!-- Syllabus -->
-    <a href="{{ '/About/Syllabus/' | relative_url }}"
-       class="{% if page.url contains '/About/Syllabus' %}active{% endif %}">
-       Syllabus
-    </a>
+      <a href="{{ '/Seeking-Community_Partners/' | relative_url }}"
+         class="{% if page.url contains 'Seeking' %}active{% endif %}">Community Partners</a>
 
-    <!-- Community Partners -->
-    <a href="{{ '/About/Seeking-Community_Partners/' | relative_url }}"
-       class="{% if page.url contains 'Seeking-Community_Partners' %}active{% endif %}">
-       Community Partners
-    </a>
-
-    <!-- External -->
-    <a href="https://teams.microsoft.com" target="_blank">
-      Teams
-    </a>
+      <a href="https://teams.microsoft.com" target="_blank">Teams</a>
+    </div>
 
   </div>
-
-</div>
-
 
   <!-- ===== MAIN ===== -->
   <div class="layout">
 
-    <!-- LEFT -->
+    <!-- LEFT ===== -->
     <aside class="left">
       {% assign schedule = site.pages | where: "name", "Schedule.md" | first %}
       {% if schedule %}
         {{ schedule.content | markdownify }}
-      {% else %}
-        <p>Schedule not found</p>
       {% endif %}
     </aside>
 
     {% assign parts = content | split:'<!-- TOC_START -->' %}
 
-    <!-- CENTER -->
-    <main class="center">
+    <!-- CENTER ===== -->
+    <main>
 
       <!-- MOBILE SCHEDULE -->
       <div class="mobile-schedule">
@@ -320,7 +279,7 @@
 
     </main>
 
-    <!-- RIGHT -->
+    <!-- RIGHT ===== -->
     <aside class="right">
       {% if parts.size > 1 %}
         {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
@@ -330,45 +289,28 @@
 
   </div>
 
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
 
-<!-- ===== HEADER ===== -->
-<div class="top-nav">
+    <div class="footer-content">
+      <p>
+        Written by Drs. Dirk Colbry and Justin Gambrell, Michigan State University
+      </p>
 
-  <div class="nav-left">
-    <a href="{{ '/' | relative_url }}">
-      <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}"
-           alt="CMSE 495 Data Science Capstone Logo">
-    </a>
-    <h1>CMSE495 Data Science Capstone (Fall 2026)</h1>
-  </div>
+      <p>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+          <img alt="Creative Commons License"
+               src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png">
+        </a>
+        <br>
+        This work is licensed under a
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+          Creative Commons Attribution-NonCommercial 4.0 International License
+        </a>.
+      </p>
+    </div>
 
-  <div class="nav-right">
-
-    <!-- Home -->
-    <a href="{{ '/' | relative_url }}"
-       class="{% if page.url == '/' %}active{% endif %}">Home</a>
-
-    <!-- About (Overview) -->
-    <a href="{{ '/About/' | relative_url }}"
-       class="{% if page.url contains '/About/' %}active{% endif %}">About</a>
-
-    <!-- Syllabus -->
-    <a href="{{ '/About/Syllabus/' | relative_url }}"
-       class="{% if page.url contains '/About/Syllabus' %}active{% endif %}">Syllabus</a>
-
-    <!-- Community Partners -->
-    <a href="{{ '/About/Seeking-Community_Partners/' | relative_url }}"
-       class="{% if page.url contains 'Seeking-Community_Partners' %}active{% endif %}">Community Partners</a>
-
-    <!-- External -->
-    <a href="https://teams.microsoft.com" target="_blank">Teams</a>
-
-  </div>
-
-</div>
-
-
-</footer>
+  </footer>
 
 </body>
 </html>
