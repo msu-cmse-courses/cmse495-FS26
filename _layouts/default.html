@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
+
     /* ===== BASE ===== */
     body {
       margin: 0;
@@ -38,7 +39,6 @@
     .nav-left h1 {
       font-size: 1.2rem;
       margin: 0;
-      line-height: 1.2;
     }
 
     .nav-right a {
@@ -75,7 +75,6 @@
       overflow-y: auto;
       border-right: 1px solid #ddd;
       padding-right: 10px;
-      line-height: 1.35;
     }
 
     .center {
@@ -94,7 +93,6 @@
     /* ===== SCHEDULE ===== */
     .sched-item {
       display: flex;
-      align-items: flex-start;
       margin-bottom: 4px;
       line-height: 1.3;
     }
@@ -122,7 +120,6 @@
     .page-toc summary {
       cursor: pointer;
       font-weight: 600;
-      margin: 4px 0;
     }
 
     .page-toc details {
@@ -153,13 +150,39 @@
       text-decoration: underline;
     }
 
-    /* ===== MOBILE (DEFAULT: HIDDEN) ===== */
+    /* ===== MOBILE HIDDEN DEFAULT ===== */
     .mobile-schedule,
     .mobile-toc {
       display: none;
     }
 
-    /* ===== MOBILE LAYOUT ===== */
+    /* ===== FOOTER ===== */
+    .site-footer {
+      border-top: 1px solid #ddd;
+      margin-top: 40px;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.85em;
+      color: #666;
+      background: #fafafa;
+    }
+
+    .footer-content {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .site-footer img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 8px;
+    }
+
+    .site-footer p {
+      margin: 6px 0;
+    }
+
+    /* ===== MOBILE ===== */
     @media (max-width: 900px) {
 
       .layout {
@@ -171,14 +194,14 @@
         display: none;
       }
 
-      .nav-left img {
-        height: 40px;
-      }
-
       .top-nav {
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
+      }
+
+      .nav-left img {
+        height: 40px;
       }
 
       .nav-right {
@@ -221,23 +244,15 @@
 
     <div class="nav-right">
       <a href="{{ '/' | relative_url }}"
-         class="{% if page.url == '/' %}active{% endif %}">
-        Home
-      </a>
+         class="{% if page.url == '/' %}active{% endif %}">Home</a>
 
       <a href="{{ 'Syllabus' | relative_url }}"
-         class="{% if page.url contains 'syllabus' %}active{% endif %}">
-        Syllabus
-      </a>
+         class="{% if page.url contains 'syllabus' %}active{% endif %}">Syllabus</a>
 
       <a href="{{ 'Seeking-Community_Partners' | relative_url }}"
-         class="{% if page.url contains 'Seeking' %}active{% endif %}">
-        Community Partners
-      </a>
+         class="{% if page.url contains 'Seeking' %}active{% endif %}">Community Partners</a>
 
-      <a href="https://teams.microsoft.com" target="_blank">
-        Teams
-      </a>
+      <a href="https://teams.microsoft.com" target="_blank">Teams</a>
     </div>
 
   </div>
@@ -245,7 +260,7 @@
   <!-- ===== MAIN ===== -->
   <div class="layout">
 
-    <!-- LEFT: Schedule -->
+    <!-- LEFT -->
     <aside class="left">
       {% assign schedule = site.pages | where: "name", "Schedule.md" | first %}
       {% if schedule %}
@@ -255,13 +270,12 @@
       {% endif %}
     </aside>
 
-    <!-- SPLIT CONTENT -->
     {% assign parts = content | split:'<!-- TOC_START -->' %}
 
     <!-- CENTER -->
     <main class="center">
 
-      <!-- ✅ MOBILE SCHEDULE -->
+      <!-- MOBILE SCHEDULE -->
       <div class="mobile-schedule">
         {% if schedule %}
           <details>
@@ -273,7 +287,7 @@
 
       {{ parts[0] }}
 
-      <!-- ✅ MOBILE TOC -->
+      <!-- MOBILE TOC -->
       <div class="mobile-toc">
         {% if parts.size > 1 %}
           {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
@@ -283,33 +297,38 @@
 
     </main>
 
-    <!-- RIGHT: TOC -->
+    <!-- RIGHT -->
     <aside class="right">
       {% if parts.size > 1 %}
         {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
         {{ toc_parts[0] }}
       {% endif %}
     </aside>
-<footer class="site-footer">
-
-  <div class="footer-content">
-    <p>
-      Written by Drs. Dirk Colbry and Justin Gambrell, Michigan State University
-    </p>
-
-    <p>
-      https://i.creativecommons.org/l/by-nc/4.0/88x31.png"
-           alt="Creative Commons License">
-      </a><br>
-      This work is licensed under a 
-      Creative Commons Attribution-NonCommercial 4.0 International License
-      </a>.
-    </p>
-  </div>
-
-</footer>
 
   </div>
+
+  <!-- ✅ FOOTER (FULL WIDTH) -->
+  <footer class="site-footer">
+
+    <div class="footer-content">
+
+      <p>
+        Written by Drs. Dirk Colbry and Justin Gambrell, Michigan State University
+      </p>
+
+      <p>
+        
+          https://i.creativecommons.org/l/by-nc/4.0/88x31.png
+        </a>
+        <br>
+        This work is licensed under a 
+        Creative Commons Attribution-NonCommercial 4.0 International License
+        </a>.
+      </p>
+
+    </div>
+
+  </footer>
 
 </body>
 </html>
