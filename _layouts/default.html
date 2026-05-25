@@ -252,7 +252,10 @@
       <a href="{{ 'Seeking-Community_Partners' | relative_url }}"
          class="{% if page.url contains 'Seeking' %}active{% endif %}">Community Partners</a>
 
-      <a href="https://teams.microsoft.com" target="_blank">Teams</a>
+      <a href="{{ './About/' | relative_url }}"
+         class="{% if page.url contains 'syllabus' %}active{% endif %}">Syllabus</a>
+
+      <a href="" target="_blank">About</a>
     </div>
 
   </div>
@@ -307,7 +310,6 @@
 
   </div>
 
-  <!-- ✅ FOOTER (FULL WIDTH) -->
 <!-- ✅ FOOTER (FULL WIDTH) -->
 <footer class="site-footer">
 
