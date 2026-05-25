@@ -232,33 +232,53 @@
 <body>
 
   <!-- ===== HEADER ===== -->
-  <div class="top-nav">
+  
+<!-- ===== HEADER ===== -->
+<div class="top-nav">
 
-    <div class="nav-left">
-      <a href="{{ '/' | relative_url }}">
-        <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}"
-             alt="CMSE 495 Data Science Capstone Logo">
-      </a>
-      <h1>CMSE495 Data Science Capstone (Fall 2026)</h1>
-    </div>
+  <div class="nav-left">
+    <a href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}"
+           alt="CMSE 495 Data Science Capstone Logo">
+    </a>
+    <h1>CMSE495 Data Science Capstone (Fall 2026)</h1>
+  </div>
 
-    <div class="nav-right">
-      <a href="{{ '/' | relative_url }}"
-         class="{% if page.url == '/' %}active{% endif %}">Home</a>
+  <div class="nav-right">
 
-      <a href="{{ 'Syllabus' | relative_url }}"
-         class="{% if page.url contains 'syllabus' %}active{% endif %}">Syllabus</a>
+    <!-- Home -->
+    <a href="{{ '/' | relative_url }}"
+       class="{% if page.url == '/' %}active{% endif %}">
+       Home
+    </a>
 
-      <a href="{{ 'Seeking-Community_Partners' | relative_url }}"
-         class="{% if page.url contains 'Seeking' %}active{% endif %}">Community Partners</a>
+    <!-- About (Overview) -->
+    <a href="{{ '/About/' | relative_url }}"
+       class="{% if page.url contains '/About/' and page.url == '/About/' %}active{% endif %}">
+       About
+    </a>
 
-      <a href="{{ './About/' | relative_url }}"
-         class="{% if page.url contains 'syllabus' %}active{% endif %}">Syllabus</a>
+    <!-- Syllabus -->
+    <a href="{{ '/About/Syllabus/' | relative_url }}"
+       class="{% if page.url contains '/About/Syllabus' %}active{% endif %}">
+       Syllabus
+    </a>
 
-      <a href="" target="_blank">About</a>
-    </div>
+    <!-- Community Partners -->
+    <a href="{{ '/About/Seeking-Community_Partners/' | relative_url }}"
+       class="{% if page.url contains 'Seeking-Community_Partners' %}active{% endif %}">
+       Community Partners
+    </a>
+
+    <!-- External -->
+    <a href="https://teams.microsoft.com" target="_blank">
+      Teams
+    </a>
 
   </div>
+
+</div>
+
 
   <!-- ===== MAIN ===== -->
   <div class="layout">
