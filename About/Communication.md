@@ -3,11 +3,26 @@ layout: default
 title: "Team Communication Guide"
 ---
 
+<hr>
+
+<div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #666;">
+
+  <div>
+    ← <a href="{{ '/About/Team_Charter' | relative_url }}">Team Charter</a>
+  </div>
+  <div>
+    <a href="{{ '/About/index' | relative_url }}">Course Guide</a>
+  </div>
+  <div>
+    <a href="{{ '/About/Meeting_Agenda_and_Notes' | relative_url }}">Meeting Agendas & Notes</a> →
+  </div>
+
+</div>
+
 # Team Communication Guide  
 ## CMSE / Data Science / Software Engineering Projects
 
 ### Core Principle
-?
 This course is built on trust. You are trusted to communicate honestly, and part of your role is to become someone your team can trust.
 
 Communication is part of the work, not something separate from it.

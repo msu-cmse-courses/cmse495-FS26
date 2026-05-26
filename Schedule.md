@@ -46,7 +46,7 @@
 
 <div class='sched-item'><span class='sched-date'>Mon 10/12</span><span class='sched-title'>Outreach Review</span></div>
 <div class='sched-item'><span class='sched-date'>Wed 10/14</span><span class='sched-title'>CyberAmbassadors Its Complicated</span></div>
-<div class='sched-item'><span class='sched-date'>Fri 10/16</span><span class='sched-title'>Selection Matrix</span></div>
+<div class='sched-item'><span class='sched-date'>Fri 10/16</span><span class='sched-title'>SCHOLAR Selection Matrix</span></div>
 <div class='sched-item'><span class='sched-date'>Sun 10/25</span><span class='sched-title'>MILESTONE Install Instructions</span></div>
 
 ## Week of October 26
@@ -61,21 +61,21 @@
 
 <div class='sched-item'><span class='sched-date'>Mon 11/02</span><span class='sched-title'>MVP Presentation Storyboard Review</span></div>
 <div class='sched-item'><span class='sched-date'>Wed 11/04</span><span class='sched-title'>CyberAmbassadors Leading the Change</span></div>
-<div class='sched-item'><span class='sched-date'>Fri 11/06</span><span class='sched-title'>Tutorial Pull Requests</span></div>
+<div class='sched-item'><span class='sched-date'>Fri 11/06</span><span class='sched-title'>SCHOLAR Tutorial Pull Requests</span></div>
 <div class='sched-item'><span class='sched-date'>Sun 11/08</span><span class='sched-title'>MILESTONE MVP Video</span></div>
 
 ## Week of November 9
 
 <div class='sched-item'><span class='sched-date'>Mon 11/09</span><span class='sched-title'>MVP Presentations</span></div>
 <div class='sched-item'><span class='sched-date'>Wed 11/11</span><span class='sched-title'>CyberAmbassadors Leading with Principles</span></div>
-<div class='sched-item'><span class='sched-date'>Fri 11/13</span><span class='sched-title'>Deep Tutorial Review</span></div>
+<div class='sched-item'><span class='sched-date'>Fri 11/13</span><span class='sched-title'>SCHOLAR Deep Tutorial Review</span></div>
 <div class='sched-item'><span class='sched-date'>Sun 11/15</span><span class='sched-title'>MILESTONE Reproducibility</span></div>
 
 ## Week of November 16
 
 <div class='sched-item'><span class='sched-date'>Mon 11/16</span><span class='sched-title'>Figure Reproducibility Review</span></div>
 <div class='sched-item'><span class='sched-date'>Wed 11/18</span><span class='sched-title'>Project CoWork 2</span></div>
-<div class='sched-item'><span class='sched-date'>Fri 11/20</span><span class='sched-title'>Tutorial Presentations</span></div>
+<div class='sched-item'><span class='sched-date'>Fri 11/20</span><span class='sched-title'>ACHOLAR Tutorial Presentations</span></div>
 <div class='sched-item'><span class='sched-date'>Sun 11/22</span><span class='sched-title'>MILESTONE Full Project Draft</span></div>
 
 ## Week of November 23

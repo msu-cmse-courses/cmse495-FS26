@@ -8,115 +8,104 @@ title: "Syllabus: CMSE 495- Data Science Capstone"
 ## Course Description
 The data science capstone course is intended to provide students with an opportunity to put together what they have learned across multiple courses to develop a final project that demonstrates their ability to work in a team on real-world problems.
 
-The capstone course has the following learning goals:
+By the end of this course, students will be able to:
 
-1. Provide students with a high impact, end-to-end project experience where they can apply classroom experiences and data science skills to solve real-world problems. 
-2. Provide students with opportunities to learn and practice professional skills (resilience, professionalism, communication, teamwork and leadership) in the context of team-based projects.
-3. Provide opportunities for students and faculty in the department to build relationships and network with industry partners, community organizations, and campus colleagues. 
+1. Design and implement an end-to-end data science project.
+2. Collaborate effectively within a team using professional communication, coordination, and shared responsibility.
+3. Navigate real-world project uncertainty by working with stakeholders to define problems, refine goals, and adapt to changing requirements.
+
 
 
 ## Course Format and Activities
 
-The class will meet three times a week during the 15-week semester and will be delivered **_synchronously_**.  Students are expected to attend class during the designated class period (MWF 12:30-1:40PM in EGR 1145). Classroom time will be divided across three broad activity categories:
+The course meets three times a week during the 15-week semester (MWF 12:30–1:40 PM in EGR 1145).
 
-- Project planning, team meetings, milestones and reports (Mondays)
-- Professional skills training and practice (Wednesdays)
-- Software development and technical skills practice (Fridays)
+Each week follows a consistent structure:
 
-Early in the semester, students will be divided into capstone teams of 4-5 people and assigned a semester long project with multiple milestones.  The majority of a students grade will come from working constructively as a team to accomplish the project goals (as defined by the instructor and the project community partners). When possible, the majority of out-of-class time will be dedicated to tasks and deliverables that relate directly to the capstone team's projects.  Students should expect to spend an average of 10-15 hours a week outside of class working on their capstone projects.  
+- **Mondays:** Project planning, team meetings, milestones, and feedback  
+- **Wednesdays:** Professional skills training (communication, teamwork, leadership)  
+- **Fridays:** Technical development and SCHOLAR tutorials  
 
-### Class Participation
+Students will be assigned to teams of 4–5 early in the semester and will work on a semester-long project with a community partner.
 
-Class sessions will be held three times a week and broken up into presentations, discussions, group work and programming activities. 
+Students should expect to spend approximately **10–15 hours per week outside of class** working on project-related tasks.
 
-Active class participation (led both by the instructors and by students) is critical to the success of this course.  As such, you are expected to attend every class session, bring the required materials and actively participate in the in-class discussions and activities. 
+### Team Meetings
 
-**_Students that have a justifiable need to miss class must notify via email, the instructors, the graduate teaching assistant and their project team prior to the start of class (exception to this rule is only provided for extreme cases)._**
+Teams are expected to organize and participate in regular meetings throughout the semester, both within their team and with their community partners.
 
-There is a **_LOT_** of material to cover this semester. To help provide some structure the course will try to following a typical schedule. 
+While some class time will be set aside for team meetings, students are responsible for coordinating additional meetings outside of class. Teams should work with their community partners to align schedules and determine appropriate meeting frequency and content.
 
-### Microsoft Teams
+These meetings are essential for maintaining communication, coordinating work, and ensuring project progress.
 
-Once students are assigned to a team they will be added to a private team channel in the course Microsoft Team:
+See [Meeting Agendas and Notes](./About/Meeting_Agenda_and_Notes) for guidance on organizing and running effective meetings.
 
-* [Link to Course Teams Channel](TBD)
+### Peer Evaluations (Typically Due on Mondays)
 
-Teams will be expected to use either email or this channel for team communications. This will help the instructors stay organized and informed. 
+Student grades are partially influenced by how effectively they contribute to their team. Because teamwork is a central component of this course, peer evaluations will be used to help assess individual contributions and overall team dynamics.
 
-### Project Milestones (Typically Due Sunday by Midnight)
+Peer evaluations are intended to:
 
-Although teams are encouraged to complete things early, project milestones will typically be due every **_Sunday at midnight_**.  In-class activities on most Mondays will involve reviewing project milestones, providing peer feedback and in-class time to prepare for next milestones. Details about the Milestones can be found on the course [Schedule Page](Schedule).
+- provide feedback on team collaboration  
+- help identify potential issues early  
+- support instructors in understanding how teams are functioning  
 
-Starting with the second week, all project milestones will be turned in using the team's Microsoft Team Channel or the team's github repository stored on the MSU Gitlab page (Some projects may use github but should check project agreements and get permission from the instructor).  All files in git should use "git friendly formats" (aka ASCII) such as Jupyter notebooks, html and Markdown.  Instructors will automatically download changes to the repositories after the due date and check for contributions by all of the students.  Feedback will be provided using "git issues" or via a pull/merge request. **_Students are responsible for knowing how to properly use "Git" and everyone on the team is expected to make and commit changes to the repository._**
+Evaluations will be conducted periodically throughout the semester.
 
-**_DO NOT WAIT_** until the weekend before something is due.  Instructors have posted all team deadlines on the website specifically so teams can get a head start and turn things in early.  You should make a plan with your team and stick to it.  The instructor will give you plenty of information and notice so you can work ahead. NO extensions will be given and you will still need to make up all of the work. 
+**Note:** Peer evaluations will be administered using [CATME](https://www.catme.org/help).  We may also experiment with Qualtrics or other survey tools. 
 
-### Team Meetings (Typically on Mondays)
+### Weekly Check-Ins (3×3 Reflections)
 
-Teams are expected to organize and conduct multiple formal team meetings each week to work on the projects.  Although some time will be provided during class to conduct meetings, students must work together to arrange regular meetings outside of class. 
+Each week, students will complete an individual 3×3 reflection and share it with their team prior to class on Monday.
 
-***Teams are expected to also arrange regular meetings with their community partners to keep them informed about the progress of the project and ask questions. Teams will need to include the community partners when determining the content and frequency of these meetings.***
+Teams will then use these reflections to create a brief team-level summary that is shared with the instructors.
 
-Additional details and instructions for team meetings can be found [here](Meetings-Notes_and_agendas).
+These check-ins are intended to support:
 
-### Peer Evaluations (Also Typically due on Mondays)
-Student grades will be partially determine by how well you work as a team.  Teamwork can sometimes be difficult, but it is required when joining our modern workforce.  Peer evaluations will be used to help the instructors evaluate team dynamics and provide support to the groups if there are some team dynamic issues that need to be resolved. 
+- communication within teams  
+- early identification of challenges  
+- ongoing coordination of project work  
 
-**_NOTE_**: Team peer evaluation surveys will be conducted using [CATME](https://www.catme.org/help), an on-line tool though the course [Desire2Learn](http://d2l.msu.edu) website.  
-
-### Individual and Team Weekly 3x3 Reflections (Due Mondays)
-
-It is expected that everyone will email an individual weekly Three-by-Three reflection to their capstone team on or before class on Monday. Then on Monday the team will summarize their individual 3x3's into one group 3x3 reflection that they send to the instructors for feedback.
-
-Additional details and instructions for how to write 3x3 reflections found [here](Weekly-3x3)
-
+See [Weekly-3x3](./About/Weekly-3x3) for full details and expectations.
 
 ### Group Professional Development Activities (Typically on Wednesdays)
 
-Students will learn professional skills training in communication, teamwork and leadership.  Curriculum for these training are provided by the NSF funded CyberAmbassador program and supported in part by Tau Beta Pi (the national engineering honor society).   During these activities students will learn topics such as conflict management, solving problems in teams, conducting an effective meeting, diversity equity and inclusion, data ethics, etc.  This curriculum is intended to be highly interactive and, whenever possible, relate directly to capstone project activities. 
+Students will participate in professional skills training focused on communication, teamwork, and leadership. These sessions are part of the NSF-funded CyberAmbassador program and supported in part by Tau Beta Pi.
 
-Completion of the entire CyberAmbassador curriculum will result in the students earning a Professional Skills Certificate.
+Topics include:
 
-Students who participate in all 9 of the CyberAmbassadors modules will earn the certificate of completion for that program. Earning this certificate is not a requirement to pass this class. 
+- conflict management  
+- teamwork and problem-solving  
+- effective meetings  
+- diversity, equity, and inclusion  
+- data ethics  
 
-If a student misses one or more of the modules due to an excused absence, they still can choose to earn the certificate by attending the missing module through the CyberAmbassador program.  Information about times for upcoming virtual workshops can be found here: 
+These sessions are interactive and, whenever possible, directly connected to capstone project work.
 
+Completion of all CyberAmbassador modules will earn a **Professional Skills Certificate**. While earning the certificate is not required to pass the course, students are strongly encouraged to complete the full program, as it provides a meaningful credential that can be included on a resume or professional profile.
+
+Students who miss a session may still complete the certificate by attending a make-up workshop through the CyberAmbassador program.
+
+More information and workshop schedules can be found on the CyberAmbassador Website:
 - [CyberAmbassador Website](https://sites.google.com/msu.edu/cyberambassadors/home/certificate)
 
 ### SCHOLAR Tutorials (Typically on Fridays)
 
-On Fridays teams will work together to review, practice and build tutorials for common tools used in DataScience.  These tutorials are stored in a shared [SCHOLAR git repository](https://gitlab.msu.edu/CMSE/SCHOLAR) (Student-Crafted Hub for Open Learning and Academic Resources).  These projects are specifically selected to help student focus and practice their technical skills working as a team.  The content of the projects will be constructed in to mimic the expectations of the capstone projects and will be designed to practice specific skills needed to complete the projects. 
+On Fridays, teams will build tutorials for the SCHOLAR (Student-Crafted Hub for Open Learning and Academic Resources) repository.
 
-It is expected that students will be able to complete the majority of work for these projects during class. However, motivated teams are welcome to work on the projects outside of class as long as any students include everyone in their team in the problem solving process. 
+These activities focus on learning new tools, collaborating with others, and communicating technical ideas clearly.
 
-<a name=Requesting_Funding></a>
+See [SCHOLAR_Projects](./About/SCHOLAR_Projects) for full details and expectations.
+
+
 ### Requesting Funding
 
-The class has some limited funds that can be used to purchase software licenses and other supplies in support of projects.  The instructor has some flexibility on to what and how these items can be purchased.  
+Limited funds are available to support capstone projects (e.g., software licenses or project-related materials).
 
-To request funding please send a professional email to the instructors using the following guidelines:
+Teams are encouraged to discuss potential needs with the instructors before submitting a request.
 
-1. CC your entire team and both instructors.
-2. Subject should clearly contain "Request for funds" and your team’s name in the title
-3. Body of letter should include the following:
-    - Description of what exactly is requested including details that will help avoid confusion such as version numbers, manufactures etc.  
-    - Links to on where the items can be purchased (Direct links to items if possible).  
-    - Justification for how items will be used and how the items will benefit the project. 
-    - Cost estimation for the requested item(s) (make sure you include tax and shipping costs). 
+See [Requesting Funding](./About/Requesting-Funding) for full details on the request process and expectations.
 
-Although it is better to overestimate rather than underestimate, overly large budgets may get rejected.
-
-It is expected that the teams will talk to the instructors before sending in a request.
-
-
-<a name=Honors_Option></a>
-### Honor's Option (Documentation Management team)
-
-This course offers an honor's option.  Student's taking the honor's option will join the Documentation Management team. Members of the Documentation Management team will be added to a special Microsoft Team Channel and will be expected to coordinate with each other (and the instructors) to divide the required work needed to manage the "SCHOLAR" (Student-Crafted Hub for Open Learning and Academic Resources) git repository. This includes organizing the issues list, reviewing pull requests, adding new features to the repository and helping other members of the course with git related questions. This role doesn't require that you are currently a git expert however in your duties on the management team you will be learning a lot about git. 
-
-To get credit for the Honor's Option students must receive an overall class grade of 3.0 or higher, contribute to the documentation management team and email a short (less than 1-page) report to the instructors before the last day of class describing what they learned being on the management team and a list of tasks/responsibilities that they were responsible for managing. 
-
-If you are interested in getting credit for the Honor's option, please fill out the forms required by the Honor's College (using the two paragraphs above in your justification) and email your instructors letting them know you would like to be included on the documentation management team. 
 
 # Assessment and Grading Information
 
@@ -170,10 +159,6 @@ If, during the semester there is a need, we have set aside the following zoom ro
 
 [Zoom Link](https://msu.zoom.us/j/96198911253)
 
-
-## Course Schedule
-
-Specific assignments and due dates will be maintained on the [course schedule](Schedule), which is linked to off the course website.  
 
 ## Required Materials for Class
 
@@ -313,7 +298,7 @@ If a student is exposed to someone who is ill, they will stay home, contact a he
 
 In the event that the instructor gets ill, the course will continue.  Backup instructors have been identified and will step in. 
 
-Written by Drs. Dirk Colbry and Justin Gambrell, Michigan State University
+Written by Dr. Dirk Colbry, Michigan State University
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 <!-- TOC_START -->
@@ -327,16 +312,12 @@ Written by Drs. Dirk Colbry and Justin Gambrell, Michigan State University
 <li><a href="#course-description">Course Description</a></li>
 <li><a href="#course-format-and-activities">Course Format and Activities</a></li>
 <ul>
-<li><a href="#class-participation">Class Participation</a></li>
-<li><a href="#microsoft-teams">Microsoft Teams</a></li>
-<li><a href="#project-milestones-typically-due-sunday-by-midnight">Project Milestones (Typically Due Sunday by Midnight)</a></li>
-<li><a href="#team-meetings-typically-on-mondays">Team Meetings (Typically on Mondays)</a></li>
-<li><a href="#peer-evaluations-also-typically-due-on-mondays">Peer Evaluations (Also Typically due on Mondays)</a></li>
-<li><a href="#individual-and-team-weekly-3x3-reflections-due-mondays">Individual and Team Weekly 3x3 Reflections (Due Mondays)</a></li>
+<li><a href="#team-meetings">Team Meetings</a></li>
+<li><a href="#peer-evaluations-typically-due-on-mondays">Peer Evaluations (Typically Due on Mondays)</a></li>
+<li><a href="#weekly-check-ins-33-reflections">Weekly Check-Ins (3×3 Reflections)</a></li>
 <li><a href="#group-professional-development-activities-typically-on-wednesdays">Group Professional Development Activities (Typically on Wednesdays)</a></li>
 <li><a href="#scholar-tutorials-typically-on-fridays">SCHOLAR Tutorials (Typically on Fridays)</a></li>
 <li><a href="#requesting-funding">Requesting Funding</a></li>
-<li><a href="#honors-option-documentation-management-team">Honor's Option (Documentation Management team)</a></li>
 </ul>
 </ul>
 </details>
@@ -357,7 +338,6 @@ Written by Drs. Dirk Colbry and Justin Gambrell, Michigan State University
 
 <li><a href="#course-website">Course Website</a></li>
 <li><a href="#course-meeting-time-and-location">Course Meeting Time and Location</a></li>
-<li><a href="#course-schedule">Course Schedule</a></li>
 <li><a href="#required-materials-for-class">Required Materials for Class</a></li>
 <ul>
 <li><a href="#reading-materials">Reading Materials</a></li>

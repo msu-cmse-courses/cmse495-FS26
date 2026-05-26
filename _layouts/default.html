@@ -210,6 +210,17 @@
   </style>
 </head>
 
+<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '{{ "/search.json" | relative_url }}',
+  searchResultTemplate: '<li><a href="{urlxt: '<li>No results found</li>',
+  limit: 10
+});
+</script>
 <body>
 
   <!-- ===== HEADER ===== -->
@@ -228,15 +239,14 @@
          class="{% if page.url == '/' %}active{% endif %}">Home</a>
 
       <a href="{{ '/About/' | relative_url }}"
-         class="{% if page.url contains '/About/' %}active{% endif %}">About</a>
-
-      <a href="{{ '/About/Syllabus' | relative_url }}"
-         class="{% if page.url contains 'Syllabus' %}active{% endif %}">Syllabus</a>
+         class="{% if page.url contains '/About/' %}active{% endif %}">Course Guide</a>
 
       <a href="{{ '/Seeking-Community_Partners' | relative_url }}"
          class="{% if page.url contains 'Seeking' %}active{% endif %}">Community Partners</a>
 
-      <a href="https://teams.microsoft.com" target="_blank">Teams</a>
+      <input type="text" id="search-input" placeholder="Search..." />
+      <ul id="results-container"></ul>
+
     </div>
 
   </div>

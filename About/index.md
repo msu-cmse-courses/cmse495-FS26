@@ -1,9 +1,26 @@
 ---
 layout: default
-title: "CMSE495 — Course Overview"
+title: "CMSE495 — Course Guide"
 ---
 
-# CMSE495 — Course Overview
+<hr>
+
+<div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #666;">
+
+  <div>
+    
+  </div>
+  <div>
+    Course Guide
+  </div>
+  <div>
+    <span>Next:</span>
+    <a href="{{ '/About/Team_Charter' | relative_url }}">Team Charter</a> →
+  </div>
+
+</div>
+
+# CMSE495 — Course Guide
 
 CMSE495 is a team-based, project-driven course where you build and refine a project over the semester.
 
@@ -13,71 +30,81 @@ Use this page as a reference to understand expectations and find details when ne
 
 ---
 
+## How to Use This Page
+
+This course is supported by a collection of documents. You do **not** need to read everything at once.
+
+Instead, use this page as a guide:
+
+- Use the **Schedule** to know what to do each day  
+- Use the sections below when you need structure, guidance, or clarification  
+- When in doubt: communicate early and refer back here  
+
+---
+
 ## Course Structure
 
-### Professional Skills Training  
-(Communication, Teamwork, Leadership)
+### Administrative and Support
 
-- [Team Communication Guide](./Communication)  
-- [3×3 Weekly Reflections](./Weekly_3x3)  
-- [Daily Check-Ins](./Daily_Class_Check_In)  
-- [Team Charter](./Team_Charter)  
-- [Meeting Agendas & Notes](./Meeting_Agenda_and_Notes)  
-- [CyberAmbassadors Curriculum](./CyberAmbassadors)  
-  *(Complete the 9-week program to earn a certificate)*  
+Use these when needed for course logistics and requirements:
 
-### Technical Development  
-(data, methods, project work)
+- [Syllabus](./Syllabus)
+- [Requesting Funding](./Requesting-Funding)  
+- [Final Reflection](./Final_Reflection)  
+
+---
+
+
+### Project Development  
+(Data, methods, project progress)
+
+Use these to guide your project work:
 
 - [Project Expectations](./Projects)  
 - [Weekly Milestones](./Milestone_Roadmap)  
 
-### Software / Systems  
-(code, organization, reproducibility)
+---
+
+### Technical Systems  
+(Code, Git, shared resources)
+
+Use these to manage your technical workflow and contribute to shared work:
 
 - [Coding Structure / Git Workflow](Link)  
 - [Reproducibility Guidelines](Link)  
-- [SCHOLARS Repository](Link)  
+- [SCHOLAR Projects](./SCHOLAR_Projects)  
 
 ---
 
-## Weekly Workflow
+### Professional Skills Training  
+(Communication, Teamwork, Leadership)
 
-- **Monday — Milestones, Teamwork, Feedback**  
-  Build progress → compare with other teams → identify next steps  
-
-- **Wednesday — Professional Skills Training (CyberAmbassadors)**  
-  Develop communication, teamwork, and leadership skills  
-
-- **Friday — Technical Development (Project Work + SCHOLARS)**  
-  Build your project → practice Git → contribute tutorials to SCHOLARS  
-
-**Weekly cycle:**  
-Build → Share → Reflect → Adjust → Continue  
-
----
-
-## Start Here
+Use these resources to coordinate with your team and build professional skills:
 
 - [Team Communication Guide](./Communication)  
+- [Daily Check-Ins](./Daily_Class_Check_In)
+- [3×3 Weekly Reflections](./Weekly-3x3)  
+- [Meeting Agendas & Notes](./Meeting_Agenda_and_Notes)   
 - [Team Charter](./Team_Charter)  
+- [CyberAmbassadors Curriculum](https://sites.google.com/msu.edu/cyberambassadors/)  
+  *(Complete the 9-week program to earn a certificate)*
 
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>
 
 <details>
-<summary>CMSE495 — Course Overview</summary>
+<summary>CMSE495 — Course Guide</summary>
 <ul>
 
+<li><a href="#how-to-use-this-page">How to Use This Page</a></li>
 <li><a href="#course-structure">Course Structure</a></li>
 <ul>
+<li><a href="#administrative-and-support">Administrative and Support</a></li>
+<li><a href="#project-development">Project Development</a></li>
+<li><a href="#technical-systems">Technical Systems</a></li>
 <li><a href="#professional-skills-training">Professional Skills Training</a></li>
-<li><a href="#technical-development">Technical Development</a></li>
-<li><a href="#software--systems">Software / Systems</a></li>
 </ul>
-<li><a href="#weekly-workflow">Weekly Workflow</a></li>
-<li><a href="#start-here">Start Here</a></li>
 </ul>
 </details>
 </div>

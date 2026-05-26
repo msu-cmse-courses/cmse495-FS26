@@ -228,11 +228,11 @@ DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1014-
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE 495: Selection Matrix
+SUMMARY:CMSE 495: SCHOLAR Selection Matrix
 DTSTART;TZID=US/Eastern:20261016T123000
 DTEND;TZID=US/Eastern:20261016T134000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1016-
- Selection_Matrix'>Link to assignment</a>
+ SCHOLAR_Selection_Matrix'>Link to assignment</a>
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
@@ -306,11 +306,11 @@ DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1104-
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE 495: Tutorial Pull Requests
+SUMMARY:CMSE 495: SCHOLAR Tutorial Pull Requests
 DTSTART;TZID=US/Eastern:20261106T123000
 DTEND;TZID=US/Eastern:20261106T134000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1106-
- Tutorial_Pull_Requests'>Link to assignment</a>
+ SCHOLAR_Tutorial_Pull_Requests'>Link to assignment</a>
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
@@ -341,11 +341,11 @@ DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1111-
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE 495: Deep Tutorial Review
+SUMMARY:CMSE 495: SCHOLAR Deep Tutorial Review
 DTSTART;TZID=US/Eastern:20261113T123000
 DTEND;TZID=US/Eastern:20261113T134000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1113-
- Deep_Tutorial_Review'>Link to assignment</a>
+ SCHOLAR_Deep_Tutorial_Review'>Link to assignment</a>
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
@@ -376,11 +376,11 @@ DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1118-
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE 495: Tutorial Presentations
+SUMMARY:CMSE 495: ACHOLAR Tutorial Presentations
 DTSTART;TZID=US/Eastern:20261120T123000
 DTEND;TZID=US/Eastern:20261120T134000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/1120-
- Tutorial_Presentations'>Link to assignment</a>
+ ACHOLAR_Tutorial_Presentations'>Link to assignment</a>
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
