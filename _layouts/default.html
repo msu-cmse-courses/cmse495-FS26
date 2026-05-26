@@ -5,15 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
-
-    /* ===== BASE ===== */
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       line-height: 1.6;
     }
 
-    /* ===== HEADER ===== */
     .top-nav {
       display: flex;
       justify-content: space-between;
@@ -32,12 +29,16 @@
 
     .nav-left img {
       height: 50px;
-      width: auto;
     }
 
     .nav-left h1 {
       font-size: 1.2rem;
       margin: 0;
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
     }
 
     .nav-right a {
@@ -56,7 +57,44 @@
       text-decoration: underline;
     }
 
-    /* ===== LAYOUT ===== */
+    /* Search UI */
+    .search-box {
+      position: relative;
+      margin-left: 15px;
+    }
+
+    .search-box input {
+      padding: 4px;
+    }
+
+    #results-container {
+      position: absolute;
+      top: 30px;
+      left: 0;
+      background: white;
+      border: 1px solid #ddd;
+      list-style: none;
+      padding: 5px;
+      margin: 0;
+      width: 250px;
+      display: none;
+      z-index: 1000;
+    }
+
+    #results-container li {
+      padding: 4px 0;
+    }
+
+    #results-container a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    #results-container a:hover {
+      text-decoration: underline;
+    }
+
+    /* Layout */
     .layout {
       display: grid;
       grid-template-columns: 320px 1fr 260px;
@@ -64,7 +102,6 @@
       max-width: 1400px;
       margin: auto;
       padding: 20px;
-      align-items: start;
     }
 
     .left {
@@ -85,242 +122,118 @@
       padding-left: 10px;
     }
 
-    /* ===== SCHEDULE ===== */
-    .sched-item {
-      display: flex;
-      margin-bottom: 4px;
-      line-height: 1.3;
-    }
-
-    .sched-date {
-      width: 85px;
-      flex-shrink: 0;
-      color: #555;
-    }
-
-    .sched-title {
-      flex: 1;
-    }
-
-    /* ===== TOC ===== */
-    .page-toc {
-      font-size: 0.9em;
-    }
-
-    .page-toc h2 {
-      font-size: 1em;
-      margin-top: 0;
-    }
-
-    .page-toc summary {
-      cursor: pointer;
-      font-weight: 600;
-    }
-
-    .page-toc details {
-      margin-bottom: 6px;
-    }
-
-    .page-toc ul {
-      list-style: none;
-      padding-left: 12px;
-    }
-
-    .page-toc ul ul {
-      padding-left: 14px;
-      margin-left: 6px;
-      border-left: 1px solid #eee;
-    }
-
-    .page-toc a {
-      text-decoration: none;
-      color: #444;
-    }
-
-    .page-toc a:hover {
-      text-decoration: underline;
-    }
-
-    /* ===== MOBILE HIDDEN DEFAULT ===== */
-    .mobile-schedule,
-    .mobile-toc {
+    .mobile-schedule, .mobile-toc {
       display: none;
     }
 
-    /* ===== FOOTER ===== */
-    .site-footer {
-      border-top: 1px solid #ddd;
-      margin-top: 40px;
-      padding: 20px;
-      text-align: center;
-      font-size: 0.85em;
-      color: #666;
-      background: #fafafa;
-    }
-
-    .footer-content {
-      max-width: 900px;
-      margin: auto;
-    }
-
-    .site-footer img {
-      margin-top: 8px;
-    }
-
-    /* ===== MOBILE ===== */
     @media (max-width: 900px) {
-
       .layout {
         grid-template-columns: 1fr;
       }
 
-      .left,
-      .right {
+      .left, .right {
         display: none;
       }
 
-      .top-nav {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-      }
-
-      .nav-left img {
-        height: 40px;
-      }
-
-      .nav-right {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-      }
-
-      .nav-right a {
-        margin-left: 0;
-        font-size: 0.95em;
-      }
-
-      /* show mobile-only */
-      .mobile-schedule,
-      .mobile-toc {
+      .mobile-schedule, .mobile-toc {
         display: block;
       }
     }
-
   </style>
 </head>
 
-<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
-
-<script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: '{{ "/search.json" | relative_url }}',
-  searchResultTemplate: '<li><a href="{urlxt: '<li>No results found</li>',
-  limit: 10
-});
-</script>
 <body>
 
-  <!-- ===== HEADER ===== -->
-  <div class="top-nav">
+<!-- HEADER -->
+<div class="top-nav">
+  <div class="nav-left">
+    <a href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}">
+    </a>
+    <h1>CMSE495 Data Science Capstone</h1>
+  </div>
 
-    <div class="nav-left">
-      <a href="{{ '/' | relative_url }}">
-        <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}"
-             alt="CMSE 495 Data Science Capstone Logo">
-      </a>
-      <h1>CMSE495 Data Science Capstone (Fall 2026)</h1>
-    </div>
+  <div class="nav-right">
 
-    <div class="nav-right">
-      <a href="{{ '/' | relative_url }}"
-         class="{% if page.url == '/' %}active{% endif %}">Home</a>
+    <a href="{{ '/' | relative_url }}"
+       class="{% if page.url == '/' %}active{% endif %}">Home</a>
 
-      <a href="{{ '/About/' | relative_url }}"
-         class="{% if page.url contains '/About/' %}active{% endif %}">Course Guide</a>
+    <a href="{{ '/About/' | relative_url }}"
+       class="{% if page.url contains '/About/' %}active{% endif %}">Course Guide</a>
 
-      <a href="{{ '/Seeking-Community_Partners' | relative_url }}"
-         class="{% if page.url contains 'Seeking' %}active{% endif %}">Community Partners</a>
+    <a href="{{ '/Seeking-Community_Partners' | relative_url }}">
+       Community Partners</a>
 
-      <input type="text" id="search-input" placeholder="Search..." />
+    <!-- SEARCH -->
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Search...">
       <ul id="results-container"></ul>
-
     </div>
 
   </div>
+</div>
 
-  <!-- ===== MAIN ===== -->
-  <div class="layout">
+<!-- MAIN -->
+<div class="layout">
 
-    <!-- LEFT ===== -->
-    <aside class="left">
-      {% assign schedule = site.pages | where: "name", "Schedule.md" | first %}
+  <aside class="left">
+    {% assign schedule = site.pages | where: "name", "Schedule.md" | first %}
+    {% if schedule %}
+      {{ schedule.content | markdownify }}
+    {% endif %}
+  </aside>
+
+  {% assign parts = content | split:'<!-- TOC_START -->' %}
+
+  <main>
+
+    <div class="mobile-schedule">
       {% if schedule %}
-        {{ schedule.content | markdownify }}
+        <details>
+          <summary><strong>Course Schedule</strong></summary>
+          {{ schedule.content | markdownify }}
+        </details>
       {% endif %}
-    </aside>
+    </div>
 
-    {% assign parts = content | split:'<!-- TOC_START -->' %}
+    {{ parts[0] }}
 
-    <!-- CENTER ===== -->
-    <main>
-
-      <!-- MOBILE SCHEDULE -->
-      <div class="mobile-schedule">
-        {% if schedule %}
-          <details>
-            <summary><strong>Course Schedule</strong></summary>
-            {{ schedule.content | markdownify }}
-          </details>
-        {% endif %}
-      </div>
-
-      {{ parts[0] }}
-
-      <!-- MOBILE TOC -->
-      <div class="mobile-toc">
-        {% if parts.size > 1 %}
-          {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
-          {{ toc_parts[0] }}
-        {% endif %}
-      </div>
-
-    </main>
-
-    <!-- RIGHT ===== -->
-    <aside class="right">
+    <div class="mobile-toc">
       {% if parts.size > 1 %}
         {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
         {{ toc_parts[0] }}
       {% endif %}
-    </aside>
-
-  </div>
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="site-footer">
-
-    <div class="footer-content">
-      <p>
-        Written by Drs. Dirk Colbry and Justin Gambrell, Michigan State University
-      </p>
-
-      <p>
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-          <img alt="Creative Commons License"
-               src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png">
-        </a>
-        <br>
-        This work is licensed under a
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-          Creative Commons Attribution-NonCommercial 4.0 International License
-        </a>.
-      </p>
     </div>
 
-  </footer>
+  </main>
+
+  <aside class="right">
+    {% if parts.size > 1 %}
+      {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
+      {{ toc_parts[0] }}
+    {% endif %}
+  </aside>
+
+</div>
+
+<!-- SEARCH SCRIPT (FIXED) -->
+https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  const results = document.getElementById('results-container');
+  const input = document.getElementById('search-input');
+
+  SimpleJekyllSearch({
+    searchInput: input,
+    resultsContainer: results,
+    json: '{{ "/search.json" | relative_url }}',
+    searchsplay = this.value.length > 0 ? 'block' : 'none';
+  });
+
+});
+</script>
 
 </body>
 </html>
