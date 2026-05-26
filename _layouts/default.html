@@ -169,52 +169,49 @@ document.addEventListener("DOMContentLoaded", function() {
     return;
   }
 
+  const searchUrl = "{{ '/search.json' | relative_url }}";
+
   // Test fetch of JSON
-  fetch('{{ "/search.json" | relative_url }}')
-    .then(res => {
+  fetch(searchUrl)
+    .then(function(res) {
       console.log("🌐 search.json status:", res.status);
       return res.json();
     })
-    .then(data => {
+    .then(function(data) {
       console.log("📄 search.json loaded. Number of entries:", data.length);
       console.log("📄 Sample entry:", data[0]);
     })
-    .catch(err => {
+    .catch(function(err) {
       console.error("❌ Failed to load search.json:", err);
     });
 
-  // Initialize search
   console.log("🚀 Initializing search...");
+
   SimpleJekyllSearch({
     searchInput: input,
     resultsContainer: results,
-    json: '{{ "/search.json" | relative_url }}',
-    searchResultTemplate: '<li><a href="{url}ext: '<li>No results found</li>',
+    json: searchUrl,
+    searchResultTemplate: '<li>{url}{title}</a></li>',
+    noResultsText: '<li>No results found</li>',
     limit: 10
   });
 
   console.log("✅ Search initialized");
 
-  // Show/hide dropdown
   input.addEventListener('input', function() {
     console.log("⌨️ Input changed:", this.value);
 
     if (this.value.length > 0) {
       results.style.display = 'block';
-      console.log("📂 Showing results box");
+      console.log("📂 Showing results");
     } else {
       results.style.display = 'none';
-      console.log("📁 Hiding results box");
+      console.log("📁 Hiding results");
     }
   });
 
-  // UI sanity test (uncomment if needed)
-  // results.innerHTML = "<li>✅ TEST ITEM</li>";
-  // results.style.display = "block";
-
 });
 </script>
-
 
 <body>
 
