@@ -3,8 +3,6 @@ layout: default
 title: "Project Expectations Guide"
 ---
 
-<hr>
-
 <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.9em; color: #666;">
 
   <div>
@@ -12,11 +10,16 @@ title: "Project Expectations Guide"
   </div>
 
   <div>
-    <a href="{{ '/About/index' | relative_url }}"><strong>Back to Course Guide</strong></a>
+    <a href="{{ '/About/index' | relative_url }}"><strong>Course Guide</strong></a>
   </div>
+
+  <div>
+    </div>
 
 
 </div>
+
+<hr>
 
 # Project Expectations Guide  
 ## CMSE / Data Science / Software Engineering Projects
