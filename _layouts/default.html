@@ -187,14 +187,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
   console.log("🚀 Initializing search...");
 
-  SimpleJekyllSearch({
-    searchInput: input,
-    resultsContainer: results,
-    json: searchUrl,
-    searchResultTemplate: '<li>{url}{title}</a></li>',
-    noResultsText: '<li>No results found</li>',
-    limit: 10
-  });
+SimpleJekyllSearch({
+  searchInput: input,
+  resultsContainer: results,
+  json: searchUrl,
+  searchResultTemplate: '<li><a href="{url}" style="display:block; padding:4px 0;">{title}</a></li>',
+  noResultsText: '<li>No results found</li>',
+  limit: 10
+});
+
 
   console.log("✅ Search initialized");
 
