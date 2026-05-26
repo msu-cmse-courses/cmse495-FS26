@@ -15,7 +15,7 @@ title: "CMSE495 — Course Guide"
   </div>
   <div>
     <span>Next:</span>
-    <a href="{{ '/About/Team_Charter' | relative_url }}">Team Charter</a> →
+    <a href="{{ '/About/Team-Charter' | relative_url }}">Team Charter</a> →
   </div>
 
 </div>

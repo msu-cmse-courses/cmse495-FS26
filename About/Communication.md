@@ -8,13 +8,13 @@ title: "Team Communication Guide"
 <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #666;">
 
   <div>
-    ← <a href="{{ '/About/Team_Charter' | relative_url }}">Team Charter</a>
+    ← <a href="{{ '/About/Team-Charter' | relative_url }}">Team Charter</a>
   </div>
   <div>
     <a href="{{ '/About/index' | relative_url }}">Course Guide</a>
   </div>
   <div>
-    <a href="{{ '/About/Meeting_Agenda_and_Notes' | relative_url }}">Meeting Agendas & Notes</a> →
+    <a href="{{ '/About/Meeting-Agenda_and_Notes' | relative_url }}">Meeting Agendas & Notes</a> →
   </div>
 
 </div>

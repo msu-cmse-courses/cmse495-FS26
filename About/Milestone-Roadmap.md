@@ -8,8 +8,9 @@ title: "Course Milestone Roadmap"
 <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.9em; color: #666;">
 
   <div>
-    ← <a href="{{ '/About/SCHOLAR_Projects' | relative_url }}">SCHOLAR Projects</a>
+    ← <a href="{{ '/About/SCHOLAR-Projects' | relative_url }}">SCHOLAR Projects</a>
   </div>
+  
 
   <div>
     <a href="{{ '/About/index' | relative_url }}"><strong>Course Guide</strong></a>

@@ -16,7 +16,7 @@ title: "SCHOLAR Projects"
   </div>
 
   <div>
-    <a href="{{ '/About/Milestone_Roadmap' | relative_url }}">Weekly Milestones</a> →
+    <a href="{{ '/About/Milestone-Roadmap' | relative_url }}">Weekly Milestones</a> →
   </div>
 
 </div>
