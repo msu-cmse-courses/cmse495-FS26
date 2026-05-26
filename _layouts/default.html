@@ -142,6 +142,27 @@
   </style>
 </head>
 
+
+<!-- SEARCH SCRIPT (FIXED) -->
+
+<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  const results = document.getElementById('results-container');
+  const input = document.getElementById('search-input');
+
+  SimpleJekyllSearch({
+    searchInput: input,
+    resultsContainer: results,
+    json: '{{ "/search.json" | relative_url }}',
+    searchsplay = this.value.length > 0 ? 'block' : 'none';
+  });
+
+});
+</script>
+
 <body>
 
 <!-- HEADER -->
@@ -216,25 +237,6 @@
 
 </div>
 
-<!-- SEARCH SCRIPT (FIXED) -->
-
-<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-
-  const results = document.getElementById('results-container');
-  const input = document.getElementById('search-input');
-
-  SimpleJekyllSearch({
-    searchInput: input,
-    resultsContainer: results,
-    json: '{{ "/search.json" | relative_url }}',
-    searchsplay = this.value.length > 0 ? 'block' : 'none';
-  });
-
-});
-</script>
 
 </body>
 </html>
