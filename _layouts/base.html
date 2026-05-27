@@ -163,9 +163,10 @@ document.addEventListener("DOMContentLoaded", function() {
       <div class="guide-nav">
         <h3>Course Guide</h3>
         <ul>
-          {% assign guide_pages = site.pages
-             | where_exp: "p", "p.dir == page.dir and p.order"
-             | sort: "order" %}
+	{% assign guide_pages = site.pages
+   	   | where: "dir", page.dir
+   	   | where_exp: "p", "p.order"
+           | sort: "order" %}
           {% for p in guide_pages %}
             <li>
               <a href="{{ p.url | relative_url }}"
