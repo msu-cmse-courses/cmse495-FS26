@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: tempfiles
 title: "Team Charter"
+order: 999
+mode: "tempfiles"
 ---
-
-<hr>
-
 <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #666;">
 
   <div>
@@ -18,6 +17,8 @@ title: "Team Charter"
   </div>
 
 </div>
+
+<hr>
 
 # Team Charter  
 ## CMSE / Data Science / Software Engineering Projects

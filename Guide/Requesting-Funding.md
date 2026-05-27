@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: tempfiles
 title: "Requesting Funding"
+order: 999
+mode: "tempfiles"
 ---
-
 <a name=Introduction-to-Parallel-Programming></a>
 # Requesting Funding
 

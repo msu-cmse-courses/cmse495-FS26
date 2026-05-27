@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .top-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ddd;
+      max-width: 1400px;
+      margin: auto;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .nav-left img {
+      height: 50px;
+    }
+
+    .nav-left h1 {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-right a {
+      margin-left: 18px;
+      text-decoration: none;
+      color: #444;
+      font-weight: 500;
+    }
+
+    .nav-right a:hover {
+      text-decoration: underline;
+    }
+
+    .nav-right a.active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    /* Search UI */
+    .search-box {
+      position: relative;
+      margin-left: 15px;
+    }
+
+    .search-box input {
+      padding: 4px;
+    }
+
+    #results-container {
+      position: absolute;
+      top: 30px;
+      left: 0;
+      background: white;
+      border: 1px solid #ddd;
+      list-style: none;
+      padding: 5px;
+      margin: 0;
+      width: 250px;
+      display: none;
+      z-index: 1000;
+    }
+
+    #results-container li {
+      padding: 4px 0;
+    }
+
+    #results-container a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    #results-container a:hover {
+      text-decoration: underline;
+    }
+
+    /* Layout */
+    .layout {
+      display: grid;
+      grid-template-columns: 320px 1fr 260px;
+      gap: 20px;
+      max-width: 1400px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .left {
+      position: sticky;
+      top: 20px;
+      height: calc(100vh - 40px);
+      overflow-y: auto;
+      border-right: 1px solid #ddd;
+      padding-right: 10px;
+    }
+
+    .right {
+      position: sticky;
+      top: 20px;
+      height: calc(100vh - 40px);
+      overflow-y: auto;
+      border-left: 1px solid #ddd;
+      padding-left: 10px;
+    }
+
+    .mobile-schedule, .mobile-toc {
+      display: none;
+    }
+
+    @media (max-width: 900px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .left, .right {
+        display: none;
+      }
+
+      .mobile-schedule, .mobile-toc {
+        display: block;
+      }
+    }
+
+    .site-footer {
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.85em;
+  color: #666;
+  background: #fafafa;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+
+  </style>
+</head>
+
+
+<!-- SEARCH SCRIPT (FIXED) -->
+
+<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  console.log("✅ DOM fully loaded");
+
+  const input = document.getElementById('search-input');
+  const results = document.getElementById('results-container');
+
+  console.log("🔍 search input:", input);
+  console.log("📦 results container:", results);
+  console.log("📚 SimpleJekyllSearch type:", typeof SimpleJekyllSearch);
+
+  if (!input || !results) {
+    console.error("❌ Missing search input or results container in DOM");
+    return;
+  }
+
+  if (typeof SimpleJekyllSearch === "undefined") {
+    console.error("❌ SimpleJekyllSearch library not loaded");
+    return;
+  }
+
+  const searchUrl = "{{ '/search.json' | relative_url }}";
+
+  // Test fetch of JSON
+  fetch(searchUrl)
+    .then(function(res) {
+      console.log("🌐 search.json status:", res.status);
+      return res.json();
+    })
+    .then(function(data) {
+      console.log("📄 search.json loaded. Number of entries:", data.length);
+      console.log("📄 Sample entry:", data[0]);
+    })
+    .catch(function(err) {
+      console.error("❌ Failed to load search.json:", err);
+    });
+
+  console.log("🚀 Initializing search...");
+
+SimpleJekyllSearch({
+  searchInput: input,
+  resultsContainer: results,
+  json: searchUrl,
+  searchResultTemplate: '<li><a href="{url}" style="display:block; padding:4px 0;">{title}</a></li>',
+  noResultsText: '<li>No results found</li>',
+  limit: 10
+});
+
+
+  console.log("✅ Search initialized");
+
+  input.addEventListener('input', function() {
+    console.log("⌨️ Input changed:", this.value);
+
+    if (this.value.length > 0) {
+      results.style.display = 'block';
+      console.log("📂 Showing results");
+    } else {
+      results.style.display = 'none';
+      console.log("📁 Hiding results");
+    }
+  });
+
+});
+</script>
+
+<body>
+
+<!-- HEADER -->
+<div class="top-nav">
+  <div class="nav-left">
+    <a href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}">
+    </a>
+    <h1>CMSE495 Data Science Capstone</h1>
+  </div>
+
+  <div class="nav-right">
+
+    <a href="{{ '/' | relative_url }}"
+       class="{% if page.url == '/' %}active{% endif %}">Home</a>
+
+    <a href="{{ '/About/' | relative_url }}"
+       class="{% if page.url contains '/About/' %}active{% endif %}">Course Guide</a>
+
+    <a href="{{ '/Seeking-Community_Partners' | relative_url }}">
+       Community Partners</a>
+
+    <!-- SEARCH -->
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Search...">
+      <ul id="results-container"></ul>
+    </div>
+
+  </div>
+</div>
+
+
+
+  <!-- MAIN GRID -->
+  <div class="layout">
+
+    <!-- LEFT COLUMN -->
+    <aside class="left">
+      {{ content_left }}
+    </aside>
+
+    <!-- CENTER -->
+    <main>
+      {{ content }}
+    </main>
+
+    <!-- RIGHT -->
+    <aside class="right">
+      {{ content_right }}
+    </aside>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+
+  <div class="footer-content">
+    <p>
+      Written by Drs. Dirk Colbry and Justin Gambrell, Michigan State University
+    </p>
+
+    <p>
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+        <img alt="Creative Commons License"
+             src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png">
+      </a>
+      <br>
+      This work is licensed under a
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+        Creative Commons Attribution-NonCommercial 4.0 International License
+      </a>.
+    </p>
+  </div>
+
+</footer>
+</body>
+</html>

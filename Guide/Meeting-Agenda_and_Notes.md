@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: tempfiles
 title: "Meeting Agenda and Notes"
+order: 999
+mode: "tempfiles"
 ---
-
-<hr>
-
 <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #666;">
 
   <div>
@@ -18,7 +17,7 @@ title: "Meeting Agenda and Notes"
   </div>
 
 </div>
-
+<hr>
 
 # Meeting Agenda and Notes
 

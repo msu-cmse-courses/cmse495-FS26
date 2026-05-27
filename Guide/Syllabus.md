@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: tempfiles
 title: "Syllabus: CMSE 495- Data Science Capstone"
+order: 999
+mode: "tempfiles"
 ---
-
 # Syllabus: CMSE 495- Data Science Capstone
 
 ## Course Description

@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: tempfiles
 title: "Project Expectations Guide"
+order: 999
+mode: "tempfiles"
 ---
-
 <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.9em; color: #666;">
 
   <div>

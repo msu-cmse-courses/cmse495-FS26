@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: guide
 title: "Team Communication Guide"
+order: 999
+mode: "guide"
 ---
-
-<hr>
-
 <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #666;">
 
   <div>
@@ -18,6 +17,8 @@ title: "Team Communication Guide"
   </div>
 
 </div>
+
+<hr>
 
 # Team Communication Guide  
 ## CMSE / Data Science / Software Engineering Projects

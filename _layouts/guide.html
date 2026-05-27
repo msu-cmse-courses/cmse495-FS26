@@ -1,0 +1,40 @@
+<!-- _layouts/Guide/guide.html -->
+---
+layout: base
+---
+
+{% capture content_left %}
+<div class="guide-nav">
+
+  <h3>Course Guide</h3>
+  <ul>
+
+    {% assign guide_pages = site.pages
+       | where_exp: "p", "p.url contains '/Guide/'"
+       | sort: "order" %}
+
+    {% for p in guide_pages %}
+      {% if p.title %}
+        <li>
+          <a href="{{ p.url | relative_url }}"
+             class="{% if p.url == page.url %}active{% endif %}">
+            {{ p.title }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+  </ul>
+
+</div>
+{% endcapture %}
+
+{% capture content_right %}
+{% assign parts = content | split:'<!-- TOC_START -->' %}
+{% if parts.size > 1 %}
+  {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
+  {{ toc_parts[0] }}
+{% endif %}
+{% endcapture %}
+
+{{ content }}

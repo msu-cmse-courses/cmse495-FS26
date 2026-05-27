@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: tempfiles
 title: "Course Milestone Roadmap"
+order: 999
+mode: "tempfiles"
 ---
-
-<hr>
-
 <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.9em; color: #666;">
 
   <div>
@@ -21,6 +20,8 @@ title: "Course Milestone Roadmap"
   </div>
 
 </div>
+
+<hr>
 
 
 # Course Milestone Roadmap  
