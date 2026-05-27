@@ -1,3 +1,9 @@
+---
+title: Schedule
+is_schedule: true
+---
+
+
 # Schedule
 
 ## Week of August 31
