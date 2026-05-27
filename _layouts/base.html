@@ -77,6 +77,20 @@
       .layout { grid-template-columns: 1fr; }
       .left, .right { display: none; }
     }
+
+    .site-footer {
+      border-top: 1px solid #ddd;
+      margin-top: 40px;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.85em;
+      color: #666; 
+      background: #fafafa;
+    }
+
+    .footer-content { max-width: 900px; margin: auto; }
+
+
   </style>
 </head>
 
@@ -239,8 +253,23 @@ document.addEventListener("DOMContentLoaded", function() {
 </div>
 
 <!-- FOOTER -->
+<!-- FOOTER -->
 <footer class="site-footer">
-  <p>Written by Dirk Colbry and Justin Gambrell, Michigan State University</p>
+  <div class="footer-content">
+    <p>
+      Written by Drs. Dirk Colbry and Justin Gambrell, Michigan State University
+    </p>
+    <p>
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+        <img alt="Creative Commons License"
+             src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png">
+      </a><br>
+      This work is licensed under a
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+        Creative Commons Attribution-NonCommercial 4.0 International License
+      </a>.
+    </p>
+  </div>
 </footer>
 
 </body>
