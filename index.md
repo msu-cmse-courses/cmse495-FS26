@@ -1,10 +1,10 @@
 ---
 layout: schedule
-title: "CMSE 495 - FALL 2026 Data Science Capstone"
+title: "FALL 2026 Schedule"
 order: 0
 mode: "schedule"
 ---
-# CMSE 495 - FALL 2026 Data Science Capstone
+# FALL 2026 Schedule
 
 ---
 ## Seeking Fall 2026 and Spring 2027 Project community partners!
@@ -37,7 +37,7 @@ Written by Dr. Dirk Colbry, Michigan State University
 <h2>On this page</h2>
 
 <details>
-<summary>CMSE 495 - FALL 2026 Data Science Capstone</summary>
+<summary>FALL 2026 Schedule</summary>
 <ul>
 
 <li><a href="#seeking-fall-2026-and-spring-2027-project-community-partners">Seeking Fall 2026 and Spring 2027 Project community partners!</a></li>

@@ -2,7 +2,7 @@
 title: Schedule
 is_schedule: true
 ---
-# Schedule
+# [Schedule](./index)
 
 ## Week of August 31
 
