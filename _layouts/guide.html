@@ -1,9 +1,10 @@
 ---
 layout: base
 ---
-<!-- _layouts/Guide/guide.html -->
 
-{% capture content_left %}
+{% assign parts = content | split:'<!-- TOC_START -->' %}
+
+{% capture page.content_left %}
 <div class="guide-nav">
 
   <h3>Course Guide</h3>
@@ -29,12 +30,12 @@ layout: base
 </div>
 {% endcapture %}
 
-{% capture content_right %}
-{% assign parts = content | split:'<!-- TOC_START -->' %}
+{% capture page.content_right %}
 {% if parts.size > 1 %}
   {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
   {{ toc_parts[0] }}
 {% endif %}
 {% endcapture %}
 
-{{ content }}
+{{ parts[0] }}
+
