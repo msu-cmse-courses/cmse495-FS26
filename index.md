@@ -1,7 +1,7 @@
 ---
 layout: schedule
 title: "CMSE 495 - FALL 2026 Data Science Capstone"
-order: 999
+order: 0
 mode: "schedule"
 ---
 # CMSE 495 - FALL 2026 Data Science Capstone
