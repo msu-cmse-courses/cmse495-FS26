@@ -1,9 +1,10 @@
 ---
-layout: default
-title: "CMSE 495 - SPRING 2026 Data Science Capstone"
+layout: schedule
+title: "CMSE 495 - FALL 2026 Data Science Capstone"
+order: 999
+mode: "schedule"
 ---
-
-# CMSE 495 - SPRING 2026 Data Science Capstone
+# CMSE 495 - FALL 2026 Data Science Capstone
 
 ---
 **NOTE**
@@ -36,7 +37,7 @@ When possible, the majority of time outside of class will be dedicated to tasks 
 
 - [Course Syllabus](Syllabus)
 - [Schedule](Schedule)
-- [Course Teams Channel](https://teams.microsoft.com/l/channel/19%3A4z3zRAgN2sM1vl1fVMkBZ6ddKb0fuYEOxRfm-7TQAok1%40thread.tacv2/General?groupId=6be58af8-47f2-4930-aab1-48e9514126f2&tenantId=22177130-642f-41d9-9211-74237ad5687d)
+- [Course Teams Channel](TBD)
 - [Weekly 3x3 Team Reflections (Due Mondays)](Weekly-3x3)
 - [Instructions for Team Meeting Agenda and Notes](Meetings-Notes_and_agendas)
 - [SCHOLAR Git Repository](https://gitlab.msu.edu/CMSE/SCHOLAR)
@@ -60,15 +61,15 @@ Written by Dr. Dirk Colbry, Michigan State University
 <h2>On this page</h2>
 
 <details>
-<summary>CMSE 495 - SPRING 2026 Data Science Capstone</summary>
+<summary>CMSE 495 - FALL 2026 Data Science Capstone</summary>
 <ul>
 
 <ul>
-<li><a href="#seeking-fall-2026-and-spring-2027-project-community-partners">Seeking Fall 2026 and Spring 2027 Project community partners!</a></li>
+<li>#seeking-fall-2026-and-spring-2027-project-community-partners</li>
 </ul>
-<li><a href="#course-structure">Course Structure</a></li>
-<li><a href="#course-links">Course Links</a></li>
-<li><a href="#other-recommended-resources">Other Recommended Resources</a></li>
+<li>#course-structure</li>
+<li>#course-links</li>
+<li>#other-recommended-resources</li>
 </ul>
 </details>
 </div>

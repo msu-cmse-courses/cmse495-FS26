@@ -1,8 +1,8 @@
 ---
-layout: tempfiles
+layout: guide
 title: "CMSE495 — Course Guide"
-order: 999
-mode: "tempfiles"
+order: 0
+mode: "guide"
 ---
 <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #666;">
 
@@ -97,13 +97,13 @@ Use these resources to coordinate with your team and build professional skills:
 <summary>CMSE495 — Course Guide</summary>
 <ul>
 
-<li><a href="#how-to-use-this-page">How to Use This Page</a></li>
-<li><a href="#course-structure">Course Structure</a></li>
+<li>#how-to-use-this-page</li>
+<li>#course-structure</li>
 <ul>
-<li><a href="#administrative-and-support">Administrative and Support</a></li>
-<li><a href="#project-development">Project Development</a></li>
-<li><a href="#technical-systems">Technical Systems</a></li>
-<li><a href="#professional-skills-training">Professional Skills Training</a></li>
+<li>#administrative-and-support</li>
+<li>#project-development</li>
+<li>#technical-systems</li>
+<li>#professional-skills-training</li>
 </ul>
 </ul>
 </details>
