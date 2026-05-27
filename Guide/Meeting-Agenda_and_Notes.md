@@ -4,21 +4,6 @@ title: "Meeting Agenda and Notes"
 order: 999
 mode: "guide"
 ---
-<div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #666;">
-
-  <div>
-    ← <a href="{{ '/About/Communication' | relative_url }}">Team Communication Guide</a>
-  </div>
-  <div>
-    <a href="{{ '/About/index' | relative_url }}">Course Guide</a>
-  </div>
-  <div>
-    <a href="{{ '/About/Weekly-3x3' | relative_url }}">3×3 Weekly Reflections</a> →
-  </div>
-
-</div>
-<hr>
-
 # Meeting Agenda and Notes
 
 Effective meetings are a critical part of successful teamwork. This course emphasizes using **a single, evolving document** to organize meeting agendas, capture notes, and track progress over time.

@@ -1,25 +1,9 @@
 ---
 layout: guide
 title: "Team Communication Guide"
-order: 2
+order: 4
 mode: "guide"
 ---
-<div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #666;">
-
-  <div>
-    ← <a href="{{ '/About/Team-Charter' | relative_url }}">Team Charter</a>
-  </div>
-  <div>
-    <a href="{{ '/About/index' | relative_url }}">Course Guide</a>
-  </div>
-  <div>
-    <a href="{{ '/About/Meeting-Agenda_and_Notes' | relative_url }}">Meeting Agendas & Notes</a> →
-  </div>
-
-</div>
-
-<hr>
-
 # Team Communication Guide  
 ## CMSE / Data Science / Software Engineering Projects
 

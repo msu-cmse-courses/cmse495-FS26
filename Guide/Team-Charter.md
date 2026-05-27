@@ -4,22 +4,6 @@ title: "Team Charter"
 order: 999
 mode: "guide"
 ---
-<div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #666;">
-
-  <div>
-    ← <a href="{{ '/About/index' | relative_url }}">Course Guide</a>
-  </div>
-  <div>
-    <a href="{{ '/About/index' | relative_url }}">Course Guide</a>
-  </div>
-  <div>
-    <a href="{{ '/About/Communication' | relative_url }}">Team Communication Guide</a> →
-  </div>
-
-</div>
-
-<hr>
-
 # Team Charter  
 ## CMSE / Data Science / Software Engineering Projects
 

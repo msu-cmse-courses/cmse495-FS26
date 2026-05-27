@@ -1,25 +1,9 @@
 ---
 layout: guide
 title: "Weekly 3x3 Updates"
-order: 4
+order: 6
 mode: "guide"
 ---
-<div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #666;">
-
-  <div>
-    ← <a href="{{ '/About/Meeting-Agenda_and_Notes' | relative_url }}">Meeting Agendas & Notes</a>
-  </div>
-  <div>
-    <a href="{{ '/About/index' | relative_url }}">Course Guide</a>
-  </div>
-  <div>
-    <a href="{{ '/About/SCHOLAR-Projects' | relative_url }}">SCHOLAR Projects</a> →
-  </div>
-
-</div>
-
-<hr>
-
 # Weekly 3x3 Updates 
 ***Email due to instructor every Monday we have class (except the first day of class)***
 

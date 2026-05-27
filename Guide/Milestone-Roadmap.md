@@ -4,26 +4,6 @@ title: "Course Milestone Roadmap"
 order: 999
 mode: "guide"
 ---
-<div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.9em; color: #666;">
-
-  <div>
-    ← <a href="{{ '/About/SCHOLAR-Projects' | relative_url }}">SCHOLAR Projects</a>
-  </div>
-  
-
-  <div>
-    <a href="{{ '/About/index' | relative_url }}"><strong>Course Guide</strong></a>
-  </div>
-
-  <div>
-    <a href="{{ '/About/Projects' | relative_url }}">Project Expectations</a> →
-  </div>
-
-</div>
-
-<hr>
-
-
 # Course Milestone Roadmap  
 ## CMSE / Data Science / Software Engineering Projects
 

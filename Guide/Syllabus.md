@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Syllabus: CMSE 495- Data Science Capstone"
-order: 999
+order: 1
 mode: "guide"
 ---
 # Syllabus: CMSE 495- Data Science Capstone

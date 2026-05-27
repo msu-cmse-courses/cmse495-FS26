@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Requesting Funding"
-order: 999
+order: 10
 mode: "guide"
 ---
 <a name=Introduction-to-Parallel-Programming></a>

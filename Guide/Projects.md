@@ -1,27 +1,9 @@
 ---
 layout: guide
 title: "Project Expectations Guide"
-order: 7
+order: 2
 mode: "guide"
 ---
-<div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.9em; color: #666;">
-
-  <div>
-    ← <a href="{{ '/About/Milestone-Roadmap' | relative_url }}">Milestone Roadmap</a>
-  </div>
-
-  <div>
-    <a href="{{ '/About/index' | relative_url }}"><strong>Course Guide</strong></a>
-  </div>
-
-  <div>
-    </div>
-
-
-</div>
-
-<hr>
-
 # Project Expectations Guide  
 ## CMSE / Data Science / Software Engineering Projects
 

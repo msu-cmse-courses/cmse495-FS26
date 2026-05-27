@@ -4,23 +4,6 @@ title: "SCHOLAR Projects"
 order: 999
 mode: "guide"
 ---
-<div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.9em; color: #666;">
-
-  <div>
-    ← <a href="{{ '/About/Weekly-3x3' | relative_url }}">3×3 Weekly Reflections</a>
-  </div>
-
-  <div>
-    <a href="{{ '/About/index' | relative_url }}">Course Guide</a>
-  </div>
-
-  <div>
-    <a href="{{ '/About/Milestone-Roadmap' | relative_url }}">Weekly Milestones</a> →
-  </div>
-
-</div>
-<hr>
-
 # SCHOLAR Projects
 
 The SCHOLAR (Student-Crafted Hub for Open Learning and Academic Resources) projects are a core component of this course. These activities develop technical skills, communication, and collaborative workflows through shared, team-based contributions.
