@@ -1,45 +1,39 @@
 ---
 layout: base
 ---
-<!-- _layouts/schedule.html -->
 
-{% capture content_left %}
-  {% assign schedule = site.pages | where: "name", "Schedule.md" | first %}
+{% assign parts = content | split:'<!-- TOC_START -->' %}
+
+{% assign schedule = site.pages | where: "name", "Schedule.md" | first %}
+
+{% capture page.content_left %}
   {% if schedule %}
     {{ schedule.content | markdownify }}
   {% endif %}
 {% endcapture %}
 
-{% capture content_right %}
-  {% assign parts = content | split:'<!-- TOC_START -->' %}
+{% capture page.content_right %}
   {% if parts.size > 1 %}
     {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
     {{ toc_parts[0] }}
   {% endif %}
 {% endcapture %}
 
-{% capture main_content %}
-  {% assign parts = content | split:'<!-- TOC_START -->' %}
+<div class="mobile-schedule">
+  {% if schedule %}
+    <details>
+      <summary><strong>Course Schedule</strong></summary>
+      {{ schedule.content | markdownify }}
+    </details>
+  {% endif %}
+</div>
 
-  <div class="mobile-schedule">
-    {% assign schedule = site.pages | where: "name", "Schedule.md" | first %}
-    {% if schedule %}
-      <details>
-        <summary><strong>Course Schedule</strong></summary>
-        {{ schedule.content | markdownify }}
-      </details>
-    {% endif %}
-  </div>
+{{ parts[0] }}
 
-  {{ parts[0] }}
-
-  <div class="mobile-toc">
-    {% if parts.size > 1 %}
-      {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
-      {{ toc_parts[0] }}
-    {% endif %}
-  </div>
-{% endcapture %}
-
-{{ main_content }}
+<div class="mobile-toc">
+  {% if parts.size > 1 %}
+    {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
+    {{ toc_parts[0] }}
+  {% endif %}
+</div>
 
