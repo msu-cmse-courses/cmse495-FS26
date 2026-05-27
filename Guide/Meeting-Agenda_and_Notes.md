@@ -180,26 +180,26 @@ Clear agendas and notes are a key part of **professional teamwork**.
 <summary>Meeting Agenda and Notes</summary>
 <ul>
 
-<li>#core-idea</li>
-<li>#where-to-store-meeting-notes</li>
-<li>#meeting-structure</li>
+<li><a href="#core-idea">Core Idea</a></li>
+<li><a href="#where-to-store-meeting-notes">Where to Store Meeting Notes</a></li>
+<li><a href="#meeting-structure">Meeting Structure</a></li>
 <ul>
-<li>#basic-information</li>
-<li>#roles</li>
+<li><a href="#basic-information">Basic Information</a></li>
+<li><a href="#roles">Roles</a></li>
 </ul>
-<li>#agenda</li>
-<li>#notes</li>
-<li>#action-items</li>
-<li>#sharing-expectations</li>
-<li>#example-format</li>
-<li>#meeting-week-3-check-in</li>
+<li><a href="#agenda">Agenda</a></li>
+<li><a href="#notes">Notes</a></li>
+<li><a href="#action-items">Action Items</a></li>
+<li><a href="#sharing-expectations">Sharing Expectations</a></li>
+<li><a href="#example-format">Example Format</a></li>
+<li><a href="#meeting-week-3-check-in">Meeting: Week 3 Check-in</a></li>
 <ul>
-<li>#agenda</li>
-<li>#notes</li>
-<li>#action-items</li>
+<li><a href="#agenda">Agenda</a></li>
+<li><a href="#notes">Notes</a></li>
+<li><a href="#action-items">Action Items</a></li>
 </ul>
-<li>#expectations</li>
-<li>#why-this-matters</li>
+<li><a href="#expectations">Expectations</a></li>
+<li><a href="#why-this-matters">Why This Matters</a></li>
 </ul>
 </details>
 </div>

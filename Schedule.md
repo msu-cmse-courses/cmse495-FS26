@@ -3,7 +3,6 @@ title: Schedule
 is_schedule: true
 ---
 # Schedule
-# Schedule
 
 ## Week of August 31
 

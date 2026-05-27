@@ -163,12 +163,12 @@ Written by Dr. Dirk Colbry, Michigan State University
 <summary>Weekly 3x3 Updates</summary>
 <ul>
 
-<li>#what-is-a-3x3</li>
-<li>#individual-3x3-to-your-team</li>
-<li>#team-3x3-to-instructors</li>
-<li>#expectations</li>
-<li>#a-professional-habit</li>
-<li>#bottom-line</li>
+<li><a href="#what-is-a-3x3">What is a 3x3?</a></li>
+<li><a href="#individual-3x3-to-your-team">Individual 3x3 (to your team)</a></li>
+<li><a href="#team-3x3-to-instructors">Team 3x3 (to instructors)</a></li>
+<li><a href="#expectations">Expectations</a></li>
+<li><a href="#a-professional-habit">A Professional Habit</a></li>
+<li><a href="#bottom-line">Bottom Line</a></li>
 </ul>
 </details>
 </div>

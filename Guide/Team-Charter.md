@@ -126,20 +126,20 @@ Your charter is something you point to when things get difficult.
 <summary>Team Charter</summary>
 <ul>
 
-<li>#cmse--data-science--software-engineering-projects</li>
+<li><a href="#cmse--data-science--software-engineering-projects">CMSE / Data Science / Software Engineering Projects</a></li>
 <ul>
-<li>#purpose</li>
+<li><a href="#purpose">Purpose</a></li>
 </ul>
-<li>#core-principle</li>
-<li>#what-to-include</li>
+<li><a href="#core-principle">Core Principle</a></li>
+<li><a href="#what-to-include">What to Include</a></li>
 <ul>
-<li>#1-team-members-and-roles</li>
-<li>#2-team-purpose-and-goals</li>
-<li>#3-expected-outcomes</li>
-<li>#4-communication-norms</li>
-<li>#5-ground-rules-team-mantras</li>
+<li><a href="#1-team-members-and-roles">1. Team Members and Roles</a></li>
+<li><a href="#2-team-purpose-and-goals">2. Team Purpose and Goals</a></li>
+<li><a href="#3-expected-outcomes">3. Expected Outcomes</a></li>
+<li><a href="#4-communication-norms">4. Communication Norms</a></li>
+<li><a href="#5-ground-rules-team-mantras">5. Ground Rules (Team Mantras)</a></li>
 </ul>
-<li>#using-your-charter</li>
+<li><a href="#using-your-charter">Using Your Charter</a></li>
 </ul>
 </details>
 </div>

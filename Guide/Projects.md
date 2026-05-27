@@ -156,17 +156,17 @@ Successful teams:
 <summary>Project Expectations Guide</summary>
 <ul>
 
-<li>#cmse--data-science--software-engineering-projects</li>
+<li><a href="#cmse--data-science--software-engineering-projects">CMSE / Data Science / Software Engineering Projects</a></li>
 <ul>
-<li>#core-principle</li>
+<li><a href="#core-principle">Core Principle</a></li>
 </ul>
-<li>#work-in-uncertainty</li>
-<li>#start-early-learn-by-doing</li>
-<li>#use-communication-to-discover-the-problem</li>
-<li>#milestones-as-communication-checkpoints</li>
-<li>#using-tools-and-ai</li>
-<li>#iterate-and-refine</li>
-<li>#bottom-line</li>
+<li><a href="#work-in-uncertainty">Work in Uncertainty</a></li>
+<li><a href="#start-early-learn-by-doing">Start Early, Learn by Doing</a></li>
+<li><a href="#use-communication-to-discover-the-problem">Use Communication to Discover the Problem</a></li>
+<li><a href="#milestones-as-communication-checkpoints">Milestones as Communication Checkpoints</a></li>
+<li><a href="#using-tools-and-ai">Using Tools and AI</a></li>
+<li><a href="#iterate-and-refine">Iterate and Refine</a></li>
+<li><a href="#bottom-line">Bottom Line</a></li>
 </ul>
 </details>
 </div>

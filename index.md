@@ -40,8 +40,8 @@ Written by Dr. Dirk Colbry, Michigan State University
 <summary>CMSE 495 - FALL 2026 Data Science Capstone</summary>
 <ul>
 
-<li>#seeking-fall-2026-and-spring-2027-project-community-partners</li>
-<li>#navigating-this-website</li>
+<li><a href="#seeking-fall-2026-and-spring-2027-project-community-partners">Seeking Fall 2026 and Spring 2027 Project community partners!</a></li>
+<li><a href="#navigating-this-website">Navigating This Website</a></li>
 </ul>
 </details>
 </div>

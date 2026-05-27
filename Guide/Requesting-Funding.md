@@ -49,7 +49,7 @@ Thank you,
 <summary>Requesting Funding</summary>
 <ul>
 
-<li>#example</li>
+<li><a href="#example">Example</a></li>
 </ul>
 </details>
 </div>

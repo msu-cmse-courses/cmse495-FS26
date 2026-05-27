@@ -191,23 +191,23 @@ Successful teams:
 <summary>Course Milestone Roadmap</summary>
 <ul>
 
-<li>#cmse--data-science--software-engineering-projects</li>
+<li><a href="#cmse--data-science--software-engineering-projects">CMSE / Data Science / Software Engineering Projects</a></li>
 <ul>
-<li>#core-idea</li>
+<li><a href="#core-idea">Core Idea</a></li>
 </ul>
-<li>#project-phases</li>
+<li><a href="#project-phases">Project Phases</a></li>
 <ul>
-<li>#phase-1-team-formation-and-setup-weeks-12</li>
-<li>#phase-2-understanding-and-framing-weeks-24</li>
-<li>#phase-3-exploration-and-alignment-weeks-46</li>
-<li>#phase-4-build-and-explain-weeks-69</li>
-<li>#phase-5-refine-and-make-reproducible-weeks-911</li>
-<li>#phase-6-final-integration-weeks-11end</li>
+<li><a href="#phase-1-team-formation-and-setup-weeks-12">Phase 1: Team Formation and Setup (Weeks 1–2)</a></li>
+<li><a href="#phase-2-understanding-and-framing-weeks-24">Phase 2: Understanding and Framing (Weeks 2–4)</a></li>
+<li><a href="#phase-3-exploration-and-alignment-weeks-46">Phase 3: Exploration and Alignment (Weeks 4–6)</a></li>
+<li><a href="#phase-4-build-and-explain-weeks-69">Phase 4: Build and Explain (Weeks 6–9)</a></li>
+<li><a href="#phase-5-refine-and-make-reproducible-weeks-911">Phase 5: Refine and Make Reproducible (Weeks 9–11)</a></li>
+<li><a href="#phase-6-final-integration-weeks-11end">Phase 6: Final Integration (Weeks 11–End)</a></li>
 </ul>
-<li>#how-the-pieces-fit-together</li>
-<li>#weekly-structure</li>
-<li>#working-ahead-and-iterating</li>
-<li>#bottom-line</li>
+<li><a href="#how-the-pieces-fit-together">How the Pieces Fit Together</a></li>
+<li><a href="#weekly-structure">Weekly Structure</a></li>
+<li><a href="#working-ahead-and-iterating">Working Ahead and Iterating</a></li>
+<li><a href="#bottom-line">Bottom Line</a></li>
 </ul>
 </details>
 </div>

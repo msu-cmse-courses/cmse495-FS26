@@ -4,22 +4,6 @@ title: "CMSE495 — Course Guide"
 order: 0
 mode: "guide"
 ---
-<div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #666;">
-
-  <div>
-    
-  </div>
-  <div>
-    Course Guide
-  </div>
-  <div>
-    <span>Next:</span>
-    <a href="{{ '/About/Team-Charter' | relative_url }}">Team Charter</a> →
-  </div>
-
-</div>
-<hr>
-
 # CMSE495 — Course Guide
 
 CMSE495 is a team-based, project-driven course where you build and refine a project over the semester.
@@ -97,13 +81,13 @@ Use these resources to coordinate with your team and build professional skills:
 <summary>CMSE495 — Course Guide</summary>
 <ul>
 
-<li>#how-to-use-this-page</li>
-<li>#course-structure</li>
+<li><a href="#how-to-use-this-page">How to Use This Page</a></li>
+<li><a href="#course-structure">Course Structure</a></li>
 <ul>
-<li>#administrative-and-support</li>
-<li>#project-development</li>
-<li>#technical-systems</li>
-<li>#professional-skills-training</li>
+<li><a href="#administrative-and-support">Administrative and Support</a></li>
+<li><a href="#project-development">Project Development</a></li>
+<li><a href="#technical-systems">Technical Systems</a></li>
+<li><a href="#professional-skills-training">Professional Skills Training</a></li>
 </ul>
 </ul>
 </details>

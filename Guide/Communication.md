@@ -135,17 +135,17 @@ They are tools to help you build strong communication and professional habits ov
 <summary>Team Communication Guide</summary>
 <ul>
 
-<li>#cmse--data-science--software-engineering-projects</li>
+<li><a href="#cmse--data-science--software-engineering-projects">CMSE / Data Science / Software Engineering Projects</a></li>
 <ul>
-<li>#core-principle</li>
+<li><a href="#core-principle">Core Principle</a></li>
 </ul>
-<li>#stories-bias-and-miscommunication</li>
-<li>#trust-in-communication</li>
-<li>#how-to-communicate-clearly</li>
-<li>#communicate-early-and-often</li>
-<li>#working-with-instructors</li>
-<li>#bottom-line</li>
-<li>#putting-this-into-practice</li>
+<li><a href="#stories-bias-and-miscommunication">Stories, Bias, and Miscommunication</a></li>
+<li><a href="#trust-in-communication">Trust in Communication</a></li>
+<li><a href="#how-to-communicate-clearly">How to Communicate Clearly</a></li>
+<li><a href="#communicate-early-and-often">Communicate Early and Often</a></li>
+<li><a href="#working-with-instructors">Working with Instructors</a></li>
+<li><a href="#bottom-line">Bottom Line</a></li>
+<li><a href="#putting-this-into-practice">Putting This Into Practice</a></li>
 </ul>
 </details>
 </div>
