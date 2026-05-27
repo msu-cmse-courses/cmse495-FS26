@@ -1,8 +1,8 @@
 ---
-layout: tempfiles
+layout: guide
 title: "SCHOLAR Projects"
 order: 999
-mode: "tempfiles"
+mode: "guide"
 ---
 <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.9em; color: #666;">
 
@@ -136,14 +136,14 @@ https://peer.asee.org/leveraging-peer-authored-tutorials-to-cultivate-programmin
 <summary>SCHOLAR Projects</summary>
 <ul>
 
-<li><a href="#why-scholar-matters">Why SCHOLAR Matters</a></li>
-<li><a href="#core-idea">Core Idea</a></li>
-<li><a href="#learning-goals">Learning Goals</a></li>
-<li><a href="#learning-and-practicing-git">Learning and Practicing Git</a></li>
-<li><a href="#project-structure">Project Structure</a></li>
-<li><a href="#honors-option-documentation-management-team">Honors Option (Documentation Management Team)</a></li>
-<li><a href="#why-this-matters">Why This Matters</a></li>
-<li><a href="#further-reading">Further Reading</a></li>
+<li>#why-scholar-matters</li>
+<li>#core-idea</li>
+<li>#learning-goals</li>
+<li>#learning-and-practicing-git</li>
+<li>#project-structure</li>
+<li>#honors-option-documentation-management-team</li>
+<li>#why-this-matters</li>
+<li>#further-reading</li>
 </ul>
 </details>
 </div>

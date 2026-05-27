@@ -58,6 +58,22 @@
     .left { border-right: 1px solid #ddd; padding-right: 10px; }
     .right { border-left: 1px solid #ddd; padding-left: 10px; }
 
+    .page-nav {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9em;
+    }
+
+    .page-nav a {
+      text-decoration: none;
+      color: #444;
+    }
+
+    .page-nav a:hover {
+      text-decoration: underline;
+    }
+
     .site-footer {
       border-top: 1px solid #ddd;
       margin-top: 40px;
@@ -91,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function() {
     searchInput: input,
     resultsContainer: results,
     json: searchUrl,
-    searchResultTemplate: '<li><a href="{url}" style="displayults found</li>',
+    searchResultTemplate: '<li><a href="{url}Text: '<li>No results found</li>',
     limit: 10
   });
 
@@ -138,6 +154,8 @@ document.addEventListener("DOMContentLoaded", function() {
       {% assign schedule = site.pages | where: "is_schedule", true | first %}
       {% if schedule %}
         {{ schedule.content }}
+      {% else %}
+        <p><em>Schedule not found</em></p>
       {% endif %}
     {% endif %}
 
@@ -146,17 +164,15 @@ document.addEventListener("DOMContentLoaded", function() {
         <h3>Course Guide</h3>
         <ul>
           {% assign guide_pages = site.pages
-             | where_exp: "p", "p.url contains '/Guide/'"
+             | where_exp: "p", "p.dir == page.dir and p.order"
              | sort: "order" %}
           {% for p in guide_pages %}
-            {% if p.title %}
-              <li>
-                <a href="{{ p.url | relative_url }}"
-                   class="{% if p.url == page.url %}active{% endif %}">
-                  {{ p.title }}
-                </a>
-              </li>
-            {% endif %}
+            <li>
+              <a href="{{ p.url | relative_url }}"
+                 class="{% if p.url == page.url %}active{% endif %}">
+                {{ p.title }}
+              </a>
+            </li>
           {% endfor %}
         </ul>
       </div>
@@ -164,122 +180,65 @@ document.addEventListener("DOMContentLoaded", function() {
 
   </aside>
 
-<main>
+  <!-- CENTER -->
+  <main>
 
-  {% assign parts = content | split:'<!-- TOC_START -->' %}
+    {% assign parts = content | split:'<!-- TOC_START -->' %}
 
-  {% if page.order %}
+    <!-- NAVIGATION -->
+    {% if page.order %}
 
-    {% assign folder_pages = site.pages
-       | where: "dir", page.dir
-       | where_exp: "p", "p.order"
-       | sort: "order" %}
+      {% assign folder_pages = site.pages
+         | where: "dir", page.dir
+         | where_exp: "p", "p.order"
+         | sort: "order" %}
 
-    {% assign current_index = nil %}
+      {% assign current_index = nil %}
 
-    {% for p in folder_pages %}
-      {% if p.url == page.url %}
-        {% assign current_index = forloop.index0 %}
-      {% endif %}
-    {% endfor %}
-
-    <div class="page-nav" style="margin-bottom:20px; display:flex; justify-content:space-between;">
-
-      <!-- PREVIOUS -->
-      <div>
-        {% if current_index > 0 %}
-          {% assign prev = folder_pages[current_index | minus: 1] %}
-          ← <a href="{{ prev.url | relative_url }}">{{ prev.title }}</a>
+      {% for p in folder_pages %}
+        {% if p.url == page.url %}
+          {% assign current_index = forloop.index0 %}
         {% endif %}
+      {% endfor %}
+
+      <div class="page-nav">
+
+        <div>
+          {% if current_index > 0 %}
+            {% assign prev = folder_pages[current_index | minus: 1] %}
+            <a href="{{ prev.url | relative_url }}">← {{ prev.title }}</a>
+          {% endif %}
+        </div>
+
+        <div>
+          {% assign index_page = folder_pages | where: "order", 0 | first %}
+          {% if index_page %}
+            <a href="{{ index_page.url | relative_url }}">{{ index_page.title }}</a>
+          {% endif %}
+        </div>
+
+        <div>
+          {% if current_index < folder_pages.size | minus: 1 %}
+            {% assign next = folder_pages[current_index | plus: 1] %}
+            <a href="{{ next.url | relative_url }}">{{ next.title }} →</a>
+          {% endif %}
+        </div>
+
       </div>
 
-      <!-- CENTER -->
-      <div>
-        {% assign index_page = folder_pages | where: "order", 0 | first %}
-        {% if index_page %}
-          <a href="{{ index_page.url | relative_url }}">{{ index_page.title }}</a>
-        {% endif %}
-      </div>
+    {% endif %}
 
-      <!-- NEXT -->
-      <div>
-        {% if current_index < folder_pages.size | minus: 1 %}
-          {% assign next = folder_pages[current_index | plus: 1] %}
-          <a href="{{ next.url | relative_url }}">{{ next.title }}</a> →
-        {% endif %}
-      </div>
+    {{ parts[0] }}
 
-    </div>
-
-  {% endif %}
-
-  {{ parts[0] }}
-
-</main>
-
-
-
-
+  </main>
 
   <!-- RIGHT -->
   <aside class="right">
-    {% assign parts = content | split:'<!-- TOC_START -->' %}
     {% if parts.size > 1 %}
       {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
       {{ toc_parts[0] }}
     {% endif %}
   </aside>
-{% if page.order %}
-
-  {% assign folder_pages = site.pages
-     | where: "dir", page.dir
-     | where_exp: "p", "p.order"
-     | sort: "order" %}
-
-  {% assign current_index = nil %}
-
-  {% for p in folder_pages %}
-    {% if p.url == page.url %}
-      {% assign current_index = forloop.index0 %}
-    {% endif %}
-  {% endfor %}
-
-  <div class="page-nav" style="margin-top:40px; display:flex; justify-content:space-between;">
-
-    <!-- PREVIOUS -->
-    <div>
-      {% if current_index > 0 %}
-        {% assign prev = folder_pages[current_index | minus: 1] %}
-        ← {{ prev.url | relative_url }}
-          {{ prev.title }}
-        </a>
-      {% endif %}
-    </div>
-
-    <!-- CENTER (INDEX PAGE) -->
-    <div>
-      {% assign index_page = folder_pages | where: "order", 0 | first %}
-      {% if index_page %}
-        {{ index_page.url | relative_url }}
-          {{ index_page.title }}
-        </a>
-      {% endif %}
-    </div>
-
-    <!-- NEXT -->
-    <div>
-      {% if current_index < folder_pages.size | minus: 1 %}
-        {% assign next = folder_pages[current_index | plus: 1] %}
-        {{ next.url | relative_url }}
-          {{ next.title }}
-        </a> →
-      {% endif %}
-    </div>
-
-  </div>
-
-{% endif %}
-
 
 </div>
 
@@ -304,3 +263,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </body>
 </html>
+

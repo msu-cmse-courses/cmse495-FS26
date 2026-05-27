@@ -2,8 +2,7 @@
 title: Schedule
 is_schedule: true
 ---
-
-
+# Schedule
 # Schedule
 
 ## Week of August 31
@@ -109,6 +108,8 @@ is_schedule: true
 
 <div class='sched-item'><span class='sched-date'>Mon 12/14:</span><span class='sched-title'>Final Exam Personal Reflection DUE</span></div>
 
+
+---
 
 In FALL of 2026, class will meet weekly 12:30-1:40PM in TBD.
 

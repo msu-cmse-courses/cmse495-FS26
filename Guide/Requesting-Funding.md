@@ -1,8 +1,8 @@
 ---
-layout: tempfiles
+layout: guide
 title: "Requesting Funding"
 order: 999
-mode: "tempfiles"
+mode: "guide"
 ---
 <a name=Introduction-to-Parallel-Programming></a>
 # Requesting Funding
@@ -49,7 +49,7 @@ Thank you,
 <summary>Requesting Funding</summary>
 <ul>
 
-<li><a href="#example">Example</a></li>
+<li>#example</li>
 </ul>
 </details>
 </div>

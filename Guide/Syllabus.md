@@ -1,8 +1,8 @@
 ---
-layout: tempfiles
+layout: guide
 title: "Syllabus: CMSE 495- Data Science Capstone"
 order: 999
-mode: "tempfiles"
+mode: "guide"
 ---
 # Syllabus: CMSE 495- Data Science Capstone
 
@@ -310,15 +310,15 @@ Written by Dr. Dirk Colbry, Michigan State University
 <summary>Syllabus: CMSE 495- Data Science Capstone</summary>
 <ul>
 
-<li><a href="#course-description">Course Description</a></li>
-<li><a href="#course-format-and-activities">Course Format and Activities</a></li>
+<li>#course-description</li>
+<li>#course-format-and-activities</li>
 <ul>
-<li><a href="#team-meetings">Team Meetings</a></li>
-<li><a href="#peer-evaluations-typically-due-on-mondays">Peer Evaluations (Typically Due on Mondays)</a></li>
-<li><a href="#weekly-check-ins-33-reflections">Weekly Check-Ins (3×3 Reflections)</a></li>
-<li><a href="#group-professional-development-activities-typically-on-wednesdays">Group Professional Development Activities (Typically on Wednesdays)</a></li>
-<li><a href="#scholar-tutorials-typically-on-fridays">SCHOLAR Tutorials (Typically on Fridays)</a></li>
-<li><a href="#requesting-funding">Requesting Funding</a></li>
+<li>#team-meetings</li>
+<li>#peer-evaluations-typically-due-on-mondays</li>
+<li>#weekly-check-ins-33-reflections</li>
+<li>#group-professional-development-activities-typically-on-wednesdays</li>
+<li>#scholar-tutorials-typically-on-fridays</li>
+<li>#requesting-funding</li>
 </ul>
 </ul>
 </details>
@@ -328,7 +328,7 @@ Written by Dr. Dirk Colbry, Michigan State University
 <ul>
 
 <ul>
-<li><a href="#grading-scale">Grading Scale</a></li>
+<li>#grading-scale</li>
 </ul>
 </ul>
 </details>
@@ -337,13 +337,13 @@ Written by Dr. Dirk Colbry, Michigan State University
 <summary>Logistical Information</summary>
 <ul>
 
-<li><a href="#course-website">Course Website</a></li>
-<li><a href="#course-meeting-time-and-location">Course Meeting Time and Location</a></li>
-<li><a href="#required-materials-for-class">Required Materials for Class</a></li>
+<li>#course-website</li>
+<li>#course-meeting-time-and-location</li>
+<li>#required-materials-for-class</li>
 <ul>
-<li><a href="#reading-materials">Reading Materials</a></li>
+<li>#reading-materials</li>
 </ul>
-<li><a href="#instructors-contact-information-and-office-hours">Instructors Contact Information and Office Hours</a></li>
+<li>#instructors-contact-information-and-office-hours</li>
 </ul>
 </details>
 
@@ -351,22 +351,22 @@ Written by Dr. Dirk Colbry, Michigan State University
 <summary>Course Policies and Expectations</summary>
 <ul>
 
-<li><a href="#data-policy-non-disclosure-agreements-nda-and-intellectual-property-ip-agreements">Data Policy, Non-Disclosure Agreements (NDA) and Intellectual Property (IP) agreements</a></li>
-<li><a href="#class-attendance">Class Attendance</a></li>
-<li><a href="#assignment-submissions">Assignment Submissions</a></li>
-<li><a href="#email">Email</a></li>
-<li><a href="#microsoft-teams">Microsoft Teams</a></li>
-<li><a href="#inclusive-classroom-behavior">Inclusive Classroom Behavior</a></li>
-<li><a href="#accommodations-for-students-with-disabilities">Accommodations for Students with Disabilities</a></li>
-<li><a href="#academic-honesty">Academic Honesty</a></li>
-<li><a href="#limits-to-confidentiality">Limits to Confidentiality</a></li>
-<li><a href="#changes-to-syllabus">Changes to Syllabus</a></li>
-<li><a href="#commercialized-lecture-notes">Commercialized Lecture Notes</a></li>
-<li><a href="#disruptive-behavior">Disruptive Behavior</a></li>
-<li><a href="#grief-absence-policy">Grief Absence Policy</a></li>
+<li>#data-policy-non-disclosure-agreements-nda-and-intellectual-property-ip-agreements</li>
+<li>#class-attendance</li>
+<li>#assignment-submissions</li>
+<li>#email</li>
+<li>#microsoft-teams</li>
+<li>#inclusive-classroom-behavior</li>
+<li>#accommodations-for-students-with-disabilities</li>
+<li>#academic-honesty</li>
+<li>#limits-to-confidentiality</li>
+<li>#changes-to-syllabus</li>
+<li>#commercialized-lecture-notes</li>
+<li>#disruptive-behavior</li>
+<li>#grief-absence-policy</li>
 <ul>
-<li><a href="#student-illness">Student Illness</a></li>
-<li><a href="#instructor-illness">Instructor Illness</a></li>
+<li>#student-illness</li>
+<li>#instructor-illness</li>
 </ul>
 </ul>
 </details>

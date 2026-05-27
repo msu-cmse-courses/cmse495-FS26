@@ -1,8 +1,8 @@
 ---
-layout: tempfiles
+layout: guide
 title: "Meeting Agenda and Notes"
 order: 999
-mode: "tempfiles"
+mode: "guide"
 ---
 <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #666;">
 
@@ -180,26 +180,26 @@ Clear agendas and notes are a key part of **professional teamwork**.
 <summary>Meeting Agenda and Notes</summary>
 <ul>
 
-<li><a href="#core-idea">Core Idea</a></li>
-<li><a href="#where-to-store-meeting-notes">Where to Store Meeting Notes</a></li>
-<li><a href="#meeting-structure">Meeting Structure</a></li>
+<li>#core-idea</li>
+<li>#where-to-store-meeting-notes</li>
+<li>#meeting-structure</li>
 <ul>
-<li><a href="#basic-information">Basic Information</a></li>
-<li><a href="#roles">Roles</a></li>
+<li>#basic-information</li>
+<li>#roles</li>
 </ul>
-<li><a href="#agenda">Agenda</a></li>
-<li><a href="#notes">Notes</a></li>
-<li><a href="#action-items">Action Items</a></li>
-<li><a href="#sharing-expectations">Sharing Expectations</a></li>
-<li><a href="#example-format">Example Format</a></li>
-<li><a href="#meeting-week-3-check-in">Meeting: Week 3 Check-in</a></li>
+<li>#agenda</li>
+<li>#notes</li>
+<li>#action-items</li>
+<li>#sharing-expectations</li>
+<li>#example-format</li>
+<li>#meeting-week-3-check-in</li>
 <ul>
-<li><a href="#agenda">Agenda</a></li>
-<li><a href="#notes">Notes</a></li>
-<li><a href="#action-items">Action Items</a></li>
+<li>#agenda</li>
+<li>#notes</li>
+<li>#action-items</li>
 </ul>
-<li><a href="#expectations">Expectations</a></li>
-<li><a href="#why-this-matters">Why This Matters</a></li>
+<li>#expectations</li>
+<li>#why-this-matters</li>
 </ul>
 </details>
 </div>
