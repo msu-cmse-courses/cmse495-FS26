@@ -1,10 +1,10 @@
 ---
 layout: guide
-title: "Start"
+title: "Overview"
 order: 0
 mode: "guide"
 ---
-# Start
+# Overview
 
 CMSE495 is a team-based, project-driven course where you build and refine a project over the semester.
 
@@ -78,7 +78,7 @@ Use these resources to coordinate with your team and build professional skills:
 <h2>On this page</h2>
 
 <details>
-<summary>Start</summary>
+<summary>Overview</summary>
 <ul>
 
 <li><a href="#how-to-use-this-page">How to Use This Page</a></li>

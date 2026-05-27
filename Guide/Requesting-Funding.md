@@ -4,7 +4,6 @@ title: "Requesting Funding"
 order: 10
 mode: "guide"
 ---
-<a name=Introduction-to-Parallel-Programming></a>
 # Requesting Funding
 
 The class has some limited funds that can be used to purchase software licenses and other supplies in support of projects.  The instructor has some flexibility on to what and how these items can be purchased.  
@@ -25,21 +24,19 @@ It is expected that the teams will talk to the instructors before sending in a r
 
 
 
-----
-
 ## Example
-
-Dear Dr. Colbry,
-
-Our team requests the purchase of the following widget for our project.  
-
-- [Link to Amazon](https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1)
-
-As we discussed, this widget will cost $300 and be used to gather the data required by our project community partner ACME Inc.  
-
-Thank you,
-
-- ACME Team
+ 
+> Dear Dr. Colbry,
+> 
+> Our team requests the purchase of the following widget for our project.  
+> 
+> - [Link to Amazon](https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1)
+> 
+> As we discussed, this widget will cost $300 and be used to gather the data required by our project community partner ACME Inc.  
+> 
+> Thank you,
+> 
+> - ACME Team
 
 <!-- TOC_START -->
 <div class="page-toc">
