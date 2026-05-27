@@ -1,10 +1,10 @@
 ---
 layout: guide
-title: "CMSE495 — Course Guide"
+title: "Start"
 order: 0
 mode: "guide"
 ---
-# CMSE495 — Course Guide
+# Start
 
 CMSE495 is a team-based, project-driven course where you build and refine a project over the semester.
 
@@ -78,7 +78,7 @@ Use these resources to coordinate with your team and build professional skills:
 <h2>On this page</h2>
 
 <details>
-<summary>CMSE495 — Course Guide</summary>
+<summary>Start</summary>
 <ul>
 
 <li><a href="#how-to-use-this-page">How to Use This Page</a></li>
