@@ -130,16 +130,6 @@
       text-decoration: underline;
     }
 
-    .site-footer {
-      border-top: 1px solid #ddd;
-      margin-top: 40px;
-      padding: 20px;
-      text-align: center;
-      font-size: 0.85em;
-      color: #666;
-      background: #fafafa;
-    }
-
     @media (max-width: 900px) {
       .layout { grid-template-columns: 1fr; }
       .left, .right { display: none; }
@@ -335,7 +325,8 @@ SimpleJekyllSearch({
         <!-- PREVIOUS -->
         <div>
           {% if current_index > 0 %}
-            {% assign prev = folder_pages[current_index | minus: 1] %}
+             {% assign prev_index = current_index | minus: 1 %}
+             {% assign prev = folder_pages[prev_index] %}
             <a href="{{ prev.url | relative_url }}">← {{ prev.title }}</a>
           {% endif %}
         </div>
@@ -352,7 +343,9 @@ SimpleJekyllSearch({
         <!-- NEXT -->
         <div>
           {% if current_index >= 0 and current_index < last_index %}
-            {% assign next = folder_pages[current_index | plus: 1] %}
+            {% assign next_index = current_index | plus: 1 %}
+            {% assign next = folder_pages[next_index] %}
+
             <a href="{{ next.url | relative_url }}">
               {{ next.title }} →
             </a>
