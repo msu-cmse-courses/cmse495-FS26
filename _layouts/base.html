@@ -15,7 +15,6 @@
 
     .nav-left { display: flex; align-items: center; gap: 15px; }
     .nav-left img { height: 50px; }
-    .nav-left h1 { font-size: 1.2rem; margin: 0; }
 
     .nav-right { display: flex; align-items: center; }
 
@@ -24,19 +23,6 @@
       text-decoration: none;
       color: #444;
       font-weight: 500;
-    }
-
-    .nav-right a:hover { text-decoration: underline; }
-    .nav-right a.active { font-weight: bold; text-decoration: underline; }
-
-    .search-box { position: relative; margin-left: 15px; }
-    .search-box input { padding: 4px; }
-
-    #results-container {
-      position: absolute; top: 30px; left: 0;
-      background: white; border: 1px solid #ddd;
-      list-style: none; padding: 5px; margin: 0;
-      width: 250px; display: none; z-index: 1000;
     }
 
     .layout {
@@ -84,8 +70,6 @@
       background: #fafafa;
     }
 
-    .footer-content { max-width: 900px; margin: auto; }
-
     @media (max-width: 900px) {
       .layout { grid-template-columns: 1fr; }
       .left, .right { display: none; }
@@ -95,79 +79,45 @@
 
 <body>
 
-<!-- SEARCH -->
-<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const input = document.getElementById('search-input');
-  const results = document.getElementById('results-container');
-  const searchUrl = "{{ '/search.json' | relative_url }}";
-
-  SimpleJekyllSearch({
-    searchInput: input,
-    resultsContainer: results,
-    json: searchUrl,
-    searchResultTemplate: '<li><a href="{url}Text: '<li>No results found</li>',
-    limit: 10
-  });
-
-  input.addEventListener('input', function() {
-    results.style.display = this.value.length > 0 ? 'block' : 'none';
-  });
-});
-</script>
-
 <!-- HEADER -->
 <div class="top-nav">
   <div class="nav-left">
     <a href="{{ '/' | relative_url }}">
       <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}">
     </a>
-    <h1>CMSE495 Data Science Capstone</h1>
+    <strong>CMSE495 Data Science Capstone</strong>
   </div>
 
   <div class="nav-right">
-    <a href="{{ '/' | relative_url }}"
-       class="{% if page.url == '/' %}active{% endif %}">Home</a>
-
-    <a href="{{ '/Guide/' | relative_url }}"
-       class="{% if page.url contains '/Guide/' %}active{% endif %}">Course Guide</a>
-
-    <a href="{{ '/Seeking-Community_Partners' | relative_url }}">
-      Community Partners
-    </a>
-
-    <div class="search-box">
-      <input type="text" id="search-input" placeholder="Search...">
-      <ul id="results-container"></ul>
-    </div>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/Guide/' | relative_url }}">Course Guide</a>
   </div>
 </div>
 
 <!-- MAIN -->
 <div class="layout">
 
-  <!-- LEFT -->
+  <!-- LEFT SIDEBAR -->
   <aside class="left">
 
     {% if page.mode == "schedule" %}
       {% assign schedule = site.pages | where: "is_schedule", true | first %}
       {% if schedule %}
         {{ schedule.content }}
-      {% else %}
-        <p><em>Schedule not found</em></p>
       {% endif %}
     {% endif %}
 
     {% if page.mode == "guide" %}
-      <div class="guide-nav">
+      <div>
         <h3>Course Guide</h3>
-        <ul>
-	{% assign guide_pages = site.pages
-   	   | where: "dir", page.dir
-   	   | where_exp: "p", "p.order"
+
+        {% assign folder_pages = site.pages
+           | where_exp: "p", "p.url contains page.dir"
+           | where_exp: "p", "p.order != nil"
            | sort: "order" %}
-          {% for p in guide_pages %}
+
+        <ul>
+          {% for p in folder_pages %}
             <li>
               <a href="{{ p.url | relative_url }}"
                  class="{% if p.url == page.url %}active{% endif %}">
@@ -186,15 +136,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     {% assign parts = content | split:'<!-- TOC_START -->' %}
 
-    <!-- NAVIGATION -->
-    {% if page.order %}
+    <!-- NAVIGATION (FOLDER-AGNOSTIC) -->
+    {% if page.order != nil %}
 
       {% assign folder_pages = site.pages
-         | where: "dir", page.dir
-         | where_exp: "p", "p.order"
+         | where_exp: "p", "p.url contains page.dir"
+         | where_exp: "p", "p.order != nil"
          | sort: "order" %}
 
-      {% assign current_index = nil %}
+      {% assign current_index = -1 %}
 
       {% for p in folder_pages %}
         {% if p.url == page.url %}
@@ -202,8 +152,16 @@ document.addEventListener("DOMContentLoaded", function() {
         {% endif %}
       {% endfor %}
 
+      {% assign last_index = folder_pages.size | minus: 1 %}
+      {% assign index_page = folder_pages | where: "order", 0 | first %}
+
+      {% if index_page == nil %}
+        {% assign index_page = folder_pages | first %}
+      {% endif %}
+
       <div class="page-nav">
 
+        <!-- PREVIOUS -->
         <div>
           {% if current_index > 0 %}
             {% assign prev = folder_pages[current_index | minus: 1] %}
@@ -211,17 +169,22 @@ document.addEventListener("DOMContentLoaded", function() {
           {% endif %}
         </div>
 
+        <!-- INDEX -->
         <div>
-          {% assign index_page = folder_pages | where: "order", 0 | first %}
           {% if index_page %}
-            <a href="{{ index_page.url | relative_url }}">{{ index_page.title }}</a>
+            <a href="{{ index_page.url | relative_url }}">
+              {{ index_page.title }}
+            </a>
           {% endif %}
         </div>
 
+        <!-- NEXT -->
         <div>
-          {% if current_index < folder_pages.size | minus: 1 %}
+          {% if current_index >= 0 and current_index < last_index %}
             {% assign next = folder_pages[current_index | plus: 1] %}
-            <a href="{{ next.url | relative_url }}">{{ next.title }} →</a>
+            <a href="{{ next.url | relative_url }}">
+              {{ next.title }} →
+            </a>
           {% endif %}
         </div>
 
@@ -229,11 +192,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     {% endif %}
 
+    <!-- MAIN CONTENT -->
     {{ parts[0] }}
 
   </main>
 
-  <!-- RIGHT -->
+  <!-- RIGHT SIDEBAR (TOC) -->
   <aside class="right">
     {% if parts.size > 1 %}
       {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
@@ -245,21 +209,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <!-- FOOTER -->
 <footer class="site-footer">
-  <div class="footer-content">
-    <p>
-      Written by Drs. Dirk Colbry and Justin Gambrell, Michigan State University
-    </p>
-    <p>
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-        <img alt="Creative Commons License"
-             src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png">
-      </a><br>
-      This work is licensed under a
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-        Creative Commons Attribution-NonCommercial 4.0 International License
-      </a>.
-    </p>
-  </div>
+  <p>Written by Dirk Colbry and Justin Gambrell, Michigan State University</p>
 </footer>
 
 </body>
