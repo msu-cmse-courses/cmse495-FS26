@@ -270,10 +270,12 @@ SimpleJekyllSearch({
       <div>
         <h3>Course Guide</h3>
 
-        {% assign folder_pages = site.pages
-           | where_exp: "p", "p.url contains page.dir"
-           | where_exp: "p", "p.order != nil"
-           | sort: "order" %}
+
+{% assign folder_pages = site.pages
+   | where: "dir", page.dir
+   | where_exp: "p", "p.order != nil"
+   | sort: "order" %}
+
 
         <ul>
           {% for p in folder_pages %}
@@ -300,10 +302,11 @@ SimpleJekyllSearch({
     <!-- NAVIGATION (FOLDER-AGNOSTIC) -->
     {% if page.order != nil %}
 
-      {% assign folder_pages = site.pages
-         | where_exp: "p", "p.url contains page.dir"
-         | where_exp: "p", "p.order != nil"
-         | sort: "order" %}
+
+{% assign folder_pages = site.pages
+   | where: "dir", page.dir
+   | where_exp: "p", "p.order != nil"
+   | sort: "order" %}
 
       {% assign current_index = -1 %}
 
