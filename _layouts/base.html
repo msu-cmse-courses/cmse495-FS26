@@ -178,7 +178,6 @@ document.addEventListener("DOMContentLoaded", function() {
       {{ toc_parts[0] }}
     {% endif %}
   </aside>
-
 {% if page.order %}
 
   {% assign folder_pages = site.pages
@@ -219,7 +218,16 @@ document.addEventListener("DOMContentLoaded", function() {
     <!-- NEXT -->
     <div>
       {% if current_index < folder_pages.size | minus: 1 %}
+        {% assign next = folder_pages[current_index | plus: 1] %}
+        {{ next.url | relative_url }}
+          {{ next.title }}
+        </a> →
+      {% endif %}
+    </div>
 
+  </div>
+
+{% endif %}
 
 
 </div>
