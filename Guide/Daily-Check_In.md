@@ -14,7 +14,7 @@ The Daily Check-In is a quick reflection on your participation and professionali
 - Reflect honestly on your engagement  
 - Communicate with instructors when things do not go as planned  
 
-👉 Complete the check-in here: https://msu.co1.qualtrics.com/jfe/form/SV_3yNg09psIE2ObAO
+👉 Complete the check-in here: [LINK TO Daily Check-in](https://msu.co1.qualtrics.com/jfe/form/SV_3yNg09psIE2ObAO)
 
 ## Why We Do This
 
