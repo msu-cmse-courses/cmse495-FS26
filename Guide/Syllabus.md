@@ -1,10 +1,12 @@
 ---
 layout: guide
-title: "Syllabus: CMSE 495- Data Science Capstone"
+title: "Syllabus"
 order: 1
 mode: "guide"
 ---
-# Syllabus: CMSE 495- Data Science Capstone
+# Syllabus
+
+CMSE 495- Data Science Capstone
 
 ## Course Description
 The data science capstone course is intended to provide students with an opportunity to put together what they have learned across multiple courses to develop a final project that demonstrates their ability to work in a team on real-world problems.
@@ -307,7 +309,7 @@ Written by Dr. Dirk Colbry, Michigan State University
 <h2>On this page</h2>
 
 <details>
-<summary>Syllabus: CMSE 495- Data Science Capstone</summary>
+<summary>Syllabus</summary>
 <ul>
 
 <li><a href="#course-description">Course Description</a></li>
