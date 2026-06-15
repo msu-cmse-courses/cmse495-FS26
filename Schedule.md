@@ -20,7 +20,7 @@ is_schedule: true
 
 ## Week of September 14
 
-<div class='sched-item'><span class='sched-date'>Mon 09/14: </span><span class='sched-title'>Anticpating Challenges</span></div>
+<div class='sched-item'><span class='sched-date'>Mon 09/14: </span><span class='sched-title'>Anticipating Challenges</span></div>
 <div class='sched-item'><span class='sched-date'>Wed 09/16: </span><span class='sched-title'>CyberAmbassadors Speaking up</span></div>
 <div class='sched-item'><span class='sched-date'>Fri 09/18: </span><span class='sched-title'>SCHOLAR Review</span></div>
 <div class='sched-item'><span class='sched-date'>Sun 09/20: </span><span class='sched-title'>MILESTONE Plan</span></div>

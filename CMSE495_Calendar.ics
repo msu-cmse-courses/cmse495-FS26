@@ -72,11 +72,11 @@ LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/0913-MILESTONE_Pr
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE 495: Anticpating Challenges
+SUMMARY:CMSE 495: Anticipating Challenges
 DTSTART;TZID=US/Eastern:20260914T123000
 DTEND;TZID=US/Eastern:20260914T134000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/0914-
- Anticpating_Challenges'>Link to assignment</a>
+ Anticipating_Challenges'>Link to assignment</a>
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
