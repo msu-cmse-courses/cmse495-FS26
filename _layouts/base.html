@@ -226,6 +226,15 @@ SimpleJekyllSearch({
   });
 
 });
+
+
+
+
+function toggleMenu() {
+  const nav = document.getElementById("nav-links");
+  nav.classList.toggle("open");
+}
+
 </script>
 
 <!-- HEADER -->
@@ -238,23 +247,25 @@ SimpleJekyllSearch({
   </div>
 
   <div class="nav-right">
-    <a href="{{ '/' | relative_url }}"
-       class="{% if page.url == '/' %}active{% endif %}">Home</a>
 
-    <a href="{{ '/Guide/' | relative_url }}"
-       class="{% if page.url contains '/Guide/' %}active{% endif %}">Course Guide</a>
+     <!-- MENU BUTTON (mobile only) -->
+     <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
 
-    <a href="{{ '/Seeking-Community_Partners' | relative_url }}">
-      Community Partners
-    </a>
+  <div id="nav-links" class="nav-links">
+    <a href="{{ '/' | relative_url }}">Schedule</a>
+    <a href="{{ '/Guide/' | relative_url }}">Course Guide</a>
+    <a href="{{ '/Seeking-Community_Partners' | relative_url }}">Community Partners</a>
+
 
     <!-- SEARCH -->
     <div class="search-box">
       <input type="text" id="search-input" placeholder="Search...">
       <ul id="results-container"></ul>
     </div>
+
   </div>
 
+</div>
 
 
 </div>
