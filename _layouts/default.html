@@ -153,7 +153,45 @@
 
     .footer-content { max-width: 900px; margin: auto; }
 
+/* Hide menu button by default (desktop) */
+.menu-toggle {
+  display: none;
+}
 
+/* Default desktop layout */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Mobile behavior */
+@media (max-width: 900px) {
+
+  /* Show menu button */
+  .menu-toggle {
+    display: block;
+  }
+
+  /* Hide links initially */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 220px;
+    z-index: 1000;
+  }
+
+  /* Show when toggled */
+  .nav-links.open {
+    display: flex;
+  }
+}
   </style>
 </head>
 <body>
