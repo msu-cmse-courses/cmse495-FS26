@@ -353,8 +353,7 @@ function toggleMenu() {
 
     {% assign parts = content | split:'<!-- TOC_START -->' %}
     
-    {% if page.order != nil %}
-
+    {% if page.order != nil and page.dir == "/Guide/" %}
       {% assign folder_pages = site.pages
         | where_exp: "p", "p.url contains page.dir"
         | where_exp: "p", "p.order != nil"
