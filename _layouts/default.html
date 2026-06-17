@@ -5,56 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-    }
+    body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; }
 
     .top-nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px;
-      border-bottom: 1px solid #ddd;
-      max-width: 1400px;
-      margin: auto;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 10px 20px; border-bottom: 1px solid #ddd;
+      max-width: 1400px; margin: auto;
     }
 
-    .nav-left {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-    }
+    .nav-left { display: flex; align-items: center; gap: 15px; }
+    .nav-left img { height: 50px; }
 
-    .nav-left img {
-      height: 50px;
-    }
-
-    .nav-left h1 {
-      font-size: 1.2rem;
-      margin: 0;
-    }
-
-    .nav-right {
-      display: flex;
-      align-items: center;
-    }
+    .nav-right { display: flex; align-items: center; }
 
     .nav-right a {
       margin-left: 18px;
       text-decoration: none;
       color: #444;
       font-weight: 500;
-    }
-
-    .nav-right a:hover {
-      text-decoration: underline;
-    }
-
-    .nav-right a.active {
-      font-weight: bold;
-      text-decoration: underline;
     }
 
     /* Search UI */
@@ -94,7 +62,45 @@
       text-decoration: underline;
     }
 
-    /* Layout */
+
+/* ========================
+   Schedule / Left Sidebar Content
+   ======================== */
+
+.left ul {
+  padding-left: 18px;
+  margin-top: 5px;
+}
+
+.left li {
+  margin-bottom: 6px;
+}
+
+.left h1, .left h2, .left h3 {
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-size: 0.95em;
+}
+
+.left p {
+  margin: 4px 0;
+}
+
+.left a {
+  text-decoration: none;
+  color: #444;
+}
+
+.left a.active {
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+.left a:hover {
+  text-decoration: underline;
+}
+
     .layout {
       display: grid;
       grid-template-columns: 320px 1fr 260px;
@@ -104,105 +110,55 @@
       padding: 20px;
     }
 
-    .left {
+    .left, .right {
       position: sticky;
       top: 20px;
       height: calc(100vh - 40px);
       overflow-y: auto;
-      border-right: 1px solid #ddd;
-      padding-right: 10px;
     }
 
-    .right {
-      position: sticky;
-      top: 20px;
-      height: calc(100vh - 40px);
-      overflow-y: auto;
-      border-left: 1px solid #ddd;
-      padding-left: 10px;
+    .left { border-right: 1px solid #ddd; padding-right: 10px; }
+    .right { border-left: 1px solid #ddd; padding-left: 10px; }
+
+    .page-nav {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9em;
     }
 
-    .mobile-schedule, .mobile-toc {
-      display: none;
+    .page-nav a {
+      text-decoration: none;
+      color: #444;
+    }
+
+    .page-nav a:hover {
+      text-decoration: underline;
     }
 
     @media (max-width: 900px) {
-      .layout {
-        grid-template-columns: 1fr;
-      }
-
-      .left, .right {
-        display: none;
-      }
-
-      .mobile-schedule, .mobile-toc {
-        display: block;
-      }
+      .layout { grid-template-columns: 1fr; }
+      .left, .right { display: none; }
     }
 
     .site-footer {
-  border-top: 1px solid #ddd;
-  margin-top: 40px;
-  padding: 20px;
-  text-align: center;
-  font-size: 0.85em;
-  color: #666;
-  background: #fafafa;
-}
+      border-top: 1px solid #ddd;
+      margin-top: 40px;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.85em;
+      color: #666; 
+      background: #fafafa;
+    }
 
-.footer-content {
-  max-width: 900px;
-  margin: auto;
-}
+    .footer-content { max-width: 900px; margin: auto; }
 
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
-
-/* Desktop behavior */
-.nav-links {
-  display: flex;
-  align-items: center;
-}
-
-/* Mobile */
-@media (max-width: 900px) {
-
-  .menu-toggle {
-    display: block;
-  }
-
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    right: 20px;
-    top: 60px;
-    background: white;
-    border: 1px solid #ddd;
-    padding: 10px;
-    width: 220px;
-  }
-
-  .nav-links a {
-    margin: 8px 0;
-  }
-
-  .nav-links.open {
-    display: flex;
-  }
-}
 
   </style>
 </head>
-
+<body>
 
 <!-- SEARCH SCRIPT (FIXED) -->
-
 <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
 
 <script>
@@ -271,6 +227,9 @@ SimpleJekyllSearch({
 
 });
 
+
+
+
 function toggleMenu() {
   const nav = document.getElementById("nav-links");
   nav.classList.toggle("open");
@@ -278,24 +237,19 @@ function toggleMenu() {
 
 </script>
 
-<body>
-
 <!-- HEADER -->
 <div class="top-nav">
   <div class="nav-left">
     <a href="{{ '/' | relative_url }}">
       <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}">
     </a>
-    <h1>CMSE495 Data Science Capstone</h1>
+    <strong>CMSE495 Data Science Capstone</strong>
   </div>
 
+  {% include nav.html %}  <div class="nav-right">
 
-
-
-<div class="nav-right">
-
-  <!-- MENU BUTTON (mobile only) -->
-  <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+     <!-- MENU BUTTON (mobile only)
+     <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
 
   <div id="nav-links" class="nav-links">
     <a href="{{ '/' | relative_url }}">Schedule</a>
@@ -303,51 +257,131 @@ function toggleMenu() {
     <a href="{{ '/Seeking-Community_Partners' | relative_url }}">Community Partners</a>
 
 
-    <!-- SEARCH -->
     <div class="search-box">
       <input type="text" id="search-input" placeholder="Search...">
       <ul id="results-container"></ul>
     </div>
 
   </div>
-
+   -->
 </div>
+
+
 </div>
 
 <!-- MAIN -->
 <div class="layout">
 
+  <!-- LEFT SIDEBAR -->
   <aside class="left">
-    {% assign schedule = site.pages | where: "name", "Schedule.md" | first %}
-    {% if schedule %}
-      {{ schedule.content | markdownify }}
+
+    {% if page.mode == "schedule" %}
+      {% assign schedule = site.pages | where: "is_schedule", true | first %}
+      {% if schedule %}
+        {{ schedule.content }}
+      {% endif %}
     {% endif %}
+
+    {% if page.mode == "guide" %}
+      <div>
+        <h3>Course Guide</h3>
+
+
+{% assign folder_pages = site.pages
+   | where: "dir", page.dir
+   | where_exp: "p", "p.order != nil"
+   | sort: "order" %}
+
+
+        <ul>
+          {% for p in folder_pages %}
+            <li>
+              <a href="{{ p.url | relative_url }}"
+                 class="{% if p.url == page.url %}active{% endif %}">
+                {{ p.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
   </aside>
 
-  {% assign parts = content | split:'<!-- TOC_START -->' %}
 
+
+  <!-- CENTER -->
   <main>
 
-    <div class="mobile-schedule">
-      {% if schedule %}
-        <details>
-          <summary><strong>Course Schedule</strong></summary>
-          {{ schedule.content | markdownify }}
-        </details>
-      {% endif %}
-    </div>
+    {% assign parts = content | split:'<!-- TOC_START -->' %}
 
+    <!-- NAVIGATION (FOLDER-AGNOSTIC) -->
+    {% if page.order != nil %}
+
+
+{% assign folder_pages = site.pages
+   | where: "dir", page.dir
+   | where_exp: "p", "p.order != nil"
+   | sort: "order" %}
+
+      {% assign current_index = -1 %}
+
+      {% for p in folder_pages %}
+        {% if p.url == page.url %}
+          {% assign current_index = forloop.index0 %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign last_index = folder_pages.size | minus: 1 %}
+      {% assign index_page = folder_pages | where: "order", 0 | first %}
+
+      {% if index_page == nil %}
+        {% assign index_page = folder_pages | first %}
+      {% endif %}
+
+      <div class="page-nav">
+
+        <!-- PREVIOUS -->
+        <div>
+          {% if current_index > 0 %}
+             {% assign prev_index = current_index | minus: 1 %}
+             {% assign prev = folder_pages[prev_index] %}
+            <a href="{{ prev.url | relative_url }}">← {{ prev.title }}</a>
+          {% endif %}
+        </div>
+
+        <!-- INDEX -->
+        <div>
+          {% if index_page %}
+            <a href="{{ index_page.url | relative_url }}">
+              {{ index_page.title }}
+            </a>
+          {% endif %}
+        </div>
+
+        <!-- NEXT -->
+        <div>
+          {% if current_index >= 0 and current_index < last_index %}
+            {% assign next_index = current_index | plus: 1 %}
+            {% assign next = folder_pages[next_index] %}
+
+            <a href="{{ next.url | relative_url }}">
+              {{ next.title }} →
+            </a>
+          {% endif %}
+        </div>
+
+      </div>
+
+    {% endif %}
+    <hr>
+
+    <!-- MAIN CONTENT -->
     {{ parts[0] }}
-
-    <div class="mobile-toc">
-      {% if parts.size > 1 %}
-        {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
-        {{ toc_parts[0] }}
-      {% endif %}
-    </div>
 
   </main>
 
+  <!-- RIGHT SIDEBAR (TOC) -->
   <aside class="right">
     {% if parts.size > 1 %}
       {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
@@ -359,25 +393,23 @@ function toggleMenu() {
 
 <!-- FOOTER -->
 <footer class="site-footer">
-
   <div class="footer-content">
     <p>
       Written by Drs. Dirk Colbry and Justin Gambrell, Michigan State University
     </p>
-
     <p>
       <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
         <img alt="Creative Commons License"
              src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png">
-      </a>
-      <br>
+      </a><br>
       This work is licensed under a
       <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
         Creative Commons Attribution-NonCommercial 4.0 International License
       </a>.
     </p>
   </div>
-
 </footer>
+
 </body>
 </html>
+
