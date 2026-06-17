@@ -356,7 +356,7 @@ function toggleMenu() {
     {% if page.order != nil %}
 
       {% assign folder_pages = site.pages
-        | where: "dir", page.dir
+        | where_exp: "p", "p.url contains page.dir"
         | where_exp: "p", "p.order != nil"
         | sort: "order" %}
 
