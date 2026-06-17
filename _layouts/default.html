@@ -360,7 +360,7 @@ function toggleMenu() {
         | where_exp: "p", "p.order != nil"
         | sort: "order" %}
 
-      {% assign current_index = -1 %}
+      {% assign current_index = 0 %}
       {% for p in folder_pages %}
         {% if p.url contains page.url %}
           {% assign current_index = forloop.index0 %}
