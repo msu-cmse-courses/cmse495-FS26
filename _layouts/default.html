@@ -352,6 +352,24 @@ function toggleMenu() {
   <main>
 
     {% assign parts = content | split:'<!-- TOC_START -->' %}
+    
+
+<pre>
+PAGE: {{ page.url }}
+DIR: {{ page.dir }}
+ORDER: {{ page.order }}
+
+---- FOLDER PAGES ----
+{% for p in folder_pages %}
+[{{ forloop.index0 }}]
+url: {{ p.url }}
+order: {{ p.order }}
+{% endfor %}
+</pre>
+
+
+
+
     {% if page.order != nil %}
 
       {% assign folder_pages = site.pages
