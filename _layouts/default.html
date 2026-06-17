@@ -352,7 +352,6 @@ function toggleMenu() {
   <main>
 
     {% assign parts = content | split:'<!-- TOC_START -->' %}
-
     {% if page.order != nil %}
 
       {% assign folder_pages = site.pages
@@ -363,7 +362,7 @@ function toggleMenu() {
       {% assign current_index = -1 %}
 
       {% for p in folder_pages %}
-        {% if p.url == page.url %}
+        {% if page.url contains p.url %}
           {% assign current_index = forloop.index0 %}
         {% endif %}
       {% endfor %}
