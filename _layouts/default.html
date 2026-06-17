@@ -333,7 +333,7 @@
           <h3>Course Guide</h3>
 
           {% assign folder_pages = site.pages
-            | where: "dir", page.dir
+            | where_exp: "p", "p.url contains '/Guide/'"
             | where_exp: "p", "p.order != nil"
             | sort: "order" %}
 
