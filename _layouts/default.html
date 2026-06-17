@@ -361,9 +361,8 @@ function toggleMenu() {
         | sort: "order" %}
 
       {% assign current_index = -1 %}
-
       {% for p in folder_pages %}
-        {% if page.url contains p.url %}
+        {% if p.url contains page.url %}
           {% assign current_index = forloop.index0 %}
         {% endif %}
       {% endfor %}
@@ -374,7 +373,7 @@ function toggleMenu() {
       {% assign index_page = folder_pages | where: "order", 0 | first %}
 
       Prev={{ prev }}
-      index={( current_index }}
+      index={{ current_index }}
       Prev={{ next }}
 
       {% if index_page == nil %}
