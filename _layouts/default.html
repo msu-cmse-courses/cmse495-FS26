@@ -275,24 +275,6 @@ function toggleMenu() {
   </div>
 
 </div>
-     <!-- MENU BUTTON (mobile only)
-     <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
-
-  <div id="nav-links" class="nav-links">
-    <a href="{{ '/' | relative_url }}">Schedule</a>
-    <a href="{{ '/Guide/' | relative_url }}">Course Guide</a>
-    <a href="{{ '/Seeking-Community_Partners' | relative_url }}">Community Partners</a>
-
-
-    <div class="search-box">
-      <input type="text" id="search-input" placeholder="Search...">
-      <ul id="results-container"></ul>
-    </div>
-
-  </div>
-   -->
-</div>
-
 
 </div>
 
@@ -344,7 +326,6 @@ function toggleMenu() {
 
     <!-- NAVIGATION (FOLDER-AGNOSTIC) -->
     {% if page.order != nil %}
-
 
 {% assign folder_pages = site.pages
    | where: "dir", page.dir
