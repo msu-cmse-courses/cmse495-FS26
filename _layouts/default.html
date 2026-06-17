@@ -319,7 +319,7 @@ function toggleMenu() {
 <div class="layout">
 
   <aside class="left">
-
+    <pre>MODE: {{ page.mode }}</pre>
     {% if page.mode == "schedule" %}
       {% assign schedule = site.pages | where: "is_schedule", true | first %}
       {% if schedule %}
