@@ -291,8 +291,7 @@
   <div class="top-nav">
 
     <div class="nav-left">
-      {{ '/' | relative_url }}
-        {{ '/assets/img/Capstone_Logo.png' | relative_url }}
+	    <a href="{{ '/' | relative_url }}"><img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}" alt="Image of the CMSE graphic with a graduation cap and the MSU letters.  Clicking on this link will take you to the home page">
       </a>
       <strong>CMSE495 Data Science Capstone</strong>
     </div>
@@ -303,17 +302,9 @@
 
       <div id="nav-links" class="nav-links">
 
-        {{ '/' | relative_url }}
-          Schedule
-        </a>
-
-        {{ '/Guide/' | relative_url }}
-          Course Guide
-        </a>
-
-        {{ '/Seeking-Community_Partners' | relative_url }}
-          Community Partners
-        </a>
+        <a href="{{ '/' | relative_url }}">Schedule</a>
+        <a href="{{ '/Guide/' | relative_url }}">Course Guide</a>
+	<a href="{{ '/Seeking-Community_Partners' | relative_url }}">Community Partners</a>
 
         <div class="search-box">
           <input type="text" id="search-input" placeholder="Search...">
