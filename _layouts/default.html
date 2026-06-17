@@ -367,14 +367,11 @@ function toggleMenu() {
         {% endif %}
       {% endfor %}
 
-      {% assign last_index = folder_pages.size | minus: 1 %}
-      {% assign prev = current_index | minus: 1 %}
-      {% assign next = current_index | plus: 1 %}
+      {% assign prev_index = current_index | minus: 1 %}
+      {% assign next_index = current_index | plus: 1 %}
+      
       {% assign index_page = folder_pages | where: "order", 0 | first %}
-
-      Prev={{ prev }}
-      index={{ current_index }}
-      Next={{ next }}
+      {% assign last_index = folder_pages.size | minus: 1 %}
 
       {% if index_page == nil %}
         {% assign index_page = folder_pages | first %}
@@ -384,7 +381,7 @@ function toggleMenu() {
 
         <div>
           {% if current_index > 0 %}
-            {% assign prev = folder_pages[prev] %}
+            {% assign prev = folder_pages[previ_index] %}
             <a href="{{ prev.url | relative_url }}">← {{ prev.title }}</a>
           {% endif %}
         </div>
@@ -397,7 +394,7 @@ function toggleMenu() {
 
         <div>
           {% if current_index >= 0 and current_index < last_index %}
-            {% assign next = folder_pages[next] %}
+            {% assign next = folder_pages[next_index] %}
             <a href="{{ next.url | relative_url }}">{{ next.title }} →</a>
           {% endif %}
         </div>
