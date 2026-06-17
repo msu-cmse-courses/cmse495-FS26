@@ -1,5 +1,5 @@
 ---
-layout: schedule
+layout: default
 title: "FALL 2026 Schedule"
 order: 0
 mode: "schedule"
