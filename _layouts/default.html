@@ -5,423 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
-    /* ========================
-       Base
-    ======================== */
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-    }
+    body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; }
+    .top-nav { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; border-bottom: 1px solid #ddd; max-width: 1400px; margin: auto; }
+    .nav-left { display: flex; align-items: center; gap: 15px; }
+    .nav-left img { height: 50px; }
+    .nav-right { display: flex; align-items: center; position: relative; }
+    .nav-right a { margin-left: 18px; text-decoration: none; color: #444; font-weight: 500; }
+    .layout { display: grid; grid-template-columns: 320px 1fr 260px; gap: 20px; max-width: 1400px; margin: auto; padding: 20px; }
+    .left, .right { position: sticky; top: 20px; height: calc(100vh - 40px); overflow-y: auto; }
+    .left { border-right: 1px solid #ddd; padding-right: 10px; }
+    .right { border-left: 1px solid #ddd; padding-left: 10px; }
+    .menu-toggle { display: none; }
+    .nav-links { display: flex; gap: 15px; }
 
-    /* ========================
-       Top Navigation
-    ======================== */
-    .top-nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px;
-      border-bottom: 1px solid #ddd;
-      max-width: 1400px;
-      margin: auto;
-    }
-
-    .nav-left {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-    }
-
-    .nav-left img {
-      height: 50px;
-    }
-
-    .nav-right {
-      display: flex;
-      align-items: center;
-      position: relative;
-    }
-
-    .nav-right a {
-      margin-left: 18px;
-      text-decoration: none;
-      color: #444;
-      font-weight: 500;
-    }
-
-    /* ========================
-       Search
-    ======================== */
-    .search-box {
-      position: relative;
-      margin-left: 15px;
-    }
-
-    .search-box input {
-      padding: 4px;
-    }
-
-    #results-container {
-      position: absolute;
-      top: 30px;
-      left: 0;
-      width: 250px;
-      background: white;
-      border: 1px solid #ddd;
-      padding: 5px;
-      margin: 0;
-      list-style: none;
-      display: none;
-      z-index: 1000;
-    }
-
-    #results-container li {
-      padding: 4px 0;
-    }
-
-    #results-container a {
-      text-decoration: none;
-      color: #333;
-    }
-
-    #results-container a:hover {
-      text-decoration: underline;
-    }
-
-    /* ========================
-       Layout
-    ======================== */
-    .layout {
-      display: grid;
-      grid-template-columns: 320px 1fr 260px;
-      gap: 20px;
-      max-width: 1400px;
-      margin: auto;
-      padding: 20px;
-    }
-
-    .left, .right {
-      position: sticky;
-      top: 20px;
-      height: calc(100vh - 40px);
-      overflow-y: auto;
-    }
-
-    .left {
-      border-right: 1px solid #ddd;
-      padding-right: 10px;
-    }
-
-    .right {
-      border-left: 1px solid #ddd;
-      padding-left: 10px;
-    }
-
-    /* ========================
-       Sidebar Content
-    ======================== */
-    .left ul {
-      padding-left: 18px;
-      margin-top: 5px;
-    }
-
-    .left li {
-      margin-bottom: 6px;
-    }
-
-    .left h1, .left h2, .left h3 {
-      margin: 12px 0 5px;
-      font-size: 0.95em;
-    }
-
-    .left p {
-      margin: 4px 0;
-    }
-
-    .left a {
-      color: #444;
-      text-decoration: none;
-    }
-
-    .left a.active {
-      font-weight: bold;
-      font-style: italic;
-    }
-
-    .left a:hover {
-      text-decoration: underline;
-    }
-
-    /* ========================
-       Page Navigation
-    ======================== */
-    .page-nav {
-      margin-bottom: 20px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.9em;
-    }
-
-    .page-nav a {
-      color: #444;
-      text-decoration: none;
-    }
-
-    .page-nav a:hover {
-      text-decoration: underline;
-    }
-
-    /* ========================
-       Footer
-    ======================== */
-    .site-footer {
-      border-top: 1px solid #ddd;
-      margin-top: 40px;
-      padding: 20px;
-      text-align: center;
-      font-size: 0.85em;
-      color: #666;
-      background: #fafafa;
-    }
-
-    .footer-content {
-      max-width: 900px;
-      margin: auto;
-    }
-
-    /* ========================
-       Mobile Navigation
-    ======================== */
-    .menu-toggle {
-      display: none;
-      background: none;
-      border: none;
-      font-size: 1.2rem;
-      cursor: pointer;
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-    }
-
-    /* ========================
-       Responsive
-    ======================== */
     @media (max-width: 900px) {
-
-      .layout {
-        grid-template-columns: 1fr;
-      }
-
-      .right {
-        display: none;
-      }
-
-      /* NAV */
-      .menu-toggle {
-        display: block;
-      }
-
-      .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        right: 20px;
-        top: 60px;
-        background: white;
-        border: 1px solid #ddd;
-        padding: 10px;
-        width: 220px;
-        z-index: 1000;
-      }
-
-      .nav-links.open {
-        display: flex;
-      }
-
-      /* TEMP: hide left on mobile (you'll change this later) */
-      .left {
-        display: none;
-      }
+      .layout { grid-template-columns: 1fr; }
+      .right { display: none; }
+      .menu-toggle { display: block; }
+      .nav-links { display: none; flex-direction: column; position: absolute; right: 20px; top: 60px; background: white; border: 1px solid #ddd; padding: 10px; width: 220px; }
+      .nav-links.open { display: flex; }
+      .left { display: none; }
     }
-
   </style>
 </head>
-
 <body>
 
-  <!-- SEARCH SCRIPT -->
-  <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-
-      const input = document.getElementById('search-input');
-      const results = document.getElementById('results-container');
-
-      if (!input || !results) return;
-      if (typeof SimpleJekyllSearch === "undefined") return;
-
-      const searchUrl = "{{ '/search.json' | relative_url }}";
-
-      SimpleJekyllSearch({
-        searchInput: input,
-        resultsContainer: results,
-        json: searchUrl,
-        searchResultTemplate: '<li>{url}{title}</a></li>',
-        noResultsText: '<li>No results found</li>',
-        limit: 10
-      });
-
-      input.addEventListener('input', function () {
-        results.style.display = this.value.length > 0 ? 'block' : 'none';
-      });
-    });
-
-    function toggleMenu() {
-      const nav = document.getElementById("nav-links");
-      nav.classList.toggle("open");
-    }
-  </script>
-
-  <!-- HEADER -->
-  <div class="top-nav">
-
-    <div class="nav-left">
-	    <a href="{{ '/' | relative_url }}"><img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}" alt="Image of the CMSE graphic with a graduation cap and the MSU letters.  Clicking on this link will take you to the home page">
-      </a>
-      <strong>CMSE495 Data Science Capstone</strong>
-    </div>
-
-    <div class="nav-right">
-
-      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-
-      <div id="nav-links" class="nav-links">
-
-        <a href="{{ '/' | relative_url }}">Schedule</a>
-        <a href="{{ '/Guide/' | relative_url }}">Course Guide</a>
-	<a href="{{ '/Seeking-Community_Partners' | relative_url }}">Community Partners</a>
-
-        <div class="search-box">
-          <input type="text" id="search-input" placeholder="Search...">
-          <ul id="results-container"></ul>
-        </div>
-
-      </div>
-    </div>
+<div class="top-nav">
+  <div class="nav-left">
+    <a href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}">
+    </a>
+    <strong>CMSE495 Data Science Capstone</strong>
   </div>
 
-  <!-- MAIN -->
-  <div class="layout">
+  <div class="nav-right">
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
 
-    <!-- LEFT -->
-    <aside class="left">
-
-      {% if page.mode == "schedule" %}
-        {% assign schedule = site.pages | where: "is_schedule", true | first %}
-        {% if schedule %}
-          {{ schedule.content }}
-        {% endif %}
-      {% endif %}
-
-      {% if page.mode == "guide" %}
-        <div>
-          <h3>Course Guide</h3>
-
-          {% assign folder_pages = site.pages
-	    | where_exp: "p", "p.url contains page.dir"
-            | where_exp: "p", "p.order != nil"
-            | sort: "order" %}
-
-          <ul>
-            {% for p in folder_pages %}
-              <li>
-                 | relative_url }}"
-                   class="{% if p.url == page.url %}active{% endif %}">
-                  {{ p.title }}
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% endif %}
-
-    </aside>
-
-    <!-- CENTER -->
-    <main>
-
-      {% assign parts = content | split:'<!-- TOC_START -->' %}
-
-      {% if page.order != nil %}
-
-        {% assign folder_pages = site.pages
-          | where: "dir", page.dir
-          | where_exp: "p", "p.order != nil"
-          | sort: "order" %}
-
-        {% assign current_index = -1 %}
-
-        {% for p in folder_pages %}
-          {% if p.url == page.url %}
-            {% assign current_index = forloop.index0 %}
-          {% endif %}
-        {% endfor %}
-
-        {% assign last_index = folder_pages.size | minus: 1 %}
-        {% assign index_page = folder_pages | where: "order", 0 | first %}
-        {% if index_page == nil %}
-          {% assign index_page = folder_pages | first %}
-        {% endif %}
-
-        <div class="page-nav">
-
-          <div>
-            {% if current_index > 0 %}
-              {% assign prev = folder_pages[current_index | minus: 1] %}
-              {{ prev.url | relative_url }}← {{ prev.title }}</a>
-            {% endif %}
-          </div>
-
-          <div>
-            {% if index_page %}
-              {{ index_page.url | relative_url }}
-                {{ index_page.title }}
-              </a>
-            {% endif %}
-          </div>
-
-          <div>
-            {% if current_index >= 0 and current_index < last_index %}
-              {% assign next = folder_pages[current_index | plus: 1] %}
-              {{ next.url | relative_url }}
-                {{ next.title }} →
-              </a>
-            {% endif %}
-          </div>
-
-        </div>
-
-      {% endif %}
-
-      <hr>
-      {{ parts[0] }}
-
-    </main>
-
-    <!-- RIGHT -->
-    <aside class="right">
-      {% if parts.size > 1 %}
-        {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
-        {{ toc_parts[0] }}
-      {% endif %}
-    </aside>
-
+    <div id="nav-links" class="nav-links">
+      <a href="{{ '/' | relative_url }}">Schedule</a>
+      <a href="{{ '/Guide/' | relative_url }}">Course Guide</a>
+      <a href="{{ '/Seeking-Community_Partners' | relative_url }}">Community Partners</a>
+    </div>
   </div>
+</div>
+
+<div class="layout">
+  <aside class="left">LEFT SIDEBAR</aside>
+  <main>{{ content }}</main>
+  <aside class="right">RIGHT SIDEBAR</aside>
+</div>
+
+<script>
+function toggleMenu() {
+  const nav = document.getElementById("nav-links");
+  nav.classList.toggle("open");
+}
+</script>
 
 </body>
 </html>
