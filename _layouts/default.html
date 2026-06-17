@@ -373,9 +373,9 @@ function toggleMenu() {
       {% assign next = folder_pages[current_index | plus: 1] %}
       {% assign index_page = folder_pages | where: "order", 0 | first %}
 
-      Prev={{% prev %}}
-      index={{% current_index  %}}
-      Prev={{% next %}}
+      Prev={{ prev }}
+      index={( current_index }}
+      Prev={{ next }}
 
       {% if index_page == nil %}
         {% assign index_page = folder_pages | first %}
