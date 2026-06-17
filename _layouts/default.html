@@ -386,7 +386,10 @@ order: {{ p.order }}
       {% endfor %}
 
       {% assign last_index = folder_pages.size | minus: 1 %}
+      {% assign prev = folder_pages[current_index | minus: 1] %}
+      {% assign next = folder_pages[current_index | plus: 1] %}
       {% assign index_page = folder_pages | where: "order", 0 | first %}
+
       {% if index_page == nil %}
         {% assign index_page = folder_pages | first %}
       {% endif %}
@@ -395,7 +398,7 @@ order: {{ p.order }}
 
         <div>
           {% if current_index > 0 %}
-            {% assign prev = folder_pages[current_index | minus: 1] %}
+            {% assign prev = folder_pages[prev] %}
             <a href="{{ prev.url | relative_url }}">← {{ prev.title }}</a>
           {% endif %}
         </div>
@@ -408,7 +411,7 @@ order: {{ p.order }}
 
         <div>
           {% if current_index >= 0 and current_index < last_index %}
-            {% assign next = folder_pages[current_index | plus: 1] %}
+            {% assign next = folder_pages[next] %}
             <a href="{{ next.url | relative_url }}">{{ next.title }} →</a>
           {% endif %}
         </div>
