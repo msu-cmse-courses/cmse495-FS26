@@ -372,15 +372,17 @@ function toggleMenu() {
       
       {% assign index_page = folder_pages | where: "order", 0 | first %}
       {% assign last_index = folder_pages.size | minus: 1 %}
-
+      
       {% if index_page == nil %}
         {% assign index_page = folder_pages | first %}
       {% endif %}
 
       <div class="page-nav">
-
+	      PREV={{ prev_index }}
+	      current{{ current_index }}
+	      NEXT={{ next_index }}
         <div>
-          {% if current_index > 1 %}
+          {% if current_index > 0 %}
             {% assign prev = folder_pages[prev_index] %}
             <a href="{{ prev.url | relative_url }}">← {{ prev.title }}</a>
           {% endif %}
