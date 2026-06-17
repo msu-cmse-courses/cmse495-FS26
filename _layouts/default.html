@@ -353,23 +353,6 @@ function toggleMenu() {
 
     {% assign parts = content | split:'<!-- TOC_START -->' %}
     
-
-<pre>
-PAGE: {{ page.url }}
-DIR: {{ page.dir }}
-ORDER: {{ page.order }}
-
----- FOLDER PAGES ----
-{% for p in folder_pages %}
-[{{ forloop.index0 }}]
-url: {{ p.url }}
-order: {{ p.order }}
-{% endfor %}
-</pre>
-
-
-
-
     {% if page.order != nil %}
 
       {% assign folder_pages = site.pages
@@ -389,6 +372,10 @@ order: {{ p.order }}
       {% assign prev = folder_pages[current_index | minus: 1] %}
       {% assign next = folder_pages[current_index | plus: 1] %}
       {% assign index_page = folder_pages | where: "order", 0 | first %}
+
+      Prev={{% prev %}}
+      index={{% current_index  %}}
+      Prev={{% next %}}
 
       {% if index_page == nil %}
         {% assign index_page = folder_pages | first %}
