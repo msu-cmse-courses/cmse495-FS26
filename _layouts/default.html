@@ -246,8 +246,35 @@ function toggleMenu() {
     <strong>CMSE495 Data Science Capstone</strong>
   </div>
 
-  {% include nav.html %}  <div class="nav-right">
+<div class="nav-right">
 
+  <!-- MENU BUTTON -->
+  <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+
+  <div id="nav-links" class="nav-links">
+
+    <a href="{{ '/' | relative_url }}"
+       class="{% if page.url == '/' %}active{% endif %}">
+       Schedule
+    </a>
+
+    <a href="{{ '/Guild/' | relative_url }}"
+       class="{% if page.url contains '/Guide' %}active{% endif %}">
+       Course Guide
+    </a>
+
+    <a href="{{ '/Seeking-Community_Partners' | relative_url }}">
+       Community Partners
+    </a>
+
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Search...">
+      <ul id="results-container"></ul>
+    </div>
+
+  </div>
+
+</div>
      <!-- MENU BUTTON (mobile only)
      <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
 
