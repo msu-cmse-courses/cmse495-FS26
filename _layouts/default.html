@@ -381,7 +381,7 @@ function toggleMenu() {
 
         <div>
           {% if current_index > 0 %}
-            {% assign prev = folder_pages[previ_index] %}
+            {% assign prev = folder_pages[prev_index] %}
             <a href="{{ prev.url | relative_url }}">← {{ prev.title }}</a>
           {% endif %}
         </div>
