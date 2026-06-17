@@ -239,6 +239,7 @@ function toggleMenu() {
 
 <!-- HEADER -->
 <div class="top-nav">
+
   <div class="nav-left">
     <a href="{{ '/' | relative_url }}">
       <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}">
@@ -246,38 +247,37 @@ function toggleMenu() {
     <strong>CMSE495 Data Science Capstone</strong>
   </div>
 
-<div class="nav-right">
+  <div class="nav-right">
 
-  <!-- MENU BUTTON -->
-  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <!-- MENU BUTTON -->
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
 
-  <div id="nav-links" class="nav-links">
+    <div id="nav-links" class="nav-links">
 
-    <a href="{{ '/' | relative_url }}"
-       class="{% if page.url == '/' %}active{% endif %}">
-       Schedule
-    </a>
+      <a href="{{ '/' | relative_url }}"
+         class="{% if page.url == '/' %}active{% endif %}">
+         Schedule
+      </a>
 
-    <a href="{{ '/Guide/' | relative_url }}"
-       class="{% if page.url contains '/Guide' %}active{% endif %}">
-       Course Guide
-    </a>
+      <a href="{{ '/Guide/' | relative_url }}"
+         class="{% if page.url contains '/Guide' %}active{% endif %}">
+         Course Guide
+      </a>
 
-    <a href="{{ '/Seeking-Community_Partners' | relative_url }}">
-       Community Partners
-    </a>
+      <a href="{{ '/Seeking-Community_Partners' | relative_url }}">
+         Community Partners
+      </a>
 
-    <div class="search-box">
-      <input type="text" id="search-input" placeholder="Search...">
-      <ul id="results-container"></ul>
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="Search...">
+        <ul id="results-container"></ul>
+      </div>
+
     </div>
 
   </div>
 
 </div>
-
-</div>
-
 <!-- MAIN -->
 <div class="layout">
 
@@ -296,10 +296,10 @@ function toggleMenu() {
         <h3>Course Guide</h3>
 
 
-{% assign folder_pages = site.pages
-   | where: "dir", page.dir
-   | where_exp: "p", "p.order != nil"
-   | sort: "order" %}
+	{% assign folder_pages = site.pages
+   	| where: "dir", page.dir
+   	| where_exp: "p", "p.order != nil"
+   	| sort: "order" %}
 
 
         <ul>
