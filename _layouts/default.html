@@ -319,7 +319,6 @@ function toggleMenu() {
 <div class="layout">
 
   <aside class="left">
-    <pre>MODE: {{ page.mode }}</pre>
     {% if page.mode == "schedule" %}
       {% assign schedule = site.pages | where: "is_schedule", true | first %}
       {% if schedule %}
@@ -332,7 +331,7 @@ function toggleMenu() {
         <h3>Course Guide</h3>
 
         {% assign folder_pages = site.pages
-          | where: "dir", page.dir
+	  | where_exp: "p", "p.url contains page.dir"
           | where_exp: "p", "p.order != nil"
           | sort: "order" %}
 
