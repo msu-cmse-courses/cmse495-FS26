@@ -95,6 +95,8 @@
     }
 
     .top-nav {
+      position: relative;
+      z-index: 1100;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -177,6 +179,12 @@
       min-width: 12rem;
     }
 
+    .search-box form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
     .search-box input {
       width: 100%;
       padding: 0.55rem 0.7rem;
@@ -189,13 +197,12 @@
 
     #results-container {
       position: absolute;
-      top: calc(100% + 0.4rem);
+      top: calc(100% + 2.2rem);
       left: 0;
       width: 100%;
       margin: 0;
       padding: 0.5rem;
       list-style: none;
-      display: none;
       background: var(--panel-bg);
       border: 1px solid var(--border);
       border-radius: 0.85rem;
@@ -207,6 +214,21 @@
 
     #results-container li {
       padding: 0.25rem 0.25rem;
+    }
+
+    #results-container li[aria-selected="true"] {
+      background: var(--accent-soft);
+      border-radius: 0.5rem;
+    }
+
+    #results-container a {
+      display: block;
+    }
+
+    .search-status {
+      min-height: 1.2em;
+      color: var(--muted);
+      font-size: 0.875rem;
     }
 
     #results-container a {
@@ -430,9 +452,12 @@
         <a href="{{ '/Seeking-Community_Partners' | relative_url }}">Community Partners</a>
 
         <div class="search-box">
-          <label class="sr-only" for="search-input">Search site</label>
-          <input type="text" id="search-input" placeholder="Search site..." autocomplete="off">
-          <ul id="results-container" aria-live="polite"></ul>
+          <form role="search" action="{{ '/search.json' | relative_url }}" onsubmit="return false;">
+            <label class="sr-only" for="search-input">Search site</label>
+            <input type="search" id="search-input" placeholder="Search site..." autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-haspopup="listbox" aria-expanded="false" aria-controls="results-container" aria-describedby="search-status">
+            <div id="search-status" class="search-status" aria-live="polite"></div>
+            <ul id="results-container" role="listbox" hidden></ul>
+          </form>
         </div>
       </nav>
     </div>
@@ -446,24 +471,154 @@
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const input = document.getElementById("search-input");
       const results = document.getElementById("results-container");
+      const status = document.getElementById("search-status");
+      let pages = [];
+      let activeIndex = -1;
 
-      if (input && results && typeof SimpleJekyllSearch !== "undefined") {
-        SimpleJekyllSearch({
-          searchInput: input,
-          resultsContainer: results,
-          json: "{{ '/search.json' | relative_url }}",
-          searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
-          noResultsText: '<li>No results found</li>',
-          limit: 10
+      function escapeHtml(value) {
+        return value
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/\"/g, "&quot;")
+          .replace(/'/g, "&#39;");
+      }
+
+      function closeResults() {
+        results.hidden = true;
+        input.setAttribute("aria-expanded", "false");
+        input.removeAttribute("aria-activedescendant");
+        activeIndex = -1;
+      }
+
+      function openResults() {
+        if (results.children.length > 0) {
+          results.hidden = false;
+          input.setAttribute("aria-expanded", "true");
+        }
+      }
+
+      function updateStatus(message) {
+        status.textContent = message;
+      }
+
+      function renderResults(matches) {
+        results.innerHTML = matches.map((page, index) => {
+          const title = escapeHtml(page.title || "Untitled page");
+          const url = escapeHtml(page.url || "#");
+          return `<li id="search-option-${index}" role="option" aria-selected="false"><a href="${url}">${title}</a></li>`;
+        }).join("");
+
+        if (matches.length === 0) {
+          results.innerHTML = "";
+          closeResults();
+          updateStatus("No results found");
+          return;
+        }
+
+        results.hidden = false;
+        input.setAttribute("aria-expanded", "true");
+        activeIndex = -1;
+        updateStatus(`${matches.length} result${matches.length === 1 ? "" : "s"} available`);
+      }
+
+      function setActiveIndex(nextIndex) {
+        const items = Array.from(results.querySelectorAll('[role="option"]'));
+
+        if (items.length === 0) {
+          return;
+        }
+
+        activeIndex = (nextIndex + items.length) % items.length;
+
+        items.forEach((item, index) => {
+          const isActive = index === activeIndex;
+          item.setAttribute("aria-selected", isActive ? "true" : "false");
+          if (isActive) {
+            input.setAttribute("aria-activedescendant", item.id);
+            item.scrollIntoView({ block: "nearest" });
+          }
+        });
+      }
+
+      function searchPages(query) {
+        const normalized = query.trim().toLowerCase();
+
+        if (!normalized) {
+          results.innerHTML = "";
+          closeResults();
+          updateStatus("");
+          return;
+        }
+
+        const matches = pages.filter((page) => {
+          const haystack = `${page.title || ""} ${page.content || ""}`.toLowerCase();
+          return haystack.includes(normalized);
+        }).slice(0, 10);
+
+        renderResults(matches);
+      }
+
+      fetch("{{ '/search.json' | relative_url }}")
+        .then((response) => response.json())
+        .then((data) => {
+          pages = Array.isArray(data) ? data : [];
+        })
+        .catch(() => {
+          updateStatus("Search is unavailable right now");
         });
 
+      if (input && results && status) {
         input.addEventListener("input", function () {
-          results.style.display = this.value.length > 0 ? "block" : "none";
+          searchPages(this.value);
+        });
+
+        input.addEventListener("keydown", function (event) {
+          const hasResults = results.children.length > 0 && !results.hidden;
+
+          if (!hasResults && (event.key === "ArrowDown" || event.key === "ArrowUp")) {
+            return;
+          }
+
+          switch (event.key) {
+            case "ArrowDown":
+              event.preventDefault();
+              setActiveIndex(activeIndex + 1);
+              break;
+            case "ArrowUp":
+              event.preventDefault();
+              setActiveIndex(activeIndex - 1);
+              break;
+            case "Enter": {
+              if (activeIndex >= 0) {
+                event.preventDefault();
+                const activeLink = results.querySelectorAll('a')[activeIndex];
+                if (activeLink) {
+                  window.location.href = activeLink.href;
+                }
+              }
+              break;
+            }
+            case "Escape":
+              closeResults();
+              break;
+          }
+        });
+
+        input.addEventListener("focus", function () {
+          if (this.value.trim()) {
+            openResults();
+          }
+        });
+
+        document.addEventListener("click", function (event) {
+          if (!event.target.closest(".search-box")) {
+            closeResults();
+          }
         });
       }
     });
