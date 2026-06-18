@@ -22,7 +22,7 @@ layout: default
 			{% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
 			{% if toc_parts[0] != nil and toc_parts[0] != "" %}
 				<nav aria-label="On this page">
-					{{ toc_parts[0] }}
+					{{ toc_parts[0] | replace: '<details>', '<details open>' }}
 				</nav>
 			{% endif %}
 		{% endif %}

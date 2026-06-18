@@ -9,14 +9,15 @@
   <meta name="description" content="{{ site.description }}">
   <style>
     :root {
-      --page-bg: #f6f4ef;
-      --panel-bg: #fffdf8;
-      --panel-alt: #f1ede5;
-      --text: #1f2328;
-      --muted: #5f6670;
-      --border: #d8d1c4;
-      --accent: #7a4e1d;
-      --accent-soft: #f0e3cf;
+      --page-bg: #f3f7f2;
+      --panel-bg: #fbfdf9;
+      --panel-alt: #edf4ee;
+      --text: #1b221d;
+      --muted: #5a665f;
+      --border: #cad7cd;
+      --accent: #1f5c45;
+      --accent-hover: #174534;
+      --accent-soft: #ddebe3;
       --shadow: 0 10px 30px rgba(31, 35, 40, 0.08);
       --max-width: 1400px;
     }
@@ -33,18 +34,29 @@
       margin: 0;
       color: var(--text);
       background:
-        radial-gradient(circle at top left, rgba(122, 78, 29, 0.08), transparent 28%),
-        linear-gradient(180deg, #fbf9f4 0%, var(--page-bg) 100%);
+        radial-gradient(circle at top left, rgba(31, 92, 69, 0.08), transparent 28%),
+        linear-gradient(180deg, #fbfefb 0%, var(--page-bg) 100%);
       font-family: Georgia, "Times New Roman", serif;
       line-height: 1.65;
     }
 
     a {
       color: var(--accent);
+      text-decoration: underline;
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.16em;
     }
 
     a:hover {
+      color: var(--accent-hover);
       text-decoration-thickness: 2px;
+    }
+
+    a:focus-visible,
+    button:focus-visible,
+    input:focus-visible {
+      outline: 3px solid rgba(31, 92, 69, 0.28);
+      outline-offset: 2px;
     }
 
     img {
@@ -198,12 +210,14 @@
     }
 
     #results-container a {
-      text-decoration: none;
-      color: var(--text);
+      text-decoration: underline;
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.14em;
+      color: var(--accent);
     }
 
     #results-container a:hover {
-      text-decoration: underline;
+      color: var(--accent-hover);
     }
 
     .layout {
@@ -257,18 +271,21 @@
     }
 
     .left a {
-      color: var(--text);
-      text-decoration: none;
+      color: var(--accent);
+      text-decoration: underline;
     }
 
     .left a.active,
     .left a[aria-current="page"] {
-      color: var(--accent);
+      color: var(--accent-hover);
       font-weight: 700;
+      background: var(--accent-soft);
+      padding: 0.1rem 0.3rem;
+      border-radius: 0.35rem;
     }
 
     .left a:hover {
-      text-decoration: underline;
+      color: var(--accent-hover);
     }
 
     main {
