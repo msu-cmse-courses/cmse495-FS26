@@ -1,171 +1,309 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
   <style>
-
-    /* ========================
-       Base
-    ======================== */
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
+    :root {
+      --page-bg: #f6f4ef;
+      --panel-bg: #fffdf8;
+      --panel-alt: #f1ede5;
+      --text: #1f2328;
+      --muted: #5f6670;
+      --border: #d8d1c4;
+      --accent: #7a4e1d;
+      --accent-soft: #f0e3cf;
+      --shadow: 0 10px 30px rgba(31, 35, 40, 0.08);
+      --max-width: 1400px;
     }
 
-    /* ========================
-       Top Navigation
-    ======================== */
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(122, 78, 29, 0.08), transparent 28%),
+        linear-gradient(180deg, #fbf9f4 0%, var(--page-bg) 100%);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.65;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    a:hover {
+      text-decoration-thickness: 2px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: 1rem;
+      top: 1rem;
+      z-index: 1001;
+      padding: 0.75rem 1rem;
+      background: var(--panel-bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      transform: translateY(-200%);
+      transition: transform 0.2s ease;
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
     .top-nav {
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      padding: 10px 20px;
-      border-bottom: 1px solid #ddd;
-      max-width: 1400px;
-      margin: auto;
+      justify-content: space-between;
+      gap: 1rem;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 1rem 1.25rem;
+      background: rgba(255, 253, 248, 0.92);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(14px);
     }
 
     .nav-left {
       display: flex;
       align-items: center;
-      gap: 15px;
+      gap: 0.9rem;
+      min-width: 0;
     }
 
     .nav-left img {
-      height: 50px;
+      display: block;
+      width: 3.25rem;
+      height: 3.25rem;
+      object-fit: contain;
+    }
+
+    .site-title {
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      line-height: 1.2;
     }
 
     .nav-right {
       display: flex;
       align-items: center;
-      position: relative;
+      gap: 0.75rem;
     }
 
-    .nav-right a {
-      margin-left: 18px;
+    .menu-toggle {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid var(--border);
+      border-radius: 0.8rem;
+      background: var(--panel-bg);
+      color: var(--text);
+      font-size: 1.1rem;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .nav-links a {
       text-decoration: none;
-      color: #444;
-      font-weight: 500;
+      color: var(--text);
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 0.45rem 0.65rem;
+      border-radius: 0.65rem;
     }
 
-    /* ========================
-       Search
-    ======================== */
+    .nav-links a.active,
+    .nav-links a[aria-current="page"] {
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+
     .search-box {
       position: relative;
-      margin-left: 15px;
+      min-width: 12rem;
     }
 
     .search-box input {
-      padding: 4px;
+      width: 100%;
+      padding: 0.55rem 0.7rem;
+      border: 1px solid var(--border);
+      border-radius: 0.7rem;
+      background: var(--panel-bg);
+      color: var(--text);
+      font: inherit;
     }
 
     #results-container {
       position: absolute;
-      top: 30px;
+      top: calc(100% + 0.4rem);
       left: 0;
-      width: 250px;
-      background: white;
-      border: 1px solid #ddd;
-      padding: 5px;
+      width: 100%;
       margin: 0;
+      padding: 0.5rem;
       list-style: none;
       display: none;
+      background: var(--panel-bg);
+      border: 1px solid var(--border);
+      border-radius: 0.85rem;
+      box-shadow: var(--shadow);
       z-index: 1000;
+      max-height: 18rem;
+      overflow-y: auto;
     }
 
     #results-container li {
-      padding: 4px 0;
+      padding: 0.25rem 0.25rem;
     }
 
     #results-container a {
       text-decoration: none;
-      color: #333;
+      color: var(--text);
     }
 
     #results-container a:hover {
       text-decoration: underline;
     }
 
-    /* ========================
-       Layout
-    ======================== */
     .layout {
       display: grid;
-      grid-template-columns: 320px 1fr 260px;
-      gap: 20px;
-      max-width: 1400px;
-      margin: auto;
-      padding: 20px;
+      grid-template-columns: 18rem minmax(0, 1fr) 18rem;
+      gap: 1.5rem;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 1.5rem;
+      align-items: start;
     }
 
-    .left, .right {
-      position: sticky;
-      top: 20px;
-      height: calc(100vh - 40px);
-      overflow-y: auto;
+    .left,
+    .right,
+    main {
+      min-width: 0;
     }
 
-    .left {
-      border-right: 1px solid #ddd;
-      padding-right: 10px;
-    }
-
+    .left,
     .right {
-      border-left: 1px solid #ddd;
-      padding-left: 10px;
+      position: sticky;
+      top: 1.5rem;
+      max-height: calc(100vh - 3rem);
+      overflow-y: auto;
+      padding: 1rem;
+      background: rgba(255, 253, 248, 0.88);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      box-shadow: var(--shadow);
     }
 
-    /* ========================
-       Sidebar Content
-    ======================== */
+    .left nav,
+    .right nav {
+      display: block;
+    }
+
+    .left h2,
+    .right h2 {
+      margin: 0 0 0.75rem;
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      font-size: 1rem;
+    }
+
     .left ul {
-      padding-left: 18px;
-      margin-top: 5px;
+      margin: 0;
+      padding-left: 1.1rem;
     }
 
     .left li {
-      margin-bottom: 6px;
-    }
-
-    .left h1, .left h2, .left h3 {
-      margin: 12px 0 5px;
-      font-size: 0.95em;
-    }
-
-    .left p {
-      margin: 4px 0;
+      margin: 0.35rem 0;
     }
 
     .left a {
-      color: #444;
+      color: var(--text);
       text-decoration: none;
     }
 
-    .left a.active {
-      font-weight: bold;
-      font-style: italic;
+    .left a.active,
+    .left a[aria-current="page"] {
+      color: var(--accent);
+      font-weight: 700;
     }
 
     .left a:hover {
       text-decoration: underline;
     }
 
-    /* ========================
-       Page Navigation
-    ======================== */
+    main {
+      padding: 1.25rem;
+      background: var(--panel-bg);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      box-shadow: var(--shadow);
+    }
+
     .page-nav {
-      margin-bottom: 20px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.9em;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+      gap: 0.75rem;
+      align-items: center;
+      margin: 0 0 1.25rem;
+      padding: 0.85rem 1rem;
+      background: var(--panel-alt);
+      border: 1px solid var(--border);
+      border-radius: 0.85rem;
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      font-size: 0.95rem;
+    }
+
+    .page-nav > div:nth-child(2) {
+      text-align: center;
+      font-weight: 700;
+    }
+
+    .page-nav > div:last-child {
+      text-align: right;
     }
 
     .page-nav a {
-      color: #444;
+      color: var(--text);
       text-decoration: none;
     }
 
@@ -173,260 +311,151 @@
       text-decoration: underline;
     }
 
-    /* ========================
-       Footer
-    ======================== */
+    .right :is(ul, ol) {
+      padding-left: 1.1rem;
+    }
+
     .site-footer {
-      border-top: 1px solid #ddd;
-      margin-top: 40px;
-      padding: 20px;
-      text-align: center;
-      font-size: 0.85em;
-      color: #666;
-      background: #fafafa;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem 1.5rem;
     }
 
     .footer-content {
-      max-width: 900px;
-      margin: auto;
+      padding: 1rem 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      background: rgba(255, 253, 248, 0.88);
+      color: var(--muted);
+      text-align: center;
+      box-shadow: var(--shadow);
     }
 
-    /* ========================
-       Mobile Nav
-    ======================== */
-    .menu-toggle {
-      display: none;
-      background: none;
-      border: none;
-      font-size: 1.2rem;
-      cursor: pointer;
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-    }
-
-    /* ========================
-       Responsive
-    ======================== */
     @media (max-width: 900px) {
-
-      .layout {
-        grid-template-columns: 1fr;
+      .top-nav {
+        flex-wrap: wrap;
+        align-items: flex-start;
       }
 
-      .right {
-        display: none;
+      .nav-right {
+        width: 100%;
+        justify-content: flex-end;
       }
 
       .menu-toggle {
-        display: block;
+        display: inline-flex;
       }
 
       .nav-links {
         display: none;
+        width: 100%;
         flex-direction: column;
-        position: absolute;
-        right: 20px;
-        top: 60px;
-        background: white;
-        border: 1px solid #ddd;
-        padding: 10px;
-        width: 220px;
-        z-index: 1000;
+        align-items: stretch;
+        gap: 0.5rem;
+        padding: 0.75rem;
+        background: var(--panel-bg);
+        border: 1px solid var(--border);
+        border-radius: 0.9rem;
+        box-shadow: var(--shadow);
       }
 
       .nav-links.open {
         display: flex;
       }
 
-      .left {
-        display: none;
+      .nav-links a {
+        width: 100%;
+      }
+
+      .search-box {
+        min-width: 0;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .left,
+      .right {
+        position: static;
+        max-height: none;
+      }
+
+      .page-nav {
+        grid-template-columns: 1fr;
+        text-align: left;
+      }
+
+      .page-nav > div:nth-child(2),
+      .page-nav > div:last-child {
+        text-align: left;
       }
     }
-
   </style>
 </head>
-
 <body>
+  <a class="skip-link" href="#content">Skip to content</a>
 
-<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-
-  const input = document.getElementById('search-input');
-  const results = document.getElementById('results-container');
-
-  if (!input || !results) return;
-  if (typeof SimpleJekyllSearch === "undefined") return;
-
-  const searchUrl = "{{ '/search.json' | relative_url }}";
-
-  SimpleJekyllSearch({
-    searchInput: input,
-    resultsContainer: results,
-    json: searchUrl,
-    searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
-    noResultsText: '<li>No results found</li>',
-    limit: 10
-  });
-
-  input.addEventListener('input', function () {
-    results.style.display = this.value.length > 0 ? 'block' : 'none';
-  });
-
-});
-
-function toggleMenu() {
-  const nav = document.getElementById("nav-links");
-  nav.classList.toggle("open");
-}
-</script>
-
-<div class="top-nav">
-
-  <div class="nav-left">
-    <a href="{{ '/' | relative_url }}">
-      <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}">
-    </a>
-    <strong>CMSE495 Data Science Capstone</strong>
-  </div>
-
-  <div class="nav-right">
-
-    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-
-    <div id="nav-links" class="nav-links">
-
-      <a href="{{ '/' | relative_url }}">Schedule</a>
-      <a href="{{ '/Guide/' | relative_url }}">Course Guide</a>
-      <a href="{{ '/Seeking-Community_Partners' | relative_url }}">Community Partners</a>
-
-      <div class="search-box">
-        <input type="text" id="search-input" placeholder="Search...">
-        <ul id="results-container"></ul>
-      </div>
-
+  <header class="top-nav">
+    <div class="nav-left">
+      <a href="{{ '/' | relative_url }}" aria-label="Go to the schedule home page">
+        <img src="{{ '/assets/img/Capstone_Logo.png' | relative_url }}" alt="CMSE 495 logo">
+      </a>
+      <div class="site-title">CMSE495 Data Science Capstone</div>
     </div>
 
-  </div>
+    <div class="nav-right">
+      <button class="menu-toggle" type="button" aria-controls="nav-links" aria-expanded="false" onclick="toggleMenu(this)">☰</button>
 
-</div>
+      <nav id="nav-links" class="nav-links" aria-label="Primary">
+        <a href="{{ '/' | relative_url }}" {% if page.layout == "schedule" %}class="active" aria-current="page"{% endif %}>Schedule</a>
+        <a href="{{ '/Guide/' | relative_url }}" {% if page.layout == "guide" %}class="active" aria-current="page"{% endif %}>Course Guide</a>
+        <a href="{{ '/Seeking-Community_Partners' | relative_url }}">Community Partners</a>
 
-<div class="layout">
-
-  <aside class="left">
-    {% if page.mode == "schedule" %}
-      {% assign schedule = site.pages | where: "is_schedule", true | first %}
-      {% if schedule %}
-        {{ schedule.content }}
-      {% endif %}
-    {% endif %}
-
-    {% if page.mode == "guide" %}
-      <div>
-        <h3>Course Guide</h3>
-
-        {% assign folder_pages = site.pages
-	  | where_exp: "p", "p.url contains page.dir"
-          | where_exp: "p", "p.order != nil"
-          | sort: "order" %}
-
-        <ul>
-          {% for p in folder_pages %}
-            <li>
-              <a href="{{ p.url | relative_url }}" class="{% if p.url == page.url %}active{% endif %}">
-                {{ p.title }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
-
-  </aside>
-
-  <main>
-
-    {% assign parts = content | split:'<!-- TOC_START -->' %}
-    
-    {% if page.order != nil and page.dir == "/Guide/" %}
-      {% assign folder_pages = site.pages
-        | where_exp: "p", "p.url contains page.dir"
-        | where_exp: "p", "p.order != nil"
-        | sort: "order" %}
-
-      {% assign current_index = -1 %}
-      {% for p in folder_pages %}
-        {% if p.url contains page.url %}
-          {% assign current_index = forloop.index0 %}
-        {% endif %}
-      {% endfor %}
-
-      {% if page.order == 0 %}
-         {% assign current_index = 0 %}
-      {% endif %}
-
-
-      {% assign prev_index = current_index | minus: 1 %}
-      {% assign next_index = current_index | plus: 1 %}
-      
-      {% assign index_page = folder_pages | where: "order", 0 | first %}
-      {% assign last_index = folder_pages.size | minus: 1 %}
-      
-      {% if index_page == nil %}
-        {% assign index_page = folder_pages | first %}
-      {% endif %}
-
-      <div class="page-nav">
-        <div>
-          {% if current_index > 0 %}
-            {% assign prev = folder_pages[prev_index] %}
-            <a href="{{ prev.url | relative_url }}">← {{ prev.title }}</a>
-          {% endif %}
+        <div class="search-box">
+          <label class="sr-only" for="search-input">Search site</label>
+          <input type="text" id="search-input" placeholder="Search site..." autocomplete="off">
+          <ul id="results-container" aria-live="polite"></ul>
         </div>
+      </nav>
+    </div>
+  </header>
 
-        <div>
-          {% if index_page %}
-            <a href="{{ index_page.url | relative_url }}">{{ index_page.title }}</a>
-          {% endif %}
-        </div>
+  {{ content }}
 
-        <div>
-          {% if current_index < last_index %}
-            {% assign next = folder_pages[next_index] %}
-            <a href="{{ next.url | relative_url }}">{{ next.title }} →</a>
-          {% endif %}
-        </div>
+  <footer class="site-footer">
+    <div class="footer-content">
+      {{ site.description }}
+    </div>
+  </footer>
 
-      </div>
+  <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const input = document.getElementById("search-input");
+      const results = document.getElementById("results-container");
 
-    {% endif %}
+      if (input && results && typeof SimpleJekyllSearch !== "undefined") {
+        SimpleJekyllSearch({
+          searchInput: input,
+          resultsContainer: results,
+          json: "{{ '/search.json' | relative_url }}",
+          searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+          noResultsText: '<li>No results found</li>',
+          limit: 10
+        });
 
-    <hr>
-    {{ parts[0] }}
+        input.addEventListener("input", function () {
+          results.style.display = this.value.length > 0 ? "block" : "none";
+        });
+      }
+    });
 
-  </main>
-
-  <aside class="right">
-    {% if parts.size > 1 %}
-      {% assign toc_parts = parts[1] | split:'<!-- TOC_END -->' %}
-      {{ toc_parts[0] }}
-    {% endif %}
-  </aside>
-
-</div>
-
-<footer class="site-footer">
-  <div class="footer-content">
-    <p>
-      Written by Drs. Dirk Colbry and Justin Gambrell, Michigan State University
-    </p>
-  </div>
-</footer>
-
+    function toggleMenu(button) {
+      const nav = document.getElementById("nav-links");
+      const expanded = nav.classList.toggle("open");
+      button.setAttribute("aria-expanded", expanded ? "true" : "false");
+    }
+  </script>
 </body>
 </html>

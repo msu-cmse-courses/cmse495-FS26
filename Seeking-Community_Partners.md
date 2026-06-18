@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: basic
 title: "Seeking Data Science Capstone Community Partners"
 ---
 

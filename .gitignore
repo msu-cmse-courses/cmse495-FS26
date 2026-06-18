@@ -120,6 +120,12 @@ venv.bak/
 # mkdocs documentation
 /site
 
+# Jekyll build output
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+
 # mypy
 .mypy_cache/
 .dmypy.json
