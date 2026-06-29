@@ -3,6 +3,16 @@ layout: default
 ---
 {% assign parts = content | split:'<!-- TOC_START -->' %}
 {% assign schedule_items = site.data.schedule | sort: "date" %}
+{% assign schedule_pages = site.pages | where_exp: "item", "item.path contains 'Schedule/'" | sort: "path" %}
+{% assign current_index = -1 %}
+{% for item in schedule_pages %}
+  {% if item.url == page.url %}
+    {% assign current_index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+{% assign last_index = schedule_pages.size | minus: 1 %}
+{% assign prev_index = current_index | minus: 1 %}
+{% assign next_index = current_index | plus: 1 %}
 
 <div class="layout">
 	<aside class="left">
@@ -13,7 +23,7 @@ layout: default
 					{% assign current_week = item.week_start %}
 					<h2>Week of {{ item.week_start | date: "%B %-d" }}</h2>
 				{% endif %}
-				<div class='sched-item'><span class='sched-date'>{{ item.date | date: "%a %m/%d" }}: </span><span class='sched-title'>{% if item.url and item.url != "" %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</span></div>
+				<div class='sched-item'><span class='sched-date'>{{ item.date | date: "%a %m/%d" }}: </span><span class='sched-title'>{% if item.url and item.url != "" %}<a href="{{ item.url | relative_url }}" {% if item.url == page.url %}class="active" aria-current="page"{% endif %}>{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</span></div>
 			{% endfor %}
 
 			<hr>
@@ -21,12 +31,43 @@ layout: default
 			<p>In FALL of 2026, class will meet weekly 12:30-1:40PM in TBD.</p>
 			<p><a href="{{ '/CMSE495_Calendar.ics' | relative_url }}">Click this link to download an ical file of this schedule</a></p>
 			<p>Remember both individual and team <a href="{{ '/Weekly-3x3' | relative_url }}">3x3 reflections</a> are due on Mondays on days we have class.</p>
+		{% elsif schedule_pages and schedule_pages.size > 0 %}
+			<h2>Assignments</h2>
+			<ul>
+				{% for item in schedule_pages %}
+					<li>
+						<a href="{{ item.url | relative_url }}" {% if item.url == page.url %}class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+					</li>
+				{% endfor %}
+			</ul>
 		{% else %}
-			<p>Daily activities will appear here when they are published.</p>
+			<p>No schedule items have been published yet.</p>
 		{% endif %}
 	</aside>
 
 	<main id="content" tabindex="-1">
+		{% if current_index >= 0 and schedule_pages.size > 0 %}
+			<nav class="page-nav" aria-label="Schedule assignment navigation">
+				<div>
+					{% if current_index > 0 %}
+						{% assign prev = schedule_pages[prev_index] %}
+						<a href="{{ prev.url | relative_url }}">← {{ prev.title }}</a>
+					{% endif %}
+				</div>
+
+				<div>
+					<a href="{{ '/' | relative_url }}">Full Schedule</a>
+				</div>
+
+				<div>
+					{% if current_index < last_index %}
+						{% assign next = schedule_pages[next_index] %}
+						<a href="{{ next.url | relative_url }}">{{ next.title }} →</a>
+					{% endif %}
+				</div>
+			</nav>
+		{% endif %}
+
 		{{ parts[0] }}
 	</main>
 
