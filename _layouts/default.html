@@ -310,6 +310,38 @@
       color: var(--accent-hover);
     }
 
+    .sched-item {
+      margin: 0 0 0.5rem;
+      padding: 0.35rem 0 0.45rem;
+      border-bottom: 1px dashed var(--border);
+    }
+
+    .sched-item:last-of-type {
+      margin-bottom: 0.25rem;
+    }
+
+    .sched-date-line {
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: var(--muted);
+      line-height: 1.2;
+    }
+
+    .sched-title-line {
+      margin-top: 0.2rem;
+      margin-left: 0.75rem;
+      line-height: 1.35;
+      font-size: 0.95rem;
+      overflow-wrap: anywhere;
+    }
+
+    .sched-title-line a {
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.14em;
+    }
+
     main {
       padding: 1.25rem;
       background: var(--panel-bg);
@@ -435,6 +467,10 @@
       .page-nav {
         grid-template-columns: 1fr;
         text-align: left;
+      }
+
+      .sched-title-line {
+        margin-left: 0.45rem;
       }
 
       .page-nav > div:nth-child(2),

@@ -23,7 +23,10 @@ layout: default
 					{% assign current_week = item.week_start %}
 					<h2>Week of {{ item.week_start | date: "%B %-d" }}</h2>
 				{% endif %}
-				<div class='sched-item'><span class='sched-date'>{{ item.date | date: "%a %m/%d" }}: </span><span class='sched-title'>{% if item.url and item.url != "" %}<a href="{{ item.url | relative_url }}" {% if item.url == page.url %}class="active" aria-current="page"{% endif %}>{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</span></div>
+				<div class='sched-item'>
+					<div class='sched-date-line'><time datetime='{{ item.date }}'>{{ item.date | date: "%a %m/%d" }}</time></div>
+					<div class='sched-title-line'>{% if item.url and item.url != "" %}<a href="{{ item.url | relative_url }}" {% if item.url == page.url %}class="active" aria-current="page"{% endif %}>{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</div>
+				</div>
 			{% endfor %}
 
 			<hr>
