@@ -17,6 +17,8 @@ Throughout this course, you are developing your project across three connected a
 
 These evolve together over time.
 
+{% include mini-schedule.html keyword="MILESTONE" title="Milestone Timeline" %}
+
 ---
 
 ## Project Phases
