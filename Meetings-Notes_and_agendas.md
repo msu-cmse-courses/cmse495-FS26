@@ -19,5 +19,3 @@ The note tacker is in charge of documenting what was decided and completed durin
 
 Agenda and meeting notes must be filed in the Microsoft Teams folder.  Teams can choose to store all notes in a single file and may combine the agenda and meeting notes together to make it easier to read.  All notes must be kept up to date, clearly organized and easily accessible by the instructors so that they may check in at any time to evaluate progress and provide feedback for the team.  
 
-Written by Dr. Dirk Colbry, Michigan State University
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.

@@ -370,6 +370,18 @@
       box-shadow: var(--shadow);
     }
 
+    .footer-content p {
+      margin: 0 0 0.75rem;
+    }
+
+    .footer-content p:last-child {
+      margin-bottom: 0;
+    }
+
+    .footer-license img {
+      vertical-align: middle;
+    }
+
     @media (max-width: 900px) {
       .top-nav {
         flex-wrap: wrap;
@@ -467,7 +479,8 @@
 
   <footer class="site-footer">
     <div class="footer-content">
-      {{ site.description }}
+      <p>Written by Dr. Dirk Colbry and Dr. Justin Grambel, Michigan State University</p>
+      <p class="footer-license"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
     </div>
   </footer>
 

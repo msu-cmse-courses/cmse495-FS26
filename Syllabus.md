@@ -313,9 +313,6 @@ If a student is exposed to someone who is ill, they will stay home, contact a he
 
 In the event that the instructor gets ill, the course will continue.  Backup instructors have been identified and will step in. 
 
-Written by Dr. Dirk Colbry, Michigan State University
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>
