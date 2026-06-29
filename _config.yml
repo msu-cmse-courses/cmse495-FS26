@@ -6,3 +6,4 @@ baseurl: /cmse495-FS26
 permalink: /:year/:month/:day/:title
 plugins:
   - jekyll-toc
+data_dir: Schedule

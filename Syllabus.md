@@ -45,7 +45,7 @@ Teams will be expected to use either email or this channel for team communicatio
 
 ### Project Milestones (Typically Due Sunday by Midnight)
 
-Although teams are encouraged to complete things early, project milestones will typically be due every **_Sunday at midnight_**.  In-class activities on most Mondays will involve reviewing project milestones, providing peer feedback and in-class time to prepare for next milestones. Details about the Milestones can be found on the course [Schedule Page](Schedule).
+Although teams are encouraged to complete things early, project milestones will typically be due every **_Sunday at midnight_**.  In-class activities on most Mondays will involve reviewing project milestones, providing peer feedback and in-class time to prepare for next milestones. Details about the Milestones can be found on the course [Schedule Page](./).
 
 Starting with the second week, all project milestones will be turned in using the team's Microsoft Team Channel or the team's github repository stored on the MSU Gitlab page (Some projects may use github but should check project agreements and get permission from the instructor).  All files in git should use "git friendly formats" (aka ASCII) such as Jupyter notebooks, html and Markdown.  Instructors will automatically download changes to the repositories after the due date and check for contributions by all of the students.  Feedback will be provided using "git issues" or via a pull/merge request. **_Students are responsible for knowing how to properly use "Git" and everyone on the team is expected to make and commit changes to the repository._**
 
@@ -173,7 +173,7 @@ If, during the semester there is a need, we have set aside the following zoom ro
 
 ## Course Schedule
 
-Specific assignments and due dates will be maintained on the [course schedule](Schedule), which is linked to off the course website.  
+Specific assignments and due dates will be maintained on the [course schedule](./), which is linked to off the course website.
 
 ## Required Materials for Class
 

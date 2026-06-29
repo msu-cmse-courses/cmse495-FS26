@@ -1,13 +1,26 @@
 ---
 layout: default
 ---
-{% assign schedule_page = site.pages | where: "is_schedule", true | first %}
 {% assign parts = content | split:'<!-- TOC_START -->' %}
+{% assign schedule_items = site.data.schedule | sort: "date" %}
 
 <div class="layout">
 	<aside class="left">
-		{% if schedule_page %}
-			{{ schedule_page.content }}
+		{% if schedule_items and schedule_items.size > 0 %}
+			{% assign current_week = "" %}
+			{% for item in schedule_items %}
+				{% if item.week_start != current_week %}
+					{% assign current_week = item.week_start %}
+					<h2>Week of {{ item.week_start | date: "%B %-d" }}</h2>
+				{% endif %}
+				<div class='sched-item'><span class='sched-date'>{{ item.date | date: "%a %m/%d" }}: </span><span class='sched-title'>{% if item.url and item.url != "" %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</span></div>
+			{% endfor %}
+
+			<hr>
+
+			<p>In FALL of 2026, class will meet weekly 12:30-1:40PM in TBD.</p>
+			<p><a href="{{ '/CMSE495_Calendar.ics' | relative_url }}">Click this link to download an ical file of this schedule</a></p>
+			<p>Remember both individual and team <a href="{{ '/Weekly-3x3' | relative_url }}">3x3 reflections</a> are due on Mondays on days we have class.</p>
 		{% else %}
 			<p>Daily activities will appear here when they are published.</p>
 		{% endif %}
