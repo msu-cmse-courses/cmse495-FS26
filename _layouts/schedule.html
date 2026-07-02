@@ -48,7 +48,7 @@ layout: default
 				<div>
 					{% if current_index > 0 %}
 						{% assign prev = schedule_pages[prev_index] %}
-						<a href="{{ prev.url | relative_url }}">← {{ prev.date }}</a>
+						<a href="{{ prev.url | relative_url }}">← {{ prev.date | date: "%a %m/%d" }}</a>
 					{% endif %}
 				</div>
 
@@ -59,7 +59,7 @@ layout: default
 				<div>
 					{% if current_index < last_index %}
 						{% assign next = schedule_pages[next_index] %}
-						<a href="{{ next.url | relative_url }}">{{ next.date }} →</a>
+						<a href="{{ next.url | relative_url }}">{{ next.date | date: "%a %m/%d" }} →</a>
 					{% endif %}
 				</div>
 			</nav>
