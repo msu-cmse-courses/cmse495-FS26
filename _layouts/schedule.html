@@ -28,18 +28,12 @@ layout: default
 					<div class='sched-title-line'>{% if item.url and item.url != "" %}<a href="{{ item.url | relative_url }}" {% if item.url == page.url %}class="active" aria-current="page"{% endif %}>{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</div>
 				</div>
 			{% endfor %}
-
-			<hr>
-
-			<p>In FALL of 2026, class will meet weekly 12:30-1:40PM in TBD.</p>
-			<p><a href="{{ '/CMSE495_Calendar.ics' | relative_url }}">Click this link to download an ical file of this schedule</a></p>
-			<p>Remember both individual and team <a href="{{ '/Weekly-3x3' | relative_url }}">3x3 reflections</a> are due on Mondays on days we have class.</p>
 		{% elsif schedule_pages and schedule_pages.size > 0 %}
 			<h2>Assignments</h2>
 			<ul>
 				{% for item in schedule_pages %}
 					<li>
-						<a href="{{ item.url | relative_url }}" {% if item.url == page.url %}class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+						<a href="{{ item.url | relative_url }}" {% if item.url == page.url %}class="active" aria-current="page"{% endif %}>{{ item.date }}</a>
 					</li>
 				{% endfor %}
 			</ul>
