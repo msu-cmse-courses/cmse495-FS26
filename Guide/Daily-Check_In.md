@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Daily Class Check-In"
-order: 999
+order: 6
 mode: "guide"
 ---
 # Daily Class Check-In

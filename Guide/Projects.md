@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Project Expectations Guide"
-order: 2
+order: 12
 mode: "guide"
 ---
 # Project Expectations Guide  

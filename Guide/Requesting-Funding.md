@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Requesting Funding"
-order: 11
+order: 14
 mode: "guide"
 ---
 # Requesting Funding

@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Course Milestone Roadmap"
-order: 999
+order: 13
 mode: "guide"
 ---
 # Course Milestone Roadmap  
@@ -16,8 +16,6 @@ Throughout this course, you are developing your project across three connected a
 - **Software Practice** → organizing, sharing, and reproducing your work  
 
 These evolve together over time.
-
-{% include mini-schedule.html keyword="MILESTONE" title="Milestone Timeline" %}
 
 ---
 

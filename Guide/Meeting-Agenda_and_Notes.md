@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Meeting Agenda and Notes"
-order: 999
+order: 8
 mode: "guide"
 ---
 # Meeting Agenda and Notes
