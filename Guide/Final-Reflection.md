@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Final Reflection"
-order: 999
+order: 66
 mode: "guide"
 ---
 # Final Reflection

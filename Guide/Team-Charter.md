@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Team Charter"
-order: 999
+order: 66
 mode: "guide"
 ---
 # Team Charter
