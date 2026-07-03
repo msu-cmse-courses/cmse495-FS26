@@ -1,94 +1,73 @@
 ---
 layout: guide
-title: "Overview"
+title: "Guide Overview"
 order: 0
 mode: "guide"
 ---
-# Overview
+# Guide Overview
 
-CMSE495 is a team-based, project-driven course where you build and refine a project over the semester.
+CMSE 495 is a team-based, project-driven course. This guide is the reference for how the course operates across the semester.
 
-The course is structured around professional skills, technical development, and software systems.
-
-Use this page as a reference to understand expectations and find details when needed.
+Use the daily schedule for what is due today. Use this guide for the recurring expectations behind those assignments.
 
 ---
 
-## How to Use This Page
+## How To Use This Guide
 
-This course is supported by a collection of documents. You do **not** need to read everything at once.
-
-Instead, use this page as a guide:
-
-- Use the **Schedule** to know what to do each day  
-- Use the sections below when you need structure, guidance, or clarification  
-- When in doubt: communicate early and refer back here  
+- Start with [Syllabus](Syllabus) for policies and grading
+- Use [Weekly Routine](Weekly_Routine) for the Monday/Wednesday/Friday workflow
+- Use [Milestone Roadmap](Milestone-Roadmap) for weekly Sunday milestone deadlines
+- Use the team operations pages when your team needs structure
 
 ---
 
-## Course Structure
+## Core Course Workflow
 
-### Administrative and Support
+### Course Foundations
 
-Use these when needed for course logistics and requirements:
+- [Syllabus](Syllabus)
+- [Project Expectations](Projects)
+- [Milestone Roadmap](Milestone-Roadmap)
+- [Requesting Funding](Requesting-Funding)
 
-- [Syllabus](./Syllabus)
-- [Requesting Funding](./Requesting-Funding)  
-- [Final Reflection](./Final_Reflection)  
+### Weekly Recurring Work
 
----
+- [Weekly Routine](Weekly_Routine)
+- [Monday: Peer Review and Team Planning](Mondays_Peer_Review_and_Planning)
+- [Wednesday: CyberAmbassadors](Wednesday_CyberAmbassadors)
+- [Friday: SCHOLAR Projects](Fridays_SCHOLARS)
+- [Daily Check-In](Daily-Check_In)
+- [Weekly 3x3](Weekly-3x3)
 
+### Team Operations
 
-### Project Development  
-(Data, methods, project progress)
-
-Use these to guide your project work:
-
-- [Project Expectations](./Projects)  
-- [Weekly Milestones](./Milestone_Roadmap)  
-
----
-
-### Technical Systems  
-(Code, Git, shared resources)
-
-Use these to manage your technical workflow and contribute to shared work:
-
-- [Coding Structure / Git Workflow](Link)  
-- [Reproducibility Guidelines](Link)  
-- [SCHOLAR Projects](./SCHOLAR_Projects)  
+- [Meeting Agenda and Notes](Meeting-Agenda_and_Notes)
+- [Team Repository Organization](Team_Repo_Organization)
+- [Team Directory Standards](Team_Directory_Standards)
+- [Community Partner Communication](Community_Partner_Communication)
 
 ---
 
-### Professional Skills Training  
-(Communication, Teamwork, Leadership)
+## Design Principle
 
-Use these resources to coordinate with your team and build professional skills:
-
-- [Team Communication Guide](./Communication)  
-- [Daily Check-Ins](./Daily_Class_Check_In)
-- [3×3 Weekly Reflections](./Weekly-3x3)  
-- [Meeting Agendas & Notes](./Meeting_Agenda_and_Notes)   
-- [Team Charter](./Team_Charter)  
-- [CyberAmbassadors Curriculum](https://sites.google.com/msu.edu/cyberambassadors/)  
-  *(Complete the 9-week program to earn a certificate)*
+This guide is intentionally organized to reduce duplication: each page has one role, and related pages link to each other instead of repeating full instructions.
 
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>
 
 <details>
-<summary>Overview</summary>
+<summary>Guide Overview</summary>
 <ul>
 
-<li><a href="#how-to-use-this-page">How to Use This Page</a></li>
-<li><a href="#course-structure">Course Structure</a></li>
+<li><a href="#how-to-use-this-guide">How To Use This Guide</a></li>
+<li><a href="#core-course-workflow">Core Course Workflow</a></li>
 <ul>
-<li><a href="#administrative-and-support">Administrative and Support</a></li>
-<li><a href="#project-development">Project Development</a></li>
-<li><a href="#technical-systems">Technical Systems</a></li>
-<li><a href="#professional-skills-training">Professional Skills Training</a></li>
+<li><a href="#course-foundations">Course Foundations</a></li>
+<li><a href="#weekly-recurring-work">Weekly Recurring Work</a></li>
+<li><a href="#team-operations">Team Operations</a></li>
 </ul>
+<li><a href="#design-principle">Design Principle</a></li>
 </ul>
 </details>
 </div>

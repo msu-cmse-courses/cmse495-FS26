@@ -21,27 +21,27 @@ By the end of this course, students will be able to:
 
 ## Course Format and Activities
 
-The course meets three times a week during the 15-week semester (MWF 12:30–1:40 PM in EGR 1145).
+The course meets three times a week during the 15-week semester (MWF 12:30-1:40 PM in EGR 1145).
 
 Each week follows a consistent structure:
 
-- **Mondays:** Project planning, team meetings, milestones, and feedback  
-- **Wednesdays:** Professional skills training (communication, teamwork, leadership)  
-- **Fridays:** Technical development and SCHOLAR tutorials  
+- **Monday:** Team planning, peer feedback, and recurring team operations
+- **Wednesday:** CyberAmbassadors professional skills
+- **Friday:** SCHOLAR technical training
 
-Students will be assigned to teams of 4–5 early in the semester and will work on a semester-long project with a community partner.
+Milestones for the semester are shared in Week 1, with one milestone due each Sunday (no extensions).
 
-Students should expect to spend approximately **10–15 hours per week outside of class** working on project-related tasks.
+Students are assigned to teams of 4-5 early in the semester and work on a semester-long project with a community partner.
+
+Students should expect to spend approximately **10-15 hours per week outside of class** on project-related tasks.
 
 ### Team Meetings
 
 Teams are expected to organize and participate in regular meetings throughout the semester, both within their team and with their community partners.
 
-While some class time will be set aside for team meetings, students are responsible for coordinating additional meetings outside of class. Teams should work with their community partners to align schedules and determine appropriate meeting frequency and content.
+While some class time is reserved for team work, teams are responsible for coordinating additional meetings outside of class as needed.
 
-These meetings are essential for maintaining communication, coordinating work, and ensuring project progress.
-
-See [Meeting Agendas and Notes](./About/Meeting_Agenda_and_Notes) for guidance on organizing and running effective meetings.
+Use [Meeting Agenda and Notes](Meeting-Agenda_and_Notes) for required structure and documentation expectations.
 
 ### Peer Evaluations (Typically Due on Mondays)
 
@@ -57,58 +57,39 @@ Evaluations will be conducted periodically throughout the semester.
 
 **Note:** Peer evaluations will be administered using [CATME](https://www.catme.org/help).  We may also experiment with Qualtrics or other survey tools. 
 
-### Weekly Check-Ins (3×3 Reflections)
+### Weekly Check-Ins (3x3 Reflections)
 
-Each week, students will complete an individual 3×3 reflection and share it with their team prior to class on Monday.
+Each week, students complete an individual 3x3 reflection and share it with their team before Monday class.
 
-Teams will then use these reflections to create a brief team-level summary that is shared with the instructors.
+Teams then synthesize individual reflections into one team-level 3x3 sent to instructors.
 
-These check-ins are intended to support:
-
-- communication within teams  
-- early identification of challenges  
-- ongoing coordination of project work  
-
-See [Weekly-3x3](./About/Weekly-3x3) for full details and expectations.
+Use [Weekly-3x3](Weekly-3x3) for full format and submission expectations.
 
 ### Group Professional Development Activities (Typically on Wednesdays)
 
-Students will participate in professional skills training focused on communication, teamwork, and leadership. These sessions are part of the NSF-funded CyberAmbassador program and supported in part by Tau Beta Pi.
+Students participate in professional skills training focused on communication, teamwork, and leadership through the CyberAmbassador program.
 
-Topics include:
+These sessions are interactive and, whenever possible, connected directly to capstone project work.
 
-- conflict management  
-- teamwork and problem-solving  
-- effective meetings  
-- diversity, equity, and inclusion  
-- data ethics  
+Completion of all CyberAmbassador modules can earn a Professional Skills Certificate.
 
-These sessions are interactive and, whenever possible, directly connected to capstone project work.
-
-Completion of all CyberAmbassador modules will earn a **Professional Skills Certificate**. While earning the certificate is not required to pass the course, students are strongly encouraged to complete the full program, as it provides a meaningful credential that can be included on a resume or professional profile.
-
-Students who miss a session may still complete the certificate by attending a make-up workshop through the CyberAmbassador program.
-
-More information and workshop schedules can be found on the CyberAmbassador Website:
-- [CyberAmbassador Website](https://sites.google.com/msu.edu/cyberambassadors/home/certificate)
+See [Wednesday_CyberAmbassadors](Wednesday_CyberAmbassadors) for expectations and links.
 
 ### SCHOLAR Tutorials (Typically on Fridays)
 
-On Fridays, teams will build tutorials for the SCHOLAR (Student-Crafted Hub for Open Learning and Academic Resources) repository.
+On Fridays, teams build and review tutorials for SCHOLAR (Student-Crafted Hub for Open Learning and Academic Resources).
 
-These activities focus on learning new tools, collaborating with others, and communicating technical ideas clearly.
+These activities emphasize technical learning, collaboration, and communicating technical ideas clearly.
 
-See [SCHOLAR_Projects](./About/SCHOLAR_Projects) for full details and expectations.
-
+See [Fridays_SCHOLARS](Fridays_SCHOLARS) for full details.
 
 ### Requesting Funding
 
-Limited funds are available to support capstone projects (e.g., software licenses or project-related materials).
+Limited funds may be available to support project needs (for example, software licenses or project-related materials).
 
-Teams are encouraged to discuss potential needs with the instructors before submitting a request.
+Teams should discuss needs with instructors before requesting funds.
 
-See [Requesting Funding](./About/Requesting-Funding) for full details on the request process and expectations.
-
+See [Requesting-Funding](Requesting-Funding) for process and required email format.
 
 # Assessment and Grading Information
 
@@ -317,7 +298,7 @@ Written by Dr. Dirk Colbry, Michigan State University
 <ul>
 <li><a href="#team-meetings">Team Meetings</a></li>
 <li><a href="#peer-evaluations-typically-due-on-mondays">Peer Evaluations (Typically Due on Mondays)</a></li>
-<li><a href="#weekly-check-ins-33-reflections">Weekly Check-Ins (3×3 Reflections)</a></li>
+<li><a href="#weekly-check-ins-3x3-reflections">Weekly Check-Ins (3x3 Reflections)</a></li>
 <li><a href="#group-professional-development-activities-typically-on-wednesdays">Group Professional Development Activities (Typically on Wednesdays)</a></li>
 <li><a href="#scholar-tutorials-typically-on-fridays">SCHOLAR Tutorials (Typically on Fridays)</a></li>
 <li><a href="#requesting-funding">Requesting Funding</a></li>
