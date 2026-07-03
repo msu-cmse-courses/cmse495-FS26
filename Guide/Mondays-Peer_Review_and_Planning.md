@@ -15,19 +15,15 @@ Monday is your team alignment day.
 3. Update the team [Meeting Agenda and Notes](Meeting-Agenda_and_Notes)
 4. Confirm milestone goals, owners, and deadlines for the week
 
-## Deliverables By End Of Day Monday
+## Monday Checklist (Quick View)
 
-- Peer-review tasks completed
-- Team 3x3 sent to instructors
-- Team meeting notes updated with action items
-- Weekly team plan documented
+- Complete required peer review tasks
+- Submit and discuss your [Weekly 3x3](Weekly-3x3)
+- Update your [Meeting Agenda and Notes](Meeting-Agenda_and_Notes)
+- Confirm team goals and owners for the week
 
-## Related Pages
 
-- [Weekly Routine](Weekly_Routine)
-- [Milestone Roadmap](Milestone-Roadmap)
-
-### Peer Evaluations (Typically Due on Mondays)
+## Peer Evaluations (Typically Due on Mondays)
 
 Student grades are partially influenced by how effectively they contribute to their team. Because teamwork is a central component of this course, peer evaluations will be used to help assess individual contributions and overall team dynamics.
 
@@ -50,11 +46,8 @@ Evaluations will be conducted periodically throughout the semester.
 <ul>
 
 <li><a href="#monday-workflow">Monday Workflow</a></li>
-<li><a href="#deliverables-by-end-of-day-monday">Deliverables By End Of Day Monday</a></li>
-<li><a href="#related-pages">Related Pages</a></li>
-<ul>
+<li><a href="#monday-checklist-quick-view">Monday Checklist (Quick View)</a></li>
 <li><a href="#peer-evaluations-typically-due-on-mondays">Peer Evaluations (Typically Due on Mondays)</a></li>
-</ul>
 </ul>
 </details>
 </div>

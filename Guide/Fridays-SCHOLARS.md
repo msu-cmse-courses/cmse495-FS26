@@ -29,6 +29,9 @@ SCHOLAR work supports three course goals:
 5. Develop and revise tutorials
 6. Submit polished contributions
 
+{% include mini-schedule.html keyword="SCHOLARS" title="Milestone Timeline" %}
+
+
 ## Quality Expectations
 
 - Work in your own words and understand what you submit

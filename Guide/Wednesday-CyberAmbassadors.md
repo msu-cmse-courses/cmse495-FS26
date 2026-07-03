@@ -22,6 +22,9 @@ Wednesday sessions focus on professional skills that support project success.
 - Connect the module to your current team/project situation
 - Identify one action your team will try before next week
 
+{% include mini-schedule.html keyword="CyberAmbassadors" title="Milestone Timeline" %}
+
+
 ## Certificate Option
 
 Completing all CyberAmbassadors modules can earn a professional skills certificate. Students who miss sessions can complete approved make-up options through the program.
