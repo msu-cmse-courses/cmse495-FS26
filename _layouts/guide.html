@@ -20,10 +20,11 @@ layout: default
       <h2>Course Guide</h2>
 
       {% if guide_pages.size > 0 %}
-        <ul>
+        <ul class="guide-list">
           {% for item in guide_pages %}
-            <li>
-              <a href="{{ item.url | relative_url }}" {% if item.url == page.url %}class="active" aria-current="page"{% endif %}>
+            {% assign sublevel = item.order | modulo: 10 %}
+            <li class="guide-item {% if sublevel == 0 %}guide-item-section{% else %}guide-item-sub{% endif %}">
+              <a href="{{ item.url | relative_url }}" class="guide-link {% if sublevel == 0 %}guide-link-section{% else %}guide-link-sub{% endif %}{% if item.url == page.url %} active{% endif %}" {% if item.url == page.url %}aria-current="page"{% endif %}>
                 {{ item.title }}
               </a>
             </li>
