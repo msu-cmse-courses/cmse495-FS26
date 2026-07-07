@@ -1,55 +1,37 @@
 ---
 layout: guide
-title: "Monday: Peer Review and Team Planning"
+title: "12-Monday_Peer_Review_and_Planning"
 order: 12
 mode: "guide"
 ---
-# Monday: Peer Review and Team Planning
+## Monday: Peer Review and Team Feedback
 
-Monday is your team alignment day.
+Monday is our opportunity to reflect on recent work, learn from each other, and prepare for the week ahead.
 
-## Monday Workflow
+Because major milestones are typically due on Sunday, Monday activities often focus on reviewing completed work, identifying opportunities for improvement, and planning next steps. Teams may be paired with other teams to provide feedback on project deliverables when doing so is appropriate and does not conflict with project agreements, confidentiality requirements, or intellectual property restrictions.
 
-1. Complete assigned peer-review tasks
-2. Acknowledge peers using Shout-outs
-3. Submit individual and team [Weekly 3x3](Weekly-3x3)
-4. Update the team [Meeting Agenda and Notes](Meeting-Agenda_and_Notes)
-5. Confirm milestone goals, owners, and deadlines for the week
+Monday activities may include:
 
-## Monday Checklist (Quick View)
-
-- Complete required peer review tasks
-- Submit and discuss your [Weekly 3x3](Weekly-3x3)
-- Update your [Meeting Agenda and Notes](Meeting-Agenda_and_Notes)
-- Confirm team goals and owners for the week
+- Complete assigned peer-review tasks
+- Recognizing contributions through shout outs
+- Discussing team and project challenges
+- Submit individual and team [Weekly 3x3](Weekly-3x3)
+- Update the team [Meeting Agenda and Notes](Meeting_Agenda_and_Notes)
+- Reviewing announcements and course logistics
+- Planning goals, responsibilities, and priorities for the coming week
+- Confirm milestone goals, owners, and deadlines for the week
 
 
-## Peer Evaluations (Typically Due on Mondays)
+The purpose of these activities is to strengthen project deliverables, improve communication, encourage collaboration across teams, and help everyone start the week with a clear plan.
 
-Student grades are partially influenced by how effectively they contribute to their team. Because teamwork is a central component of this course, peer evaluations will be used to help assess individual contributions and overall team dynamics.
+Occasionally, students may also be asked to complete team feedback surveys  or other reflection activities. These provide instructors with additional insight into how teams are functioning and where support may be needed.
 
-Peer evaluations are intended to:
-
-- provide feedback on team collaboration  
-- help identify potential issues early  
-- support instructors in understanding how teams are functioning  
-
-Evaluations will be conducted periodically throughout the semester.
-
-**Note:** Peer evaluations will be administered using [CATME](https://www.catme.org/help).  We may also experiment with Qualtrics or other survey tools. 
+As with all course activities, students are expected to participate professionally, provide honest and constructive feedback, and engage in good faith.
 
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>
-
-<details>
-<summary>Monday: Peer Review and Team Planning</summary>
 <ul>
-
-<li><a href="#monday-workflow">Monday Workflow</a></li>
-<li><a href="#monday-checklist-quick-view">Monday Checklist (Quick View)</a></li>
-<li><a href="#peer-evaluations-typically-due-on-mondays">Peer Evaluations (Typically Due on Mondays)</a></li>
-</ul>
-</details>
+<li><a href="#monday-peer-review-and-team-feedback">Monday: Peer Review and Team Feedback</a></li>
 </div>
 <!-- TOC_END -->
