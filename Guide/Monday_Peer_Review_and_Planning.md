@@ -1,10 +1,10 @@
 ---
 layout: guide
-title: "12-Monday_Peer_Review_and_Planning"
+title: "Monday: Peer Review and Team Feedback"
 order: 12
 mode: "guide"
 ---
-## Monday: Peer Review and Team Feedback
+# Monday: Peer Review and Team Feedback
 
 Monday is our opportunity to reflect on recent work, learn from each other, and prepare for the week ahead.
 
@@ -31,7 +31,12 @@ As with all course activities, students are expected to participate professional
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>
+
+<details>
+<summary>Monday: Peer Review and Team Feedback</summary>
 <ul>
-<li><a href="#monday-peer-review-and-team-feedback">Monday: Peer Review and Team Feedback</a></li>
+
+</ul>
+</details>
 </div>
 <!-- TOC_END -->
