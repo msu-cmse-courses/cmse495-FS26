@@ -12,6 +12,7 @@ SCHOLAR (Student-Crafted Hub for Open Learning and Academic Resources) is the Fr
 
 Learn something new and teach it to the next group.
 
+
 ## Why This Matters
 
 SCHOLAR work supports three course goals:
@@ -29,7 +30,7 @@ SCHOLAR work supports three course goals:
 5. Develop and revise tutorials
 6. Submit polished contributions
 
-{% include mini-schedule.html keyword="SCHOLARS" title="Milestone Timeline" %}
+{% include mini-schedule.html keyword="SCHOLAR" title="Milestone Timeline" %}
 
 
 ## Quality Expectations

@@ -6,7 +6,10 @@ mode: "guide"
 ---
 # Weekly Routine
 
-Use this page as the weekly map. Each day links to the detailed assignment guides.
+Every week students and teams should review the [Course Schedule](Schedule/) for assignments and expectations.  However, to help establish a routine the course tries to follow the following general schedule.
+
+## Daily Flow
+- Check in using the [Daily Check-in form](Daily_Check_in)
 
 ## Weekly Flow
 
@@ -14,12 +17,10 @@ Use this page as the weekly map. Each day links to the detailed assignment guide
 - **Wednesday:** [CyberAmbassadors](Wednesday_CyberAmbassadors)
 - **Friday:** [SCHOLAR Technical Training](Fridays_SCHOLARS)
 
-## Sunday Milestones
+## Project Milestones (something due every sunday)
 
 - Milestones are due each week on **Sunday**
 - Milestones are due on time with **no extensions**
-
-{% include mini-schedule.html keyword="MILESTONE" title="Milestone Timeline" %}
 
 For milestone details and sequence, use [Milestone Roadmap](Milestone-Roadmap).
 
@@ -31,8 +32,9 @@ For milestone details and sequence, use [Milestone Roadmap](Milestone-Roadmap).
 <summary>Weekly Routine</summary>
 <ul>
 
+<li><a href="#daily-flow">Daily Flow</a></li>
 <li><a href="#weekly-flow">Weekly Flow</a></li>
-<li><a href="#sunday-milestones">Sunday Milestones</a></li>
+<li><a href="#project-milestones-something-due-every-sunday">Project Milestones (something due every sunday)</a></li>
 </ul>
 </details>
 </div>

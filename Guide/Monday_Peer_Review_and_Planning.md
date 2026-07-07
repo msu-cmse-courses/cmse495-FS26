@@ -11,9 +11,10 @@ Monday is your team alignment day.
 ## Monday Workflow
 
 1. Complete assigned peer-review tasks
-2. Submit individual and team [Weekly 3x3](Weekly-3x3)
-3. Update the team [Meeting Agenda and Notes](Meeting-Agenda_and_Notes)
-4. Confirm milestone goals, owners, and deadlines for the week
+2. Acknowledge peers using Shout-outs
+3. Submit individual and team [Weekly 3x3](Weekly-3x3)
+4. Update the team [Meeting Agenda and Notes](Meeting-Agenda_and_Notes)
+5. Confirm milestone goals, owners, and deadlines for the week
 
 ## Monday Checklist (Quick View)
 
