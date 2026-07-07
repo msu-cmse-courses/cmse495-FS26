@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Weekly 3x3 Updates"
-order: 7
+order: 21
 mode: "guide"
 ---
 # Weekly 3x3 Updates

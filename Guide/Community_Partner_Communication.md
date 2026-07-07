@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Community Partner Communication"
-order: 11
+order: 23
 mode: "guide"
 ---
 # Community Partner Communication

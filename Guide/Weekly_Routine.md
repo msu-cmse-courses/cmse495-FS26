@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Weekly Routine"
-order: 2
+order: 10
 mode: "guide"
 ---
 # Weekly Routine

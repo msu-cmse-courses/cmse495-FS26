@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Team Communication Guide"
-order: 66
+order: 20
 mode: "guide"
 ---
 # Team Communication Guide  

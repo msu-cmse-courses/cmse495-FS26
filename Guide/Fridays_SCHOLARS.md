@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Friday: SCHOLAR Projects"
-order: 5
+order: 14
 mode: "guide"
 ---
 # Friday: SCHOLAR Projects

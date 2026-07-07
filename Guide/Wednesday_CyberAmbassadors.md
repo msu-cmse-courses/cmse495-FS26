@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Wednesday: CyberAmbassadors"
-order: 4
+order: 13
 mode: "guide"
 ---
 # Wednesday: CyberAmbassadors

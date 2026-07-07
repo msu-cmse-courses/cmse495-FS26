@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Course Milestone Roadmap"
-order: 13
+order: 31
 mode: "guide"
 ---
 # Course Milestone Roadmap
