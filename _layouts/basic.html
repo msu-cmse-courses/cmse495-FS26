@@ -6,6 +6,11 @@ layout: default
 
 <div class="layout">
 	<aside class="left">
+		{% if page.left_image %}
+			<div class="left-image">
+				<img src="{{ page.left_image | relative_url }}" alt="{{ page.left_image_alt | default: page.title }}">
+			</div>
+		{% endif %}
 
 	</aside>
 

@@ -1,6 +1,8 @@
 ---
 layout: basic
 title: "Seeking Data Science Capstone Community Partners"
+left_image: /assets/img/MSU.png
+left_image_alt: Michigan State University logo
 ---
 
 # Seeking Data Science Capstone Community Partners
