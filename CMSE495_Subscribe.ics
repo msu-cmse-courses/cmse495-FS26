@@ -1,0 +1,30 @@
+---
+layout: null
+permalink: /CMSE495_Subscribe.ics
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CMSE495//Course Schedule//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CMSE495
+X-WR-TIMEZONE:America/Detroit
+{% assign calendar_origin = site.url | default: "https://msu-cmse-courses.github.io" %}
+{% assign schedule_items = site.data.schedule | sort: "date" %}
+{% for item in schedule_items %}
+BEGIN:VEVENT
+UID:cmse495-{{ item.date | date: "%Y%m%d" }}-{{ item.title | slugify }}@msu-cmse-courses.github.io
+DTSTAMP:{{ "now" | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART;TZID=America/Detroit:{{ item.date | date: "%Y%m%d" }}T123000
+DTEND;TZID=America/Detroit:{{ item.date | date: "%Y%m%d" }}T134000
+SUMMARY:CMSE495: {{ item.title | replace: ",", "\\," | replace: ";", "\\;" }}
+LOCATION:EGR 1145
+{% if item.url and item.url != "" %}
+DESCRIPTION:Direct assignment link: {{ calendar_origin }}{{ site.baseurl }}{{ item.url }}
+URL:{{ calendar_origin }}{{ site.baseurl }}{{ item.url }}
+{% else %}
+DESCRIPTION:CMSE495 class schedule item
+{% endif %}
+END:VEVENT
+{% endfor %}
+END:VCALENDAR
