@@ -27,6 +27,7 @@ Use the daily schedule for what is due today. Use this guide for the recurring e
 
 - [Syllabus](Syllabus)
 - [Project Expectations](Projects)
+- [Project Videos (Iterative)](Project_Videos)
 - [Milestone Roadmap](Milestone-Roadmap)
 - [Requesting Funding](Requesting-Funding)
 
