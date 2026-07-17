@@ -1,7 +1,7 @@
 ---
 layout: schedule
 title: "Welcome"
-order: 999
+order: 831
 mode: "schedule"
 ---
 # Welcome
