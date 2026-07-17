@@ -22,6 +22,10 @@ mode: "schedule"
 - [Link to today's slides](https://docs.google.com/presentation/d/1PWqIeFjuFrZS7DkPx5HVqX9qO65ESlhaORCakvH63ds/edit?usp=sharing)
 
 
+## Daily Check-in
+
+[Daily Check-in form](./Guide/Daily_Check_In)
+
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>
@@ -32,6 +36,7 @@ mode: "schedule"
 
 <li><a href="#agenda-110-minutes">Agenda (110 Minutes)</a></li>
 <li><a href="#welcome-presentation">Welcome Presentation</a></li>
+<li><a href="#daily-check-in">Daily Check-in</a></li>
 </ul>
 </details>
 </div>

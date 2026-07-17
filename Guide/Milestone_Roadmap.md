@@ -47,96 +47,15 @@ Teams may find it useful to report progress on assigned milestone areas during t
 
 ## Project Vocabulary
 
-The following concepts appear throughout the course and may be referenced in milestone assignments.
 
-### Open Loops
+Several project management, software engineering, and data science terms are used throughout the course.
 
-Every project contains uncertainties.
+See:
 
-An **open loop** is a question, assumption, risk, or unresolved issue that could affect project success.
+- [Vocabulary](./Vocabulary)
 
-Examples include:
+Students are encouraged to review these definitions early in the semester and revisit them as new concepts are introduced.
 
-- Unknown data quality issues
-- Missing community partner requirements
-- Technical uncertainties
-- Evaluation methods
-- Access to resources
-- Questions about project scope
-- Success criteria that have not yet been fully defined
-
-Strong teams identify open loops early and develop plans to close them throughout the semester.
-
-Avoid both extremes:
-
-- Ignoring open loops and hoping they resolve themselves.
-- Spending all available time investigating open loops while making no progress on known tasks.
-
-The goal is to balance discovery and execution.
-
-
-### Exploratory Data Analysis (EDA)
-
-Exploratory Data Analysis (EDA) is the process of examining project data and other available resources to better understand what information is available, how it is organized, and what questions it may help answer.
-
-EDA often includes:
-
-- Reviewing the structure and schema of a dataset
-- Examining examples of records, files, documents, or other project resources
-- Creating summary statistics, tables, graphs, and visualizations
-- Identifying patterns, limitations, and data quality concerns
-- Discovering questions that require further investigation
-
-The goal of EDA is not to build a final solution. The goal is to develop an informed understanding of the project's starting point so that future decisions, success criteria, and project plans are based on evidence rather than assumptions.
-
-### Success Criteria
-
-Success criteria describe how a team will determine whether the project is making meaningful progress and how the final solution will be evaluated.
-
-Success criteria should focus on outcomes rather than activities. The best success criteria are specific, measurable when possible, and connected to community partner  needs.
-
-### Selection Matrix
-
-A selection matrix is a decision-making tool used to compare multiple options against a common set of criteria.
-
-Teams may use selection matrices when evaluating:
-
-- Technical approaches
-- Software tools
-- Datasets
-- Design alternatives
-- Project priorities
-
-The goal is not to find a perfect answer, but to make decisions transparent and justifiable.
-
-### Schema
-
-A schema describes the structure of a dataset or information source.
-
-Depending on the project, a schema may describe:
-
-- Variables and columns
-- Data types
-- Relationships between records
-- File organization
-- Metadata
-- Units and measurement conventions
-
-Understanding a schema is often an important step in exploratory data analysis and project planning.
-
-### Data Bibliography
-
-A data bibliography is a curated list of data sources that may be useful for a project.
-
-A strong data bibliography typically includes:
-
-- The data source
-- A description of its contents
-- How the data may support project goals
-- Limitations or concerns
-- How the data can be accessed
-
-Teams often develop data bibliographies before committing to a specific dataset or technical approach.
 
 ## Bottom Line
 
@@ -160,14 +79,6 @@ The most successful teams treat milestone work as living project documentation t
 <li><a href="#deadline-cadence">Deadline Cadence</a></li>
 <li><a href="#planning-ahead">Planning Ahead</a></li>
 <li><a href="#project-vocabulary">Project Vocabulary</a></li>
-<ul>
-<li><a href="#open-loops">Open Loops</a></li>
-<li><a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a></li>
-<li><a href="#success-criteria">Success Criteria</a></li>
-<li><a href="#selection-matrix">Selection Matrix</a></li>
-<li><a href="#schema">Schema</a></li>
-<li><a href="#data-bibliography">Data Bibliography</a></li>
-</ul>
 <li><a href="#bottom-line">Bottom Line</a></li>
 </ul>
 </details>
