@@ -11,11 +11,11 @@ mode: "schedule"
 
   <img src="https://play-lh.googleusercontent.com/jKU64njy8urP89V1O63eJxMtvWjDGETPlHVIhDv9WZAYzsSxRWyWZkUlBJZj_HbkHA"
        alt="Microsoft Teams Logo"
-       style="max-width:100%; height:auto; flex:1 1 300px;">
+       style="max-width:25%; height:auto; flex:1 1 30px;">
 
   <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
        alt="Git Logo"
-       style="max-width:100%; height:auto; flex:1 1 300px;">
+       style="max-width:25%; height:auto; flex:1 1 30px;">
 
 </div>
 
