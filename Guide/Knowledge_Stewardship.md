@@ -283,20 +283,19 @@ Ask your community partner, instructor, or the appropriate university resource b
 Protecting people, data, and intellectual property is a shared responsibility and an important part of professional practice.
 
 
+## Video to help with signing documents
 
-
+Some student's struggled with signing documents. Here are some general guildlines on how to do this professionally. this video was made in a previous semester and some of it is out of date but many students have found this helpful:
 
 <iframe
-    width="100%"
-    height="300"
-    src="https://www.youtube.com/embed/amFZNn4NatI?cc_load_policy=True"
-    frameborder="0"
-    allowfullscreen
-
-></iframe>
-
-
-
+  width="100%"
+  height="315"
+  src="https://www.youtube.com/embed/VIDEO_ID?start=80"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
 
 <!-- TOC_START -->
 <div class="page-toc">
@@ -335,6 +334,7 @@ Protecting people, data, and intellectual property is a shared responsibility an
 </ul>
 <li><a href="#ongoing-responsibility">Ongoing Responsibility</a></li>
 <li><a href="#when-in-doubt">When in Doubt</a></li>
+<li><a href="#video-to-help-with-signing-documents">Video to help with signing documents</a></li>
 </ul>
 </details>
 </div>
