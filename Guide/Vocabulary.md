@@ -6,7 +6,7 @@ mode: "guide"
 ---
 # Vocabulary
 
-The following concepts appear throughout the course and may be referenced in milestone assignments.
+The following concepts appear throughout the course.
 
 ## Data and Analysis
 
@@ -38,7 +38,7 @@ EDA often includes:
 
 The goal of EDA is not to build a final solution. The goal is to develop an informed understanding of the project's starting point so that future decisions, success criteria, and project plans are based on evidence rather than assumptions.
 
-### Schema
+### Schema (aka Data Dictionary)
 
 A schema describes the structure of a dataset or information source.
 
@@ -117,6 +117,22 @@ Success criteria should focus on outcomes rather than activities. The best succe
 
 ## Software Development
 
+### Reproducibility
+
+Reproducibility is the ability for another person to obtain the same results using the same data, code, and documented procedures.
+
+In software projects, reproducibility means that someone outside the team can install the software, run it, and observe the expected behavior without relying on undocumented knowledge. In data science and scientific research, reproducibility means that another person can regenerate the analyses, figures, tables, results, and conclusions that support a project's findings.
+
+Reproducibility is important because it builds trust. If a result cannot be recreated, it is difficult to verify, maintain, improve, or build upon. Many course milestones, including installation instructions, documentation, data analysis workflows, and figure-generation procedures, are designed to improve the reproducibility of your project.
+
+### Robustness
+
+Robustness is the ability of a system to work reliably under a variety of reasonable conditions.
+
+Robust software continues to function when inputs change, datasets grow, users make mistakes, or the software is executed in different environments. Robust systems are not expected to handle every possible situation perfectly, but they should fail gracefully and provide useful feedback when something goes wrong.
+
+A project may be reproducible without being robust. For example, software that only works for a specific dataset or on a single computer may be reproducible if all steps are documented, but it is not robust. Strong projects strive to be both reproducible and robust.
+
 ### Application Programming Interface (API)
 
 An Application Programming Interface (API) is a defined way for one piece of software to interact with another.
@@ -192,7 +208,7 @@ Unless there is a clear requirement for network communication, teams should gene
 <ul>
 <li><a href="#data-bibliography">Data Bibliography</a></li>
 <li><a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a></li>
-<li><a href="#schema">Schema</a></li>
+<li><a href="#schema-aka-data-dictionary">Schema (aka Data Dictionary)</a></li>
 </ul>
 <li><a href="#project-management">Project Management</a></li>
 <ul>
@@ -203,6 +219,8 @@ Unless there is a clear requirement for network communication, teams should gene
 </ul>
 <li><a href="#software-development">Software Development</a></li>
 <ul>
+<li><a href="#reproducibility">Reproducibility</a></li>
+<li><a href="#robustness">Robustness</a></li>
 <li><a href="#application-programming-interface-api">Application Programming Interface (API)</a></li>
 </ul>
 </ul>
