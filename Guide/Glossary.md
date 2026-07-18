@@ -40,6 +40,16 @@ Many real-world datasets fall somewhere in between. For example, scientific imag
 
 Understanding the level of structure in a dataset is often an important part of exploratory data analysis (EDA) because it influences how data can be stored, processed, visualized, and analyzed.
 
+### Automated Machine Learning (AutoML)
+
+Automated Machine Learning (AutoML) refers to software tools and workflows that automate parts of the machine learning process, including algorithm selection, hyperparameter tuning, model evaluation, and model comparison.
+
+Examples include TPOT, Auto-Sklearn, H2O AutoML, and many cloud-based machine learning services.
+
+Many AutoML systems are based on the idea of **Combined Algorithm Selection and Hyperparameter Optimization (CASH)**, where the algorithm choice and its hyperparameters are selected simultaneously rather than as separate steps.
+
+AutoML is often useful for establishing a strong baseline and exploring multiple candidate solutions before investing time in manual model development.
+
 ## Project Management
 
 ### Minimum Viable Product (MVP)
@@ -142,15 +152,6 @@ This approach avoids duplicating code and allows the same functionality to be us
 
 Unless a project has a clear requirement for network communication, teams should generally focus on developing a clean package API before considering a Web API.\
 
-### Automated Machine Learning (AutoML)
-
-Automated Machine Learning (AutoML) refers to software tools and workflows that automate parts of the machine learning process, including algorithm selection, hyperparameter tuning, model evaluation, and model comparison.
-
-Examples include TPOT, Auto-Sklearn, H2O AutoML, and many cloud-based machine learning services.
-
-Many AutoML systems are based on the idea of **Combined Algorithm Selection and Hyperparameter Optimization (CASH)**, where the algorithm choice and its hyperparameters are selected simultaneously rather than as separate steps.
-
-AutoML is often useful for establishing a strong baseline and exploring multiple candidate solutions before investing time in manual model development.
 
 
 <!-- TOC_START -->
@@ -167,6 +168,7 @@ AutoML is often useful for establishing a strong baseline and exploring multiple
 <li><a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a></li>
 <li><a href="#schema-data-dictionary">Schema (Data Dictionary)</a></li>
 <li><a href="#structured-and-unstructured-data">Structured and Unstructured Data</a></li>
+<li><a href="#automated-machine-learning-automl">Automated Machine Learning (AutoML)</a></li>
 </ul>
 <li><a href="#project-management">Project Management</a></li>
 <ul>
@@ -181,7 +183,6 @@ AutoML is often useful for establishing a strong baseline and exploring multiple
 <li><a href="#reproducibility">Reproducibility</a></li>
 <li><a href="#robustness">Robustness</a></li>
 <li><a href="#application-programming-interface-api">Application Programming Interface (API)</a></li>
-<li><a href="#automated-machine-learning-automl">Automated Machine Learning (AutoML)</a></li>
 </ul>
 </ul>
 </details>
