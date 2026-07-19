@@ -1,10 +1,10 @@
 ---
 layout: guide
-title: "SCHOLAR Projects"
+title: "Friday: SCHOLAR Projects"
 order: 14
 mode: "guide"
 ---
-# SCHOLAR Projects
+# Friday: SCHOLAR Projects
 
 Most real-world projects require you to learn something new. New libraries, new tools, new datasets, new domains, and new technologies are part of everyday professional practice.
 
@@ -122,7 +122,7 @@ Students pursuing the Honors Option may participate in SCHOLAR repository stewar
 <h2>On this page</h2>
 
 <details>
-<summary>SCHOLAR Projects</summary>
+<summary>Friday: SCHOLAR Projects</summary>
 <ul>
 
 <li><a href="#core-idea">Core Idea</a></li>

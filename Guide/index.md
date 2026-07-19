@@ -6,52 +6,31 @@ mode: "guide"
 ---
 # Guide Overview
 
-CMSE 495 is a team-based, project-driven course. This guide is the reference for how the course operates across the semester.
+CMSE 495 is a team-based, project-driven course. This guide serves as a reference for how the course operates throughout the semester.
 
-Use the daily schedule for what is due today. Use this guide for the recurring expectations behind those assignments.
+You are not expected to read every page at once. Instead, use the guide when you need clarification, structure, or examples.
 
----
+The course schedule tells you what needs to be done. The guide explains how and why we do it.
 
-## How To Use This Guide
+## How to Use This Guide
 
-- Start with [Syllabus](Syllabus) for policies and grading
-- Use [Weekly Routine](Weekly_Routine) for the Monday/Wednesday/Friday workflow
-- Use [Milestone Roadmap](Milestone-Roadmap) for weekly Sunday milestone deadlines
-- Use the team operations pages when your team needs structure
+Most students should start with the Syllabus, Weekly Routine, and Course Milestone Roadmap. The remaining pages are intended to be used as references when questions arise about communication, teamwork, project organization, technical practices, or course expectations.
 
----
+This guide is organized to reduce duplication. Concepts are generally explained in one place and referenced elsewhere. If you find something that is unclear, outdated, inconsistent, or missing, please let the instructional team know or submit an issue through the course repository.
 
-## Core Course Workflow
+## A Note About Professional Judgment
 
-### Course Foundations
+This guide contains many examples, recommendations, and expectations. Not every situation you encounter during the semester will have a perfectly detailed set of instructions.
 
-- [Syllabus](Syllabus)
-- [Project Expectations](Projects)
-- [Project Videos (Iterative)](Project_Videos)
-- [Milestone Roadmap](Milestone-Roadmap)
-- [Requesting Funding](Requesting-Funding)
+When requirements are unclear, students are encouraged to use professional judgment, discuss options with their team, document important decisions, and focus on the goals of the project rather than searching for technical loopholes in the instructions.
 
-### Weekly Recurring Work
+Reasonable decisions made in good faith are generally viewed more favorably than passive waiting or excessive dependence on instructor direction.
 
-- [Weekly Routine](Weekly_Routine)
-- [Monday: Peer Review and Team Planning](Mondays_Peer_Review_and_Planning)
-- [Wednesday: CyberAmbassadors](Wednesday_CyberAmbassadors)
-- [Friday: SCHOLAR Projects](Fridays_SCHOLARS)
-- [Daily Check-In](Daily-Check_In)
-- [Weekly 3x3](Weekly-3x3)
+## Bottom Line
 
-### Team Operations
+The goal of this course is not simply to complete assignments. The goal is to build a successful project while developing professional skills in communication, teamwork, project management, and technical practice.
 
-- [Meeting Agenda and Notes](Meeting-Agenda_and_Notes)
-- [Team Repository Organization](Team_Repo_Organization)
-- [Team Directory Standards](Team_Directory_Standards)
-- [Community Partner Communication](Community_Partner_Communication)
-
----
-
-## Design Principle
-
-This guide is intentionally organized to reduce duplication: each page has one role, and related pages link to each other instead of repeating full instructions.
+Use this guide as a resource when you need it and contribute improvements when you find opportunities to make it better.
 
 <!-- TOC_START -->
 <div class="page-toc">
@@ -61,14 +40,9 @@ This guide is intentionally organized to reduce duplication: each page has one r
 <summary>Guide Overview</summary>
 <ul>
 
-<li><a href="#how-to-use-this-guide">How To Use This Guide</a></li>
-<li><a href="#core-course-workflow">Core Course Workflow</a></li>
-<ul>
-<li><a href="#course-foundations">Course Foundations</a></li>
-<li><a href="#weekly-recurring-work">Weekly Recurring Work</a></li>
-<li><a href="#team-operations">Team Operations</a></li>
-</ul>
-<li><a href="#design-principle">Design Principle</a></li>
+<li><a href="#how-to-use-this-guide">How to Use This Guide</a></li>
+<li><a href="#a-note-about-professional-judgment">A Note About Professional Judgment</a></li>
+<li><a href="#bottom-line">Bottom Line</a></li>
 </ul>
 </details>
 </div>

@@ -1,10 +1,10 @@
 ---
 layout: schedule
-title: "MILESTONE: Project Exploration and Plan"
+title: "Project Exploration and Plan"
 order: 920
 mode: "schedule"
 ---
-# MILESTONE: Project Exploration and Plan
+# Project Exploration and Plan
 
 ![Graphic of a Gantt Chart for project planning](https://upload.wikimedia.org/wikipedia/commons/a/aa/Project_schedule.png?20160608211101)
 
@@ -94,7 +94,7 @@ This report should serve as the foundation for future project work.
 <h2>On this page</h2>
 
 <details>
-<summary>MILESTONE: Project Exploration and Plan</summary>
+<summary>Project Exploration and Plan</summary>
 <ul>
 
 <li><a href="#purpose">Purpose</a></li>

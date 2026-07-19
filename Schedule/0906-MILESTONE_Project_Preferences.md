@@ -1,7 +1,7 @@
 ---
 layout: schedule
 title: "Project Preferences"
-order: 999
+order: 906
 mode: "schedule"
 ---
 # Project Preferences
@@ -16,7 +16,7 @@ During the first week of class you are expected to review project proposals and 
     - [CATME survey Link](https://www.catme.org)
     - **_NOTE_** the survey may not work until the course has started.
 3. **_Specify your project preferences_** Fill out the following survey document to specify your preferences. 
-    - [Project Survey](https://forms.gle/iVhTwiLJAqAGbjRw9)
+    - TBD
 
 You must complete steps 2 & 3 by ###DATE### in order to get credit for this assignment.  Your instructor will try to arrange the teams by class on Wednesday.  (Reminder that there is no class on Monday due to a University Holiday).
 
