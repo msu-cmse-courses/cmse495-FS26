@@ -35,6 +35,20 @@ Students are assigned to teams of 4-5 early in the semester and work on a semest
 
 Students should expect to spend approximately **10-15 hours per week outside of class** on project-related tasks.
 
+### Professionalism
+
+Professionalism is a significant component of this course because success in real projects depends on more than technical work.
+
+In this course, professionalism is closely tied to engagement. Students are expected to actively engage with their project, their teammates, their community partner, and the broader course community.
+
+Professionalism may be demonstrated through communication, preparation, documentation, technical contributions, initiative, reliability, problem solving, and support of others. Evidence may come from attendance, participation, check-ins, reflections, repository activity, issue reporting, communication, and other forms of engagement throughout the semester.
+
+Professionalism is evaluated holistically based on patterns of engagement observed throughout the semester rather than any single activity. Students who consistently contribute to the success of their project and the people around them will generally demonstrate stronger professionalism than students who remain passive observers.
+
+Professionalism should not be confused with extroversion. Different students contribute in different ways, and professionalism may be demonstrated through leadership, communication, technical work, documentation, planning, mentoring, or other meaningful contributions.
+
+Professionalism is a skill that can be developed through practice and feedback. The purpose of this component is not to judge personality, but to encourage habits of engagement, communication, initiative, reliability, and follow-through that contribute to success in project-based environments.
+
 ### Team Meetings
 
 Teams are expected to organize and participate in regular meetings throughout the semester, both within their team and with their community partners.
@@ -296,6 +310,7 @@ Written by Dr. Dirk Colbry, Michigan State University
 <li><a href="#course-description">Course Description</a></li>
 <li><a href="#course-format-and-activities">Course Format and Activities</a></li>
 <ul>
+<li><a href="#professionalism">Professionalism</a></li>
 <li><a href="#team-meetings">Team Meetings</a></li>
 <li><a href="#peer-evaluations-typically-due-on-mondays">Peer Evaluations (Typically Due on Mondays)</a></li>
 <li><a href="#weekly-check-ins-3x3-reflections">Weekly Check-Ins (3x3 Reflections)</a></li>

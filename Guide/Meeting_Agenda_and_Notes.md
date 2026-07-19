@@ -6,6 +6,8 @@ mode: "guide"
 ---
 # Meeting Agendas and Notes
 
+Maintaining clear meeting notes is a form of professionalism because it allows others to understand project decisions and progress.
+
 Each team should maintain a single shared document containing meeting agendas and notes for the entire semester.
 
 This document serves as a running record of project decisions, progress, open loops, and next steps. Teams should update it regularly and keep it available in their shared project folder.

@@ -150,9 +150,19 @@ A well-designed software project often begins with a package API that contains t
 
 This approach avoids duplicating code and allows the same functionality to be used both locally and over a network.
 
-Unless a project has a clear requirement for network communication, teams should generally focus on developing a clean package API before considering a Web API.\
+Unless a project has a clear requirement for network communication, teams should generally focus on developing a clean package API before considering a Web API.
 
+## Professional Practice
 
+### Professionalism
+
+Professionalism is the consistent practice of helping your project, your teammates, your community partner, and the course community succeed.
+
+Professionalism is closely tied to engagement. Students demonstrate professionalism through communication, preparation, follow-through, initiative, reliability, technical contributions, documentation, and support of others.
+
+Professionalism should not be confused with extroversion. Some students demonstrate professionalism through presentations and visible leadership roles, while others demonstrate it through planning, technical work, documentation, mentoring, issue reporting, or project support.
+
+Professionalism is a skill that can be developed through practice and feedback. The goal is not to judge personality, but to help students build habits that contribute to success in project-based environments and future professional settings.
 
 <!-- TOC_START -->
 <div class="page-toc">
@@ -183,6 +193,10 @@ Unless a project has a clear requirement for network communication, teams should
 <li><a href="#reproducibility">Reproducibility</a></li>
 <li><a href="#robustness">Robustness</a></li>
 <li><a href="#application-programming-interface-api">Application Programming Interface (API)</a></li>
+</ul>
+<li><a href="#professional-practice">Professional Practice</a></li>
+<ul>
+<li><a href="#professionalism">Professionalism</a></li>
 </ul>
 </ul>
 </details>
