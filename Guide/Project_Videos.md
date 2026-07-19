@@ -1,225 +1,153 @@
 ---
 layout: guide
-title: "Project Video Assignment (Iterative)"
+title: "Project Video Assignment"
 order: 34
 mode: "guide"
 ---
-# Project Video Assignment (Iterative)
+# Project Video Assignment
 
-## Core Idea
+Throughout the semester, your team will build a single project video that tells the story of your project.
 
-Your team builds one final 15-20 minute project video across the semester.
+Rather than creating the final video all at once, the video is developed through a series of milestones that include planning, recording, review, and revision. Each milestone contributes to the final product.
 
-The video is developed in iterative steps, with peer review and refinement at each stage.
-
-Each step is reviewed on Mondays during class to help you refine and make a better project. The following is a basic schedule for these assignments.
+The goal is not simply to document what your team has built. The goal is to communicate your project to a general audience, your community partner, and future students.
 
 {% include mini-schedule.html keyword="VIDEO" title="Video Milestones" %}
 
-## Why This Assignment Is Structured This Way
+## Why Videos?
 
-- Teams communicate better when they plan the full story early
-- Explaining what you think you will be doing can help you plan what you need to do
-- Early recording supports steady progress through the semester
-- Iteration improves clarity, quality, and professionalism
-- Community partners can see project growth over time
+A successful project is not only about technical work. It is also about communicating ideas clearly.
 
-## Milestone Rhythm
+Video assignments help teams explain their project, demonstrate technical progress, reflect on project decisions, and build a professional artifact that can be shared outside the classroom. Many teams discover that preparing a video helps them identify gaps in their understanding, clarify project goals, and improve collaboration.
 
-VIDEO milestones rotate between storyboard review/update checkpoints and video builds.
+## Iterative Development
 
-Each milestone has one primary focus, so teams can make meaningful progress each week.
+The video assignment is intentionally structured as an iterative process.
 
-The VIDEO mini-schedule above defines the milestone timing for the current semester.
+Teams develop a storyboard early in the semester and continue refining it as the project evolves. Video milestones alternate between planning, recording, and revision. Each milestone should build on previous work.
 
-## Video Deliverables (Three Builds)
+By the end of the semester, the final video should feel like a single coherent story rather than a collection of disconnected clips.
 
-The video assignment progresses through three builds:
+## Storyboarding
 
-1. First segment: draft of the project introduction (3-5 minutes)
-2. Second segment: workflow demo build (adds MVP demo segment)
-3. Final segment: integrated full video with results and future work
+A storyboard is a plan for the video.
 
-### First Segment: Introduction Draft
+Good storyboards help teams organize ideas, estimate timing, divide responsibilities, and identify needed visuals before recording begins.
 
-This first build should introduce:
+Most teams find presentation software such as PowerPoint useful for storyboarding. Slides can be used to outline visual content while speaker notes contain narration drafts, timing estimates, and production notes.
 
-- team name, members, and roles
-- project context and partner problem
-- project goals and success criteria
-- high-level approach
+At a minimum, a storyboard should communicate:
 
-### Second Segment: Project Demo
+- What the audience will see
+- What the audience will hear
+- Who is responsible for each section
+- Approximately how long each section will take
 
-This build should add a clear demo of the current workflow:
+Remember that videos are not limited to slides. Demonstrations, interviews, screen recordings, animations, photographs, and other visual elements may all be incorporated into the final production. The storyboard should describe how those elements will be used.
 
-- end-to-end Minimum Viable Project (MVP) workflow segment
-- what currently works
-- known limits or open loops
-- what remains before final completion
+## The First Storyboard
 
-### Final Video: Integrated Final
+The first storyboard should communicate your planned project journey for the semester.
 
-This final build should combine prior work into one coherent 10-20 minute video and add:
+Most teams include project motivation, community partner needs, project goals, success criteria, planned technical approaches, major open loops, expected milestones, and desired project outcomes.
 
-- final outcomes and evidence
-- interpretation and conclusions
-- recommendations and future work
-- partner-facing closing
+Your audience should be able to understand what the project is about, why it matters, and how the team plans to approach it.
 
-## Storyboard Workflow
+For this first milestone, focus on clarity rather than production quality.
 
-You will maintain one full storyboard for the complete final video.
+## Video Milestones
 
-Teams submit this same storyboard for review and update three times during the semester.
+The project video typically evolves through three major stages.
 
-Each storyboard update should reflect current project understanding and improve clarity, timing, and sequencing.
+### Introduction
 
-The storyboard should include:
+The first video introduces the project and establishes the overall story. The audience should understand who the team is, why the project is important, and what the team plans to accomplish.
 
-- what appears on screen (slides, demo, footage, graphics)
-- who speaks for each section
-- approximate timing by section
-- draft narration or speaking notes
+### MVP Demo
 
-***Iteration is expected:*** storyboard and video quality should improve as teams learn more and incorporate feedback.
+The second video demonstrates the current state of the project. The focus shifts from planning to evidence by showing a working workflow, progress toward project goals, and the major challenges that remain.
 
-## Video Assembly Expectations
+### Final Project Video
 
-Treat each segment submission as a part of the same final product.
+The final video integrates previous work into a complete project narrative. Teams should present results, interpret findings, discuss lessons learned, and communicate the overall impact of the project.
 
-By the end of the semester, earlier video builds should be revised and integrated into one coherent final deliverable.
+## Reviewing Existing Versions
 
-Editing and re-recording between milestones are part of the process. Teams are graded on visible improvement and integration quality.
+Revision is expected.
 
-## Submission Pattern (Each Stage)
+Each milestone should improve the project's organization, clarity, visuals, pacing, and overall professionalism. Strong teams regularly revisit earlier video segments and storyboard sections rather than simply adding new material.
 
-For each VIDEO milestone:
+## Quality Expectations
 
-- submit the specific milestone deliverable (storyboard or video)
-- provide an accessible link in both team documentation spaces
-- include a short changelog: what was added, revised, or removed
+The strongest videos tell a clear story, focus on the audience rather than the team, demonstrate meaningful project progress, and use evidence to support conclusions.
 
-Use clear and consistent file naming so instructors and peer teams can quickly find the newest version.
+A useful video is often more valuable than an impressive video. Prioritize clarity over special effects.
 
-## Evaluation Focus Across Stages
+## Using AI and Media Tools
 
-Instructors evaluate progress at each stage using the same core dimensions:
+Teams may use AI tools to assist with scripting, editing, image generation, transcription, captioning, and production.
 
-- clarity of project story for a general audience
-- technical completeness of workflow demonstration
-- quality of evidence, results, and conclusions
-- professionalism (audio, visuals, pacing, and delivery)
-- responsiveness to feedback and quality of iteration
+However, the project's story, technical content, conclusions, and decisions should reflect the team's own understanding of the work. As with all course activities, AI should support communication rather than replace critical thinking.
 
-The final video grade emphasizes coherent integration of all sections into one clear message.
+## Recording and Editing
+
+Most professional videos are assembled from multiple recordings rather than produced in a single take.
+
+Teams are encouraged to combine slides, demonstrations, screen recordings, interviews, photographs, animations, and narration to communicate their project effectively. Editing is an expected part of the process and is often what transforms a collection of recordings into a coherent story.
+
+If you need help selecting tools or editing video, please contact the instructional team. We have a great deal of experience producing educational and technical content and are happy to help.
+
+## Sharing Your Video
+
+Videos should be hosted somewhere accessible to instructors, classmates, and community partners.
+
+Common hosting options include:
+
+- YouTube
+- Google Drive
+- MSU MediaSpace
+
+Regardless of the hosting platform, teams should make video links easy to find. Including the active video link in project documentation, repository README files, and team folders is strongly encouraged.
+
+Specific submission instructions for each video milestone will be provided in the corresponding milestone assignment.
+
+## Recommended Tools
+
+Teams are encouraged to choose tools that fit their workflow and experience level.
+
+Common choices include Zoom, Snagit, Camtasia, OpenShot, FFmpeg, YouTube, and MSU MediaSpace. Most successful teams use a combination of tools rather than relying on a single platform.
 
 ## Bottom Line
 
-Build one strong story over time: plan early, show real progress, revise intentionally, and finish with a polished partner-facing video.
+Build one story throughout the semester.
 
-## Recommended Software and Platforms
-
-Choose tools based on your workflow and comfort level. These are commonly used in this course:
-
-- Zoom: fast recording of screen and speaker
-- Snagit: simple screen capture and lightweight edits
-- Camtasia: stronger editing for multi-layer videos
-- OpenShot: open-source editor
-- FFmpeg: command-line conversion and media processing
-- YouTube: easy hosting and sharing
-- MSU MediaSpace: controlled access for class-only viewing
-
-Tip: teams can mix tools (for example, Zoom for capture and OpenShot or Camtasia for editing).
-
-## Recording and Production Notes
-
-The instructional team encourages good audio quality and clear visuals.
-
-- Use a quiet space and stable camera framing
-- Use an external microphone when possible
-- Avoid cluttered backgrounds and distracting visuals
-- Keep text readable for laptop viewing
-- Record in short segments and edit for pacing
-
-If available, teams may schedule time in the CMSE recording studio for higher-quality audio and video capture.
-
-## Video Design Tips for Stronger Team Deliverables
-
-The most successful videos usually do the following:
-
-- Plan transitions between speakers and sections
-- Use on-screen name tags to speed introductions
-- Prefer demonstration footage over long slide-only segments
-- Use concise scripts and conversational delivery
-- Keep each segment focused on one message
-- Add captions or subtitles for accessibility and clarity
-- Rehearse timing so each segment stays within scope
-
-Goal: make a partner-facing video that a general audience can follow without prior project context.
-
-## Quality Checklist
-
-Use this checklist to keep your work clear and complete:
-
-- Maintain one evolving storyboard file across storyboard milestones
-- Include speaker assignments and timing in storyboard notes
-- Include clear links to current versions in team docs and repository README
-- Use explicit file names that show milestone and version
-- Carry forward feedback notes into the next storyboard or video changelog
-- Ensure audio is understandable and visuals are legible
-- Keep external links accessible to the intended audience (permissions matter)
-
-This assignment rewards steady iteration and communication quality throughout the semester.
-
-## Submission and Sharing Requirements
-
-Each VIDEO milestone should include clear delivery and sharing steps.
-
-- Store milestone artifacts in team spaces with consistent naming
-- Keep one copy in the private team folder and one shareable copy in the designated public or team location when requested
-- Email required links to the appropriate audience with team members and instructors copied
-- Include the active video link in the repository README
-- For final submission, include the final video link in the final report package as directed
-
-Make every submission link easy to find, easy to open, and clearly labeled.
-
-## Optional Resource: Potent Presentations
-
-For teams that want additional guidance on concise, high-impact communication, see:
-
-- https://www.eval.org/Education-Programs/Potent-Presentations
-
-Use external resources as support, but keep your final structure aligned with the milestone requirements on this page.
+Plan early, record often, revise intentionally, and focus on communicating your project's value to a general audience. A successful final video should clearly explain what your team attempted, what your team learned, what your team accomplished, and why the work matters.
 
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>
 
 <details>
-<summary>Project Video Assignment (Iterative)</summary>
+<summary>Project Video Assignment</summary>
 <ul>
 
-<li><a href="#core-idea">Core Idea</a></li>
-<li><a href="#why-this-assignment-is-structured-this-way">Why This Assignment Is Structured This Way</a></li>
-<li><a href="#milestone-rhythm">Milestone Rhythm</a></li>
-<li><a href="#video-deliverables-three-builds">Video Deliverables (Three Builds)</a></li>
+<li><a href="#why-videos">Why Videos?</a></li>
+<li><a href="#iterative-development">Iterative Development</a></li>
+<li><a href="#storyboarding">Storyboarding</a></li>
+<li><a href="#the-first-storyboard">The First Storyboard</a></li>
+<li><a href="#video-milestones">Video Milestones</a></li>
 <ul>
-<li><a href="#first-segment-introduction-draft">First Segment: Introduction Draft</a></li>
-<li><a href="#second-segment-project-demo">Second Segment: Project Demo</a></li>
-<li><a href="#final-video-integrated-final">Final Video: Integrated Final</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#mvp-demo">MVP Demo</a></li>
+<li><a href="#final-project-video">Final Project Video</a></li>
 </ul>
-<li><a href="#storyboard-workflow">Storyboard Workflow</a></li>
-<li><a href="#video-assembly-expectations">Video Assembly Expectations</a></li>
-<li><a href="#submission-pattern-each-stage">Submission Pattern (Each Stage)</a></li>
-<li><a href="#evaluation-focus-across-stages">Evaluation Focus Across Stages</a></li>
+<li><a href="#reviewing-existing-versions">Reviewing Existing Versions</a></li>
+<li><a href="#quality-expectations">Quality Expectations</a></li>
+<li><a href="#using-ai-and-media-tools">Using AI and Media Tools</a></li>
+<li><a href="#recording-and-editing">Recording and Editing</a></li>
+<li><a href="#sharing-your-video">Sharing Your Video</a></li>
+<li><a href="#recommended-tools">Recommended Tools</a></li>
 <li><a href="#bottom-line">Bottom Line</a></li>
-<li><a href="#recommended-software-and-platforms">Recommended Software and Platforms</a></li>
-<li><a href="#recording-and-production-notes">Recording and Production Notes</a></li>
-<li><a href="#video-design-tips-for-stronger-team-deliverables">Video Design Tips for Stronger Team Deliverables</a></li>
-<li><a href="#quality-checklist">Quality Checklist</a></li>
-<li><a href="#submission-and-sharing-requirements">Submission and Sharing Requirements</a></li>
-<li><a href="#optional-resource-potent-presentations">Optional Resource: Potent Presentations</a></li>
 </ul>
 </details>
 </div>

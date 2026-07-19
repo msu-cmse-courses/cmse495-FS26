@@ -1,84 +1,106 @@
 ---
 layout: guide
-title: "Meeting Agenda and Notes"
+title: "Meeting Agendas and Notes"
 order: 22
 mode: "guide"
 ---
-# Meeting Agenda and Notes
+# Meeting Agendas and Notes
 
-Use one shared, running document for team meeting agendas and notes.
+Each team should maintain a single shared document containing meeting agendas and notes for the entire semester.
 
-## Core Rule
+This document serves as a running record of project decisions, progress, open loops, and next steps. Teams should update it regularly and keep it available in their shared project folder.
 
-Keep the newest meeting at the top and older meetings below it.
+Your instructors should be able to review your team's meeting notes at any time during the semester. If meeting notes are missing, incomplete, or clearly not being maintained, the team may receive a zero for the corresponding milestone or professionalism.
 
-## Why This Matters
+## Purpose
 
-- makes progress visible
-- improves team coordination
-- gives instructors a clear record to support teams early
+Meeting notes are not busy work. They are a project management tool.
 
-## Required Elements Per Meeting
+Good meeting notes help teams:
 
-### Basic Information
+- Track progress over time
+- Record important decisions
+- Identify open loops and risks
+- Hold team members accountable for commitments
+- Communicate with instructors and community partners
+- Onboard new team members if responsibilities change
 
-- date/time
-- location/platform
-- attendees
+Meeting notes often become an important reference later in the semester when teams need to remember why a decision was made or when a task was assigned.
 
-### Roles
+## Organization
 
-- facilitator
-- timekeeper
-- note taker
+Use a single document throughout the semester.
 
-### Agenda (Before Meeting)
+Add the newest meeting to the top of the document and keep older meetings below it. This makes it easy for instructors, teammates, and community partners to quickly review recent activity.
 
-- key topics
-- decisions needed
-- blockers/questions
+## What to Record
 
-### Notes (During Meeting)
+Meeting notes should provide enough information that someone who was not present can understand:
 
-- key discussion points
-- decisions made
-- open questions
+- What the team discussed
+- What decisions were made
+- What open loops remain
+- What work needs to happen next
+- Who is responsible for that work
 
-### Action Items (End of Meeting)
+Most meetings should include:
 
-- what
-- who
-- when
+### Meeting Information
 
-## Sharing Expectations
+Record the date, location or platform, and who attended.
 
-- Share community-partner meeting notes with the partner
-- Keep internal team notes in the team folder (visible to instructors)
+### Agenda
 
-## Minimum Quality Standard
+Before the meeting, identify the major topics, decisions, questions, or blockers that need attention.
 
-Notes should be concise, clear, and actionable. If someone outside your team reads them, they should understand what was decided and what happens next.
+### Discussion Notes
+
+Summarize important conversations, decisions, discoveries, and project updates. Focus on outcomes rather than producing a word-for-word transcript.
+
+### Next Steps
+
+Document specific actions that will occur before the next meeting.
+
+Good next steps are concrete, actionable, and assigned to an owner whenever appropriate.
+
+### Open Loops
+
+When new uncertainties, risks, or unresolved questions are identified, record them in the meeting notes along with any planned follow-up actions.
+
+## Community Partner Meetings
+
+Notes from meetings with community partners should be shared with the partner whenever appropriate.
+
+Sharing meeting notes helps confirm that the team and community partner have a shared understanding of project goals, expectations, and next steps.
+
+## Quality Standard
+
+Meeting notes should be concise, clear, and actionable.
+
+A good test is to imagine that someone joins the project halfway through the semester. They should be able to review the meeting notes and quickly understand what the team has accomplished, what decisions were made, what open loops remain, and what work is planned next.
+
+
 
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>
 
 <details>
-<summary>Meeting Agenda and Notes</summary>
+<summary>Meeting Agendas and Notes</summary>
 <ul>
 
-<li><a href="#core-rule">Core Rule</a></li>
-<li><a href="#why-this-matters">Why This Matters</a></li>
-<li><a href="#required-elements-per-meeting">Required Elements Per Meeting</a></li>
+<li><a href="#purpose">Purpose</a></li>
+<li><a href="#organization">Organization</a></li>
+<li><a href="#what-to-record">What to Record</a></li>
 <ul>
-<li><a href="#basic-information">Basic Information</a></li>
-<li><a href="#roles">Roles</a></li>
-<li><a href="#agenda-before-meeting">Agenda (Before Meeting)</a></li>
-<li><a href="#notes-during-meeting">Notes (During Meeting)</a></li>
-<li><a href="#action-items-end-of-meeting">Action Items (End of Meeting)</a></li>
+<li><a href="#meeting-information">Meeting Information</a></li>
+<li><a href="#agenda">Agenda</a></li>
+<li><a href="#discussion-notes">Discussion Notes</a></li>
+<li><a href="#next-steps">Next Steps</a></li>
+<li><a href="#open-loops">Open Loops</a></li>
 </ul>
-<li><a href="#sharing-expectations">Sharing Expectations</a></li>
-<li><a href="#minimum-quality-standard">Minimum Quality Standard</a></li>
+<li><a href="#community-partner-meetings">Community Partner Meetings</a></li>
+<li><a href="#quality-standard">Quality Standard</a></li>
 </ul>
 </details>
 </div>

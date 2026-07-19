@@ -17,8 +17,15 @@ All members of your team must review the [Guidelines for Project Code Repositori
 Your git repository should be easy for teammates, instructors, and future maintainers to understand.
 
 
+# Understanding Git
 
+It is assumed that you have been introduced to git in previous classes. We will be using it a lot in this class. Students that are uncomfortable with git may want to review the following tutorials. It is the entire teams responsibility to help your fellow members learn and use git properly:
 
+- [Git Tutorials](https://msu-cmse-courses.github.io/cmse802-f20-student/0000-Getting-to-know-git.html)
+
+Another fun resource is the following game which tries to teach you git:
+
+- [Git Game](https://ohmygit.org/)
 
 
 ## Minimum Repository Structure
@@ -425,6 +432,13 @@ In your code there are two basic ways to determine the location of a folder insi
 
 <details>
 <summary>Git Repository Organization</summary>
+<ul>
+
+</ul>
+</details>
+
+<details>
+<summary>Understanding Git</summary>
 <ul>
 
 <li><a href="#minimum-repository-structure">Minimum Repository Structure</a></li>
