@@ -6,6 +6,17 @@ mode: "schedule"
 ---
 # FALL 2026 Schedule
 
+<section class="semester-progress" aria-labelledby="semester-progress-heading">
+  <div class="semester-progress-heading">
+    <h2 id="semester-progress-heading">Semester Progress</h2>
+    <output id="semester-progress-label">Loading semester progress…</output>
+  </div>
+  <div id="semester-progress-bar" class="semester-progress-bar" role="progressbar" aria-labelledby="semester-progress-heading" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-describedby="semester-progress-detail">
+    <span id="semester-progress-fill"></span>
+  </div>
+  <p id="semester-progress-detail"></p>
+</section>
+
 ---
 ## Seeking Fall 2026 and Spring 2027 Project community partners!
 
@@ -44,6 +55,7 @@ The Table of Contents is provided to help student navigate individual pages.
       <button type="button" id="prev-month">Previous</button>
       <h2 id="calendar-month" aria-live="polite"></h2>
       <button type="button" id="next-month">Next</button>
+      <button type="button" id="today">Today</button>
     </div>
 
     <div class="calendar-grid" role="grid" aria-labelledby="calendar-month">
@@ -65,6 +77,55 @@ The Table of Contents is provided to help student navigate individual pages.
 <script id="schedule-data" type="application/json">{{ site.data.schedule | jsonify }}</script>
 
 <style>
+  .semester-progress {
+    margin: 1.5rem 0;
+    padding: 1rem 1.25rem;
+    background: #edf4ee;
+    border: 1px solid #cad7cd;
+    border-radius: 14px;
+  }
+
+  .semester-progress-heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .semester-progress h2,
+  #semester-progress-label {
+    margin: 0;
+    font-family: "Avenir Next", "Segoe UI", sans-serif;
+  }
+
+  #semester-progress-label {
+    font-weight: 700;
+  }
+
+  .semester-progress-bar {
+    height: 1rem;
+    margin-top: 0.6rem;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid #aebfb2;
+    border-radius: 999px;
+  }
+
+  #semester-progress-fill {
+    display: block;
+    width: 0;
+    height: 100%;
+    background: #1f5c45;
+    border-radius: inherit;
+    transition: width 0.25s ease;
+  }
+
+  #semester-progress-detail {
+    margin: 0.45rem 0 0;
+    color: #5a665f;
+    font-size: 0.92rem;
+  }
+
   .calendar-draft-wrap {
     max-width: 1000px;
     margin: 1.5rem auto;
@@ -116,6 +177,17 @@ The Table of Contents is provided to help student navigate individual pages.
 
   .calendar-toolbar button:hover {
     background: #174534;
+  }
+
+  .calendar-toolbar #today {
+    grid-column: 2;
+    justify-self: center;
+    background: #ffffff;
+    color: #1f5c45;
+  }
+
+  .calendar-toolbar #today:hover {
+    background: #edf4ee;
   }
 
   .calendar-grid {
@@ -198,6 +270,16 @@ The Table of Contents is provided to help student navigate individual pages.
       order: -1;
     }
 
+    .calendar-toolbar #today {
+      grid-column: auto;
+    }
+
+    .semester-progress-heading {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
     .calendar-day {
       min-height: 90px;
     }
@@ -223,6 +305,11 @@ The Table of Contents is provided to help student navigate individual pages.
     const dayEvents = document.getElementById("day-events");
     const prevBtn = document.getElementById("prev-month");
     const nextBtn = document.getElementById("next-month");
+    const todayBtn = document.getElementById("today");
+    const progressBar = document.getElementById("semester-progress-bar");
+    const progressFill = document.getElementById("semester-progress-fill");
+    const progressLabel = document.getElementById("semester-progress-label");
+    const progressDetail = document.getElementById("semester-progress-detail");
 
     const byDate = events.reduce((acc, event) => {
       if (!event.date) {
@@ -248,9 +335,37 @@ The Table of Contents is provided to help student navigate individual pages.
     }
 
     const sortedDates = Object.keys(byDate).sort();
-    const initialMonthDate = sortedDates.length > 0 ? parseISODate(sortedDates[0]) : new Date();
+    const todayDate = new Date();
+    todayDate.setHours(0, 0, 0, 0);
+    const today = formatISODate(todayDate);
+    const firstScheduleDate = sortedDates[0];
+    const lastScheduleDate = sortedDates[sortedDates.length - 1];
+    const nextScheduledDate = sortedDates.find((date) => date >= today);
+    const isDuringSemester = firstScheduleDate && today >= firstScheduleDate && today <= lastScheduleDate;
+    const initialSelectedDate = isDuringSemester ? today : (nextScheduledDate || today);
+    const initialMonthDate = parseISODate(initialSelectedDate);
     let currentMonth = new Date(initialMonthDate.getFullYear(), initialMonthDate.getMonth(), 1);
-    let selectedDate = sortedDates.length > 0 ? sortedDates[0] : formatISODate(new Date());
+    let selectedDate = initialSelectedDate;
+
+    function renderSemesterProgress() {
+      if (!firstScheduleDate || !lastScheduleDate) {
+        progressLabel.textContent = "Schedule dates are not available.";
+        progressDetail.textContent = "";
+        return;
+      }
+
+      const firstDate = parseISODate(firstScheduleDate);
+      const lastDate = parseISODate(lastScheduleDate);
+      const totalDays = Math.max(1, Math.round((lastDate - firstDate) / 86400000));
+      const elapsedDays = Math.round((todayDate - firstDate) / 86400000);
+      const percent = Math.min(100, Math.max(0, Math.round((elapsedDays / totalDays) * 100)));
+      const dateRange = `${firstDate.toLocaleDateString(undefined, { month: "short", day: "numeric" })}–${lastDate.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })}`;
+
+      progressFill.style.width = `${percent}%`;
+      progressBar.setAttribute("aria-valuenow", String(percent));
+      progressLabel.textContent = `${percent}% complete`;
+      progressDetail.textContent = `Semester schedule: ${dateRange}.`;
+    }
 
     function renderSelectedDay() {
       const selected = byDate[selectedDate] || [];
@@ -291,8 +406,6 @@ The Table of Contents is provided to help student navigate individual pages.
       monthLabel.textContent = monthLabelText;
 
       const gridStart = new Date(year, month, 1 - startWeekday);
-      const today = formatISODate(new Date());
-
       for (let i = 0; i < 42; i += 1) {
         const dayDate = new Date(gridStart.getFullYear(), gridStart.getMonth(), gridStart.getDate() + i);
         const iso = formatISODate(dayDate);
@@ -355,6 +468,14 @@ The Table of Contents is provided to help student navigate individual pages.
       renderMonth();
     });
 
+    todayBtn.addEventListener("click", function () {
+      selectedDate = today;
+      currentMonth = new Date(todayDate.getFullYear(), todayDate.getMonth(), 1);
+      renderMonth();
+      renderSelectedDay();
+    });
+
+    renderSemesterProgress();
     renderMonth();
     renderSelectedDay();
   })();
