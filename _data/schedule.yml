@@ -93,7 +93,7 @@
 - date: '2026-10-11'
   week_start: '2026-10-05'
   title: MILESTONE Outreach
-  url: null
+  url: /Schedule/1011-MILESTONE_Outreach
 - date: '2026-10-12'
   week_start: '2026-10-12'
   title: Outreach Review
@@ -109,7 +109,7 @@
 - date: '2026-10-25'
   week_start: '2026-10-19'
   title: MILESTONE Install Instructions
-  url: null
+  url: /Schedule/1025-MILESTONE_Install_Instructions
 - date: '2026-10-26'
   week_start: '2026-10-26'
   title: Fall Break
@@ -161,7 +161,7 @@
 - date: '2026-11-15'
   week_start: '2026-11-09'
   title: MILESTONE Reproducibility
-  url: null
+  url: /Schedule/1115-MILESTONE_Reproducibility
 - date: '2026-11-16'
   week_start: '2026-11-16'
   title: Figure Reproducibility Review
@@ -177,7 +177,7 @@
 - date: '2026-11-22'
   week_start: '2026-11-16'
   title: MILESTONE Full Project Draft
-  url: null
+  url: /Schedule/1122-MILESTONE_Full_Project_Draft
 - date: '2026-11-23'
   week_start: '2026-11-23'
   title: Full Project Review
@@ -209,7 +209,7 @@
 - date: '2026-12-06'
   week_start: '2026-11-30'
   title: MILESTONE Final Project
-  url: null
+  url: /Schedule/1206-MILESTONE_Final_Project
 - date: '2026-12-07'
   week_start: '2026-12-07'
   title: Showcase Day 1
