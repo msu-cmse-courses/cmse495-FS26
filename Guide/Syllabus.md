@@ -1,39 +1,156 @@
 ---
 layout: guide
-title: "Syllabus"
+title: "Syllabus: CMSE 495 — Experiential Learning in Data Science (W)"
 order: 1
 mode: "guide"
 ---
-# Syllabus
+# Syllabus: CMSE 495 — Experiential Learning in Data Science (W)
 
-CMSE 495- Data Science Capstone
+## 1. Course Identification and Description
+
+**Department:** Computational Mathematics, Science and Engineering (CMSE)  
+**Official Title:** Experiential Learning in Data Science (W)  
+**Equivalent Courses:** CSE 495 & STT 495
+
+This course consists of team-based data science projects working with real-world data in collaboration with client or company sponsors. Students engage in the professional practice of software development, data collection, curation, modeling, and scientific visualization. The experience culminates in the professional presentation of results to stakeholders.
+
+**Prerequisites:**
+
+- **CMSE 202**
+- **CMSE 382**
+- **Completion of Tier I writing requirement**
+
+The CMSE 495 capstone course provides you with a unique opportunity to integrate the diverse skill sets you have acquired across your academic career. By developing a final project that tackles real-world problems for actual clients, you transition from classroom theory to mentored professional practice. Instructors are here to facilitate that bridge as you prepare for your future careers.
+
+## 2. Core Course Goals
+
+The course is structured to empower students through three primary objectives:
+
+1. **High-Impact Project Experience:** Solving complex, real-world problems through end-to-end data science applications that integrate modeling, curation, and visualization.
+2. **Professional Skill Development:** Mastering communication, teamwork, and leadership frameworks via the CyberAmbassadors curriculum to excel in professional environments.
+3. **Industry Networking:** Fostering professional relationships with industry partners, community organizations, and campus colleagues to build a robust career network.
+
+## 3. ABET Student Outcomes Mapping
+
+The following table maps course activities to the ABET Computing Accreditation Commission (CAC) General Criterion 3 (1–5) and Program Criteria (6).
+
+|   |   |   |
+|---|---|---|
+|ABET Student Outcome|Description (Verbatim from Criterion 3 / Program Criteria)|Mapping Course Activities|
+|**Outcome 3**|Communicate effectively in a variety of professional contexts.|Professional presentations, video storyboards, and final technical project reporting.|
+|**Outcome 4**|Recognize professional responsibilities and make informed judgments in computing practice based on legal and ethical principles.|Navigating client data privacy; implementing informed judgments regarding ethical modeling.|
+|**Outcome 5**|Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline.|Team-based project execution and CyberAmbassadors professional skills modules.|
+|**Outcome 6**|Apply computer science theory and software development fundamentals to produce computing-based solutions.|Application of theory and software fundamentals to develop sponsor-driven technical solutions.|
+
+## 4. Tier II Writing-Intensive (W) Requirements
+
+This course satisfies the University’s Tier II writing requirement by immersing students in an iterative feedback loop. Writing in this course is not a static submission but a dynamic process involving drafts, critical review, and substantial revision.
+
+**The Iterative Feedback Loop:** Students engage in multiple cycles of drafting for all major technical documents. This process incorporates detailed feedback from both the instructor and peers. Students are expected to demonstrate growth in their ability to translate complex data findings into clear, professional technical documentation.
+
+**Key Written Deliverables:**
+
+- **Project Plan:** A comprehensive technical roadmap and timeline.
+- **Video Storyboards:** Detailed written plans for the MVP and Final presentations.
+- **Full Project Draft:** The final technical report including installation instructions and comprehensive documentation of methodology and results.
+
+## 5. Course Structure and Activity Categories
+
+The course fosters a professional environment through meetings held three times per week. Classroom time is strategically utilized to support project success:
+
+- **Project Management:** Students are empowered to lead their own project planning, team meetings, and progress reporting.
+- **Professional Training:** Soft-skills training through CyberAmbassadors modules focused on communication and leadership.
+- **Technical Training:** Advanced sessions focusing on Git workflows, reproducibility, and software development fundamentals.
+
+_Note: As a capstone experience, students are expected to maintain a high level of dedication to project tasks outside of scheduled classroom hours._
+
+## 6. Professionalism and Compliance
+
+**Non-Disclosure and Intellectual Property Notice:** Students may be required to sign a non-disclosure agreement (“NDA”) or an assignment of intellectual property rights (“IP Assignment”) to work with some project community partners.
+
+**Respectful Environment Policy:** Aligned with ABET standards, this course is committed to maintaining a respectful environment that supports, values, and treats all members fairly and with dignity. Professional conduct is expected at all times to maintain a collaborative and inclusive atmosphere.
+
+## 7. Major Milestones and Deliverables
+
+Students must achieve the following milestones to successfully complete the capstone:
+
+- [ ] **Project Preferences and Team Organization:** Initial team formation and stakeholder alignment.
+- [ ] **Project Plan and Video Storyboard:** Submission of the technical approach and presentation plan.
+- [ ] **Outreach Review:** Engaging with community partners and stakeholders to validate project direction.
+- [ ] **Minimum Viable Product (MVP) Video and Presentation:** Demonstrating initial working technical solutions.
+- [ ] **Final Project Showcase and Personal Reflection:** Presenting final results at Design Day. The Personal Reflection serves as the Final Exam equivalent.
+
+## 8. Generalized 15-Week Semester Schedule
+
+- **Weeks 1–4: Foundations**
+    - Welcome, Project Reviews, and CyberAmbassadors "First Contact."
+    - Team Organization and "Teaming Up."
+    - Milestone: Project Preferences and Team Organization.
+- **Weeks 5–8: Planning & Initial Execution**
+    - Project Plan development and Video Storyboards.
+    - Proposal Presentations and "Speaking Up."
+    - Milestones: **Selection Matrix** and **Outreach Review**.
+- **Weeks 9–12: Development & MVP**
+    - Drafting Installation Instructions and Technical Documentation.
+    - MVP Storyboards and Video Presentations.
+    - Milestone: **Figure Reproducibility Review** (ensuring scientific accuracy).
+- **Weeks 13–15: Finalization & Showcase**
+    - Full Project Drafts and Iterative Peer/Instructor Feedback.
+    - Showcase Practice and Final Project Delivery.
+    - **Design Day:** Final presentation of results to partners and the public.
+    - **Final Exam:** Individual Personal Reflection due.
+
+## 9. Resources and Mentorship
+
+To support your technical and professional growth, the following resources are recommended:
+
+- **SCHOLAR Git Repository:** Access to central materials and community-shared code.
+- **Technical Guides:** **Dr. Colbry’s Git Guide**, **README Generator Tool**, and technical documentation templates.
+- **Professional Development:** **Potent Presentations** tutorials and CyberAmbassadors career-building modules.
+
+**Instructor Contact Information:** Dr. Dirk Colbry Email: colbrydi@msu.edu
+
+_This work is licensed under a_ [_Creative Commons Attribution-NonCommercial 4.0 International License_](http://creativecommons.org/licenses/by-nc/4.0/)_._
+
+# Syllabus: CMSE 495 — Experiential Learning in Data Science (W)
 
 ## Course Description
-The data science capstone course is intended to provide students with an opportunity to put together what they have learned across multiple courses to develop a final project that demonstrates their ability to work in a team on real-world problems.
+
+The Data Science Capstone course provides students with an opportunity to integrate knowledge and skills developed throughout the CMSE curriculum while working on real-world projects with community partners.
+
+Students work in teams to develop solutions to authentic problems while practicing communication, project management, technical development, and professional collaboration.
 
 By the end of this course, students will be able to:
 
-1. Design and implement an end-to-end data science project.
-2. Collaborate effectively within a team using professional communication, coordination, and shared responsibility.
-3. Navigate real-world project uncertainty by working with stakeholders to define problems, refine goals, and adapt to changing requirements.
+- Design and implement an end-to-end data science project.
+- Collaborate effectively within a team using professional communication, coordination, and shared responsibility.
+- Work with stakeholders to define problems, refine goals, and adapt to changing project requirements.
+- Communicate technical work to both technical and non-technical audiences.
+- Apply professional practices related to documentation, reproducibility, teamwork, and project management.
 
+### Course Philosophy
 
+Real-world projects involve uncertainty, communication, collaboration, and continuous learning. This course is designed to help students practice those skills while working with real community partners on meaningful projects.
 
-## Course Format and Activities
+Success in this course is measured by more than technical outcomes. Students are expected to develop skills in project planning, professional communication, teamwork, documentation, and problem solving. The course emphasizes growth, reflection, and continuous improvement throughout the semester.
 
-The course meets three times a week during the 15-week semester (MWF 12:30-1:40 PM in EGR 1145).
+### Course Format
 
-Each week follows a consistent structure:
+CMSE 495 is a project-based capstone course.
 
-- **Monday:** Team planning, peer feedback, and recurring team operations
-- **Wednesday:** CyberAmbassadors professional skills
-- **Friday:** SCHOLAR technical training
+Students are assigned to teams early in the semester and work with a community partner on a semester-long project. Class meetings combine project development, professional skills training, technical learning, peer feedback, and project communication activities.
 
-Milestones for the semester are shared in Week 1, with one milestone due each Sunday (no extensions).
+The course follows a recurring weekly rhythm:
 
-Students are assigned to teams of 4-5 early in the semester and work on a semester-long project with a community partner.
+- Monday: Team planning, peer feedback, and project coordination
+- Wednesday: Professional skills development
+- Friday: Technical learning and SCHOLAR contributions
 
-Students should expect to spend approximately **10-15 hours per week outside of class** on project-related tasks.
+Milestone assignments are published early in the semester and students are expected to plan ahead and manage project work throughout the term.
+
+Students should expect to spend approximately **10-15 hours per week outside of class** working on project-related activities.
+
+Additional details regarding recurring activities, milestones, communication expectations, and project workflows can be found in the Course Guide.
 
 ### Professionalism
 
@@ -49,6 +166,84 @@ Professionalism should not be confused with extroversion. Different students con
 
 Professionalism is a skill that can be developed through practice and feedback. The purpose of this component is not to judge personality, but to encourage habits of engagement, communication, initiative, reliability, and follow-through that contribute to success in project-based environments.
 
+## Assessment and Grading Information
+
+This course includes a combination of individual, team, technical, and professional activities. Detailed expectations for specific assignments are provided in the Course Guide and individual milestone descriptions.
+
+<table>
+<tr>
+<th>Activity</th>
+<th>Grade Percentage</th>
+</tr>
+<tr>
+<td>Individual Course Contributions</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Individual Reflections</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Team Logistics</td>
+<td>10</td>
+</tr>
+<tr>
+<td>SCHOLAR Tutorial</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Weekly Project Milestones</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Final Project</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>100%</td>
+</tr>
+</table>
+
+### Grading Scale
+
+The following scale provides an approximate conversion between percentage grades and final course grades. The instructional team retains responsibility for assigning final grades.
+
+<table>
+<tr>
+<th>Course Grade</th>
+<th>Percentage</th>
+</tr>
+<tr>
+<td>4.0</td>
+<td>90% or higher</td>
+</tr>
+<tr>
+<td>3.5</td>
+<td>85% or higher</td>
+</tr>
+<tr>
+<td>3.0</td>
+<td>80% or higher</td>
+</tr>
+<tr>
+<td>2.5</td>
+<td>75% or higher</td>
+</tr>
+<tr>
+<td>2.0</td>
+<td>70% or higher</td>
+</tr>
+<tr>
+<td>1.5</td>
+<td>65% or higher</td>
+</tr>
+<tr>
+<td>0.0</td>
+<td>Below 60%</td>
+</tr>
+</table>
+
 ### Team Meetings
 
 Teams are expected to organize and participate in regular meetings throughout the semester, both within their team and with their community partners.
@@ -56,86 +251,6 @@ Teams are expected to organize and participate in regular meetings throughout th
 While some class time is reserved for team work, teams are responsible for coordinating additional meetings outside of class as needed.
 
 Use [Meeting Agenda and Notes](Meeting-Agenda_and_Notes) for required structure and documentation expectations.
-
-### Peer Evaluations (Typically Due on Mondays)
-
-Student grades are partially influenced by how effectively they contribute to their team. Because teamwork is a central component of this course, peer evaluations will be used to help assess individual contributions and overall team dynamics.
-
-Peer evaluations are intended to:
-
-- provide feedback on team collaboration  
-- help identify potential issues early  
-- support instructors in understanding how teams are functioning  
-
-Evaluations will be conducted periodically throughout the semester.
-
-**Note:** Peer evaluations will be administered using [CATME](https://www.catme.org/help).  We may also experiment with Qualtrics or other survey tools. 
-
-### Weekly Check-Ins (3x3 Reflections)
-
-Each week, students complete an individual 3x3 reflection and share it with their team before Monday class.
-
-Teams then synthesize individual reflections into one team-level 3x3 sent to instructors.
-
-Use [Weekly-3x3](Weekly-3x3) for full format and submission expectations.
-
-### Group Professional Development Activities (Typically on Wednesdays)
-
-Students participate in professional skills training focused on communication, teamwork, and leadership through the CyberAmbassador program.
-
-These sessions are interactive and, whenever possible, connected directly to capstone project work.
-
-Completion of all CyberAmbassador modules can earn a Professional Skills Certificate.
-
-See [Wednesday_CyberAmbassadors](Wednesday_CyberAmbassadors) for expectations and links.
-
-### SCHOLAR Tutorials (Typically on Fridays)
-
-On Fridays, teams build and review tutorials for SCHOLAR (Student-Crafted Hub for Open Learning and Academic Resources).
-
-These activities emphasize technical learning, collaboration, and communicating technical ideas clearly.
-
-See [Fridays_SCHOLARS](Fridays_SCHOLARS) for full details.
-
-### Requesting Funding
-
-Limited funds may be available to support project needs (for example, software licenses or project-related materials).
-
-Teams should discuss needs with instructors before requesting funds.
-
-See [Requesting-Funding](Requesting-Funding) for process and required email format.
-
-# Assessment and Grading Information
-
-There are a variety of course activities, with percentages of total grade listed.  More detailed descriptions of each activity can be found elsewhere in the syllabus.  
-
-
-| Activity | Grade Percentage |
-|----------|------------------|
-| Individual Course Contributions | 20 | 
-| Individual Reflections | 20 |
-| Team Logistics | 10 | 
-| SCHOLAR Tutorial | 10 |
-| Weekly Project Milestones | 20 |
-| Final Project | 20 |
-| Total | 100% |
-
-
-### Grading Scale
-The following is an estimated scale used for grading. There are multiple opportunities for students to receive grade-related input from other students; notably regarding group participation and/or presentations.  This data is  only advisory to the instructions, who still maintains full responsibility for assigning the grade. 
-
-| Scale |
-|-------|
-| 4.0 > 90% |
-| 3.5 > 85% |
-| 3.0 > 80% |
-| 2.5 > 75% |
-| 2.0 > 70% |
-| 1.5 > 65% |
-| 0.0 < 60% |
-
-
-
 
 ---
 # Logistical Information
@@ -151,7 +266,7 @@ Accompanying course information, including the official course calendar, can be 
 
 ## Course Meeting Time and Location
 
-Classes will meet weekly on **_Monday, Wednesday and Friday 12:30-1:40pm in Engineering Building Room 1145_**.
+Classes will meet weekly on **_Monday, Wednesday and Friday 12:30-1:40pm Holden Hall C131_**.
 
 If, during the semester there is a need, we have set aside the following zoom room for this course. Teams must notify the instructor before class if one of their members needs to connect to class remotely (ex. due to illness or travel).  
 
@@ -296,37 +411,40 @@ If a student is exposed to someone who is ill, they will stay home, contact a he
 
 In the event that the instructor gets ill, the course will continue.  Backup instructors have been identified and will step in. 
 
-Written by Dr. Dirk Colbry, Michigan State University
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>
 
 <details>
-<summary>Syllabus</summary>
+<summary>Syllabus: CMSE 495 — Experiential Learning in Data Science (W)</summary>
 <ul>
 
-<li><a href="#course-description">Course Description</a></li>
-<li><a href="#course-format-and-activities">Course Format and Activities</a></li>
-<ul>
-<li><a href="#professionalism">Professionalism</a></li>
-<li><a href="#team-meetings">Team Meetings</a></li>
-<li><a href="#peer-evaluations-typically-due-on-mondays">Peer Evaluations (Typically Due on Mondays)</a></li>
-<li><a href="#weekly-check-ins-3x3-reflections">Weekly Check-Ins (3x3 Reflections)</a></li>
-<li><a href="#group-professional-development-activities-typically-on-wednesdays">Group Professional Development Activities (Typically on Wednesdays)</a></li>
-<li><a href="#scholar-tutorials-typically-on-fridays">SCHOLAR Tutorials (Typically on Fridays)</a></li>
-<li><a href="#requesting-funding">Requesting Funding</a></li>
-</ul>
+<li><a href="#1-course-identification-and-description">1. Course Identification and Description</a></li>
+<li><a href="#2-core-course-goals">2. Core Course Goals</a></li>
+<li><a href="#3-abet-student-outcomes-mapping">3. ABET Student Outcomes Mapping</a></li>
+<li><a href="#4-tier-ii-writing-intensive-w-requirements">4. Tier II Writing-Intensive (W) Requirements</a></li>
+<li><a href="#5-course-structure-and-activity-categories">5. Course Structure and Activity Categories</a></li>
+<li><a href="#6-professionalism-and-compliance">6. Professionalism and Compliance</a></li>
+<li><a href="#7-major-milestones-and-deliverables">7. Major Milestones and Deliverables</a></li>
+<li><a href="#8-generalized-15-week-semester-schedule">8. Generalized 15-Week Semester Schedule</a></li>
+<li><a href="#9-resources-and-mentorship">9. Resources and Mentorship</a></li>
 </ul>
 </details>
 
 <details>
-<summary>Assessment and Grading Information</summary>
+<summary>Syllabus: CMSE 495 — Experiential Learning in Data Science (W)</summary>
 <ul>
 
+<li><a href="#course-description">Course Description</a></li>
+<ul>
+<li><a href="#course-philosophy">Course Philosophy</a></li>
+<li><a href="#course-format">Course Format</a></li>
+<li><a href="#professionalism">Professionalism</a></li>
+</ul>
+<li><a href="#assessment-and-grading-information">Assessment and Grading Information</a></li>
 <ul>
 <li><a href="#grading-scale">Grading Scale</a></li>
+<li><a href="#team-meetings">Team Meetings</a></li>
 </ul>
 </ul>
 </details>

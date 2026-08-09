@@ -6,17 +6,6 @@ mode: "schedule"
 ---
 # FALL 2026 Schedule
 
-<section class="semester-progress" aria-labelledby="semester-progress-heading">
-  <div class="semester-progress-heading">
-    <h2 id="semester-progress-heading">Semester Progress</h2>
-    <output id="semester-progress-label">Loading semester progress…</output>
-  </div>
-  <div id="semester-progress-bar" class="semester-progress-bar" role="progressbar" aria-labelledby="semester-progress-heading" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-describedby="semester-progress-detail">
-    <span id="semester-progress-fill"></span>
-  </div>
-  <p id="semester-progress-detail"></p>
-</section>
-
 ---
 ## Seeking Fall 2026 and Spring 2027 Project community partners!
 
