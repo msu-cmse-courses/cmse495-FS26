@@ -11,7 +11,7 @@ mode: "schedule"
 
 - (20 minutes) Welcome Slides
 - (10 minutes) Pop-Quiz
-- (40 minutes) [Syllabus Review](Syllabus)
+- (40 minutes) [Syllabus Review](../Guide/Syllabus)
 - (10 minutes) Break
 - (20 minutes) Introduction Round-Robin
 - (10 minutes) Common Ground
