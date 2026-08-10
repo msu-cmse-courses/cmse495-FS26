@@ -266,11 +266,7 @@ Accompanying course information, including the official course calendar, can be 
 
 ## Course Meeting Time and Location
 
-Classes will meet weekly on **_Monday, Wednesday and Friday 12:30-1:40pm Holden Hall C131_**.
-
-If, during the semester there is a need, we have set aside the following zoom room for this course. Teams must notify the instructor before class if one of their members needs to connect to class remotely (ex. due to illness or travel).  
-
-[Zoom Link](https://msu.zoom.us/j/96198911253)
+Please see the course [D2L page](https://d2l.msu.edu/d2l/home/2523940) or [MSU course catalog](https://student.msu.edu/) for class meeting times and locations.
 
 
 ## Required Materials for Class
