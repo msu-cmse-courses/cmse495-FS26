@@ -10,11 +10,9 @@ mode: "schedule"
 ## Agenda (110 Minutes)
 
 - (20 minutes) Welcome Slides
-- (10 minutes) Pop-Quiz
 - (40 minutes) [Syllabus Review](../Guide/Syllabus)
-- (10 minutes) Break
-- (20 minutes) Introduction Round-Robin
-- (10 minutes) Common Ground
+- (30 minutes) Introduction Round-Robin
+- (20 minutes) Common Ground
 
 
 ## Welcome Presentation
