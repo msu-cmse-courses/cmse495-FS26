@@ -31,8 +31,7 @@ The Table of Contents is provided to help student navigate individual pages.
 
 
 <div class="calendar-draft-wrap">
-  <h1>CMSE495 Calendar Draft</h1>
-  <p>This is a preview page built from the schedule source file. Events are shown at 12:30 PM to 1:40 PM in EGR 1145.</p>
+  <h1>CMSE495 Calendar</h1>
 
   <p>
     Calendar subscription URL:
