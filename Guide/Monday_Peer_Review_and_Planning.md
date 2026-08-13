@@ -15,7 +15,7 @@ Monday activities may include:
 - Complete assigned peer-review tasks
 - Recognizing contributions through shout outs
 - Discussing team and project challenges
-- Submit individual and team [Weekly 3x3](Weekly-3x3)
+- Submit individual and team [Weekly 3x3](Weekly_3x3)
 - Update the team [Meeting Agenda and Notes](Meeting_Agenda_and_Notes)
 - Reviewing announcements and course logistics
 - Planning goals, responsibilities, and priorities for the coming week

@@ -1,7 +1,7 @@
 ---
 layout: schedule
 title: "Project Review Presentations"
-order: 999
+order: 904
 mode: "schedule"
 ---
 # Project Review Presentations
@@ -90,7 +90,7 @@ You are encouraged to work on this document outside of class. Your team will be 
 
 Once you are assigned to a group and a project, go to the "General" channel in our courses Microsoft Team, click on "files" and select the folder for the team. The project description will be in that folder.  
 
-[Link to Course Microsoft Team](TBD)
+[Link to Course Microsoft Team](https://teams.microsoft.com/l/team/19%3AxMKs9Zrf34yn3XEn5AWyStX2erP0l0HXoNy1pQ322Rc1%40thread.tacv2/conversations?groupId=45421c5f-71aa-4ae9-80aa-2cb3c3d3a140&tenantId=22177130-642f-41d9-9211-74237ad5687d)
 
  **_NOTE_** the above project descriptions may not be posted until the first day of class
 

@@ -52,7 +52,7 @@ Several project management, software engineering, and data science terms are use
 
 See:
 
-- [Vocabulary](./Vocabulary)
+- [Glossary](./Glossary)
 
 Students are encouraged to review these definitions early in the semester and revisit them as new concepts are introduced.
 

@@ -250,7 +250,7 @@ Teams are expected to organize and participate in regular meetings throughout th
 
 While some class time is reserved for team work, teams are responsible for coordinating additional meetings outside of class as needed.
 
-Use [Meeting Agenda and Notes](Meeting-Agenda_and_Notes) for required structure and documentation expectations.
+Use [Meeting Agenda and Notes](Meeting_Agenda_and_Notes) for required structure and documentation expectations.
 
 ---
 # Logistical Information
@@ -344,7 +344,7 @@ At times, we will send out important course information via email.  This email 
 
 In addition to email, students will be expected to check the course Teams Channel.  Students are responsible for all information sent to Teams. It is highly recommended that students download the app and turn on alerts.  
 
-* [Link to Course Teams channel](TBD)
+* [Link to Course Teams channel](https://teams.microsoft.com/l/team/19%3AxMKs9Zrf34yn3XEn5AWyStX2erP0l0HXoNy1pQ322Rc1%40thread.tacv2/conversations?groupId=45421c5f-71aa-4ae9-80aa-2cb3c3d3a140&tenantId=22177130-642f-41d9-9211-74237ad5687d)
 
 ## Inclusive Classroom Behavior 
 

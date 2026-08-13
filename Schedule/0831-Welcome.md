@@ -22,7 +22,7 @@ mode: "schedule"
 
 ## Daily Check-in
 
-[Daily Check-in form](./Guide/Daily_Check_In)
+[Daily Check-in form](../Guide/Daily_Check_In)
 
 <!-- TOC_START -->
 <div class="page-toc">

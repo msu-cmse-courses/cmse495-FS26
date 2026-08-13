@@ -65,7 +65,7 @@ For each open loop, describe:
 - How the team plans to reduce the uncertainty
 - When the team expects to revisit or resolve it
 
-Refer to the [Course Milestone Roadmap](./Guide/Course_Milestone_Roadmap) for additional discussion of open loops and their role in project planning.
+Refer to the [Course Milestone Roadmap](../Guide/Milestone_Roadmap) for additional discussion of open loops and their role in project planning.
 
 ### 6. Reflection
 

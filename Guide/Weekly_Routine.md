@@ -12,7 +12,7 @@ Every week students and teams should review the [Course Schedule](../Schedule/) 
 - Check in using the [Daily Check-in form](Daily_Check_In)
 
 ## Weekly Flow
-- **Monday:** [Peer Review and Team Planning](Mondays_Peer_Review_and_Planning)
+- **Monday:** [Peer Review and Team Planning](Monday_Peer_Review_and_Planning)
 - **Wednesday:** [CyberAmbassadors](Wednesday_CyberAmbassadors)
 - **Friday:** [SCHOLAR Technical Training](Friday_SCHOLARS)
 
@@ -21,7 +21,7 @@ Every week students and teams should review the [Course Schedule](../Schedule/) 
 - Milestones are due each week on **Sunday**
 - Milestones are due on time with **no extensions**
 
-For milestone details and sequence, use [Milestone Roadmap](Milestone-Roadmap).
+For milestone details and sequence, use [Milestone Roadmap](Milestone_Roadmap).
 
 <!-- TOC_START -->
 <div class="page-toc">
