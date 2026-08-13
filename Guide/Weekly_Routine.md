@@ -6,7 +6,7 @@ mode: "guide"
 ---
 # Weekly Routine
 
-Every week students and teams should review the [Course Schedule](../Schedule/) for assignments and expectations.  However, to help establish a routine the course tries to follow the following general schedule.
+Every week students and teams should review the [Course Schedule](../index) for assignments and expectations.  However, to help establish a routine the course tries to follow the following general schedule.
 
 ## Daily Flow
 - Check in using the [Daily Check-in form](Daily_Check_In)

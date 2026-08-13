@@ -10,7 +10,7 @@ During the first week of class you are expected to review project proposals and 
 
 
 1. **_Review Project Descriptions_** 
-    - [Link to Microsoft Teams](TBD) - Project Descriptions will be in the "General" channel under files.
+    - [Link to Microsoft Teams](https://teams.microsoft.com/l/team/19%3AxMKs9Zrf34yn3XEn5AWyStX2erP0l0HXoNy1pQ322Rc1%40thread.tacv2/conversations?groupId=45421c5f-71aa-4ae9-80aa-2cb3c3d3a140&tenantId=22177130-642f-41d9-9211-74237ad5687d) - Project Descriptions will be in the "General" channel under files.
     - **_NOTE_** Not all files may be available until the first day of class.
 2. **_Fill out the CATME survey_** Create an account and log into CATME (we will be using this tool all semester). Fill out the project survey. 
     - [CATME survey Link](https://www.catme.org)

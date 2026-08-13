@@ -30,8 +30,8 @@ If project materials are intended for public release, get explicit team and part
 
 Partner communication should align with your internal systems:
 
-- [Meeting-Agenda_and_Notes](Meeting-Agenda_and_Notes)
-- [Milestone-Roadmap](Milestone-Roadmap)
+- [Meeting Agenda and Notes](Meeting_Agenda_and_Notes)
+- [Milestone Roadmap](Milestone_Roadmap)
 
 <!-- TOC_START -->
 <div class="page-toc">
