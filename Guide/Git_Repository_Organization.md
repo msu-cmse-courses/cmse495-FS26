@@ -19,11 +19,7 @@ Your git repository should be easy for teammates, instructors, and future mainta
 
 # Understanding Git
 
-It is assumed that you have been introduced to git in previous classes. We will be using it a lot in this class. Students that are uncomfortable with git may want to review the following tutorials. It is the entire teams responsibility to help your fellow members learn and use git properly:
-
-- [Git Tutorials](https://msu-cmse-courses.github.io/cmse802-f20-student/0000-Getting-to-know-git.html)
-
-Another fun resource is the following game which tries to teach you git:
+It is assumed that you have been introduced to git in previous classes. We will be using it a lot in this class. Students that are uncomfortable with git may want to find and and use a git tutorial. It is the entire teams responsibility to help your fellow members learn and use git properly. A fun place to start is the following game which tries to teach you git:
 
 - [Git Game](https://ohmygit.org/)
 
