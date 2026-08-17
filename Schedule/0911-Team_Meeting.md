@@ -30,7 +30,7 @@ Instructor has slides for this (with surprises)
 
 Throughout the semester you will be expected to conduct regular team meetings (weekly).  For every team meeting you will identify a facilitator, time keeper and note taker (rotate these roles).  
 
-Please follow the detailed instructions that can be found on the [Meeting Agenda and Notes](../Guide/Meeting_Agenda_and_notes) in the Course Guide. 
+Please follow the detailed instructions that can be found on the [Meeting Agenda and Notes](../Guide/Meeting_Agenda_and_Notes) in the Course Guide. 
 
 ***Your instructors will expect to be able to go to your team drives at any time during the semester and be able to review your up-to-date meeting notes.***  If they are not there your entire team will receive a zero and will not be able to make it up. 
 
