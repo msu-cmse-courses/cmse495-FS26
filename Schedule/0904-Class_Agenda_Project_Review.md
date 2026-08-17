@@ -17,13 +17,13 @@ Today we will break up into the same groups as Wednesday and review the project 
 - (40 minutes) Sharing review results
 
 
-# 1. Announcements
+## Announcements
 
-## Honor's Option
+### Honor's Option
 
 If you are interested in an Honor's option, please review the option in the syllabus and send an email to your instructors **TODAY** saying you would like to be included in the SCHOLAR repository management team. 
 
-# 2. Project Review
+## Project Review
 
 Your goal for the next half hour is to review a project as a group and do some preliminary research. Get out your computers so everyone can help.  After your 30 minutes you need to be ready to give a 3-minute presentation (max) to the entire class about the 2-3 most interesting things you found. The goal here is to share something new that may be helpful for other classmates to know as they pick projects. Practice if you have time so you can keep it under 3 minutes. 
 
@@ -36,35 +36,30 @@ Your goal is to do a quick read through the project summary and get started outl
 
 
 
-## Group Formation
+### Group Formation
 
 As soon as you get into your groups introduce yourselves and identify people for the following roles.  
 
-### Reviewer/Researcher:
-Everyone on the team is responsible to to review and research the proposal. Your job is to use your favorite search engines and see what you can learn immediately about the project. Pretend that this will be your project and you are trying to find the information you need to get started.  This includes information such as software resources, background information, data sources, etc.  Include links and descriptions of what you find. Think about the first steps and open loop questions that need to be answered. 
+***Reviewer/Researcher:*** Everyone on the team is responsible to to review and research the proposal. Your job is to use your favorite search engines and see what you can learn immediately about the project. Pretend that this will be your project and you are trying to find the information you need to get started.  This includes information such as software resources, background information, data sources, etc.  Include links and descriptions of what you find. Think about the first steps and open loop questions that need to be answered. 
 
-### Timekeeper:
-In your groups you have 30 minutes to complete the review and get ready for the presentation.  The timekeeper is responsible for the agenda and keeping your team on task. Here is a recommendation:
+***Timekeeper:*** In your groups you have 30 minutes to complete the review and get ready for the presentation.  The timekeeper is responsible for the agenda and keeping your team on task. Here is a recommendation:
 * (5 minutes) To read through the project description. Maybe have someone read it out loud?
 * (10 minutes) Have everyone research details about the projects.  
 * (5 minutes) Review report and add additional items as your team finds them.
 * (10 minutes) Pick 2-3 items you think would be good to report out to the class. 
 
-### Note Taker:  
-The note taker will be responsible for taking notes for the meeting.  These notes will be shared with the rest of the class. If you are the note taker, do the following:
+***Note Taker:***  The note taker will be responsible for taking notes for the meeting.  These notes will be shared with the rest of the class. If you are the note taker, do the following:
 * Create a word document in the General-->Files-->Project_Reviews/TEAMNAME folder titled ```initial_Review.docx```. Do not use spaces in the filename. The TEAMNAME is the name of the project your team is reviewing.
 * Add the title of the project to the top of the document. Include all of your names as authors and your assigned roles.
 * Write down notes and thoughts about the project. Make sure you include links to online resources.
 * Make sure the notes make sense. The intended use of this document is to help other students with their preference assignment.
 
-### Facilitator:
-Your job is to make sure everyone is participating and working.  Encourage discussion and help the timekeeper and note takers stay on task. Focus on making sure others are participating and not taking over the discussion yourself. 
+***Facilitator:*** Your job is to make sure everyone is participating and working.  Encourage discussion and help the timekeeper and note takers stay on task. Focus on making sure others are participating and not taking over the discussion yourself. 
 
-### Presenter
-Your job is to present the 2-3 items your team picks to the entire group.  You will only have a maximum of 3 minutes to present so make sure you know what you want to say. If you have time write it down and practice.  
+***Presenter:*** Your job is to present the 2-3 items your team picks to the entire group.  You will only have a maximum of 3 minutes to present so make sure you know what you want to say. If you have time write it down and practice.  
 
 
-## Project Review Report
+### Project Review Report
 
 ***Remember, as with everything in this course, part of your grade is to read and follow instructions.*** If instructions are confusing make an educated guess.  If you feel an incorrect guess will impact the quality of your product then ask questions of your instructors. Avoid asking questions that can be answered in the instructions.
 
@@ -86,7 +81,7 @@ Find the ```Review_template.docx``` file in the teams directory and make a copy 
 
 You are encouraged to work on this document outside of class. Your team will be given 3-5 minutes on Friday to give an overview of the project with a focus on key insights your group discovered. Identify one person to share with entire class <5 Minutes.
 
-## Project Description Files
+### Project Description Files
 
 Once you are assigned to a group and a project, go to the "General" channel in our courses Microsoft Team, click on "files" and select the folder for the team. The project description will be in that folder.  
 
@@ -94,9 +89,13 @@ Once you are assigned to a group and a project, go to the "General" channel in o
 
  **_NOTE_** the above project descriptions may not be posted until the first day of class
 
-# 3. Sharing Review results
+## Sharing Review results
 
 Each group will get about 3 minutes to share some details about the project they reviewed.
+
+## Daily Check-in
+
+[Daily Check-in form](../Guide/Daily_Check_In)
 
 <!-- TOC_START -->
 <div class="page-toc">
@@ -107,38 +106,18 @@ Each group will get about 3 minutes to share some details about the project they
 <ul>
 
 <li><a href="#agenda-110-minutes">Agenda (110 Minutes)</a></li>
-</ul>
-</details>
-
-<details>
-<summary>1. Announcements</summary>
+<li><a href="#announcements">Announcements</a></li>
 <ul>
-
 <li><a href="#honors-option">Honor's Option</a></li>
 </ul>
-</details>
-
-<details>
-<summary>2. Project Review</summary>
+<li><a href="#project-review">Project Review</a></li>
 <ul>
-
 <li><a href="#group-formation">Group Formation</a></li>
-<ul>
-<li><a href="#reviewerresearcher">Reviewer/Researcher:</a></li>
-<li><a href="#timekeeper">Timekeeper:</a></li>
-<li><a href="#note-taker">Note Taker:</a></li>
-<li><a href="#facilitator">Facilitator:</a></li>
-<li><a href="#presenter">Presenter</a></li>
-</ul>
 <li><a href="#project-review-report">Project Review Report</a></li>
 <li><a href="#project-description-files">Project Description Files</a></li>
 </ul>
-</details>
-
-<details>
-<summary>3. Sharing Review results</summary>
-<ul>
-
+<li><a href="#sharing-review-results">Sharing Review results</a></li>
+<li><a href="#daily-check-in">Daily Check-in</a></li>
 </ul>
 </details>
 </div>
