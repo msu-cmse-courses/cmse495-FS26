@@ -10,8 +10,8 @@ Key to your success this semester is working together as a group and being effec
 
 ## Class Agenda (110 Minutes)
 
-1. (20 minutes) Tower Building Exercise
-2. (10 minutes) Team Organization - Roles and Goals
+1. (40 minutes) Tower Building Exercise
+2. (30 minute)  TechTalk
 3. (40 minutes) Team "working" Meeting
 
 ## Sit with your teams
@@ -25,6 +25,14 @@ Make sure you sit with your team.  Make sure you have a "team name tag". You wil
 ## Tower Building Exersize
 
 Instructor has slides for this (with surprises)
+
+## TechTalk
+
+***Understanding Your Data: Exploratory Data Analysis and Data Discovery***
+
+Today's Tech Talk explores the idea that data is a map, not the destination. While understanding your data is an important part of any project, successful teams stay focused on the problem they are trying to solve rather than letting the dataset become the project. We will discuss data discovery, exploratory data analysis (EDA), data schemas, data dictionaries, and data bibliographies as tools for understanding and documenting datasets.
+
+We will also explore how projects can make meaningful progress even when data is not yet available. By defining project goals, identifying information needs, creating schemas, and using synthetic or pilot datasets, teams can begin planning solutions long before the final data arrives. Just as you can plan a trip before you have a complete map, you can often design and prototype a project before obtaining all of the data needed to complete it.
 
 ## First Team "Working" Meeting
 
@@ -63,6 +71,7 @@ To get credit for this assignment submit your meeting notes to your teams drive.
 <li><a href="#class-agenda-110-minutes">Class Agenda (110 Minutes)</a></li>
 <li><a href="#sit-with-your-teams">Sit with your teams</a></li>
 <li><a href="#tower-building-exersize">Tower Building Exersize</a></li>
+<li><a href="#techtalk">TechTalk</a></li>
 <li><a href="#first-team-working-meeting">First Team "Working" Meeting</a></li>
 <ul>
 <li><a href="#meeting-agenda">Meeting Agenda</a></li>

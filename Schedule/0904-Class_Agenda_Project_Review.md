@@ -12,16 +12,22 @@ Today we will break up into the same groups as Wednesday and review the project 
 ## Agenda (110 Minutes)
 
 - (10 minutes) Announcements
-- (30 minutes) TechTalk - O
-- (10 minutes) Project Review
+- (30 minutes) TechTalk
+- (30 minutes) Project Review
 - (40 minutes) Sharing review results
 
 
 ## Announcements
 
-### Honor's Option
+***Honor's Option:*** If you are interested in an Honor's option, please review the option in the syllabus and send an email to your instructors **TODAY** saying you would like to be included in the SCHOLAR repository management team. 
 
-If you are interested in an Honor's option, please review the option in the syllabus and send an email to your instructors **TODAY** saying you would like to be included in the SCHOLAR repository management team. 
+## TechTalk
+
+***Professionalism and Trust: Why People Want to Work With You***
+
+Throughout the semester, we will set aside time for short Tech Talks that explore concepts, tools, and practices that can help your team be more successful. Some talks will focus on technical topics while others will focus on professional skills.
+
+Today's Tech Talk focuses on one of the core learning goals of CMSE 495: professionalism. We will explore how professionalism helps build trust with teammates, project sponsors, and future employers, and why trust is often the foundation of successful projects.
 
 ## Project Review
 
@@ -107,9 +113,7 @@ Each group will get about 3 minutes to share some details about the project they
 
 <li><a href="#agenda-110-minutes">Agenda (110 Minutes)</a></li>
 <li><a href="#announcements">Announcements</a></li>
-<ul>
-<li><a href="#honors-option">Honor's Option</a></li>
-</ul>
+<li><a href="#techtalk">TechTalk</a></li>
 <li><a href="#project-review">Project Review</a></li>
 <ul>
 <li><a href="#group-formation">Group Formation</a></li>
