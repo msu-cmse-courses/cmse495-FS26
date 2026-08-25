@@ -10,7 +10,7 @@ mode: "guide"
 
 Complete the appropriate form for every class meeting:
 
-[Link to Daily Check-in](https://msu.co1.qualtrics.com/jfe/form/SV_3yNg09psIE2ObAO)
+[Link to Daily Check-in](https://forms.cloud.microsoft/r/S1Pay9RhE9)
 
 ## Purpose
 
