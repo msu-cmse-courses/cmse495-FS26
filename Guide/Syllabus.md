@@ -282,39 +282,25 @@ All required readings will be provided as Open Educational Resource (OER) via li
 
 ## Instructors Contact Information and Office Hours
 
-**_Lead Instructor_**:
+Please use [cmse_capstone@msu.edu](mailto:cmse_capstone@msu.edu) for all emails regarding class. This email address goes to all instructors and ensures we can provide the best and quickest response. 
 
+Office hour time is set aside in class for student's to talk with the instructors.  However, if you would like to schedule a zoom meeting with an instructor you can use our course booking's page here:
+
+- [Link to Booking's Page](https://outlook.office.com/book/DirksSchedule@msu.edu/?ismsaljsauthenabled)
+
+**_Lead Instructor_**:  
 Dr. Justin Gambrell (he/him)  
 Department of Computational Mathematics, Science and Engineering (CMSE)   
-**_Email_**: gambre11@msu.edu  
 **_Office_**: EB 1501  
-**_Virtual Office_**:  [Justin's Zoom Office](https://msu.zoom.us/j/91770420020)  
-Passcode: 037636  
-**_Office Hours_**: 2:00-3:00 pm and 4:00-5:00 on Fridays. On zoom, but can be in person if requested. Office hours can be by appointment as well. Just email and ask. 
+**_Virtual Office_**:  [Justin's Zoom Office](https://msu.zoom.us/j/91770420020) Passcode: 037636  
 
----
-
-**_Co-Instructor_**: 
-
+**_Co-Instructor_**:  
 Dr. Dirk Colbry (he/him/his)  
 Institute for Cyber Enabled Research (ICER) and Department of Computational Mathematics, Science and Engineering (CMSE)  
-**_Email_**: colbrydi@msu.edu  
 **_Web_**:  <http://www.dirk.colbry.com>  
 **_Office_**: [EB 1516](https://cmse.msu.edu/about/directions/)  
 **_Virtual Office_**:  [Dirk's Zoom Office](https://msu.zoom.us/my/colbrydi)  
-**_Office Hours_**: I have an hour after class blocked off for Mondays and Wednesdays (we can meet inside or next to our classroom) and Tuesdays 10:30-11:30pm In my office ([EB 1516](https://cmse.msu.edu/About/directions.aspx)) of via zoom (if you remind me). 
 
-* If none of these times work, please visit <http://bookdirk.colbry.com/> to schedule an appointment.
-
----
-
-**_Teaching Assistant_**:
-
-Mohammad (Moe) Rajaian Hoonejani  
-**_Email_**: rajaianm@msu.edu  
-**_Office_**: N/A   
-**_Virtual Office_**: [Moe's Zoom Office](https://msu.zoom.us/j/96198911253)  
-**_Office Hours_**: Thursday from 8:30 to 9:30 AM   
 
 # Course Policies and Expectations
 
