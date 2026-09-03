@@ -743,6 +743,16 @@ LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/tempfiles/Schedul
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CMSE 495: Project Plan
+DTSTART;TZID=US/Eastern:20260921T102000
+DTEND;TZID=US/Eastern:20260921T121000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/tempf
+ iles/Schedule/0921-Project_Plan'>Link to assignment</a>
+LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
+ 3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
+ mes and locations.
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CMSE 495: CyberAmbassadors Lets talk
 DTSTART;TZID=US/Eastern:20260923T102000
 DTEND;TZID=US/Eastern:20260923T121000
