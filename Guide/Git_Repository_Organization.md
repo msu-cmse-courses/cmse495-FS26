@@ -44,6 +44,48 @@ ProjectName/
 
 Adjust the structure to fit your project, but keep the organization intentional and documented.
 
+### Licensing file
+
+As authors of software it is important to let people know how they can use our software. 
+
+***If your project has an IP agreement you should include an unsigned copy of the agreement and include a LICENSE file similar to the following.*** 
+
+```
+License Agreement
+
+This software is the intellectual property of [COMMUNITY PARTNER NAME] and was developed by the [TEAM NAME] Capstone team, consisting of [Name1], [Name2], [Name3]...
+
+The use of this software is governed by the terms and conditions outlined in the attached Intellectual Property Agreement (IP Agreement) identified as [FILENAME].
+
+By using this software, you agree to comply with the terms of the IP Agreement.
+```
+
+
+***If you do not have an IP agreement that covers the License, the following article is a great resource for learning the types of terminology and logic used when talking about software License.***  
+
+* <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002598>
+
+* <https://creativecommons.org/licenses/>
+
+
+![Creative commons license](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)
+
+Include a ```./LICENSE``` test file in your top directory. Select which license to use using the following website:
+
+* [https://choosealicense.com/](https://choosealicense.com/)
+
+Copy and paste your chosen license file into a file named ```./LICENSE```
+
+The following articles are a great resource for learning the types of terminology and logic used when talking about software License.  
+
+* <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002598>
+* <https://choosealicense.com/>
+* <https://creativecommons.org/licenses/>
+
+**_Make sure you talk to your instructors to know what type of license is appropriate for your project given.  What license you use may also depend on the IP agreement made with you and the community partner._**
+
+Include a ```./LICENSE.txt``` test file in your top directory.
+
 
 ## Required Practices
 
@@ -119,6 +161,9 @@ There is no single correct repository layout. The goal is to create a repository
 <ul>
 
 <li><a href="#repository-structure">Repository Structure</a></li>
+<ul>
+<li><a href="#licensing-file">Licensing file</a></li>
+</ul>
 <li><a href="#required-practices">Required Practices</a></li>
 <li><a href="#collaboration">Collaboration</a></li>
 <li><a href="#repository-access">Repository Access</a></li>

@@ -37,6 +37,71 @@ If you have an IP and NDA agreement have one (and only one) person from your tea
 
 
 
+### Basic git INSTRUCTIONS
+
+For this milestone we only need to set up the basic structure with the following. To start, please keep the files simple and do not include files that do not add something to the project (see "what not to include" below):
+
+    ProjectName/
+        .gitignore
+        LICENSE.txt
+        README.md
+            
+Here is a description of each of these:
+
+* ```ProjectName``` - The top level folder is the short name of your team. Give your project a short and memorable name. An ideal name should be descriptive and have meaning to people who may be interested in using your software. A poor name only has meaning to your team. For example, **_DO NOT USE CMSE495_** in the the name.  Instead try to pick a name that relates to your project or what you think your project will do.  Although we can change the name later it is much easier if we pick a good name to start. 
+    * ```README.md``` - This is a description of your git repository written in Markdown. 
+    * ```.gitignore``` - There are a lot of files that are inappropriate to include in a git repository (more information below) the "Git Ignore" file helps by telling Git that you never want to use these files.  There are plenty of examples for good ```.gitignore``` files for Python projects on the Internet.  Try to include one that makes sense (you can update it as the semester goes on).
+    * ```LICENSE``` - Use this file to describe your license (See [Git Repository Organization](https://msu-cmse-courses.github.io/cmse495-FS26/Guide/Git_Repository_Organization) in the team guild for more details).  
+    
+**_HINT_**:  Many of you may find this [git template](https://github.com/colbrydi/Research_Software_Project_Template) helpful.
+        
+If you need help figuring out how to set up your git repository there are a ton of tutorials online. For example here is a good one:
+
+* [git game](https://ohmygit.org/)
+* [GitBrancing tutorial](https://learngitbranching.js.org/)
+* [Dirk's Full Getting to Know Git Tutorial](https://msu-cmse-courses.github.io/cmse802-FS26/Guide/31-Getting-to-know-git)
+
+If you continue to need help go see your instructors. 
+
+
+
+
+
+<iframe
+    width="100%"
+    height="300"
+    src="https://www.youtube.com/embed/IAAv4DjYYUA?cc_load_policy=True"
+    frameborder="0"
+    allowfullscreen
+
+></iframe>
+
+
+
+
+The following video are instructions specifically for how to use the MSU Gitlab.  We will be using the MSU gitlab for all projects because it allows us to best maintain file permissions.  If you have a completely opensource project with no NDA or IP agreement you are also allowed to post on Github or other public spaces:
+
+
+
+
+
+<iframe
+    width="100%"
+    height="300"
+    src="https://www.youtube.com/embed/6_cegMFG0Pw?cc_load_policy=True"
+    frameborder="0"
+    allowfullscreen
+
+></iframe>
+
+
+
+
+Some of you may get some sort of "Authentication" error when trying to use git on a windows machine (especially if you have your computer already set up to use github). If that is the case, the following video may help you set up an SSH key on your windows machine.  
+
+- [Direct Link to Windows SSH key generation video](https://youtu.be/b6umB61CV5s)
+
+
 
 ## Evaluation and Rubric
 
@@ -85,6 +150,9 @@ Review feedback from instructors and ensure that any requested changes are made.
 <ul>
 
 <li><a href="#submission">Submission</a></li>
+<ul>
+<li><a href="#basic-git-instructions">Basic git INSTRUCTIONS</a></li>
+</ul>
 <li><a href="#evaluation-and-rubric">Evaluation and Rubric</a></li>
 <li><a href="#post-evaluation">Post-Evaluation</a></li>
 </ul>
