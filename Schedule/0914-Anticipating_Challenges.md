@@ -56,7 +56,7 @@ The instructor will have groups share what they learned with the class.  The imp
 
 # Introduce Project Schedule assignment
 
-The next milestone deliverable is the [Exploration and Plan](../Schedule/0920-Milestone_Exploration_and_Plan).  Teams will use this time to read though the assignment and work on getting ready for the next steps. 
+The next milestone deliverable is the [Exploration and Plan](../Schedule/0920-MILESTONE_Exploration_and_Plan).  Teams will use this time to read though the assignment and work on getting ready for the next steps. 
 
 ## Daily Check-in
 
