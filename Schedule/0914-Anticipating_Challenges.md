@@ -17,7 +17,7 @@ mode: "schedule"
 
 ### Reminder: Both Individual and Team 3x3 Reports due every Monday (starting today)
 
-- [Link to 3x3 report instructions](..\Guide\Weekly-3x3)
+- [Link to 3x3 report instructions](..\Guide\Weekly_3x3)
 
 # Team Charter Review
 
