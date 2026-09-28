@@ -604,21 +604,21 @@ LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/Schedule/1206-MIL
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE 495: Showcase Day 1
+SUMMARY:CMSE 495: Final Video Day 1
 DTSTART;TZID=US/Eastern:20261207T102000
 DTEND;TZID=US/Eastern:20261207T121000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/Sched
- ule/1207-Showcase_Day_1'>Link to assignment</a>
+ ule/1207-Final_Video_Day_1'>Link to assignment</a>
 LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
  3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
  mes and locations.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE 495: Showcase Day 2
+SUMMARY:CMSE 495: Final Video Day 2
 DTSTART;TZID=US/Eastern:20261209T102000
 DTEND;TZID=US/Eastern:20261209T121000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/Sched
- ule/1209-Showcase_Day_2'>Link to assignment</a>
+ ule/1209-Final_Video_Day_2'>Link to assignment</a>
 LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
  3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
  mes and locations.

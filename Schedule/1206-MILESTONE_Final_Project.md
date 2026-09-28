@@ -89,7 +89,10 @@ The ```README``` files are extremely important and should be the first "touch po
 <a name="Posting_your_video"></a>
 
 ## Posting your video
-You may post your video someplace accessible by your instructor and other students.  Only do this if you are comfortable sharing the video publically. Probably the easiest place to post is on [YouTube](http://youtube.com/) using a personal Google Account. However, students can also post on the [MSU Mediaspace](http://mediaspace.msu.edu/). Once up on MediaSpace you can limit access to only MSU people logged in that have access to the URL.  
+
+Your final video should be a summary of your semester.  There is no specific video length requirement. However, we will be reviewing videos in class on Monday and Wednesday. Please be respectful and professional on time.  The two previous videos were 3-5 minutes long so it is reasonable to expect the final video to be 9-15 minutes long.  Not everything must be in the video if your video is more than 20 minutes long then your team should consider that it will not be as good a quality because the audience will be loosing interest. 
+
+You may post your video someplace accessible by your instructor and other students.  Only do this if you are comfortable sharing the video publicly. Probably the easiest place to post is on [YouTube](http://youtube.com/) using a personal Google Account. However, students can also post on the [MSU Mediaspace](http://mediaspace.msu.edu/). Once up on MediaSpace you can limit access to only MSU people logged in that have access to the URL.  
 
 Include a link to the URL in your git repository.  A good place would be to embed the video in your ```README.md``` file but you can also embed YouTube videos in a Jupyter notebook.
 
@@ -109,7 +112,7 @@ Compose a final professional email to your project community partners. Include a
 
 ## Extensions
 
-Everything is due by Sunday night April 19th.  However, teams may make changes to their repository (not their video) and send out their final email up until Sunday April 26th. 
+Everything is due by Sunday night December 6th.  However, teams may make changes to their repository (not their video) and send out their final email up until Sunday December 13th. 
 
 ## Evaluation
 
