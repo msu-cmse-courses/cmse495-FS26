@@ -106,33 +106,33 @@
   week_start: '2026-10-12'
   title: SCHOLAR Selection Matrix
   url: null
+- date: '2026-10-18'
+  week_start: '2026-10-12'
+  title: MILESTONE Install Instructions
+  url: null
 - date: '2026-10-19'
   week_start: '2026-10-19'
-  title: Temp
+  title: Install Instruction Review
   url: null
 - date: '2026-10-21'
   week_start: '2026-10-19'
-  title: Temp
+  title: CyberAmbassadors Leading the Team
+  url: null
+- date: '2026-10-23'
+  week_start: '2026-10-19'
+  title: SCHOLAR Tutorial Writing
   url: null
 - date: '2026-10-23'
   week_start: '2026-10-19'
   title: Temp
   url: null
-- date: '2026-10-25'
-  week_start: '2026-10-19'
-  title: MILESTONE Install Instructions
-  url: /Schedule/1025-MILESTONE_Install_Instructions
 - date: '2026-10-26'
   week_start: '2026-10-26'
   title: Fall Break
   url: null
-- date: '2026-10-26'
-  week_start: '2026-10-26'
-  title: Install Instruction Review
-  url: null
 - date: '2026-10-28'
   week_start: '2026-10-26'
-  title: CyberAmbassadors Leading the Team
+  title: CyberAmbassadors Leading the Change
   url: null
 - date: '2026-10-30'
   week_start: '2026-10-26'
@@ -148,7 +148,7 @@
   url: null
 - date: '2026-11-04'
   week_start: '2026-11-02'
-  title: CyberAmbassadors Leading the Change
+  title: Project CoWork 1
   url: null
 - date: '2026-11-06'
   week_start: '2026-11-02'
