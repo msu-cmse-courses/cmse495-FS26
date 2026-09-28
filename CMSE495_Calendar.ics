@@ -290,6 +290,36 @@ LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
  mes and locations.
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CMSE 495: Temp
+DTSTART;TZID=US/Eastern:20261019T102000
+DTEND;TZID=US/Eastern:20261019T121000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/Sched
+ ule/1019-Temp'>Link to assignment</a>
+LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
+ 3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
+ mes and locations.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMSE 495: Temp
+DTSTART;TZID=US/Eastern:20261021T102000
+DTEND;TZID=US/Eastern:20261021T121000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/Sched
+ ule/1021-Temp'>Link to assignment</a>
+LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
+ 3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
+ mes and locations.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMSE 495: Temp
+DTSTART;TZID=US/Eastern:20261023T102000
+DTEND;TZID=US/Eastern:20261023T121000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/Sched
+ ule/1023-Temp'>Link to assignment</a>
+LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
+ 3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
+ mes and locations.
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CMSE 495: MILESTONE Install Instructions
 DTSTART;TZID=US/Eastern:20261025T000000
 DTEND;TZID=US/Eastern:20261026T000000
