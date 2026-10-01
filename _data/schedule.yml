@@ -97,31 +97,31 @@
 - date: '2026-10-12'
   week_start: '2026-10-12'
   title: Outreach Review
-  url: null
+  url: /Schedule/1012-Outreach_Review
 - date: '2026-10-14'
   week_start: '2026-10-12'
   title: CyberAmbassadors Its Complicated
-  url: null
+  url: /Schedule/1014-CyberAmbassadors_Its_Complicated
 - date: '2026-10-16'
   week_start: '2026-10-12'
   title: SCHOLAR Selection Matrix
-  url: null
+  url: /Schedule/1016-SCHOLAR_Selection_Matrix
 - date: '2026-10-18'
   week_start: '2026-10-12'
   title: MILESTONE Install Instructions
-  url: null
+  url: /Schedule/1018-MILESTONE_Install_Instructions
 - date: '2026-10-19'
   week_start: '2026-10-19'
   title: Install Instruction Review
-  url: null
+  url: /Schedule/1019-Install_Instruction_Review
 - date: '2026-10-21'
   week_start: '2026-10-19'
   title: CyberAmbassadors Leading the Team
-  url: null
+  url: /Schedule/1021-CyberAmbassadors_Leading_the_Team
 - date: '2026-10-23'
   week_start: '2026-10-19'
   title: SCHOLAR Tutorial Writing
-  url: null
+  url: /Schedule/1023-SCHOLAR_Tutorial_Writing
 - date: '2026-10-25'
   week_start: '2026-10-19'
   title: MILESTONE Nothing Due
@@ -184,7 +184,7 @@
   url: null
 - date: '2026-11-20'
   week_start: '2026-11-16'
-  title: ACHOLAR Tutorial Presentations
+  title: SCHOLAR Tutorial Presentations
   url: null
 - date: '2026-11-22'
   week_start: '2026-11-16'

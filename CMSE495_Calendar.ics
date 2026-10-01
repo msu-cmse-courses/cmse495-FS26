@@ -495,11 +495,11 @@ LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
  mes and locations.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE 495: ACHOLAR Tutorial Presentations
+SUMMARY:CMSE 495: SCHOLAR Tutorial Presentations
 DTSTART;TZID=US/Eastern:20261120T102000
 DTEND;TZID=US/Eastern:20261120T121000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/Sched
- ule/1120-ACHOLAR_Tutorial_Presentations'>Link to assignment</a>
+ ule/1120-SCHOLAR_Tutorial_Presentations'>Link to assignment</a>
 LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
  3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
  mes and locations.
@@ -931,6 +931,50 @@ DTSTART;TZID=US/Eastern:20261016T102000
 DTEND;TZID=US/Eastern:20261016T121000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/tempf
  iles/Schedule/1016-SCHOLAR_Selection_Matrix'>Link to assignment</a>
+LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
+ 3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
+ mes and locations.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMSE 495: MILESTONE Install Instructions
+DTSTART;TZID=US/Eastern:20261018T000000
+DTEND;TZID=US/Eastern:20261019T000000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/tempf
+ iles/Schedule/1018-MILESTONE_Install_Instructions'>Link to assignment</a>
+LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
+ 3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
+ mes and locations.
+LOCATION:https://msu-cmse-courses.github.io/cmse495-FS26/tempfiles/Schedul
+ e/1018-MILESTONE_Install_Instructions
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMSE 495: Install Instruction Review
+DTSTART;TZID=US/Eastern:20261019T102000
+DTEND;TZID=US/Eastern:20261019T121000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/tempf
+ iles/Schedule/1019-Install_Instruction_Review'>Link to assignment</a>
+LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
+ 3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
+ mes and locations.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMSE 495: CyberAmbassadors Leading the Team
+DTSTART;TZID=US/Eastern:20261021T102000
+DTEND;TZID=US/Eastern:20261021T121000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/tempf
+ iles/Schedule/1021-CyberAmbassadors_Leading_the_Team'>Link to assignment</
+ a>
+LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
+ 3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
+ mes and locations.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMSE 495: SCHOLAR Tutorial Writing
+DTSTART;TZID=US/Eastern:20261023T102000
+DTEND;TZID=US/Eastern:20261023T121000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/tempf
+ iles/Schedule/1023-SCHOLAR_Tutorial_Writing'>Link to assignment</a>
 LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
  3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
  mes and locations.
