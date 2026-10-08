@@ -1003,6 +1003,17 @@ LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
  mes and locations.
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CMSE 495: CyberAmbassadors Leading the Change
+DTSTART;TZID=US/Eastern:20261028T102000
+DTEND;TZID=US/Eastern:20261028T121000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/tempf
+ iles/Schedule/1028-CyberAmbassadors_Leading_the_Change'>Link to assignment
+ </a>
+LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
+ 3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
+ mes and locations.
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CMSE 495: CyberAmbassadors Leading the Team
 DTSTART;TZID=US/Eastern:20261028T102000
 DTEND;TZID=US/Eastern:20261028T121000
@@ -1151,6 +1162,16 @@ DTSTART;TZID=US/Eastern:20261120T102000
 DTEND;TZID=US/Eastern:20261120T121000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/tempf
  iles/Schedule/1120-ACHOLAR_Tutorial_Presentations'>Link to assignment</a>
+LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
+ 3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
+ mes and locations.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMSE 495: SCHOLAR Tutorial Presentations
+DTSTART;TZID=US/Eastern:20261120T102000
+DTEND;TZID=US/Eastern:20261120T121000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/tempf
+ iles/Schedule/1120-SCHOLAR_Tutorial_Presentations'>Link to assignment</a>
 LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
  3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
  mes and locations.

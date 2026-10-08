@@ -7,11 +7,11 @@ mode: "schedule"
 # Work on Tutorials
 
 
-## Agenda (80 Minutes)
+## Agenda (110 Minutes)
 
 - (10 minutes) Course Improvements and Feedback
-- (50 minutes) Continue to work on tutorials
-- (10 minutes) Submit Pull requests
+- (60 minutes) Continue to work on tutorials
+- (40 minutes) Submit Pull requests
 
 ----
 
@@ -42,7 +42,7 @@ Submit a pull request for your tutorial.
 <summary>Work on Tutorials</summary>
 <ul>
 
-<li><a href="#agenda-80-minutes">Agenda (80 Minutes)</a></li>
+<li><a href="#agenda-110-minutes">Agenda (110 Minutes)</a></li>
 </ul>
 </details>
 

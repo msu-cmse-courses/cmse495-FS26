@@ -7,12 +7,13 @@ mode: "schedule"
 # Installation Code Review
 
 
-## Agenda (80 Minutes)
+## Agenda (110 Minutes)
 
 - (10 minutes) Announcements, check-in and Shout-Outs
-- (5 minutes) CATME Team Review
-- (15 minutes) Volunteer to make class slideshow
-- (50 minutes) Group meeting
+- (10 minutes) CATME Team Review
+- (20 minutes) Volunteer to make class slideshow
+- (10 minutes) Slideshow Demo
+- (60 minutes) Group meeting
 
 ----
 #  Installation Instructions
@@ -60,7 +61,7 @@ Conduct a group meeting for the remainder of the class.  Check your project mile
 <summary>Installation Code Review</summary>
 <ul>
 
-<li><a href="#agenda-80-minutes">Agenda (80 Minutes)</a></li>
+<li><a href="#agenda-110-minutes">Agenda (110 Minutes)</a></li>
 </ul>
 </details>
 

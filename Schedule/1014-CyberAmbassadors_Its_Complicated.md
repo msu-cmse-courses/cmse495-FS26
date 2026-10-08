@@ -8,9 +8,10 @@ mode: "schedule"
 
 
 
-## Agenda (80 Minutes)
+## Agenda (110 Minutes)
 
 - (80 minutes) It's Complicated
+- (30 minutes) Group meeting
 
 
 [Link to slides](https://docs.google.com/presentation/d/1oq73EhYCr7ooDJ7YTRvyj_rDzxGyHrNBls_m3aJtCWg/edit?usp=sharing)
@@ -24,7 +25,7 @@ mode: "schedule"
 <summary>It's Complicated</summary>
 <ul>
 
-<li><a href="#agenda-80-minutes">Agenda (80 Minutes)</a></li>
+<li><a href="#agenda-110-minutes">Agenda (110 Minutes)</a></li>
 </ul>
 </details>
 </div>

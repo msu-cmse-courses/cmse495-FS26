@@ -7,9 +7,10 @@ mode: "schedule"
 # CyberAmbassadors - Leading the Team
 
 
-## Agenda (80 Minutes)
+## Agenda (110 Minutes)
 
-- (70 minutes) Leading the Team
+- (80 minutes) Leading the Team
+- (30 minutes) Group Meeting
 
 
 # Leading the Team
@@ -25,7 +26,7 @@ mode: "schedule"
 <summary>CyberAmbassadors - Leading the Team</summary>
 <ul>
 
-<li><a href="#agenda-80-minutes">Agenda (80 Minutes)</a></li>
+<li><a href="#agenda-110-minutes">Agenda (110 Minutes)</a></li>
 </ul>
 </details>
 

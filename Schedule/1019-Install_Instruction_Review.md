@@ -6,11 +6,11 @@ mode: "schedule"
 ---
 # Install Instruction Review
 
-## Agenda (80 Minutes)
+## Agenda (110 Minutes)
 
 - (10 minutes) Shout Outs
-- (30 minutes) Install Instruction Reviews
-- (30 minutes) Group meeting
+- (50 minutes) Install Instruction Reviews
+- (50 minutes) Group meeting
 
 ----
 
@@ -68,7 +68,7 @@ Conduct a group meeting for the remainder of the class.  Check your project mile
 <summary>Install Instruction Review</summary>
 <ul>
 
-<li><a href="#agenda-80-minutes">Agenda (80 Minutes)</a></li>
+<li><a href="#agenda-110-minutes">Agenda (110 Minutes)</a></li>
 </ul>
 </details>
 

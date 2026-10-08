@@ -6,10 +6,10 @@ mode: "schedule"
 ---
 # Selection Matrix
 
-## Agenda (80 Minutes)
+## Agenda (110 Minutes)
 
-- (20 minutes) Introducing Selection Matrix
-- (60 minutes) Group Meeting
+- (60 minutes) Introducing Selection Matrix
+- (50 minutes) Group Meeting
 
 
 ---
@@ -65,7 +65,7 @@ Put your report in your teams folder. Be ready to present your choices next week
 <summary>Selection Matrix</summary>
 <ul>
 
-<li><a href="#agenda-80-minutes">Agenda (80 Minutes)</a></li>
+<li><a href="#agenda-110-minutes">Agenda (110 Minutes)</a></li>
 </ul>
 </details>
 
