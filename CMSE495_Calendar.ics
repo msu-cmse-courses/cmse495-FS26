@@ -323,11 +323,11 @@ LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
  mes and locations.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE 495: SCHOLAR Tutorial Writing
+SUMMARY:CMSE 495: SCHOLAR Tutorial Selection
 DTSTART;TZID=US/Eastern:20261023T102000
 DTEND;TZID=US/Eastern:20261023T121000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/Sched
- ule/1023-SCHOLAR_Tutorial_Writing'>Link to assignment</a>
+ ule/1023-SCHOLAR_Tutorial_Selection'>Link to assignment</a>
 LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
  3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
  mes and locations.
@@ -366,11 +366,11 @@ LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
  mes and locations.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMSE 495: Tutorial Selection
+SUMMARY:CMSE 495: SCHOLAR Tutorial Writing
 DTSTART;TZID=US/Eastern:20261030T102000
 DTEND;TZID=US/Eastern:20261030T121000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/Sched
- ule/1030-Tutorial_Selection'>Link to assignment</a>
+ ule/1030-SCHOLAR_Tutorial_Writing'>Link to assignment</a>
 LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
  3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
  mes and locations.
@@ -970,6 +970,16 @@ LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
  mes and locations.
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CMSE 495: SCHOLAR Tutorial Selection
+DTSTART;TZID=US/Eastern:20261023T102000
+DTEND;TZID=US/Eastern:20261023T121000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/tempf
+ iles/Schedule/1023-SCHOLAR_Tutorial_Selection'>Link to assignment</a>
+LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
+ 3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
+ mes and locations.
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CMSE 495: SCHOLAR Tutorial Writing
 DTSTART;TZID=US/Eastern:20261023T102000
 DTEND;TZID=US/Eastern:20261023T121000
@@ -1020,6 +1030,16 @@ DTEND;TZID=US/Eastern:20261028T121000
 DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/tempf
  iles/Schedule/1028-CyberAmbassadors_Leading_the_Team'>Link to assignment</
  a>
+LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
+ 3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
+ mes and locations.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMSE 495: SCHOLAR Tutorial Writing
+DTSTART;TZID=US/Eastern:20261030T102000
+DTEND;TZID=US/Eastern:20261030T121000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/tempf
+ iles/Schedule/1030-SCHOLAR_Tutorial_Writing'>Link to assignment</a>
 LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
  3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
  mes and locations.
