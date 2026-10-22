@@ -161,15 +161,15 @@
 - date: '2026-11-09'
   week_start: '2026-11-09'
   title: MVP Presentations
-  url: null
+  url: /Schedule/1109-MVP_Presentations
 - date: '2026-11-11'
   week_start: '2026-11-09'
   title: CyberAmbassadors Leading with Principles
-  url: null
+  url: /Schedule/1111-CyberAmbassadors_Leading_with_Principles
 - date: '2026-11-13'
   week_start: '2026-11-09'
   title: SCHOLAR Deep Tutorial Review
-  url: null
+  url: /Schedule/1113-SCHOLAR_Deep_Tutorial_Review
 - date: '2026-11-15'
   week_start: '2026-11-09'
   title: MILESTONE Reproducibility
@@ -233,7 +233,7 @@
 - date: '2026-12-11'
   week_start: '2026-12-07'
   title: Final Presentaiton Design Day
-  url: null
+  url: /Schedule/1211-Final_Presentaiton_Design_Day
 - date: '2026-12-13'
   week_start: '2026-12-07'
   title: Final Extended Deadline

@@ -1318,6 +1318,16 @@ LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
  mes and locations.
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CMSE 495: Final Presentaiton Design Day
+DTSTART;TZID=US/Eastern:20261211T102000
+DTEND;TZID=US/Eastern:20261211T121000
+DESCRIPTION:<a href='https://msu-cmse-courses.github.io/cmse495-FS26/tempf
+ iles/Schedule/1211-Final_Presentaiton_Design_Day'>Link to assignment</a>
+LOCATION:Please see the course [D2L page](https://d2l.msu.edu/d2l/home/252
+ 3930) or [MSU course catalog](http://student.msu.edu) for class meeting ti
+ mes and locations.
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CMSE 495: Final Extended Deadline
 DTSTART;TZID=US/Eastern:20261213T102000
 DTEND;TZID=US/Eastern:20261213T121000
