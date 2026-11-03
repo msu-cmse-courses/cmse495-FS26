@@ -9,7 +9,10 @@ mode: "schedule"
 
 **Date:** Friday, December 11, 2026  
 **Time:** 10:20 AM - 12:10 PM  
-**Location:** Engineering Building, Room 1145
+**Location:** Engineering Building, Room 1145  
+**Remote Option:** <https://msu.zoom.us/j/96198911253>  
+
+***Note***: *A Zoom option is available for those who cannot attend in person. The opening lightning talks should come through clearly over Zoom. However, the showcase discussion is designed as an interactive poster session where multiple conversations happen throughout the room simultaneously. As a result, remote attendees may not be able to hear all discussions or participate as fully as those attending in person.*
 
 For more information about MSU Engineering Design Day, visit:
 
