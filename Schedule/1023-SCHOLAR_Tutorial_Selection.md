@@ -29,6 +29,10 @@ Each group will spend about 3 minutes showing us their selection metric and tell
 
 Use the remainder of the class period to work on the tutorials you selected.  This is a multi-week in-class assignment and your instructors assume that you will not finish the tutorials today. 
 
+---
+
+[Link to SCHOLAR Repository](https://gitlab.msu.edu/CMSE/SCHOLAR)
+
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>

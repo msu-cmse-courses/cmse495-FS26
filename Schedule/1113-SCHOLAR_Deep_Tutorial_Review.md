@@ -40,6 +40,10 @@ Put a copy of your report in the other teams public folder on teams.
 
 Once you have successfully submitted your final pull request you can prepare/practice a SCHOLAR tutorial presentation for next week during class.
 
+---
+
+[Link to SCHOLAR Repository](https://gitlab.msu.edu/CMSE/SCHOLAR)
+
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>

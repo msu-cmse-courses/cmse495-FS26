@@ -49,6 +49,10 @@ Each member of the team ***MUST*** submit at least one different pull request.  
 NOTE: Again, I realize we are using a lot of jargon. This is normal when you start a new job. Please research anything you don't understand and talk with your team. Come to your instructor with questions if you can't figure out something together. 
 
 
+---
+
+[Link to SCHOLAR Repository](https://gitlab.msu.edu/CMSE/SCHOLAR)
+
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>

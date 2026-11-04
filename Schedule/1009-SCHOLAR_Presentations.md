@@ -37,6 +37,10 @@ As a class we will review the cleaned and updated repository. With a final check
 
 Use the remaining of the hour to do group work. 
 
+---
+
+[Link to SCHOLAR Repository](https://gitlab.msu.edu/CMSE/SCHOLAR)
+
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>

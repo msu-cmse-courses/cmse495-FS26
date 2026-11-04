@@ -35,6 +35,10 @@ When you finish your tutorial submit it to the SCHOLAR repository as a pull requ
 
 Submit a pull request for your tutorial.  
 
+---
+
+[Link to SCHOLAR Repository](https://gitlab.msu.edu/CMSE/SCHOLAR)
+
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>

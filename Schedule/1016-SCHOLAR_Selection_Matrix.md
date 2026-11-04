@@ -57,6 +57,10 @@ Given the matrix, write up about how the selection was made.
 
 Put your report in your teams folder. Be ready to present your choices next week in class.
 
+---
+
+[Link to SCHOLAR Repository](https://gitlab.msu.edu/CMSE/SCHOLAR)
+
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>

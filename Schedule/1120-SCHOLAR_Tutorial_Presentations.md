@@ -28,6 +28,10 @@ If you would like to share your screen during the presentation please make sure 
 During the demo, assume that each of your audience members can look up the tutorial on their computer and follow along. 
 
 
+---
+
+[Link to SCHOLAR Repository](https://gitlab.msu.edu/CMSE/SCHOLAR)
+
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>

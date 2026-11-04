@@ -42,6 +42,10 @@ NOTE: I realize we are using a lot of jargon. This is normal when you start a ne
 together. 
 
 
+---
+
+[Link to SCHOLAR Repository](https://gitlab.msu.edu/CMSE/SCHOLAR)
+
 <!-- TOC_START -->
 <div class="page-toc">
 <h2>On this page</h2>
