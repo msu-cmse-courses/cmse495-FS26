@@ -202,34 +202,38 @@
   week_start: '2026-11-23'
   title: Thanksgiving Break
   url: null
+- date: '2026-11-29'
+  week_start: '2026-11-23'
+  title: MILESTONE Nothing Due
+  url: null
 - date: '2026-11-30'
   week_start: '2026-11-30'
-  title: Final presentation Storyboard Feedback
-  url: null
+  title: Project CoWork 4
+  url: /Schedule/1130-Project_CoWork_4
 - date: '2026-12-01'
   week_start: '2026-11-30'
   title: MILESTONE Final Videos and Presentations
   url: /Schedule/1201-MILESTONE_Final_Videos_and_Presentations
 - date: '2026-12-02'
   week_start: '2026-11-30'
-  title: Course Review and Reflection
-  url: null
+  title: Final presentation Storyboard Feedback
+  url: /Schedule/1202-Final_presentation_Storyboard_Feedback
 - date: '2026-12-04'
   week_start: '2026-11-30'
   title: Showcase Practice
-  url: null
+  url: /Schedule/1204-Showcase_Practice
 - date: '2026-12-06'
   week_start: '2026-11-30'
   title: MILESTONE Final Project
   url: /Schedule/1206-MILESTONE_Final_Project
 - date: '2026-12-07'
   week_start: '2026-12-07'
-  title: Final Video Day 1
-  url: null
+  title: Final Video Presentations
+  url: /Schedule/1207-Final_Video_Presentations
 - date: '2026-12-09'
   week_start: '2026-12-07'
-  title: Final Video Day 2
-  url: null
+  title: Course Review and Reflection
+  url: /Schedule/1209-Course_Review_and_Reflection
 - date: '2026-12-11'
   week_start: '2026-12-07'
   title: Final Presentaiton Design Day
