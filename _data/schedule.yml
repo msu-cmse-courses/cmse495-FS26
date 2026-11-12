@@ -202,14 +202,14 @@
   week_start: '2026-11-23'
   title: Thanksgiving Break
   url: null
-- date: '2026-11-29'
-  week_start: '2026-11-23'
-  title: MILESTONE Final Videos and Presentations
-  url: /Schedule/1129-MILESTONE_Final_Videos_and_Presentations
 - date: '2026-11-30'
   week_start: '2026-11-30'
   title: Final presentation Storyboard Feedback
   url: null
+- date: '2026-12-01'
+  week_start: '2026-11-30'
+  title: MILESTONE Final Videos and Presentations
+  url: /Schedule/1201-MILESTONE_Final_Videos_and_Presentations
 - date: '2026-12-02'
   week_start: '2026-11-30'
   title: Course Review and Reflection
